@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Awesome-notebooks
@@ -30,3 +30,4 @@ import naas_drivers
 file_url = "https://github.com/jupyter-naas/awesome-notebooks/blob/master/Airtable/Airtable_connect.ipynb"
 naas_drivers.templates.badge(file_url)
 ```
+
