@@ -2,46 +2,35 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the Naas v2 documentation! Naas is a data product management platform that revolutionizes the way businesses develop, launch, and scale data products. By leveraging large language models and providing a comprehensive set of tools and features, Naas v2 enables teams to streamline their data product development process, enhance collaboration, and create sophisticated business applications.
 
-## Getting Started
+## Key Features
 
-Get started by **creating a new site**.
+**1. Streamlined Development Platform**: Naas v2 offers a single, unified space for teams to collaborate and manage the entire data product lifecycle, from ideation and development to deployment and maintenance. This integrated approach makes it easier for teams to work together and stay organized throughout the development process.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**2. Comprehensive Template Catalog**: To accelerate data product development, Naas v2 provides an extensive catalog of notebook templates that teams can use as building blocks for their data products. These templates cover a wide range of use cases and industries, allowing teams to quickly prototype and iterate on new data products.
 
-### What you'll need
+**3. Large Language Model Integration**: Naas v2 harnesses the power of large language models to create sophisticated business applications. These models have the ability to understand and generate natural language, making them well-suited for building data products that involve text-based data. By using large language models, teams can develop more effective and advanced data products that can analyze and understand vast amounts of text data and generate relevant responses or recommendations.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**4. Robust Analytics and Reporting***: To help teams measure the success of their data products and make data-driven decisions, Naas v2 offers powerful analytics and reporting tools. With these tools, teams can track key performance indicators (KPIs) and gain insights into how their data products are performing in real-time.
 
-## Generate a new site
+**6. Flexible Integrations**: Naas v2 supports seamless integration with a wide range of data sources, platforms, and tools, enabling teams to build data products that work seamlessly within their existing technology ecosystem.
 
-Generate a new Docusaurus site using the **classic template**.
+## Use Cases
 
-The classic template will automatically be added to your project after you run the command:
+Naas v2 is designed for businesses and teams of all sizes and industries looking to build and scale their data product efforts. Some common use cases include:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **Data Science Teams**: Quickly prototype and iterate on new data products, leveraging large language models and a wide range of pre-built templates.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- **Business Analysts**: Develop sophisticated business applications that can analyze and understand large amounts of text data, providing valuable insights and recommendations.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **Product Managers**: Streamline the entire data product lifecycle, from ideation and development to deployment and maintenance, with a unified platform that fosters collaboration and organization.
 
-## Start your site
+- **Data-Driven Organizations**: Harness the power of data products to drive business operations and make informed, data-driven decisions.
 
-Run the development server:
+Get started with Naas v2 today and experience a new, revolutionary way of developing, launching, and scaling data products!
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Get started
+Go to: https://naas.ai, create an account and receive 100 free compute credits (value 5$)

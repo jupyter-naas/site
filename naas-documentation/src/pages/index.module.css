@@ -3,11 +3,14 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .heroBanner {
+  padding: 20rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  color:white;
+  background-size: cover;
+  background-image: url("https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278");
 }
 
 @media screen and (max-width: 996px) {
@@ -18,6 +21,7 @@
 
 .buttons {
   display: flex;
+  color:#47dd82;
   align-items: center;
   justify-content: center;
 }
