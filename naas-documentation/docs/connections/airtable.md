@@ -4,19 +4,13 @@ sidebar_position: 1
 
 # Airtable
 
-{% embed url="https://airtable.com/" %}
-Website
-{% endembed %}
+Website: https://airtable.com/
 
-`apikey` should be generated in your account :
-
-{% embed url="https://airtable.com/account" %}
+`apikey` should be generated in your account : https://airtable.com/account
 
 You should find it there:
 
-Then go to :
-
-{% embed url="https://airtable.com/api" %}
+Then go to : https://airtable.com/api
 
 and choose the workspace you wanna connect and on the Authentication section, you should see :
 
