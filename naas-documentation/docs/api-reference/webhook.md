@@ -20,9 +20,10 @@ Important, by default the scheduler is set to the CET Timezone. If you are in an
 
 Check how to set up in the section below:
 
-{% content-ref url="../advanced/advanced-usecases.md" %}
+TODO: Fix the links here
+<!-- {% content-ref url="../advanced/advanced-usecases.md" %}
 [advanced-usecases.md](../advanced/advanced-usecases.md)
-{% endcontent-ref %}
+{% endcontent-ref %} -->
 
 ## Add
 
