@@ -2,12 +2,12 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/night-owl');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '⚡️ The universal data platform',
-  tagline: 'for ambitious organizations',
+  title: '⚡️ The All-In-One Open Source Data Platform',
+  tagline: 'Experience faster creation of data & AI products without loosing control thanks to Naas Lean Data Framework.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Naas v2',
+        title: 'Naas',
         logo: {
           alt: 'Naas v2 Documentation',
           src: 'https://avatars.githubusercontent.com/u/71603764?s=200&v=4',
@@ -73,10 +73,10 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/jupyter-naas',
             label: 'GitHub',
@@ -123,11 +123,11 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NaasAI, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NaasAI, Inc.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        // darkTheme: darkCodeTheme,
       },
     }),
 };

@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Naas v2 ${siteConfig.title}`}
+      title={`Naas - ${siteConfig.title}`}
       description="The Universal Data Platform">
       <HomepageHeader />
       <main>
