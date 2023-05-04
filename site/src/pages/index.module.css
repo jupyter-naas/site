@@ -519,6 +519,8 @@ p {
 
   p {
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .footerContent {
@@ -734,5 +736,9 @@ p {
 
 .footer svg {
   height: 26px;
+  color: #fff;
+}
+
+.footer strong {
   color: #fff;
 }
