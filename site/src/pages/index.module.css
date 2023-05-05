@@ -855,6 +855,10 @@ p {
   width: calc(100% - 30px);
 }
 
+.btn svg {
+  margin-left: 10px;
+}
+
 .pricingContainer .gridItem ul {
   list-style: none;
   display: flex;
