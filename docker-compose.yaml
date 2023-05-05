@@ -32,7 +32,7 @@ services:
     command:
       - /bin/bash
       - -c
-      - cd naas-documentation && npm run start -- --host 0.0.0.0
+      - cd site && npm run start -- --host 0.0.0.0
 
   nginx:
     image: nginx
@@ -41,6 +41,6 @@ services:
       - "traefik.http.routers.nginx.rule=Host(`nginx.doc.localhost`)"
       - "traefik.http.routers.nginx.entrypoints=web"
     volumes:
-      - ./naas-documentation/build:/usr/share/nginx/html:ro
+      - ./site/build:/usr/share/nginx/html:ro
     ports:
       - 80

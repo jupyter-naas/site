@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '⚡️ The universal data platform',
-  tagline: 'for ambitious organizations',
+  title: '⚡️ The All-In-One Open Source Data Platform',
+  tagline: 'Experience faster creation of data & AI products without loosing control thanks to Naas Lean Data Framework.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -63,71 +63,75 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        disableSwitch: true
+      },
       navbar: {
-        title: 'Naas v2',
+        style: 'dark',
+        title: '',
         logo: {
           alt: 'Naas v2 Documentation',
-          src: 'https://avatars.githubusercontent.com/u/71603764?s=200&v=4',
+          src: 'https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/jupyter-naas',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'right',
+          //   label: 'Documentation',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'right'},
+          // {
+          //   href: 'https://github.com/jupyter-naas',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/jupyter-naas/naas',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} NaasAI, Inc. Built with Docusaurus.`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   links: [
+      //     {
+      //       title: 'Docs',
+      //       items: [
+      //         {
+      //           label: 'Docs',
+      //           to: '/docs/intro',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'Community',
+      //       items: [
+      //         {
+      //           label: 'Discord',
+      //           href: 'https://discordapp.com/invite/docusaurus',
+      //         },
+      //         {
+      //           label: 'Twitter',
+      //           href: 'https://twitter.com/docusaurus',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'More',
+      //       items: [
+      //         {
+      //           label: 'Blog',
+      //           to: '/blog',
+      //         },
+      //         {
+      //           label: 'GitHub',
+      //           href: 'https://github.com/jupyter-naas/naas',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} NaasAI, Inc.`,
+      // },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        // darkTheme: darkCodeTheme,
       },
     }),
 };
