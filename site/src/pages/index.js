@@ -602,7 +602,7 @@ function HomeFooter() {
               <li><strong>Product</strong></li>
               <li><Link to="https://www.naas.ai/free-forever">Templates</Link></li>
               <li><Link to="https://docs.naas.ai/">Documentation</Link></li>
-              <li><Link to="https://www.naas.ai/pricing">Pricing</Link></li>
+              <li><Link to="/pricing">Pricing</Link></li>
               <li><Link to="https://github.com/orgs/jupyter-naas/projects/10/views/13">Roadmap</Link></li>
             </ul>
             <ul>
