@@ -159,6 +159,10 @@ p {
   align-items: end;
 }
 
+.itemsStart {
+  align-items: start;
+}
+
 .half {
   flex: 1;
 }
@@ -742,3 +746,259 @@ p {
 .footer strong {
   color: #fff;
 }
+
+
+.pricingContainer {
+  padding: 120px 30px 0px 30px;
+  background-color: #181a1c;
+  color: #fff;
+}
+
+.pricingContainer p {
+  margin-bottom: 50px;
+}
+
+.pricingCycle {
+  margin: 0px 0px 40px 0px;
+}
+
+.switch {
+  border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 17px;
+    margin: 0 12px;
+    position: relative;
+    width: 34px;
+}
+
+.switch::after {
+    border: 6px solid;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    left: 2px;
+    position: absolute;
+    top: 1.5px;
+    transition: all .15s ease-out;
+    width: 0;
+}
+
+.activeB .switch::after {
+  left: 18px;
+}
+
+.activeA .cycleB {
+  opacity: .7;
+}
+.activeB .cycleA {
+  opacity: .7;
+}
+
+.pricingContainer .gridItem {
+  margin: 0 15px 30px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+}
+
+.pricingContainer .gridItem h3 {
+  font-size: 1.8em;
+  margin: 0;
+  text-align: center; 
+  font-weight: 500;
+  color: rgba(255,255,255,1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricingContainer .gridItem p {
+  font-size: 1.1em;
+  height: 50px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricingTier {
+  flex-grow: 1;
+  padding: 20px 20px 80px;
+  position: relative;
+}
+
+.pricingTier .price{
+  height: 50px;
+  margin: 25px 0;
+  text-align: center;
+  position: relative;
+  flex-grow: 1;
+}
+
+.gridItem .features {
+  margin: 0;
+  padding: 0 0 0 2px;
+}
+
+.pricingTier .price span {
+  font-size: 3em;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  bottom: 15px;
+  height: 40px;
+  left: 15px;
+  padding: 6px;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  width: calc(100% - 30px);
+}
+
+.btn svg {
+  margin-left: 10px;
+}
+
+.pricingContainer .gridItem ul {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.pricingContainer .gridItem ul svg {
+  margin-right: 10px;
+}
+
+.pricingTableWrapper {
+  margin-bottom: 50px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .pricingTableWrapper {
+    width: 100%;
+  }
+  .pricingContainer {
+    padding: 60px 15px 0px 15px;
+  }
+  .pricingContainer h2 {
+    font-size: 2em;
+  }
+  .pricingContainer p {
+    font-size: 1.2em;
+  }
+}
+
+table {
+  font-family: 'Montserrat', sans-serif;
+}
+
+table tr {
+  border-top: none;
+}
+
+table th, table td {
+  border: none;
+  padding: 0px;
+}
+
+.pricingTable {
+  border-collapse: collapse;
+  /* overflow-x: scroll; */
+  width: 100%;
+}
+
+.pricingTable th {
+  min-width: 120px;
+  text-align: center;
+  width: 230px;
+}
+
+.color1 {
+  color: rgba(255,255,255,1);
+}
+
+.weightText {
+  font-weight: 400;
+}
+
+.weightTextM {
+  font-weight: 500;
+}
+
+.pricingTable tr.price td {
+  border-bottom: none;
+  font-size: 2em;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.pricingTable tr.interval td {
+  font-size: .9em;
+  padding-top: 2px;
+}
+
+.pricingTable td:first-child {
+  text-align: left;
+}
+
+.pricingTable td {
+  border-bottom: 1px solid #7e7e7e34;
+  border-color: var(--pricing-border-color);
+  font-size: 1em;
+  padding: 12px 0;
+}
+
+.pricingTable td, .pricingTable th {
+  min-width: 120px;
+  text-align: center;
+  width: 230px;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.pricingTable .tooltip svg {
+  height: 20px;
+  margin-left: 4px;
+  opacity: .6;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.tooltipRight span {
+  left: 100%;
+  margin-left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tooltip:hover span {
+  display: block;
+}
+
+.tooltip span {
+  background: #343538;
+  border-radius: 5px;
+  color: #fff;
+  display: none;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 12px;
+  top: -10px;
+  width: 200px;
+}
+
+.tooltip span, .tooltip span:before {
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(0%,-30%);
+}
+
+
