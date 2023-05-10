@@ -724,11 +724,13 @@ p {
   padding: 30px;
 }
 
+.footer span {
+  color: #fff;
+}
+
 .footer ul {
   list-style: none;
   padding: 0;
-  /* margin: 10px 0px; */
-  margin: 2px 40px 10px 0px;
 }
 
 .footer li {
@@ -745,6 +747,10 @@ p {
 
 .footer strong {
   color: #fff;
+}
+
+.footerContent {
+  width: 100%;
 }
 
 
