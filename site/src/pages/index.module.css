@@ -731,6 +731,7 @@ p {
 .footer ul {
   list-style: none;
   padding: 0;
+  margin-top: 10px;
 }
 
 .footer li {
