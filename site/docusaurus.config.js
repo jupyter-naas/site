@@ -63,68 +63,72 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        disableSwitch: true
+      },
       navbar: {
-        title: 'Naas',
+        style: 'dark',
+        title: '',
         logo: {
           alt: 'Naas v2 Documentation',
-          src: 'https://avatars.githubusercontent.com/u/71603764?s=200&v=4',
+          src: 'https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Documentation',
-          },
-          {to: '/blog', label: 'Blog', position: 'right'},
-          {
-            href: 'https://github.com/jupyter-naas',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'right',
+          //   label: 'Documentation',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'right'},
+          // {
+          //   href: 'https://github.com/jupyter-naas',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/jupyter-naas/naas',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} NaasAI, Inc.`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   links: [
+      //     {
+      //       title: 'Docs',
+      //       items: [
+      //         {
+      //           label: 'Docs',
+      //           to: '/docs/intro',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'Community',
+      //       items: [
+      //         {
+      //           label: 'Discord',
+      //           href: 'https://discordapp.com/invite/docusaurus',
+      //         },
+      //         {
+      //           label: 'Twitter',
+      //           href: 'https://twitter.com/docusaurus',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'More',
+      //       items: [
+      //         {
+      //           label: 'Blog',
+      //           to: '/blog',
+      //         },
+      //         {
+      //           label: 'GitHub',
+      //           href: 'https://github.com/jupyter-naas/naas',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} NaasAI, Inc.`,
+      // },
       prism: {
         theme: darkCodeTheme,
         // darkTheme: darkCodeTheme,
