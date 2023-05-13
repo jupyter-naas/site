@@ -562,7 +562,7 @@ function HomeFooter() {
       </div>
     </div>
     <div className={clsx(styles.footer, styles.flex, styles.justifyCenter)}>
-      <div className={clsx(styles.h_w, styles.flex, styles.flexWrap, styles.footerContent)}>
+      <div className={clsx(styles.flex, styles.flexWrap, styles.footerContent)}>
         <div className={styles.half}>
           <span>Powered by NaasAI Inc. © 2023</span>
           <ul className={clsx(styles.flex, styles.flexWrap)}>
