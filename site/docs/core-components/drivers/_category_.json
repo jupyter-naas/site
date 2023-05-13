@@ -1,6 +1,6 @@
 {
-  "label": "Connections",
-  "position": 4,
+  "label": "Drivers",
+  "position": 2,
   "link": {
     "type": "generated-index",
     "description": "Access tools and data sources in minutes with Naas-drivers low-code formulas. The Python library is available on PyPI: https://pypi.org/project/naas-drivers/"

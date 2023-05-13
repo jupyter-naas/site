@@ -1,0 +1,820 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Getting Started",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Installation",
+            "href": "/docs/getting-started/installation",
+            "docId": "getting-started/installation"
+          },
+          {
+            "type": "link",
+            "label": "Configuration",
+            "href": "/docs/getting-started/configuration",
+            "docId": "getting-started/configuration"
+          },
+          {
+            "type": "link",
+            "label": "Workspace",
+            "href": "/docs/getting-started/workspaces",
+            "docId": "getting-started/workspaces"
+          },
+          {
+            "type": "link",
+            "label": "Basic Usage",
+            "href": "/docs/getting-started/basic-usage",
+            "docId": "getting-started/basic-usage"
+          },
+          {
+            "type": "link",
+            "label": "Build Data Products",
+            "href": "/docs/getting-started/build-data-product",
+            "docId": "getting-started/build-data-product"
+          }
+        ],
+        "href": "/docs/category/getting-started"
+      },
+      {
+        "type": "category",
+        "label": "Platform",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Analytics and Dashboard Deployment",
+            "href": "/docs/products/analytics-dashboard-deployment",
+            "docId": "products/analytics-dashboard-deployment"
+          },
+          {
+            "type": "link",
+            "label": "Workflow Automation",
+            "href": "/docs/products/workflow-automation",
+            "docId": "products/workflow-automation"
+          },
+          {
+            "type": "link",
+            "label": "Searchable Data Catalog and Template Library",
+            "href": "/docs/products/search-catalog-template-library",
+            "docId": "products/search-catalog-template-library"
+          },
+          {
+            "type": "link",
+            "label": "AI-powered Chat Interface",
+            "href": "/docs/products/aI-powered-chat",
+            "docId": "products/aI-powered-chat"
+          },
+          {
+            "type": "link",
+            "label": "Scalable computing",
+            "href": "/docs/products/scalable-computing",
+            "docId": "products/scalable-computing"
+          },
+          {
+            "type": "link",
+            "label": "Development Environment",
+            "href": "/docs/products/dev-environment",
+            "docId": "products/dev-environment"
+          },
+          {
+            "type": "link",
+            "label": "Admin Dashboard",
+            "href": "/docs/products/admin-dashboard",
+            "docId": "products/admin-dashboard"
+          },
+          {
+            "type": "link",
+            "label": "Collaboration and Versionning",
+            "href": "/docs/products/collaboration-versionning",
+            "docId": "products/collaboration-versionning"
+          },
+          {
+            "type": "link",
+            "label": "Security Suite",
+            "href": "/docs/products/security-suite",
+            "docId": "products/security-suite"
+          }
+        ],
+        "href": "/docs/category/platform"
+      },
+      {
+        "type": "category",
+        "label": "Connections",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Airtable",
+            "href": "/docs/connections/airtable",
+            "docId": "connections/airtable"
+          },
+          {
+            "type": "link",
+            "label": "Awesome-notebooks",
+            "href": "/docs/connections/awesome-notebooks",
+            "docId": "connections/awesome-notebooks"
+          },
+          {
+            "type": "link",
+            "label": "Bubble",
+            "href": "/docs/connections/bubble",
+            "docId": "connections/bubble"
+          },
+          {
+            "type": "link",
+            "label": "Canny",
+            "href": "/docs/connections/canny",
+            "docId": "connections/canny"
+          },
+          {
+            "type": "link",
+            "label": "CityFalcon",
+            "href": "/docs/connections/cityfalcon",
+            "docId": "connections/cityfalcon"
+          },
+          {
+            "type": "link",
+            "label": "FTP",
+            "href": "/docs/connections/ftp",
+            "docId": "connections/ftp"
+          },
+          {
+            "type": "link",
+            "label": "Google Sheets",
+            "href": "/docs/connections/google-sheets",
+            "docId": "connections/google-sheets"
+          },
+          {
+            "type": "link",
+            "label": "Gsheets",
+            "href": "/docs/connections/gsheets",
+            "docId": "connections/gsheets"
+          },
+          {
+            "type": "link",
+            "label": "Healthchecks",
+            "href": "/docs/connections/healthchecks",
+            "docId": "connections/healthchecks"
+          },
+          {
+            "type": "link",
+            "label": "Healthcheks",
+            "href": "/docs/connections/healthcheks",
+            "docId": "connections/healthcheks"
+          },
+          {
+            "type": "link",
+            "label": "HTML builder",
+            "href": "/docs/connections/html-builder",
+            "docId": "connections/html-builder"
+          },
+          {
+            "type": "link",
+            "label": "HTML",
+            "href": "/docs/connections/html",
+            "docId": "connections/html"
+          },
+          {
+            "type": "link",
+            "label": "Hubspot",
+            "href": "/docs/connections/hubspot",
+            "docId": "connections/hubspot"
+          },
+          {
+            "type": "link",
+            "label": "IFTTT",
+            "href": "/docs/connections/ifttt",
+            "docId": "connections/ifttt"
+          },
+          {
+            "type": "link",
+            "label": "Integromat",
+            "href": "/docs/connections/integromat",
+            "docId": "connections/integromat"
+          },
+          {
+            "type": "link",
+            "label": "Jupyter",
+            "href": "/docs/connections/jupyter",
+            "docId": "connections/jupyter"
+          },
+          {
+            "type": "link",
+            "label": "LinkedIn",
+            "href": "/docs/connections/linkedin",
+            "docId": "connections/linkedin"
+          },
+          {
+            "type": "link",
+            "label": "Mailbox",
+            "href": "/docs/connections/mailbox",
+            "docId": "connections/mailbox"
+          },
+          {
+            "type": "link",
+            "label": "Markdown",
+            "href": "/docs/connections/markdown",
+            "docId": "connections/markdown"
+          },
+          {
+            "type": "link",
+            "label": "Microsoft Teams",
+            "href": "/docs/connections/microsoft-teams",
+            "docId": "connections/microsoft-teams"
+          },
+          {
+            "type": "link",
+            "label": "MongoDB",
+            "href": "/docs/connections/mongodb",
+            "docId": "connections/mongodb"
+          },
+          {
+            "type": "link",
+            "label": "NewsAPI",
+            "href": "/docs/connections/newsapi",
+            "docId": "connections/newsapi"
+          },
+          {
+            "type": "link",
+            "label": "Notion",
+            "href": "/docs/connections/notion",
+            "docId": "connections/notion"
+          },
+          {
+            "type": "link",
+            "label": "PDF",
+            "href": "/docs/connections/pdf",
+            "docId": "connections/pdf"
+          },
+          {
+            "type": "link",
+            "label": "Plotly",
+            "href": "/docs/connections/plotly",
+            "docId": "connections/plotly"
+          },
+          {
+            "type": "link",
+            "label": "Qonto",
+            "href": "/docs/connections/qonto",
+            "docId": "connections/qonto"
+          },
+          {
+            "type": "link",
+            "label": "Slack",
+            "href": "/docs/connections/slack",
+            "docId": "connections/slack"
+          },
+          {
+            "type": "link",
+            "label": "Thinkific",
+            "href": "/docs/connections/thinkific",
+            "docId": "connections/thinkific"
+          },
+          {
+            "type": "link",
+            "label": "Toucan",
+            "href": "/docs/connections/toucan",
+            "docId": "connections/toucan"
+          },
+          {
+            "type": "link",
+            "label": "Yahoo",
+            "href": "/docs/connections/yahoo",
+            "docId": "connections/yahoo"
+          },
+          {
+            "type": "link",
+            "label": "Zapier",
+            "href": "/docs/connections/zapier",
+            "docId": "connections/zapier"
+          }
+        ],
+        "href": "/docs/category/connections"
+      },
+      {
+        "type": "category",
+        "label": "Tutorials and Examples",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Tutorials",
+            "href": "/docs/tutorials-and-examples/tutorials",
+            "docId": "tutorials-and-examples/tutorials"
+          },
+          {
+            "type": "link",
+            "label": "Examples",
+            "href": "/docs/tutorials-and-examples/examples",
+            "docId": "tutorials-and-examples/examples"
+          }
+        ],
+        "href": "/docs/category/tutorials-and-examples"
+      },
+      {
+        "type": "category",
+        "label": "Troubleshooting",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Common issues",
+            "href": "/docs/troubleshooting/common-issues",
+            "docId": "troubleshooting/common-issues"
+          },
+          {
+            "type": "link",
+            "label": "FAQ",
+            "href": "/docs/troubleshooting/faq",
+            "docId": "troubleshooting/faq"
+          }
+        ],
+        "href": "/docs/category/troubleshooting"
+      },
+      {
+        "type": "category",
+        "label": "Contributing",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "How to contribute to Naas v2",
+            "href": "/docs/contributing/version-history",
+            "docId": "contributing/version-history"
+          },
+          {
+            "type": "link",
+            "label": "Future Plans",
+            "href": "/docs/contributing/how-to-contribute",
+            "docId": "contributing/how-to-contribute"
+          }
+        ],
+        "href": "/docs/category/contributing"
+      },
+      {
+        "type": "category",
+        "label": "Release Notes",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Version History",
+            "href": "/docs/release-notes/version-history",
+            "docId": "release-notes/version-history"
+          },
+          {
+            "type": "link",
+            "label": "Future Plans",
+            "href": "/docs/release-notes/future-plans",
+            "docId": "release-notes/future-plans"
+          }
+        ],
+        "href": "/docs/category/release-notes"
+      },
+      {
+        "type": "category",
+        "label": "API Reference",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Scheduler",
+            "href": "/docs/api-reference/scheduler",
+            "docId": "api-reference/scheduler"
+          },
+          {
+            "type": "link",
+            "label": "Asset",
+            "href": "/docs/api-reference/asset",
+            "docId": "api-reference/asset"
+          },
+          {
+            "type": "link",
+            "label": "Webhook",
+            "href": "/docs/api-reference/webhook",
+            "docId": "api-reference/webhook"
+          },
+          {
+            "type": "link",
+            "label": "Notification",
+            "href": "/docs/api-reference/notification",
+            "docId": "api-reference/notification"
+          },
+          {
+            "type": "link",
+            "label": "Pipeline",
+            "href": "/docs/api-reference/pipeline",
+            "docId": "api-reference/pipeline"
+          },
+          {
+            "type": "link",
+            "label": "Space",
+            "href": "/docs/api-reference/space",
+            "docId": "api-reference/space"
+          },
+          {
+            "type": "link",
+            "label": "Secret",
+            "href": "/docs/api-reference/secret",
+            "docId": "api-reference/secret"
+          }
+        ],
+        "href": "/docs/category/api-reference"
+      }
+    ]
+  },
+  "docs": {
+    "api-reference/asset": {
+      "id": "api-reference/asset",
+      "title": "Asset",
+      "description": "The API Reference provides a comprehensive list of all available Naas API functions, along with their descriptions, usage examples, and parameter details. To access the API Reference, visit the following link//docs.naas.ai/api-reference",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/notification": {
+      "id": "api-reference/notification",
+      "title": "Notification",
+      "description": "Integrating with Data Sources",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/pipeline": {
+      "id": "api-reference/pipeline",
+      "title": "Pipeline",
+      "description": "Naas API",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/scheduler": {
+      "id": "api-reference/scheduler",
+      "title": "Scheduler",
+      "description": "{% embed url=\"https://www.youtube.com/watch?v=ONiILHFItzs&t=48s\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/secret": {
+      "id": "api-reference/secret",
+      "title": "Secret",
+      "description": "The API Reference provides a comprehensive list of all available Naas API functions, along with their descriptions, usage examples, and parameter details. To access the API Reference, visit the following link//docs.naas.ai/api-reference",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/space": {
+      "id": "api-reference/space",
+      "title": "Space",
+      "description": "The API Reference provides a comprehensive list of all available Naas API functions, along with their descriptions, usage examples, and parameter details. To access the API Reference, visit the following link//docs.naas.ai/api-reference",
+      "sidebar": "tutorialSidebar"
+    },
+    "api-reference/webhook": {
+      "id": "api-reference/webhook",
+      "title": "Webhook",
+      "description": "{% embed url=\"https://www.youtube.com/watch?v=ONiILHFItzs&t=48s\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/airtable": {
+      "id": "connections/airtable",
+      "title": "Airtable",
+      "description": "Website//airtable.com/",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/awesome-notebooks": {
+      "id": "connections/awesome-notebooks",
+      "title": "Awesome-notebooks",
+      "description": "{% embed url=\"https://github.com/jupyter-naas/awesome-notebooks\" caption=\"\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/bubble": {
+      "id": "connections/bubble",
+      "title": "Bubble",
+      "description": "{% embed url=\"https://bubble.io\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/canny": {
+      "id": "connections/canny",
+      "title": "Canny",
+      "description": "{% embed url=\"https://developers.canny.io/api-reference\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/cityfalcon": {
+      "id": "connections/cityfalcon",
+      "title": "CityFalcon",
+      "description": "{% embed url=\"https://www.cityfalcon.com/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/ftp": {
+      "id": "connections/ftp",
+      "title": "FTP",
+      "description": "Connect",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/google-sheets": {
+      "id": "connections/google-sheets",
+      "title": "Google Sheets",
+      "description": "{% embed url=\"https://www.youtube.com/watch?v=2IYJ3B1ymA8\" caption=\"\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/gsheets": {
+      "id": "connections/gsheets",
+      "title": "Gsheets",
+      "description": "{% embed url=\"https://www.google.com/sheets/about/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/healthchecks": {
+      "id": "connections/healthchecks",
+      "title": "Healthchecks",
+      "description": "{% embed url=\"https://healthchecks.io/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/healthcheks": {
+      "id": "connections/healthcheks",
+      "title": "Healthcheks",
+      "description": "HC_API : this should be set as env vars.",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/html": {
+      "id": "connections/html",
+      "title": "HTML",
+      "description": "Title",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/html-builder": {
+      "id": "connections/html-builder",
+      "title": "HTML builder",
+      "description": "Title",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/hubspot": {
+      "id": "connections/hubspot",
+      "title": "Hubspot",
+      "description": "{% embed url=\"http://hubspot.com\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/ifttt": {
+      "id": "connections/ifttt",
+      "title": "IFTTT",
+      "description": "{% embed url=\"https://ifttt.com\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/integromat": {
+      "id": "connections/integromat",
+      "title": "Integromat",
+      "description": "{% embed url=\"https://integromat.com\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/jupyter": {
+      "id": "connections/jupyter",
+      "title": "Jupyter",
+      "description": "{% embed url=\"https://jupyter.org/hub\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/linkedin": {
+      "id": "connections/linkedin",
+      "title": "LinkedIn",
+      "description": "{% embed url=\"https://www.linkedin.com\" caption=\"\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/mailbox": {
+      "id": "connections/mailbox",
+      "title": "Mailbox",
+      "description": "Don't feel like reading the doc 😅 ? Get started with this 3min video.",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/markdown": {
+      "id": "connections/markdown",
+      "title": "Markdown",
+      "description": "Convert",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/microsoft-teams": {
+      "id": "connections/microsoft-teams",
+      "title": "Microsoft Teams",
+      "description": "Get your webhook url there:",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/mongodb": {
+      "id": "connections/mongodb",
+      "title": "MongoDB",
+      "description": "{% embed url=\"https://www.mongodb.com/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/newsapi": {
+      "id": "connections/newsapi",
+      "title": "NewsAPI",
+      "description": "{% embed url=\"https://newsapi.org/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/notion": {
+      "id": "connections/notion",
+      "title": "Notion",
+      "description": "{% hint style=\"warning\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/pdf": {
+      "id": "connections/pdf",
+      "title": "PDF",
+      "description": "{% hint style=\"warning\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/plotly": {
+      "id": "connections/plotly",
+      "title": "Plotly",
+      "description": "{% embed url=\"https://plotly.com/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/qonto": {
+      "id": "connections/qonto",
+      "title": "Qonto",
+      "description": "{% embed url=\"https://qonto.com/\" caption=\"\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/slack": {
+      "id": "connections/slack",
+      "title": "Slack",
+      "description": "How to get your bot token",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/thinkific": {
+      "id": "connections/thinkific",
+      "title": "Thinkific",
+      "description": "{% embed url=\"https://www.thinkific.com\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/toucan": {
+      "id": "connections/toucan",
+      "title": "Toucan",
+      "description": "{% embed url=\"https://toucantoco.com/en/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/yahoo": {
+      "id": "connections/yahoo",
+      "title": "Yahoo",
+      "description": "{% embed url=\"https://finance.yahoo.com/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "connections/zapier": {
+      "id": "connections/zapier",
+      "title": "Zapier",
+      "description": "{% embed url=\"http://zappier.com/\" %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "contributing/how-to-contribute": {
+      "id": "contributing/how-to-contribute",
+      "title": "Future Plans",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "contributing/version-history": {
+      "id": "contributing/version-history",
+      "title": "How to contribute to Naas v2",
+      "description": "1- Report issues: If you encounter any issues or bugs, report them on the Naas v2 GitHub repository or contact the Naas support team.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/basic-usage": {
+      "id": "getting-started/basic-usage",
+      "title": "Basic Usage",
+      "description": "Creating Your First Notebook",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/build-data-product": {
+      "id": "getting-started/build-data-product",
+      "title": "Build Data Products",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/configuration": {
+      "id": "getting-started/configuration",
+      "title": "Configuration",
+      "description": "Initial Setup",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/installation": {
+      "id": "getting-started/installation",
+      "title": "Installation",
+      "description": "System Requirements",
+      "sidebar": "tutorialSidebar"
+    },
+    "getting-started/workspaces": {
+      "id": "getting-started/workspaces",
+      "title": "Workspace",
+      "description": "Naas Workspace is a powerful React application designed to provide a seamless experience for building and managing data products using Naas v2. With its user-friendly interface and comprehensive set of features, Naas OS simplifies the process of developing, launching, and scaling data products for both individuals and teams.",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Introduction",
+      "description": "Welcome to the Naas v2 documentation! Naas is a data product management platform that revolutionizes the way businesses develop, launch, and scale data products. By leveraging large language models and providing a comprehensive set of tools and features, Naas v2 enables teams to streamline their data product development process, enhance collaboration, and create sophisticated business applications.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/admin-dashboard": {
+      "id": "products/admin-dashboard",
+      "title": "Admin Dashboard",
+      "description": "Equip your team with the Admin Dashboard module, designed to provide you with a centralized, easy-to-use interface for managing and monitoring the various aspects of your data products and workflows. Gain valuable insights into your system's performance, resource usage, and events, all from a single, unified dashboard.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/aI-powered-chat": {
+      "id": "products/aI-powered-chat",
+      "title": "AI-powered Chat Interface",
+      "description": "Enhance your data product experience with our AI-Powered Chat Interface module. This powerful module offers a universal chat that leverages cutting-edge language models to perform a wide range of tasks, enabling conversational interaction with your data products and transforming the way you interact with your data-driven solutions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/analytics-dashboard-deployment": {
+      "id": "products/analytics-dashboard-deployment",
+      "title": "Analytics and Dashboard Deployment",
+      "description": "The Analytics and Dashboard Deployment module offered by Naas v2 platform is designed to empower businesses and development teams to create, manage, and share data-driven insights through interactive and visually engaging dashboards. This module provides an end-to-end solution for generating and sharing insights with relevant stakeholders in a secure and controlled manner.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/collaboration-versionning": {
+      "id": "products/collaboration-versionning",
+      "title": "Collaboration and Versionning",
+      "description": "The Collaboration and Versioning module offered by the Naas v2 platform is designed to help businesses and development teams streamline their collaborative efforts and manage their data product development process more effectively. This module offers advanced version control and collaboration features, enabling teams to work together seamlessly and maintain a clear, organized history of their work.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/dev-environment": {
+      "id": "products/dev-environment",
+      "title": "Development Environment",
+      "description": "Empower your development team with our comprehensive Development Environment module. This powerful offering provides all the necessary tools and resources for designing, building, and deploying data products in a streamlined, efficient manner. Give your team the flexibility and control they need to create innovative and impactful data-driven solutions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/scalable-computing": {
+      "id": "products/scalable-computing",
+      "title": "Scalable computing",
+      "description": "Empower your data processing capabilities with our Scalable Computing module. Designed to cater to the needs of data-driven organizations, this module provides distributed computing with Dask for enhanced performance and large language model support for advanced text analytics.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/search-catalog-template-library": {
+      "id": "products/search-catalog-template-library",
+      "title": "Searchable Data Catalog and Template Library",
+      "description": "The Searchable Data Catalog and Template Library module offered by the Naas v2 platform is designed to help businesses and development teams accelerate the data product development process by providing an extensive collection of pre-built templates and resources. This module allows users to quickly search and access relevant templates and data assets, significantly reducing the time and effort required to build and customize data products.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/security-suite": {
+      "id": "products/security-suite",
+      "title": "Security Suite",
+      "description": "The Security Suite module offered by the Naas v2 platform is designed to help businesses and development teams protect their data products, assets, and workflows. With advanced security features and best-in-class practices, this module ensures the confidentiality, integrity, and availability of your data and resources, providing peace of mind and trust in your data products.",
+      "sidebar": "tutorialSidebar"
+    },
+    "products/workflow-automation": {
+      "id": "products/workflow-automation",
+      "title": "Workflow Automation",
+      "description": "Streamline your data product development process with our Workflow Automation module. This powerful offering simplifies the creation, management, and deployment of complex data workflows, enabling businesses and development teams to focus on delivering value and driving growth.",
+      "sidebar": "tutorialSidebar"
+    },
+    "release-notes/future-plans": {
+      "id": "release-notes/future-plans",
+      "title": "Future Plans",
+      "description": "The Naas team is continuously working to improve the platform and introduce new features to better serve the needs of our users. Some future plans include:",
+      "sidebar": "tutorialSidebar"
+    },
+    "release-notes/version-history": {
+      "id": "release-notes/version-history",
+      "title": "Version History",
+      "description": "Visit the Naas v2 release notes page to view the version history, including a summary of new features, improvements, and bug fixes for each release.",
+      "sidebar": "tutorialSidebar"
+    },
+    "troubleshooting/common-issues": {
+      "id": "troubleshooting/common-issues",
+      "title": "Common issues",
+      "description": "1.  API call errors: Ensure that you're using the correct Naas v2 API methods and parameters. Refer to the Naas v2 API documentation for guidance.",
+      "sidebar": "tutorialSidebar"
+    },
+    "troubleshooting/faq": {
+      "id": "troubleshooting/faq",
+      "title": "FAQ",
+      "description": "Visit the Naas v2 FAQ page for answers to frequently asked questions about the platform, its features, and how to get started with Naas v2.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorials-and-examples/examples": {
+      "id": "tutorials-and-examples/examples",
+      "title": "Examples",
+      "description": "Here are some example use cases to showcase the application of the Naas v2 platform modules:",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorials-and-examples/tutorials": {
+      "id": "tutorials-and-examples/tutorials",
+      "title": "Tutorials",
+      "description": "To develop the actual documentation for all the mentioned sections, it would require a more detailed and comprehensive approach, which is beyond the scope of this response. However, I can provide you with an outline for each section, which you can then use as a starting point to create the complete documentation.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

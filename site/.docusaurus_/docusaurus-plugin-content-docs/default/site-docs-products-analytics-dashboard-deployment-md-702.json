@@ -1,0 +1,27 @@
+{
+  "unversionedId": "products/analytics-dashboard-deployment",
+  "id": "products/analytics-dashboard-deployment",
+  "title": "Analytics and Dashboard Deployment",
+  "description": "The Analytics and Dashboard Deployment module offered by Naas v2 platform is designed to empower businesses and development teams to create, manage, and share data-driven insights through interactive and visually engaging dashboards. This module provides an end-to-end solution for generating and sharing insights with relevant stakeholders in a secure and controlled manner.",
+  "source": "@site/docs/products/analytics-dashboard-deployment.md",
+  "sourceDirName": "products",
+  "slug": "/products/analytics-dashboard-deployment",
+  "permalink": "/docs/products/analytics-dashboard-deployment",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/products/analytics-dashboard-deployment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Platform",
+    "permalink": "/docs/category/platform"
+  },
+  "next": {
+    "title": "Workflow Automation",
+    "permalink": "/docs/products/workflow-automation"
+  }
+}

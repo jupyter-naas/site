@@ -1,0 +1,27 @@
+{
+  "unversionedId": "connections/mailbox",
+  "id": "connections/mailbox",
+  "title": "Mailbox",
+  "description": "Don't feel like reading the doc 😅 ? Get started with this 3min video.",
+  "source": "@site/docs/connections/mailbox.md",
+  "sourceDirName": "connections",
+  "slug": "/connections/mailbox",
+  "permalink": "/docs/connections/mailbox",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/connections/mailbox.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LinkedIn",
+    "permalink": "/docs/connections/linkedin"
+  },
+  "next": {
+    "title": "Markdown",
+    "permalink": "/docs/connections/markdown"
+  }
+}

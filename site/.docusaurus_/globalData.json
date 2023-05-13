@@ -1,0 +1,373 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api-reference/asset",
+              "path": "/docs/api-reference/asset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/notification",
+              "path": "/docs/api-reference/notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/pipeline",
+              "path": "/docs/api-reference/pipeline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/scheduler",
+              "path": "/docs/api-reference/scheduler",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/secret",
+              "path": "/docs/api-reference/secret",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/space",
+              "path": "/docs/api-reference/space",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api-reference/webhook",
+              "path": "/docs/api-reference/webhook",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/airtable",
+              "path": "/docs/connections/airtable",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/awesome-notebooks",
+              "path": "/docs/connections/awesome-notebooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/bubble",
+              "path": "/docs/connections/bubble",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/canny",
+              "path": "/docs/connections/canny",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/cityfalcon",
+              "path": "/docs/connections/cityfalcon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/ftp",
+              "path": "/docs/connections/ftp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/google-sheets",
+              "path": "/docs/connections/google-sheets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/gsheets",
+              "path": "/docs/connections/gsheets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/healthchecks",
+              "path": "/docs/connections/healthchecks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/healthcheks",
+              "path": "/docs/connections/healthcheks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/html",
+              "path": "/docs/connections/html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/html-builder",
+              "path": "/docs/connections/html-builder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/hubspot",
+              "path": "/docs/connections/hubspot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/ifttt",
+              "path": "/docs/connections/ifttt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/integromat",
+              "path": "/docs/connections/integromat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/jupyter",
+              "path": "/docs/connections/jupyter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/linkedin",
+              "path": "/docs/connections/linkedin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/mailbox",
+              "path": "/docs/connections/mailbox",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/markdown",
+              "path": "/docs/connections/markdown",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/microsoft-teams",
+              "path": "/docs/connections/microsoft-teams",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/mongodb",
+              "path": "/docs/connections/mongodb",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/newsapi",
+              "path": "/docs/connections/newsapi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/notion",
+              "path": "/docs/connections/notion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/pdf",
+              "path": "/docs/connections/pdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/plotly",
+              "path": "/docs/connections/plotly",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/qonto",
+              "path": "/docs/connections/qonto",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/slack",
+              "path": "/docs/connections/slack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/thinkific",
+              "path": "/docs/connections/thinkific",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/toucan",
+              "path": "/docs/connections/toucan",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/yahoo",
+              "path": "/docs/connections/yahoo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "connections/zapier",
+              "path": "/docs/connections/zapier",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contributing/how-to-contribute",
+              "path": "/docs/contributing/how-to-contribute",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contributing/version-history",
+              "path": "/docs/contributing/version-history",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/basic-usage",
+              "path": "/docs/getting-started/basic-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/build-data-product",
+              "path": "/docs/getting-started/build-data-product",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/configuration",
+              "path": "/docs/getting-started/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/getting-started/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/workspaces",
+              "path": "/docs/getting-started/workspaces",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/admin-dashboard",
+              "path": "/docs/products/admin-dashboard",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/aI-powered-chat",
+              "path": "/docs/products/aI-powered-chat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/analytics-dashboard-deployment",
+              "path": "/docs/products/analytics-dashboard-deployment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/collaboration-versionning",
+              "path": "/docs/products/collaboration-versionning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/dev-environment",
+              "path": "/docs/products/dev-environment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/scalable-computing",
+              "path": "/docs/products/scalable-computing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/search-catalog-template-library",
+              "path": "/docs/products/search-catalog-template-library",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/security-suite",
+              "path": "/docs/products/security-suite",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "products/workflow-automation",
+              "path": "/docs/products/workflow-automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes/future-plans",
+              "path": "/docs/release-notes/future-plans",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes/version-history",
+              "path": "/docs/release-notes/version-history",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "troubleshooting/common-issues",
+              "path": "/docs/troubleshooting/common-issues",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "troubleshooting/faq",
+              "path": "/docs/troubleshooting/faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials-and-examples/examples",
+              "path": "/docs/tutorials-and-examples/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials-and-examples/tutorials",
+              "path": "/docs/tutorials-and-examples/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/docs/category/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/platform",
+              "path": "/docs/category/platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/connections",
+              "path": "/docs/category/connections",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorials-and-examples",
+              "path": "/docs/category/tutorials-and-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/troubleshooting",
+              "path": "/docs/category/troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/contributing",
+              "path": "/docs/category/contributing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/release-notes",
+              "path": "/docs/category/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/api-reference",
+              "path": "/docs/category/api-reference",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "blogPosts": [
+    {
+      "id": "welcome",
+      "metadata": {
+        "permalink": "/blog/welcome",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+        "source": "@site/blog/2021-08-26-welcome/index.md",
+        "title": "Welcome",
+        "description": "Docusaurus blogging features are powered by the blog plugin.",
+        "date": "2021-08-26T00:00:00.000Z",
+        "formattedDate": "August 26, 2021",
+        "tags": [
+          {
+            "label": "facebook",
+            "permalink": "/blog/tags/facebook"
+          },
+          {
+            "label": "hello",
+            "permalink": "/blog/tags/hello"
+          },
+          {
+            "label": "docusaurus",
+            "permalink": "/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 2.885,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Sébastien Lorber",
+            "title": "Docusaurus maintainer",
+            "url": "https://sebastienlorber.com",
+            "imageURL": "https://github.com/slorber.png",
+            "key": "slorber"
+          },
+          {
+            "name": "Yangshun Tay",
+            "title": "Front End Engineer @ Facebook",
+            "url": "https://github.com/yangshun",
+            "imageURL": "https://github.com/yangshun.png",
+            "key": "yangshun"
+          }
+        ],
+        "frontMatter": {
+          "slug": "welcome",
+          "title": "Welcome",
+          "authors": [
+            "slorber",
+            "yangshun"
+          ],
+          "tags": [
+            "facebook",
+            "hello",
+            "docusaurus"
+          ]
+        },
+        "nextItem": {
+          "title": "MDX Blog Post",
+          "permalink": "/blog/mdx-blog-post"
+        }
+      },
+      "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.\n\n\n# Manifesto - Revolutionizing Data Product Development with Naas\n\nWelcome to Naas, a data product management platform that is at the forefront of the rapidly growing data product market. Renowned consulting firms such as McKinsey and publications like Harvard Business Review have acknowledged the potential of this market, and experts such as Vin Vashista have begun offering in-depth classes on building and managing data products. The use of large language models is a key technology driving this growth, as they enable the creation of more advanced and effective data products. As data products have become an integral part of our daily lives, most people use them without even realizing it.\n\nNaas leverages large language models to streamline the process of building data products and bring them to market faster and with less effort. Our platform provides a unified space for teams to collaborate and manage the entire data product lifecycle, from ideation and development to deployment and maintenance. We offer a comprehensive catalog of notebook templates that teams can use as building blocks to quickly prototype and iterate on new data products.\n\nBuilding and launching data products can be time-consuming and resource-intensive. It can be difficult for teams to collaborate and manage the development process, and it can be challenging to measure the success of data products and make data-driven decisions about their future development. Naas solves these problems by providing a platform that streamlines the development process and makes it easy for teams to collaborate and manage the entire data product lifecycle.\n\nOur platform offers a complete set of analytics and reporting tools to help teams evaluate the performance of their data products and make data-driven decisions. With the use of large language models, Naas becomes an assistant to teams in creating data products faster and more efficiently, providing them with a competitive advantage in the market.\n\n[data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)\n\nWith Naas, teams can bring data products to market faster and with less effort, collaborate and manage the development process efficiently, and make data-driven decisions to improve their data products.\n\nWe invite you to take a quick demo of the Naas platform and see how it can leverage large language models to create sophisticated business applications.\n\nThe data product market is highly competitive, but Naas differentiates itself by its use of large language models, which allows teams to create more sophisticated and effective data products. Our business model is based on subscription-based pricing and license fees.\n\nOur team is composed of experienced and expert professionals in data science, software engineering and business development, who are committed to revolutionize the data product market.\n\nWe plan to use the investment to grow and scale the business, including the development of data products using large language models and expanding our team.\n\nIf you want to learn more about Naas and how we can help your business, please don't hesitate to contact us for sales and support.\n\nThank you for considering Naas as a solution for your data product development needs."
+    },
+    {
+      "id": "mdx-blog-post",
+      "metadata": {
+        "permalink": "/blog/mdx-blog-post",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+        "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+        "title": "MDX Blog Post",
+        "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+        "date": "2021-08-01T00:00:00.000Z",
+        "formattedDate": "August 1, 2021",
+        "tags": [
+          {
+            "label": "docusaurus",
+            "permalink": "/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 0.175,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Sébastien Lorber",
+            "title": "Docusaurus maintainer",
+            "url": "https://sebastienlorber.com",
+            "imageURL": "https://github.com/slorber.png",
+            "key": "slorber"
+          }
+        ],
+        "frontMatter": {
+          "slug": "mdx-blog-post",
+          "title": "MDX Blog Post",
+          "authors": [
+            "slorber"
+          ],
+          "tags": [
+            "docusaurus"
+          ]
+        },
+        "prevItem": {
+          "title": "Welcome",
+          "permalink": "/blog/welcome"
+        },
+        "nextItem": {
+          "title": "Long Blog Post",
+          "permalink": "/blog/long-blog-post"
+        }
+      },
+      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+    },
+    {
+      "id": "long-blog-post",
+      "metadata": {
+        "permalink": "/blog/long-blog-post",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+        "source": "@site/blog/2019-05-29-long-blog-post.md",
+        "title": "Long Blog Post",
+        "description": "This is the summary of a very long blog post,",
+        "date": "2019-05-29T00:00:00.000Z",
+        "formattedDate": "May 29, 2019",
+        "tags": [
+          {
+            "label": "hello",
+            "permalink": "/blog/tags/hello"
+          },
+          {
+            "label": "docusaurus",
+            "permalink": "/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 2.05,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Endilie Yacop Sucipto",
+            "title": "Maintainer of Docusaurus",
+            "url": "https://github.com/endiliey",
+            "imageURL": "https://github.com/endiliey.png",
+            "key": "endi"
+          }
+        ],
+        "frontMatter": {
+          "slug": "long-blog-post",
+          "title": "Long Blog Post",
+          "authors": "endi",
+          "tags": [
+            "hello",
+            "docusaurus"
+          ]
+        },
+        "prevItem": {
+          "title": "MDX Blog Post",
+          "permalink": "/blog/mdx-blog-post"
+        },
+        "nextItem": {
+          "title": "First Blog Post",
+          "permalink": "/blog/first-blog-post"
+        }
+      },
+      "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+    },
+    {
+      "id": "first-blog-post",
+      "metadata": {
+        "permalink": "/blog/first-blog-post",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+        "source": "@site/blog/2019-05-28-first-blog-post.md",
+        "title": "First Blog Post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+        "date": "2019-05-28T00:00:00.000Z",
+        "formattedDate": "May 28, 2019",
+        "tags": [
+          {
+            "label": "hola",
+            "permalink": "/blog/tags/hola"
+          },
+          {
+            "label": "docusaurus",
+            "permalink": "/blog/tags/docusaurus"
+          }
+        ],
+        "readingTime": 0.12,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Gao Wei",
+            "title": "Docusaurus Core Team",
+            "url": "https://github.com/wgao19",
+            "image_url": "https://github.com/wgao19.png",
+            "imageURL": "https://github.com/wgao19.png"
+          }
+        ],
+        "frontMatter": {
+          "slug": "first-blog-post",
+          "title": "First Blog Post",
+          "authors": {
+            "name": "Gao Wei",
+            "title": "Docusaurus Core Team",
+            "url": "https://github.com/wgao19",
+            "image_url": "https://github.com/wgao19.png",
+            "imageURL": "https://github.com/wgao19.png"
+          },
+          "tags": [
+            "hola",
+            "docusaurus"
+          ]
+        },
+        "prevItem": {
+          "title": "Long Blog Post",
+          "permalink": "/blog/long-blog-post"
+        }
+      },
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+    }
+  ]
+}

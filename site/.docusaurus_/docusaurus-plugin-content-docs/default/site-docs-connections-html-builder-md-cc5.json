@@ -1,0 +1,27 @@
+{
+  "unversionedId": "connections/html-builder",
+  "id": "connections/html-builder",
+  "title": "HTML builder",
+  "description": "Title",
+  "source": "@site/docs/connections/html-builder.md",
+  "sourceDirName": "connections",
+  "slug": "/connections/html-builder",
+  "permalink": "/docs/connections/html-builder",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/connections/html-builder.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Healthcheks",
+    "permalink": "/docs/connections/healthcheks"
+  },
+  "next": {
+    "title": "HTML",
+    "permalink": "/docs/connections/html"
+  }
+}

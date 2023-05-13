@@ -1,0 +1,15 @@
+{
+  "title": "API Reference",
+  "slug": "/category/api-reference",
+  "permalink": "/docs/category/api-reference",
+  "navigation": {
+    "previous": {
+      "title": "Future Plans",
+      "permalink": "/docs/release-notes/future-plans"
+    },
+    "next": {
+      "title": "Scheduler",
+      "permalink": "/docs/api-reference/scheduler"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "products/security-suite",
+  "id": "products/security-suite",
+  "title": "Security Suite",
+  "description": "The Security Suite module offered by the Naas v2 platform is designed to help businesses and development teams protect their data products, assets, and workflows. With advanced security features and best-in-class practices, this module ensures the confidentiality, integrity, and availability of your data and resources, providing peace of mind and trust in your data products.",
+  "source": "@site/docs/products/security-suite.md",
+  "sourceDirName": "products",
+  "slug": "/products/security-suite",
+  "permalink": "/docs/products/security-suite",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/products/security-suite.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Collaboration and Versionning",
+    "permalink": "/docs/products/collaboration-versionning"
+  },
+  "next": {
+    "title": "Connections",
+    "permalink": "/docs/category/connections"
+  }
+}

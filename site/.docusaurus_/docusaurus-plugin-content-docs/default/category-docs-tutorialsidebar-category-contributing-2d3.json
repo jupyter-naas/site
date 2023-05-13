@@ -1,0 +1,16 @@
+{
+  "title": "Contributing",
+  "description": "How to contribute to Naas.",
+  "slug": "/category/contributing",
+  "permalink": "/docs/category/contributing",
+  "navigation": {
+    "previous": {
+      "title": "FAQ",
+      "permalink": "/docs/troubleshooting/faq"
+    },
+    "next": {
+      "title": "How to contribute to Naas v2",
+      "permalink": "/docs/contributing/version-history"
+    }
+  }
+}

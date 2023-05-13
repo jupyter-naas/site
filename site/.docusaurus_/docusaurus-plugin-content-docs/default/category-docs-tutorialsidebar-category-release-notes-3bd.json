@@ -1,0 +1,16 @@
+{
+  "title": "Release Notes",
+  "description": "My description",
+  "slug": "/category/release-notes",
+  "permalink": "/docs/category/release-notes",
+  "navigation": {
+    "previous": {
+      "title": "Future Plans",
+      "permalink": "/docs/contributing/how-to-contribute"
+    },
+    "next": {
+      "title": "Version History",
+      "permalink": "/docs/release-notes/version-history"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "products/aI-powered-chat",
+  "id": "products/aI-powered-chat",
+  "title": "AI-powered Chat Interface",
+  "description": "Enhance your data product experience with our AI-Powered Chat Interface module. This powerful module offers a universal chat that leverages cutting-edge language models to perform a wide range of tasks, enabling conversational interaction with your data products and transforming the way you interact with your data-driven solutions.",
+  "source": "@site/docs/products/aI-powered-chat.md",
+  "sourceDirName": "products",
+  "slug": "/products/aI-powered-chat",
+  "permalink": "/docs/products/aI-powered-chat",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/products/aI-powered-chat.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Searchable Data Catalog and Template Library",
+    "permalink": "/docs/products/search-catalog-template-library"
+  },
+  "next": {
+    "title": "Scalable computing",
+    "permalink": "/docs/products/scalable-computing"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Troubleshooting",
+  "description": "How to contribute to Naas.",
+  "slug": "/category/troubleshooting",
+  "permalink": "/docs/category/troubleshooting",
+  "navigation": {
+    "previous": {
+      "title": "Examples",
+      "permalink": "/docs/tutorials-and-examples/examples"
+    },
+    "next": {
+      "title": "Common issues",
+      "permalink": "/docs/troubleshooting/common-issues"
+    }
+  }
+}

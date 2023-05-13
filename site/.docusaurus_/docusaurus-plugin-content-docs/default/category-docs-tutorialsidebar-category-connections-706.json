@@ -1,0 +1,16 @@
+{
+  "title": "Connections",
+  "description": "Access tools and data sources in minutes with Naas-drivers low-code formulas. The Python library is available on PyPI: https://pypi.org/project/naas-drivers/",
+  "slug": "/category/connections",
+  "permalink": "/docs/category/connections",
+  "navigation": {
+    "previous": {
+      "title": "Security Suite",
+      "permalink": "/docs/products/security-suite"
+    },
+    "next": {
+      "title": "Airtable",
+      "permalink": "/docs/connections/airtable"
+    }
+  }
+}

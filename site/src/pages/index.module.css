@@ -61,7 +61,7 @@
 
 h2 {
 
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 700;
   line-height: 1.3em;
   font-size: 2.4em;
@@ -69,9 +69,8 @@ h2 {
 
 p {
   font-weight: 400;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   line-height: 1.4em;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .bgDark {
@@ -340,12 +339,12 @@ p {
 .testimonialQuotes p {
   line-height: 1.6em;
   font-size: 1.3em;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .testimonialQuotes a {
   font-size: 1.1em;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .testimonialQuotes:before {
@@ -503,7 +502,7 @@ p {
 }
 
 .textContainer h2 {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 700;
   line-height: 1.3em;
   font-size: 2.4em;
@@ -573,7 +572,7 @@ p {
 .textContainer p {
   font-weight: 400;
   font-size: 1.5em;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   line-height: 1.4em;
 }
 
@@ -587,7 +586,7 @@ p {
 
 .featDescription {
   font-size: 1.15em;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-weight: 400;
   color: #000;
   /* width: 100%; */
@@ -628,13 +627,13 @@ p {
   font-size: 1.4em;
   margin: 0 0 10px;
   color: rgba(0, 0, 0, 1);
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .galleryMeta p {
   font-size: 1.24em;
   color: rgba(105.129, 108.562, 110.851, 1);
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .ptXL {
@@ -841,7 +840,7 @@ p {
 .pricingTier .price span {
   font-size: 3em;
   line-height: 1;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .btn {

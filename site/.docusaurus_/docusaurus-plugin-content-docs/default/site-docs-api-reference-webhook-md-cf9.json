@@ -1,0 +1,27 @@
+{
+  "unversionedId": "api-reference/webhook",
+  "id": "api-reference/webhook",
+  "title": "Webhook",
+  "description": "{% embed url=\"https://www.youtube.com/watch?v=ONiILHFItzs&t=48s\" %}",
+  "source": "@site/docs/api-reference/webhook.md",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/webhook",
+  "permalink": "/docs/api-reference/webhook",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api-reference/webhook.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Asset",
+    "permalink": "/docs/api-reference/asset"
+  },
+  "next": {
+    "title": "Notification",
+    "permalink": "/docs/api-reference/notification"
+  }
+}

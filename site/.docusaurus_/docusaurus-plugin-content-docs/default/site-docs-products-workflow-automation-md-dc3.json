@@ -1,0 +1,27 @@
+{
+  "unversionedId": "products/workflow-automation",
+  "id": "products/workflow-automation",
+  "title": "Workflow Automation",
+  "description": "Streamline your data product development process with our Workflow Automation module. This powerful offering simplifies the creation, management, and deployment of complex data workflows, enabling businesses and development teams to focus on delivering value and driving growth.",
+  "source": "@site/docs/products/workflow-automation.md",
+  "sourceDirName": "products",
+  "slug": "/products/workflow-automation",
+  "permalink": "/docs/products/workflow-automation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/products/workflow-automation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Analytics and Dashboard Deployment",
+    "permalink": "/docs/products/analytics-dashboard-deployment"
+  },
+  "next": {
+    "title": "Searchable Data Catalog and Template Library",
+    "permalink": "/docs/products/search-catalog-template-library"
+  }
+}

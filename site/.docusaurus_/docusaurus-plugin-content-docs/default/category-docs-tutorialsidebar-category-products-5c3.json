@@ -1,0 +1,15 @@
+{
+  "title": "Products",
+  "slug": "/category/products",
+  "permalink": "/docs/category/products",
+  "navigation": {
+    "previous": {
+      "title": "Build Data Products",
+      "permalink": "/docs/getting-started/build-data-product"
+    },
+    "next": {
+      "title": "Analytics and Dashboard Deployment",
+      "permalink": "/docs/products/analytics-dashboard-deployment"
+    }
+  }
+}

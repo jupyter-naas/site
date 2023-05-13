@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/build-data-product",
+  "id": "getting-started/build-data-product",
+  "title": "Build Data Products",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/getting-started/build-data-product.mdx",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/build-data-product",
+  "permalink": "/docs/getting-started/build-data-product",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started/build-data-product.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Usage",
+    "permalink": "/docs/getting-started/basic-usage"
+  },
+  "next": {
+    "title": "Platform",
+    "permalink": "/docs/category/platform"
+  }
+}
