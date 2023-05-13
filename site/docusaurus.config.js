@@ -74,18 +74,19 @@ const config = {
           src: 'https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'right',
-          //   label: 'Documentation',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'right'},
-          // {
-          //   href: 'https://github.com/jupyter-naas',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Documentation',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/category/platform', label: 'Product', position: 'left'},
+          {
+            href: 'https://github.com/jupyter-naas',
+            label: 'GitHub',
+            position: 'left',
+          },
         ],
       },
       // footer: {
