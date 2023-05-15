@@ -116,13 +116,11 @@ const config = {
             items: [
               {
                 href: 'https://github.com/jupyter-naas',
-                label: 'GitHub',
-                position: 'left',
+                label: 'GitHub'
               },
               {
                 to: '/blog', 
-                label: 'Blog', 
-                position: 'left'
+                label: 'Blog'
               },
             ],
           },
@@ -130,10 +128,7 @@ const config = {
             href: '/pricing',
             label: 'Pricing',
             position: 'left',
-          },
-          {
-
-          },
+          }
         ],
       },
       // footer: {
