@@ -2,94 +2,136 @@
 sidebar_position: 3
 ---
 
-# Asset
+# Asset 
 
-The API Reference provides a comprehensive list of all available Naas API functions, along with their descriptions, usage examples, and parameter details. To access the API Reference, visit the following link: [https://docs.naas.ai/api-reference](https://docs.naas.ai/api-reference)
+This guide provides a guide on how to manage and expose your assets via URL with Naas. 
 
-By understanding and utilizing the various components, analytics and reporting tools, and integrations available in Naas v2, you can significantly enhance your data product development process and create sophisticated data products that drive value for your business.
+[Video tutorial](https://www.youtube.com/watch?v=z8sTjIiZphM)
 
-## Scheduler
-The naas.scheduler API allows you to schedule notebooks to run automatically at specified intervals or times.
+## Adding Assets
 
-Example usage:
-```
-import naas
+You can add any current file you are working on as an asset, which will be copied to your production folder and made available via a generated URL.
 
-# Schedule notebook to run every day at 9 AM
-naas.scheduler.add(cron="0 9 * * *")
+```python
+naas.asset.add()
 ```
 
-## Assets
-The naas.assets API enables you to manage assets such as images, videos, and documents used in your data products.
+Upon executing the above code, a URL will be returned that expose your current file.
 
-Example usage:
+To add a different file as an asset, provide a file path:
 
-```
-import naas
-
-# Add an image asset
-image_path = "path/to/your/image.png"
-naas.assets.add(image_path, "image.png")
+```python
+naas.asset.add("path/to/my/super/data.csv")
 ```
 
-## Notifications
-The naas.notifications API allows you to send notifications to your team members via email, Slack, or other supported channels.
+You can use the `inline` parameter to get a response in your web browser instead of downloading the file:
 
-Example usage:
-
-```
-import naas
-
-# Send an email notification
-subject = "Daily Report"
-body = "Here is the daily report..."
-to = "email@example.com"
-naas.notifications.email(to, subject, body)
+```python
+params = {"inline": True}
+naas.asset.add(params=params)
 ```
 
-## Dependencies
-The naas.dependencies API helps you manage the dependencies of your notebooks, ensuring that all required packages and libraries are installed when your notebook runs.
+To debug the process, use the `debug` parameter:
 
-Example usage:
-
-```
-import naas
-
-# Add a package dependency
-naas.dependencies.add("pandas")
+```python
+naas.asset.add(debug=True)
 ```
 
-## Drives
-The naas.drives API allows you to connect to various file storage services, such as Google Drive, Dropbox, and Microsoft OneDrive, to access and manage files and folders.
+## Finding Assets
 
-Example usage:
+Retrieve the URL of a file pushed into production using:
 
-```
-import naas
-
-# Connect to Google Drive
-naas.drives.connect("google")
+```python
+url = naas.asset.find()
 ```
 
-## Data Connectors
-The naas.connectors API enables you to connect to various data sources, such as databases, APIs, and web scraping.
+To find a specific file, provide the file path:
 
-Example usage:
-
-```
-import naas
-from naas.connectors import SQL
-
-# Connect to a PostgreSQL database
-user = "your_username"
-password = "your_password"
-host = "your_host"
-database = "your_database"
-sql_connector = SQL("postgresql", user, password, host, database)
-
-# Run a SQL query
-query = "SELECT * FROM your_table"
-data = sql_connector.get(query)
+```python
+url = naas.asset.find(path="path/to/my/super/notebook.ipynb")
 ```
 
+## Listing Assets
 
+List all versions of a file that have been pushed into production:
+
+```python
+naas.asset.list()
+```
+
+To list all versions of a specific file, provide the file path:
+
+```python
+naas.asset.list(path="path/to/my/super/data.csv")
+```
+
+## Retrieving Assets
+
+Retrieve the latest version of a file that has been pushed into production:
+
+```python
+naas.asset.get()
+```
+
+You can specify the file path or the history ID:
+
+```python
+naas.asset.get(path="path/to/my/super/data.csv")
+naas.asset.get(histo="20201008101221879662")
+```
+
+Or you can use both:
+
+```python
+naas.asset.get(path="path/to/my/super/data.csv", histo="20201008101221879662")
+```
+
+## Clearing Assets
+
+Clear a specific version of a file that has been pushed into production:
+
+```python
+naas.asset.clear(histo="20201008101221879662")
+```
+
+Clear a specific version of a specific file:
+
+```python
+naas.asset.clear(path="path/to/my/super/data.csv", histo="20201008101221879662")
+```
+
+Clear all versions of the current file or a specific file:
+
+```python
+naas.asset.clear()
+naas.asset.clear(path="path/to/my/super/data.csv")
+```
+
+## Deleting Assets
+
+Remove the current file or a specific file:
+
+```python
+naas.asset.delete()
+naas.asset.delete(path="path/to/my/super/data.csv")
+```
+
+For debugging, use the `debug` parameter:
+
+```python
+naas.asset.delete(debug=True)
+```
+
+## Listing All Assets
+
+If you need to check how many assets you have, use:
+
+```python
+naas.asset.currents()
+```
+
+For a raw result, use the `raw` parameter:
+
+```python
+naas.asset.currents(raw=True)
+```

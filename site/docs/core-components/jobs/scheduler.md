@@ -4,48 +4,43 @@ sidebar_position: 1
 
 # Scheduler
 
-{% embed url="https://www.youtube.com/watch?v=ONiILHFItzs&t=48s" %}
+This guide will help you understand how to use the Naas scheduler to automate your notebook tasks.
 
-We use CRON tasks to schedule notebooks, find the syntax you need to on: [https://crontab.guru/](https://crontab.guru/)
+[![Scheduler Overview](https://img.youtube.com/vi/ONiILHFItzs/0.jpg)](https://www.youtube.com/watch?v=ONiILHFItzs&t=48s)
 
-{% embed url="https://crontab.guru" %}
+## Cron Tasks
 
-{% hint style="info" %}
-A job shouldn't last more than one hour, split your work :)
-{% endhint %}
+We utilize CRON tasks to schedule notebooks. To understand the syntax of CRON tasks, please visit [Crontab Guru](https://crontab.guru/).
 
-Important, by default the scheduler is set to the CET Timezone. If you are in another timezone, you would need to use the Timezone low-code formula to sync your server with your timezone.
+[![Crontab Guru](https://crontab.guru/favicon.ico)](https://crontab.guru)
 
-Check how to set up in the section below:
+> **Note:** A single job should not exceed one hour. If it does, consider splitting your work into smaller tasks.
 
-TODO: Fix the links here
-<!-- {% content-ref url="../advanced/advanced-usecases.md" %}
-[advanced-usecases.md](../advanced/advanced-usecases.md)
-{% endcontent-ref %} -->
+## Timezone Information
 
-## Add
+By default, the scheduler operates in the Central European Time (CET) timezone. If you are in a different timezone, please use the Timezone low-code formula to synchronize your server with your local timezone.
 
-Send in production this notebook and run it, every day at 9:00 :
+> **TODO:** Add a section explaining how to change the timezone.
+
+## Scheduling a Notebook
+
+To schedule a notebook, use the `add` function. For example, to run a notebook every day at 9:00:
 
 ```python
 naas.scheduler.add(cron="0 9 * * *")
 ```
 
-### Other Notebook
-
-You can also give a path to the function and that will deploy this file instead of the current one.
+You can also specify a different notebook by providing a path:
 
 ```python
-naas.scheduler.add(path="path/to/my/super/notebook.ipynb", cron="0 9 * * *")
+naas.scheduler.add(path="path/to/your/notebook.ipynb", cron="0 9 * * *")
 ```
 
-### Parameters
+### Notification Parameters
 
-`notif_down` : Receive an email when the notebook run fails.
-
-`notif_up` : Receive an email when the notebook runs well.
-
-`next_url` : Url to call when the notebook success, it can be any service even if an Notebook API
+- `notif_down`: Receive an email when the notebook run fails.
+- `notif_up`: Receive an email when the notebook runs successfully.
+- `next_url`: A URL to be called when the notebook runs successfully. This can be any service, even a Notebook API.
 
 ```python
 params = {"notif_down": "bob@naas.ai", "notif_up": "georges@naas.ai"}
@@ -53,150 +48,120 @@ params = {"notif_down": "bob@naas.ai", "notif_up": "georges@naas.ai"}
 naas.scheduler.add(cron="0 9 * * *", params=params)
 ```
 
-### Debug
+For debugging purposes, you can use the `debug` parameter:
 
 ```python
 naas.scheduler.add(cron="0 9 * * *", debug=True)
 ```
 
-## Delete
+## Removing a Schedule
 
-You can remove any scheduler capability like that, it takes optionally a path:&#x20;
+To delete a schedule, use the `delete` function:
 
 ```python
 naas.scheduler.delete()
 ```
 
-### Other Notebook
+To delete a schedule for a specific notebook:
 
 ```python
-naas.scheduler.delete(path="path/to/my/super/notebook.ipynb")
+naas.scheduler.delete(path="path/to/your/notebook.ipynb")
 ```
 
-### Debug
+For debugging:
 
 ```python
 naas.scheduler.delete(debug=True)
 ```
 
+## Listing Schedules
 
-
-## List&#x20;
-
-You can list all version of a file pushed into the production folder:
-
-### Current file
+To see all versions of a notebook that have been scheduled, use the `list` function:
 
 ```python
 naas.scheduler.list()
 ```
 
-### Other Notebook&#x20;
+To list versions of a specific notebook:
 
 ```python
-naas.scheduler.list(path="path/to/my/super/notebook.ipynb")
+naas.scheduler.list(path="path/to/your/notebook.ipynb")
 ```
 
-## Get&#x20;
+## Retrieving a Schedule
 
-You can get a version of a file pushed into the production:
-
-### Get the last one
+To get the latest version of a scheduled notebook:
 
 ```python
 naas.scheduler.get()
 ```
 
-### With a file path
+To get a specific version of a notebook:
 
 ```python
-naas.scheduler.get(path="path/to/my/super/notebook.ipynb")
+naas.scheduler.get(path="path/to/your/notebook.ipynb")
 ```
 
-### With history id
+To get a specific version by its history ID:
 
 ```python
 naas.scheduler.get(histo="20201008101221879662")
 ```
 
-### Combined
+## Clearing Schedules
 
-```python
-naas.scheduler.get(path="path/to/my/super/notebook.ipynb", histo="20201008101221879662")
-```
-
-## Clear
-
-You can clear the previous version of a file pushed into the production:
-
-### One
+To clear a specific version of a scheduled notebook:
 
 ```python
 naas.scheduler.clear(histo="20201008101221879662")
 ```
 
-### Other Notebook
+To clear a specific version of a specific notebook:
 
 ```python
-naas.scheduler.clear(path="path/to/my/super/notebook.ipynb", histo="20201008101221879662")
+naas.scheduler.clear(path="path/to/your/notebook.ipynb", histo="202010081012
 ```
 
-### All
+## Accessing Output
 
-```python
-naas.scheduler.clear()
-```
-
-### All for filepath
-
-```python
-naas.scheduler.clear(path="path/to/my/super/notebook.ipynb")
-```
-
-## Get output
-
-You can get the output of the production file:
-
-### Get the last one
+You can fetch the output of the most recent execution of your notebook:
 
 ```python
 naas.scheduler.get_output()
 ```
 
-### With a file path
+To fetch the output of a specific notebook:
 
 ```python
-naas.scheduler.get_output(path="path/to/my/super/notebook.ipynb")
+naas.scheduler.get_output(path="path/to/your/notebook.ipynb")
 ```
 
-## Clear output
+## Clearing Output
 
-You can clear the previous output of a file pushed into the production:
-
-### One
+To clear the output from the latest execution of your notebook:
 
 ```python
 naas.scheduler.clear_output()
 ```
 
-### Other Notebook
+To clear the output from a specific notebook:
 
 ```python
-naas.scheduler.clear_output(path="path/to/my/super/notebook.ipynb")
+naas.scheduler.clear_output(path="path/to/your/notebook.ipynb")
 ```
 
-## List Schedulers
+## Viewing Your Schedules
 
-You don't remember how many Scheduled notebooks you have?
-
-### Simple
+If you need a quick overview of all your scheduled notebooks, you can use the `currents()` function:
 
 ```python
 naas.scheduler.currents()
 ```
 
-### Raw result&#x20;
+For a more detailed, raw view of your scheduled notebooks, you can set the `raw` parameter to `True`:
 
 ```python
 naas.scheduler.currents(raw=True)
 ```
+
+This information provides a comprehensive view of your scheduled tasks, helping you manage your automated notebook tasks effectively.
