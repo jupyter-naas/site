@@ -1,5 +1,9 @@
 # Naas Site Repository
 
+![alt text](https://media.discordapp.net/attachments/1084579666175729694/1107594801236422676/jeymassa_a_futurist_cover_for_naas_universal_data__ai_platform__34471e43-bbfe-4552-af19-44c20ceeded9.png?width=2180&height=1246)
+
+
+
 Welcome to the Naas Site repository! This repository serves as a central hub for Naas (Notebooks as a Service), containing the landing page, documentation, and blog posts. Naas is a powerful tool that allows you to create, share, and collaborate on Jupyter Notebooks seamlessly for data & AI product building.
 
 ## Table of Contents
