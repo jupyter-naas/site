@@ -75,17 +75,64 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            type: 'dropdown',
+            label: 'How it works',
             position: 'left',
-            label: 'Documentation',
+            items: [
+              {
+                type: 'doc',
+                label: 'Getting started',
+                docId: 'getting-started/installation',
+              },
+              {
+                type: 'doc',
+                label: 'Core components',
+                docId: 'core-components/jobs/scheduler',
+              },
+            ],
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/docs/category/platform', label: 'Product', position: 'left'},
           {
-            href: 'https://github.com/jupyter-naas',
-            label: 'GitHub',
+            type: 'dropdown',
+            label: 'Solutions',
             position: 'left',
+            items: [
+              {
+                type: 'doc',
+                label: 'Content management',
+                docId: 'solutions/content-engine',
+              },
+              {
+                sidebarId: 'growth-marketing',
+                type: 'doc',
+                label: 'Growth Marketing',
+                docId: 'solutions/growth-engine',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Resources & Support',
+            position: 'left',
+            items: [
+              {
+                href: 'https://github.com/jupyter-naas',
+                label: 'GitHub',
+                position: 'left',
+              },
+              {
+                to: '/blog', 
+                label: 'Blog', 
+                position: 'left'
+              },
+            ],
+          },
+          {
+            href: '/pricing',
+            label: 'Pricing',
+            position: 'left',
+          },
+          {
+
           },
         ],
       },

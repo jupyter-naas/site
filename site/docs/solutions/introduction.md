@@ -2,7 +2,9 @@
 sidebar_position: 0
 ---
 
-# Foundation engines & modules
+# Expert Data & AI Product Development
+
+Accelerate your data & AI product roadmap.
 
 **Naas offers a range of data product solutions that cater to different business needs: we call them Foundation Engines and Modules**. These engines are core models that can be customized by companies to generate new opportunities and tailored solutions. From content optimization to finance management, these solutions leverage the power of data to drive growth, optimize operations, and facilitate informed decision-making. In this document, we will explore the various data product solutions provided by Naas and how they can be adapted to suit the unique requirements of your organization.
 

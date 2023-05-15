@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Sales engine
+# Sales Automation
 
 Equip your team with the Admin Dashboard module, designed to provide you with a centralized, easy-to-use interface for managing and monitoring the various aspects of your data products and workflows. Gain valuable insights into your system's performance, resource usage, and events, all from a single, unified dashboard.
 

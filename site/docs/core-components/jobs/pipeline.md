@@ -58,7 +58,7 @@ pipeline = Pipeline()
 pipeline.run()
 ```
 
-<!-- <figure><img src="../jobs/img/Parallel.gif" alt=""><figcaption></figcaption></figure> -->
+<!-- <figure><img src="../img/Parallel.gif" alt=""><figcaption></figcaption></figure> -->
 
 In this example, we define a set of dummy steps to represent different stages of a data processing workflow: collection, cleaning, transformation, and distribution. We then use these steps to define a pipeline using the `>>` operator.
 

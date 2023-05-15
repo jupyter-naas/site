@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Operations engine
+# Operational Efficiency
 
 Empower your data processing capabilities with our Scalable Computing module. Designed to cater to the needs of data-driven organizations, this module provides distributed computing with Dask for enhanced performance and large language model support for advanced text analytics.
 

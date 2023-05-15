@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Growth engine
+# Growth Marketing
 
 The Analytics and Dashboard Deployment module offered by Naas v2 platform is designed to empower businesses and development teams to create, manage, and share data-driven insights through interactive and visually engaging dashboards. This module provides an end-to-end solution for generating and sharing insights with relevant stakeholders in a secure and controlled manner.
 

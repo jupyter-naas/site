@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Open Data engine
+# Open Data Intelligence
 
 The Security Suite module offered by the Naas v2 platform is designed to help businesses and development teams protect their data products, assets, and workflows. With advanced security features and best-in-class practices, this module ensures the confidentiality, integrity, and availability of your data and resources, providing peace of mind and trust in your data products.
 
