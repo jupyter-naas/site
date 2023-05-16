@@ -3,6 +3,9 @@ sidebar_position: 2
 ---
 
 # Growth Marketing
+> Generate Qualified Contacts
+
+![a futurist cover for naas content engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107795724667728012/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_82fc3ef4-d86a-4d2b-bc5e-7126b97e2e45.png?width=2180&height=1246)
 
 The Analytics and Dashboard Deployment module offered by Naas v2 platform is designed to empower businesses and development teams to create, manage, and share data-driven insights through interactive and visually engaging dashboards. This module provides an end-to-end solution for generating and sharing insights with relevant stakeholders in a secure and controlled manner.
 
