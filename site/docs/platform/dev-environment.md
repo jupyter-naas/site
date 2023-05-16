@@ -4,10 +4,13 @@ sidebar_position: 6
 
 # Development Environment
 
+![a futurist cover for naas dev environment, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107829380522197055/jeymassa_a_futurist_cover_for_naas_development_environement_uni_ae859138-9bf7-4575-a582-2aa216c3f4ca.png?width=2180&height=1246)
+
+
 
 Empower your development team with our comprehensive Development Environment module. This powerful offering provides all the necessary tools and resources for designing, building, and deploying data products in a streamlined, efficient manner. Give your team the flexibility and control they need to create innovative and impactful data-driven solutions.
 
-## Key Features
+## Features
 
 1.  **Seamless Integration with Jupyter Lab:** Leverage the power of Jupyter Lab, a popular and widely-used development environment for data science and machine learning, seamlessly integrated within the Naas v2 platform. Enjoy the familiar and versatile interface, along with a rich ecosystem of extensions and plugins to enhance your development experience.
     

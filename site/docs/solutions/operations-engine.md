@@ -2,7 +2,12 @@
 sidebar_position: 4
 ---
 
-# Operational Efficiency
+# Operations Efficiency
+> Create a Single Source of Truth 
+
+![a futurist cover for naas operations engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107804138768715857/jeymassa_a_futurist_cover_for_naas_operations_engine_universal__fee85024-5b7b-4ac6-894b-6ac813d985f2.png?width=2180&height=1246)
+
+
 
 Empower your data processing capabilities with our Scalable Computing module. Designed to cater to the needs of data-driven organizations, this module provides distributed computing with Dask for enhanced performance and large language model support for advanced text analytics.
 

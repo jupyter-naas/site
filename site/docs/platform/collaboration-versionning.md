@@ -4,6 +4,9 @@ sidebar_position: 7
 
 # Collaboration and Versionning
 
+![a futurist cover for naas collaboration and versionning feature, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107833032636903444/jeymassa_a_futurist_cover_for_naas_collaboration_and_versionnin_24be933c-182f-4d23-aca7-78fed39e7397.png?width=2180&height=1246)
+
+
 The Collaboration and Versioning module offered by the Naas v2 platform is designed to help businesses and development teams streamline their collaborative efforts and manage their data product development process more effectively. This module offers advanced version control and collaboration features, enabling teams to work together seamlessly and maintain a clear, organized history of their work.
 
 ## Key Features

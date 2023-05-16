@@ -86,8 +86,13 @@ const config = {
               },
               {
                 type: 'doc',
-                label: 'Core components',
+                label: 'Core Components',
                 docId: 'core-components/jobs/scheduler',
+              },
+              {
+                type: 'doc',
+                label: 'Platform',
+                docId: 'platform/analytics-dashboard-deployment',
               },
             ],
           },
@@ -98,14 +103,43 @@ const config = {
             items: [
               {
                 type: 'doc',
-                label: 'Content management',
+                label: 'Foundations Engines & Plugins',
+                docId: 'solutions/sales-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Content Creation',
                 docId: 'solutions/content-engine',
               },
               {
-                sidebarId: 'growth-marketing',
                 type: 'doc',
                 label: 'Growth Marketing',
                 docId: 'solutions/growth-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Sales Conversion',
+                docId: 'solutions/sales-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Operations Efficiency',
+                docId: 'solutions/operations-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Finance Management',
+                docId: 'solutions/finance-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Open Data Intelligence',
+                docId: 'solutions/opendata-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Expert Acceleration Program',
+                docId: 'solutions/operations-engine',
               },
             ],
           },
@@ -115,12 +149,18 @@ const config = {
             position: 'left',
             items: [
               {
-                href: 'https://github.com/jupyter-naas',
-                label: 'GitHub'
-              },
-              {
                 to: '/blog', 
                 label: 'Blog'
+              },
+              {
+                type: 'doc',
+                label: 'Naas University',
+                docId: 'solutions/operations-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Open Source Community',
+                docId: 'solutions/operations-engine',
               },
             ],
           },

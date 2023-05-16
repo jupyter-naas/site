@@ -3,6 +3,10 @@ sidebar_position: 6
 ---
 
 # Open Data Intelligence
+> Understand the World Around
+
+![a futurist cover for naas opendate engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107807756645302373/jeymassa_a_futurist_cover_for_naas_open_data_engine_universal_d_7da347fe-e221-4275-ae35-52df52ecad21.png?width=2180&height=1246)
+
 
 The Security Suite module offered by the Naas v2 platform is designed to help businesses and development teams protect their data products, assets, and workflows. With advanced security features and best-in-class practices, this module ensures the confidentiality, integrity, and availability of your data and resources, providing peace of mind and trust in your data products.
 

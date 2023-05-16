@@ -4,6 +4,9 @@ sidebar_position: 7
 
 # Admin Dashboard
 
+![a futurist cover for naas admin dashboard, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107830719914455040/jeymassa_a_futurist_cover_for_naas_administration_hub_universal_94a491af-0a30-4979-9b85-f962c11537fc.png?width=2180&height=1246)
+
+
 Equip your team with the Admin Dashboard module, designed to provide you with a centralized, easy-to-use interface for managing and monitoring the various aspects of your data products and workflows. Gain valuable insights into your system's performance, resource usage, and events, all from a single, unified dashboard.
 
 ## Key Features

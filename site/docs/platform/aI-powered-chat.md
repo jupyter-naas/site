@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # AI-powered Chat Interface
 
+![a futurist cover for naas ai powered chat, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107825334868529252/jeymassa_a_futurist_cover_for_naas_ai_powered_chat_engine_unive_69bf5a4c-b2cc-4b8a-ac10-b0dbc12bd27f.png?width=2180&height=1246)
+
 Enhance your data product experience with our AI-Powered Chat Interface module. This powerful module offers a universal chat that leverages cutting-edge language models to perform a wide range of tasks, enabling conversational interaction with your data products and transforming the way you interact with your data-driven solutions.
 
 ## Features:

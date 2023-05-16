@@ -4,9 +4,11 @@ sidebar_position: 9
 
 # Security Suite
 
+![a futurist cover for naas security suite, universal data & ai platform in a pyschedelic universe, --ar 7:4](https://media.discordapp.net/attachments/1084579666175729694/1107834241947017276/jeymassa_a_futurist_cover_for_naas_security_feature_universal_d_ac2416e3-3715-41ef-b167-48cf82271ad3.png?width=2180&height=1246)
+
 The Security Suite module offered by the Naas v2 platform is designed to help businesses and development teams protect their data products, assets, and workflows. With advanced security features and best-in-class practices, this module ensures the confidentiality, integrity, and availability of your data and resources, providing peace of mind and trust in your data products.
 
-## Key Features
+## Features
 
 1.  **Data Encryption:** Safeguard your sensitive data both in transit and at rest with industry-standard encryption protocols. Protect your valuable information from unauthorized access and ensure that only authorized users can access it.
     

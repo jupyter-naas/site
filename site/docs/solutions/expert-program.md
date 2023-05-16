@@ -1,12 +1,11 @@
 ---
-sidebar_position: 0
+sidebar_position: 7
 ---
 
-# Foundation Engines & Plugins
+# Expert Acceleration Program
+> Get Guidance & Hire Experts
 
-> Accelerate your Data & AI Product Roadmap.
-
-![a futurist cover for naas foundation engineS, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107813913699045476/jeymassa_a_futurist_cover_for_naas_foundation_engines_and_plugi_07f94630-ec63-42ea-8b49-676b79e77ddb.png?width=2180&height=1246)
+![a futurist cover for naas expert program, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107809132116983818/jeymassa_a_futurist_cover_for_naas_expert_offering_universal_da_03a06f6c-b280-4b00-b0d6-9cdd6c949cb8.png?width=2180&height=1246)
 
 
 **Naas offers a range of data product solutions that cater to different business needs: we call them Foundation Engines and Modules**. These engines are core models that can be customized by companies to generate new opportunities and tailored solutions. From content optimization to finance management, these solutions leverage the power of data to drive growth, optimize operations, and facilitate informed decision-making. In this document, we will explore the various data product solutions provided by Naas and how they can be adapted to suit the unique requirements of your organization.

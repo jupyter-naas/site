@@ -2,7 +2,10 @@
 sidebar_position: 5
 ---
 
-# Finance engine
+# Finance Management
+> Get Financial Insights in Real-Time
+
+![a futurist cover for naas finance engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107805121603190874/jeymassa_a_futurist_cover_for_naas_finance_engine_universal_dat_1c5b881f-bdda-462a-b923-c80e15531923.png?width=2180&height=1246)
 
 The Searchable Data Catalog and Template Library module offered by the Naas v2 platform is designed to help businesses and development teams accelerate the data product development process by providing an extensive collection of pre-built templates and resources. This module allows users to quickly search and access relevant templates and data assets, significantly reducing the time and effort required to build and customize data products.
 

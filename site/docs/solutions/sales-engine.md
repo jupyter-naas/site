@@ -2,7 +2,10 @@
 sidebar_position: 3
 ---
 
-# Sales Automation
+# Sales Conversion
+> Transform Interest in Revenue
+
+![a futurist cover for naas sales engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107797414041108600/jeymassa_a_futurist_cover_for_naas_sales_engine_universal_data__6e3cf29d-93bf-4211-b768-425f5cb5e7ad.png?width=2180&height=1246)
 
 Equip your team with the Admin Dashboard module, designed to provide you with a centralized, easy-to-use interface for managing and monitoring the various aspects of your data products and workflows. Gain valuable insights into your system's performance, resource usage, and events, all from a single, unified dashboard.
 
