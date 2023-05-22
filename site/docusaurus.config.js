@@ -162,6 +162,21 @@ const config = {
                 label: 'Open Source Community',
                 docId: 'solutions/operations-engine',
               },
+              {
+                type: 'doc',
+                label: 'Customer Stories',
+                docId: 'solutions/operations-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Join our Slack',
+                docId: 'solutions/operations-engine',
+              },
+              {
+                type: 'doc',
+                label: 'Contact Support',
+                docId: 'solutions/operations-engine',
+              },
             ],
           },
           {
