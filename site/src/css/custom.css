@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #47dd82;
   --ifm-color-primary-dark: #47dd82;
   --ifm-color-primary-darker: #47dd82;
@@ -50,7 +50,12 @@
   opacity: 0.5;
 }
 
-.navbar-community-menu:after, .navbar-community-link:after {
+.navbar-community-menu:after,
+.navbar-community-link:after {
   border-style: none !important;
   margin-left: -5px !important;
+}
+
+.navbar-button-container {
+  margin: 40px 0px;
 }
