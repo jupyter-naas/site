@@ -183,7 +183,30 @@ const config = {
             href: '/pricing',
             label: 'Pricing',
             position: 'left',
-          }
+          },
+          {
+            href: 'https://workspace.naas.ai/search',
+            label: 'Search',
+            position: 'navbar-community-menu',
+          },
+          {
+            to: 'https://workspace.naas.ai/login/',
+            label: 'Login',
+            position: 'right',
+            color: 'dark',
+            target: '_blank',
+          },
+          {
+            to: 'https://workspace.naas.ai/signup/',
+            label: 'Signup',
+            position: 'right',
+            color: 'primary',
+            target: '_blank',
+          },
+          {
+            type: 'search',
+            position: 'right',
+          },
         ],
       },
       // footer: {
@@ -229,7 +252,6 @@ const config = {
       // },
       prism: {
         theme: darkCodeTheme,
-        // darkTheme: darkCodeTheme,
       },
     }),
 };
