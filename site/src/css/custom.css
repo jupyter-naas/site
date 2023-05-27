@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #47dd82;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.navbar__item--active,
+.navbar__item--active:hover,
+.dropdown__link--active,
+.dropdown__link--active:hover {
+  background-color: transparent;
+  color: #000;
+}
