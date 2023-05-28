@@ -5,6 +5,26 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* Font families declaration */
+:root {
+  --heading-font: "Montserrat", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
+
+* {
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
 :root {
   --ifm-color-primary: #47dd82;
   --ifm-color-primary-dark: #47dd82;
@@ -18,7 +38,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #47dd82;
   --ifm-color-primary-dark: #47dd82;
   --ifm-color-primary-darker: #47dd82;
