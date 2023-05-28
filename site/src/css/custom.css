@@ -5,26 +5,6 @@
  */
 
 /* You can override the default Infima variables here. */
-
-/* Font families declaration */
-:root {
-  --heading-font: "Montserrat", sans-serif;
-  --body-font: "Roboto", sans-serif;
-}
-
-* {
-  font-family: "Roboto";
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--heading-font);
-}
-
 :root {
   --ifm-color-primary: #47dd82;
   --ifm-color-primary-dark: #47dd82;
@@ -35,6 +15,8 @@ h6 {
   --ifm-color-primary-lightest: #47dd82;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --heading-font: "Montserrat", sans-serif;
+  --body-font: "Roboto", sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -47,4 +29,20 @@ h6 {
   --ifm-color-primary-lighter: #47dd82;
   --ifm-color-primary-lightest: #47dd82;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Font families declaration */
+* {
+  font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font) !important;
+  font-weight: 500 !important;
+  font-size: 14px;
 }
