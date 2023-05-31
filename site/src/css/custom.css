@@ -46,3 +46,10 @@ h6 {
   font-weight: 500 !important;
   font-size: 14px;
 }
+
+.navbar__item--active,
+.navbar__item--active:hover,
+.dropdown__link--active,
+.dropdown__link--active:hover {
+  background-color: transparent;
+  color: #000;
