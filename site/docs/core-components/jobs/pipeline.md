@@ -178,9 +178,9 @@ Naas aslo provides a table representation of the pipeline which displays the sta
 
 Another helpful feature of the Naas pipeline UI is the color coding of each step. Each step is represented by a box, and the color of the box represents the status of the step:
 
-* <mark style="color:green;">Green</mark>: The step has completed successfully
-* <mark style="color:blue;">Blue</mark>: The step is currently running
-* <mark style="color:red;">Red</mark>: The step has failed
+* **<font color='green'>Green</font>**: The step has completed successfully
+* **<font color='blue'>Blue</font>**: The step is currently running
+* **<font color='red'>Red</font>**: The step has failed
 
 By color coding the steps, it's easy to quickly see the overall status of the pipeline and identify any steps that have failed.
 
