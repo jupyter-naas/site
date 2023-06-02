@@ -209,6 +209,10 @@ p {
   margin: 5px;
 }
 
+.btnGreen:hover {
+  color: #000;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
