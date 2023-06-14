@@ -44,7 +44,6 @@ h5,
 h6 {
   font-family: var(--heading-font) !important;
   font-weight: 500 !important;
-  font-size: 14px;
 }
 
 .navbar {

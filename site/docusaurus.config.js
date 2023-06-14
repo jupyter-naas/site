@@ -190,57 +190,61 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://workspace.naas.ai/login" target="_blank"><button>Sign in</button><a>`,
+            value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "Docs",
+            title: 'Docs',
             items: [
               {
-                label: "Docs",
-                to: "/docs/intro",
+                label: 'Documentation',
+                to: '/docs/intro'
               },
-            ],
+            ]
           },
           {
-            title: "Community",
+            title: 'Community',
             items: [
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: 'GitHub',
+                href: 'https://github.com/jupyter-naas'
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: 'Twitter',
+                href: 'https://twitter.com/jupyternaas'
               },
-            ],
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/naas-ai/'
+              },
+              {
+                label: 'Slack',
+                href: 'https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw'
+              }
+            ]
           },
           {
-            title: "More",
+            title: 'More',
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: 'Blog',
+                href: '/blog'
               },
-              {
-                label: "GitHub",
-                href: "https://github.com/jupyter-naas/naas",
-              },
-            ],
-          },
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NaasAI, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://nhost.io" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
       },
       //   navbar: {
       //   items: [
       //     {
       //       type: 'html',
       //       position: 'right',
-      //       value: `<a href="https://workspace.naas.ai/login" target="_blank"><button>Sign in</button><a>`,
+      //       value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
       //     },
       //   ],
       // },
