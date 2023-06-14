@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-# AI-powered Chat Interface
+# AI-powered Chat Assistant
 
 ![a futurist cover for naas ai powered chat, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107825334868529252/jeymassa_a_futurist_cover_for_naas_ai_powered_chat_engine_unive_69bf5a4c-b2cc-4b8a-ac10-b0dbc12bd27f.png?width=2180&height=1246)
 

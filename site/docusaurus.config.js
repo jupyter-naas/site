@@ -6,13 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "⚡️ The All-In-One Open Source Data Platform",
+  title: "⚡️ The Universal Data & AI Platform",
   tagline:
-    "Experience faster creation of data & AI products without loosing control thanks to Naas Lean Data Framework.",
+    "Experience the future of AI and data with Naas, your gateway to accessible, intuitive data product building.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://site.naas.ai",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "jupypter-naas", // Usually your GitHub org/user name.
-  projectName: "awesome-notebooks", // Usually your repo name.
+  projectName: "site", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -73,7 +73,7 @@ const config = {
         // For the scrollbar to be sticky or hide while scrolled down
         // hideOnScroll: true,
         logo: {
-          alt: "Naas v2 Documentation",
+          alt: "Naas Documentation",
           src: "https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186",
         },
         items: [
@@ -84,18 +84,18 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Getting started",
-                docId: "getting-started/installation",
+                label: "Get started",
+                docId: "get-started/introduction",
               },
               {
                 type: "doc",
-                label: "Core Components",
-                docId: "core-components/jobs/scheduler",
+                label: "Ecosystem",
+                docId: "ecosystem/jobs/scheduler",
               },
               {
                 type: "doc",
                 label: "Platform",
-                docId: "platform/analytics-dashboard-deployment",
+                docId: "platform/search-catalog-template-library",
               },
             ],
           },
@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Foundations Engines & Plugins",
+                label: "Engines & Plugins",
                 docId: "solutions/sales-engine",
               },
               {

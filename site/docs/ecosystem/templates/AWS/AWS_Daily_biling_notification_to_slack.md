@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-# AWS 
-
+# AWS - Daily biling notification to slack
 
 **Tags:** #aws #cloud #storage #S3bucket #slack #operations #automation
 

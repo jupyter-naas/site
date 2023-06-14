@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 ---
 
-# Development Environment
+# Development Lab
 
 ![a futurist cover for naas dev environment, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107829380522197055/jeymassa_a_futurist_cover_for_naas_development_environement_uni_ae859138-9bf7-4575-a582-2aa216c3f4ca.png?width=2180&height=1246)
 
