@@ -6,6 +6,7 @@ sidebar_position: 3
 
 Building upon the basic usage of Naas with myChatGPT, the intermediate level lets you harness the power of templates as adjustable logical functions to establish a myChatGPT plugin. This level emphasizes the use of data templates, which you can combine with AI assistant templates to create a dynamic and interactive conversational experience with your data.
 
+![DataAITemplates](./img/DataAITemplates.gif)
 ## Utilizing Templates and AI Assistant Personas
 
 **1. Choosing an AI Assistant Persona:** Begin by selecting an AI assistant persona that aligns with your needs from the "Naas Search". These personas range from professional roles (CEO, CTO, COO, etc.) to personal roles (Educator, Student, etc.).

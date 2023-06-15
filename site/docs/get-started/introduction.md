@@ -4,37 +4,60 @@ sidebar_position: 1
 
 # Introduction
 
-Welcome to the new Naas documentation! As the Universal Data & AI Platform, Naas is on a mission to revolutionize data product development and become the go-to platform for all your data needs. Whether you have a technical or non-technical background, our comprehensive suite of tools and features is designed to make data and AI accessible and intuitive for businesses and individuals alike. With Naas, you can unlock the full potential of AI and data to drive innovation, gain valuable insights, and transform the way you work with data.
+Welcome to the Naas Documentation, the Universal Data & AI Platform, providing a low-code solution for creating powerful data products by combining automation, analytics, and AI. Whether you're a business analyst, scientist, or engineer, Naas Lean Data Framework allows you to easily develop data products from Jupyter notebooks, leveraging the platform's intuitive features and extensive capabilities.
+
+## Mission: The Universal Data Platform
+At Naas, our mission is to democratize data and AI, making them accessible and intuitive for businesses and individuals with varying technical backgrounds. We aim to be the go-to platform for all your data needs, empowering users to unlock the full potential of AI and data. By providing a comprehensive suite of tools and features, we strive to revolutionize data product development and transform the way you work with data.
 
 ## Key Features
 
-### 1. Naas Search: Discover the World's Largest Data & AI Template Catalog
+### Naas Search: Harness the Power of Data & AI Templates
 
-Naas offers Naas Search, the world's largest catalog of data and AI templates built by our vibrant community of open-source contributors. This powerful feature allows you to explore and access a vast collection of templates, ranging from data processing scripts to AI models and data visualization tools. With Naas Search, you can easily find the right resources for your data product development needs. Additionally, Naas serves as a data catalog, enabling companies to access specific datasets and further enhance their data-driven initiatives.
+Naas Search is a powerful feature that enables you to find the largest catalog of data and AI templates in the world, built by our community of open-source contributors. It serves as a one-stop destination where you can discover and access a wide range of scripts and models. Whether you're looking for data scripts or AI algorithms, Naas Search provides an extensive collection to accelerate your data product development. It also doubles as a data catalog, allowing you to access specific datasets beyond just scripts.
 
-### 2. MyChatGPT: AI Conversational Alternative to ChatGPT
+![Naas Search](./img/NaasSearch.gif)
 
-With MyChatGPT, Naas introduces an AI conversational alternative to ChatGPT, powered by LangChain that aggregates multiple open-source models. This powerful feature empowers users to leverage AI assistants that can understand and respond to natural language prompts. Through the use of plugins, which are a specific category of templates, users can easily deploy AI assistants tailored to their specific needs. Whether you're a business professional seeking strategic insights or an individual looking for personalized recommendations, MyChatGPT offers a seamless and interactive conversational experience.
+### MyChatGPT: AI Conversational Alternative
 
-### 3. Naas Lab: Development and Distribution
+MyChatGPT, our AI conversational alternative to ChatGPT, is powered by OpenAI and other open-source models. It enables anyone, regardless of their technical expertise, to leverage AI assistants using plugins. These AI assistants understand natural language prompts and can be customized to address your specific needs. Whether you need strategic insights for your business or personalized recommendations for your personal projects, MyChatGPT offers an interactive conversational experience, putting the power of AI at your fingertips.
 
-Naas Lab is a powerful environment within the platform where users can develop their own data products. It serves as a space for deterministic analysis and enables users to create sophisticated data workflows, conduct experiments, and build customized data products. Users can develop their own templates, modify existing ones, and even distribute them as plugins to the broader Naas community. Naas Lab empowers data analysts, scientists, and developers to explore, analyze, and share their insights, fostering collaboration and driving innovation inside MyChatGPT.
+![MyChatGPT](./img/MyChatGPT.gif)
+
+### Naas Lab: Empowering Data Product Development
+
+Naas Lab is the heart of our platform, providing a powerful environment for data product development. It allows data analysts, scientists, and developers to unleash their creativity and build customized data workflows. With Naas Lab, you can conduct experiments, create deterministic analyses, and develop sophisticated data products. Whether you're building your own templates, modifying existing ones, or distributing them as plugins to the Naas community, Naas Lab empowers you to create innovative solutions tailored to your specific needs.
+
+![MyChatGPT](./img/NaasLab.gif)
 
 ## Usage Levels
 
 Naas is designed to cater to users at different levels of expertise and requirements. We offer three usage levels to meet your specific needs:
 
-### 1. Basic Usage
+**1. Basic Usage: AI Assistant Personas for Professionals and Individuals**
 
-At the basic level, you can leverage our collection of AI assistant personas templates to address professional and personal use cases. These personas are available as plugins and can emulate various roles, providing assistance and solutions to specific challenges. You can interact with these AI assistants, customize the dialogue, and benefit from their expertise.
+At the basic level, you can leverage our collection of AI assistant persona templates to address professional and personal use cases. These personas are available as plugins and can emulate various roles, providing assistance and solutions to specific challenges. You can interact with these AI assistants, customize the dialogue, and benefit from their expertise.
 
-### 2. Intermediate Usage
+**2. Intermediate Usage: Combining Data Templates and AI Assistant Personas**
 
 Building upon the basic usage, the intermediate level allows you to bring your own data into the conversation. By utilizing data templates, you can combine your data with AI assistant personas, enabling more contextually rich and dynamic interactions. This level enhances your ability to ask questions, gain insights, and make data-driven decisions.
 
-### 3. Advanced Usage
+**3. Advanced Usage: Building Comprehensive Data Interfaces and AI Agents**
 
 In the advanced usage level, you can take data product development to the next level. You can adapt templates to function as integral parts of your organization, including building AI agents and creating comprehensive data interfaces such as dashboards and APIs. This level empowers you to harness the full potential of data and AI, creating sophisticated solutions tailored to your specific domains and requirements.
+
+## Use Cases
+
+Naas is designed to cater to a diverse range of use cases, enabling businesses and individuals to leverage the power of data and AI tools. Here are some common scenarios:
+
+**Data Science Teams**: Data science teams can utilize Naas to prototype and iterate on new data products, leveraging large language models and pre-built templates to expedite their development process.
+
+**Business Analysts**: Naas empowers business analysts to develop sophisticated applications that can analyze and understand large volumes of text data. These applications provide valuable insights and recommendations, facilitating data-driven decision-making.
+
+**Product Managers**: Naas streamlines the entire data product lifecycle for product managers, offering a unified platform for ideation, development, deployment, and maintenance. Collaboration features ensure smooth project management and organization.
+
+**Data-Driven Organizations**: Naas enables data-driven organizations to harness the power of data products, driving operational efficiency, improving decision-making processes, and unlocking new business opportunities.
+
+With Naas and its versatile usage levels, you can tailor your data product development experience to your specific needs, expertise, and goals.
 
 ## Get Started with Naas
 

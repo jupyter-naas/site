@@ -6,6 +6,8 @@ sidebar_position: 2
 
 The Naas platform allows you to leverage a collection of AI assistant personas, each designed and prompted for distinct professional and personal use cases. These interactions emulate the roles of the personas in their respective scenarios, helping to solve unique sets of challenges.
 
+![NaasAssistant](./img/NaasAssistant.png)
+
 ## Using AI Assistant Personas
 
 Each AI assistant persona is designed as a plugin, with pre-designed dialogues for interaction. To use them, follow the steps below:
