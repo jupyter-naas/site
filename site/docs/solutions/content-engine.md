@@ -6,11 +6,10 @@ sidebar_position: 1
 
 > Increase Reach & Boost Engagement
 
+The Content Engine is designed to help organizations harness the power of data and AI to create, optimize, and monitor their content across various platforms, resulting in increased reach and audience engagement. By leveraging powerful analytics, AI-driven content generation, and optimization recommendations, businesses can make data-informed decisions to improve their content strategy and drive growth.
+
 ![a futurist cover for naas content engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107794337745604670/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_fbf44c7c-1a4a-4cf1-9edf-465dbce0911b.png?width=2180&height=1246)
 
-
-
-The Content Engine is designed to help organizations harness the power of data and AI to create, optimize, and monitor their content across various platforms, resulting in increased reach and audience engagement. By leveraging powerful analytics, AI-driven content generation, and optimization recommendations, businesses can make data-informed decisions to improve their content strategy and drive growth.
 
 ## Features
 
@@ -39,7 +38,7 @@ Gain a deeper understanding of your audience's preferences and interests to crea
 
 ### Competitive advantage
 Stay ahead of the competition by leveraging cutting-edge AI and analytics tools to optimize your content.
- 
+
 
 ## Content Performance Analytics
 

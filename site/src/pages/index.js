@@ -19,7 +19,7 @@ function HomepageHeader() {
           <Link
             className={styles.buttons}
             to="/docs/get-started/introduction">
-            GET STARTED
+            Get Started
           </Link>
 
         </div>
@@ -124,7 +124,7 @@ function HomeTestimonialQuote() {
         </div>
         <Link
           // className={styles.buttons}
-          to="https://docs.naas.ai/">
+          to="/docs/get-started/introduction">
           Read the documentation
         </Link>
       </div>

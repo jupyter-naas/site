@@ -8,22 +8,35 @@ Naas Workspace is a powerful React application designed to provide a seamless ex
 
 ## Features
 
-1.  **Template Search**: Naas Search offers a built-in search functionality to help you find and explore the extensive collection of notebook templates available. These templates cover a wide range of use cases and industries, allowing you to quickly prototype and iterate on new data products.
+### Template Search
+Naas Search offers a built-in search functionality to help you find and explore the extensive collection of notebook templates available. These templates cover a wide range of use cases and industries, allowing you to quickly prototype and iterate on new data products.
     
-2.  **Universal Chat**: mychatGPT is the universal chat feature in Naas Workspace enabling you to leverage various large language models, such as GPT, LLaMa, Cohere, to create sophisticated data products. By integrating these language models, you can build data products that analyze and understand large amounts of text data and generate relevant responses or recommendations.
+###  Universal Chat
+MychatGPT is the universal chat feature in Naas Workspace enabling you to leverage various large language models, such as GPT, LLaMa, Cohere, to create sophisticated data products. By integrating these language models, you can build data products that analyze and understand large amounts of text data and generate relevant responses or recommendations.
     
-3.  **Admin Section**: The admin section in Naas OS allows you to monitor essential aspects of your data products, including jobs, events, and credit consumption. This feature provides you with real-time insights into the performance and usage of your data products, enabling you to optimize and manage them effectively.
-    
-4.  **Access to Nebari**: Naas OS provides seamless access to Nebari, a powerful data science platform equipped with Jupyter Lab and Dask. With Nebari, you can perform advanced data analysis, create interactive visualizations, and build scalable data pipelines, all within a collaborative and cloud-based environment.
+### Access to JupyterLab
+Naas OS provides seamless access to JupyterLab, we call it Naas Lab, a powerful data science platform equipped with Jupyter Lab and Dask. With JupyterLab, you can perform advanced data analysis, create interactive visualizations, and build scalable data pipelines, all within a collaborative and cloud-based environment.
+
+### Admin Section
+The admin section in Naas OS allows you to monitor essential aspects of your data products, including jobs, events, and credit consumption. This feature provides you with real-time insights into the performance and usage of your data products, enabling you to optimize and manage them effectively.
     
 
 ## Benefits
-The Naas Workspace offers numerous benefits for data product developers and teams:
+Naas Workspace offers numerous benefits for data product developers and teams:
 
-*   Streamlines the development process with its intuitive interface and easy-to-use features.
-*   Provides access to a wide range of pre-built templates, simplifying the process of creating new data products.
-*   Enables integration of large language models, empowering you to build more advanced and effective data products.
-*   Offers robust monitoring and analytics tools to help you optimize and manage your data products.
-*   Grants access to Nebari, a powerful data science platform for advanced analytics and scalable data pipelines.
+### Streamlines the development process
+With its intuitive interface and easy-to-use features, Naas Workspace streamlines the development process, enabling you to quickly build and iterate on data products. The user-friendly environment enhances productivity and reduces the learning curve for both experienced and novice developers.
 
-By using Naas OS, you can accelerate the development and deployment of your data products while ensuring they meet the highest quality standards.
+### Pre-built templates for rapid development
+Naas Workspace provides access to a wide range of pre-built templates, covering various use cases and industries. These templates serve as starting points for your data products, saving you time and effort in the initial development stages.
+
+### Integration of large language models
+The universal chat feature in Naas Workspace allows you to integrate large language models like GPT, LLaMa, and Cohere. This integration empowers you to create data products that can analyze and understand large amounts of text data, opening up possibilities for advanced natural language processing and generation.
+
+### Robust monitoring and analytics tools
+The admin section in Naas Workspace offers comprehensive monitoring and analytics tools to track the performance and usage of your data products. Real-time insights enable you to optimize resources, identify bottlenecks, and make data-driven decisions to improve the effectiveness of your products.
+
+### Access to a powerful development environment 
+Naas Workspace provides seamless access to JupyterLab, a powerful data science platform. JupyterLab's rich ecosystem of tools and libraries allows you to perform advanced data analysis, create interactive visualizations, and build scalable data pipelines. The collaborative and cloud-based environment facilitates teamwork and knowledge sharing.
+
+By leveraging Naas Workspace, you can accelerate the development and deployment of your data products while ensuring they meet the highest quality standards. The streamlined workflow, extensive template library, integration with language models, and robust monitoring capabilities enable you to build innovative and impactful data products with ease.

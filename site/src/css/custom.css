@@ -15,7 +15,7 @@
   --ifm-color-primary-lightest: #47dd82;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --heading-font: "Poppins", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
   --body-font: "Roboto", sans-serif;
 }
 
@@ -69,4 +69,17 @@ button {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+}
+
+table {
+  width: 100%;
+  table-layout: auto;  /* Allows the table to determine cell width based on contents */
+  overflow-x: auto;   /* Allows table to be scrollable on small devices */
+}
+
+table th, table td {
+  white-space: nowrap;  /* Prevents wrapping within cells */
+  overflow: hidden;     /* Prevents content from overflowing cells */
+  text-overflow: ellipsis;  /* Adds an ellipsis (...) when content is too long */
+  padding: 10px!important; /* Adjust this to add more or less space */
 }

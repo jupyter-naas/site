@@ -6,19 +6,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
 
 
 .navbar {
   background-color: #181a1c !important;
 }
+
 .landing {
   background-color: #181a1c;
   display: flex;
   justify-content: center;
   padding-top: 150px;
   padding-bottom: 100px;
+}
+
+
+.heroBanner {
+  /* padding: 20rem 0; */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  max-width: 850px;
+  /* background-size: cover; */
+  /* background-image: url("https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278"); */
 }
 
 .title {
@@ -44,38 +57,28 @@
   line-height: 1.5;
 }
 
-.heroBanner {
-  /* padding: 20rem 0; */
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  color: white;
-  max-width: 850px;
-  /* background-size: cover; */
-  /* background-image: url("https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278"); */
-}
-
 h1 {
+  margin-top: 20px;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 40px;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 32px;
 }
 
 h3{
   font-weight: 700;
   line-height: 1.3em;
-  font-size: 1.5em;
+  font-size: 25px;
 }
 
 p {
   font-weight: 400;
-  /* font-size: 1.5em; */
+  font-size: 18px;
   line-height: 1.4em;
 }
 
@@ -235,8 +238,11 @@ p {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .171);
   margin: 5px;
   font-size: 1.2em;
-  padding: 0.5em 0.8em;
-  border-radius: 3px;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 10px;
   line-height: 1;
   border: none;
   font-weight: 500;
@@ -248,7 +254,9 @@ p {
   color: rgb(255, 255, 255);
   background: rgb(71, 221, 130);
   box-shadow: 0px 4px 10px 0px rgba(50, 50, 93, .226), 0px 1px 3px 0px rgba(0, 0, 0, .08);
+  text-decoration: none; /* Add this line */
 }
+
 
 .siteInfo {
   display: inline;

@@ -67,6 +67,14 @@ const config = {
       colorMode: {
         disableSwitch: true,
       },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          "🚨 This website is under development! <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Become an Alpha Naas Member</a> and get early access to the platform.",
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       navbar: {
         style: "dark",
         title: "",
@@ -79,12 +87,12 @@ const config = {
         items: [
           {
             type: "dropdown",
-            label: "How it works",
+            label: "How It Works",
             position: "left",
             items: [
               {
                 type: "doc",
-                label: "Get started",
+                label: "Get Started",
                 docId: "get-started/introduction",
               },
               {
@@ -188,6 +196,11 @@ const config = {
             position: "left",
           },
           {
+            href: "https://workspace.naas.ai/",
+            position: "right",
+            label: `Search`,
+          },
+          {
             type: "html",
             position: "right",
             value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
@@ -202,7 +215,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/get-started/introduction'
+                to: '/docs/intro'
               },
             ]
           },
