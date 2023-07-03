@@ -211,19 +211,65 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Product',
             items: [
               {
-                label: 'Documentation',
-                to: '/docs/get-started/introduction'
+                label: 'Get Started',
+                href: 'docs/get-started/basic'
+              },
+              {
+                label: 'Ecosystem',
+                href: 'docs/category/ecosystem'
+              },
+              {
+                label: 'Platform',
+                href: 'docs/category/platform'
               },
             ]
           },
           {
-            title: 'Community',
+            title: 'Commmunity',
             items: [
               {
                 label: 'GitHub',
+                href: 'https://github.com/jupyter-naas'
+              },
+              {
+                label: 'How to contribute?',
+                href: 'docs/category/contributing'
+              },
+            ]
+          },
+          {
+            title: 'Company',
+            items: [
+              {
+                label: 'About us',
+                href: 'https://github.com/jupyter-naas'
+              },
+              {
+                label: 'Terms of Service',
+                href: 'https://twitter.com/jupyternaas'
+              },
+              {
+                label: 'Privacy',
+                href: 'https://www.linkedin.com/company/naas-ai/'
+              },
+              {
+                label: 'Contact support',
+                href: 'https://form.typeform.com/to/aH1v5ync?typeform-source=www.naas.ai'
+              },
+              {
+                label: 'Contact sales',
+                href: 'https://form.typeform.com/to/GjbalQ7R'
+              }
+            ]
+          },
+          {
+            title: 'Follow us',
+            items: [
+              {
+                label: 'Github',
                 href: 'https://github.com/jupyter-naas'
               },
               {
@@ -239,18 +285,9 @@ const config = {
                 href: 'https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw'
               }
             ]
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                href: '/blog'
-              },
-            ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://nhost.io" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
       },
       //   navbar: {
       //   items: [
