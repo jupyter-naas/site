@@ -639,7 +639,7 @@ export default function Home() {
         <HomeTestimonialQuote />
         <HomeToolCatalog />
         <HomeFeatureImages />
-        <HomeFooter />
+        {/* <HomeFooter /> */}
         {/* <HomepageFeatures /> */}
       </main>
     </Layout>

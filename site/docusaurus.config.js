@@ -208,22 +208,80 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Product',
             items: [
               {
-                label: 'Documentation',
-                to: '/docs/get-started/introduction'
+                label: 'Get Started',
+                href: 'docs/get-started/introduction'
+              },
+              {
+                label: 'Ecosystem',
+                href: 'docs/category/ecosystem'
+              },
+              {
+                label: 'Platform',
+                href: 'docs/category/platform'
+              },
+              {
+                label: 'Solutions',
+                href: 'docs/category/solutions'
               },
             ]
           },
           {
-            title: 'Community',
+            title: 'Commmunity',
             items: [
               {
+                label: 'Join our Slack',
+                href: 'https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw'
+              },
+              {
                 label: 'GitHub',
+                href: 'https://github.com/jupyter-naas'
+              },
+              {
+                label: 'How to contribute?',
+                href: 'docs/category/contributing'
+              },
+              {
+                label: 'Roadmap',
+                href: 'https://github.com/orgs/jupyter-naas/projects/10/views/13'
+              },
+            ]
+          },
+          {
+            title: 'Company',
+            items: [
+              {
+                label: 'Teams',
+                href: 'https://github.com/orgs/jupyter-naas/teams'
+              },
+              {
+                label: 'Terms of Service',
+                href: 'docs/policies/terms'
+              },
+              {
+                label: 'Privacy',
+                href: 'docs/policies/privacy'
+              },
+              {
+                label: 'Contact support',
+                href: 'https://form.typeform.com/to/aH1v5ync?typeform-source=www.naas.ai'
+              },
+              {
+                label: 'Contact sales',
+                href: 'https://form.typeform.com/to/GjbalQ7R'
+              }
+            ]
+          },
+          {
+            title: 'Follow us',
+            items: [
+              {
+                label: 'Github',
                 href: 'https://github.com/jupyter-naas'
               },
               {
@@ -235,22 +293,13 @@ const config = {
                 href: 'https://www.linkedin.com/company/naas-ai/'
               },
               {
-                label: 'Slack',
-                href: 'https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw'
+                label: 'Youtube',
+                href: 'https://www.youtube.com/channel/UCKKG5hzjXXU_rRdHHWQ8JHQ'
               }
-            ]
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                href: '/blog'
-              },
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://nhost.io" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
       },
       //   navbar: {
       //   items: [
