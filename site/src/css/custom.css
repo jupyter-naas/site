@@ -16,7 +16,7 @@
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #181A1C;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --heading-font: "Montserrat", sans-serif;
+  --heading-font: "Segoe UI", Helvetica, Arial, sans-serif;
   --body-font: "Roboto", sans-serif;
 }
 
@@ -45,7 +45,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font) !important;
-  font-weight: 500 !important;
+  font-weight: 700;
 }
 
 .navbar {
