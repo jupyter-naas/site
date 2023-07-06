@@ -6,7 +6,9 @@ sidebar_position: 1
 
 This guide will help you understand how to use the Naas scheduler to automate your notebook tasks.
 
-[![Scheduler Overview](https://img.youtube.com/vi/ONiILHFItzs/0.jpg)](https://www.youtube.com/watch?v=ONiILHFItzs&t=48s)
+<!-- [![Scheduler Overview](https://img.youtube.com/vi/ONiILHFItzs/0.jpg)](https://www.youtube.com/watch?v=ONiILHFItzs&t=48s) -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ONiILHFItzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Cron Tasks
 
