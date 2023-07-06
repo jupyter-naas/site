@@ -61,6 +61,26 @@ h6 {
   color: #000;
 }
 
+/* Code configuration */
+code {
+  color: #EB5757;
+  border-width: 0px;
+  padding: 3px 8px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+[data-theme='dark'] code {
+  background-color: #111;
+}
+.theme-code-block {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.9em;
+}
+.theme-code-block .token {
+  font-family: "IBM Plex Mono", monospace;
+}
+
 button {
   /* For the Sign in button in the Navbar */
   background-color: #48dd82;
