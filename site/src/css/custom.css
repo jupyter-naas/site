@@ -16,8 +16,6 @@
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #181A1C;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --heading-font: "Montserrat", sans-serif;
-  --body-font: "Roboto", sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -40,7 +38,11 @@
 
 h1,
 h2,
-h3,
+h3{
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+}
+
 h4,
 h5,
 h6 {
