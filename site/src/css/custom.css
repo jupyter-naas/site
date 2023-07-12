@@ -16,16 +16,8 @@
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #181A1C;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   --heading-font: "Segoe UI", Helvetica, Arial, sans-serif;
   --body-font: "Roboto", sans-serif;
->>>>>>> 04c772b8deceb1d789eebe58bd1608c7189c3afe
-=======
-  --heading-font: "Montserrat", sans-serif;
-  --body-font: "Roboto", sans-serif;
->>>>>>> parent of fa50643... feat: pre-release candidate
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
