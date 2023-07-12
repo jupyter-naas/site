@@ -280,8 +280,8 @@ const config = {
                 href: 'docs/get-started/introduction'
               },
               {
-                label: 'Ecosystem',
-                href: 'docs/category/ecosystem'
+                label: 'Framework',
+                href: 'docs/category/framework'
               },
               {
                 label: 'Platform',
