@@ -265,7 +265,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign up</button><a>`,
+            value: `<a href="https://workspace.naas.ai/" target="_blank"><button>Get Started</button><a>`,
           },
         ],
       },
@@ -273,19 +273,19 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Product',
+            title: 'Ecosystem',
             items: [
               {
-                label: 'Get Started',
+                label: 'Overview',
                 href: 'docs/get-started/introduction'
-              },
-              {
-                label: 'Framework',
-                href: 'docs/category/framework'
               },
               {
                 label: 'Platform',
                 href: 'docs/category/platform'
+              },
+              {
+                label: 'Framework',
+                href: 'docs/category/framework'
               },
               {
                 label: 'Solutions',
@@ -294,7 +294,7 @@ const config = {
             ]
           },
           {
-            title: 'Commmunity',
+            title: 'Community',
             items: [
               {
                 label: 'Join our Slack',
