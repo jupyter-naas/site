@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Overview
+# Workspace
 
 Naas Workspace is a powerful React application designed to provide a seamless experience for building and managing data products using Naas v2. With its user-friendly interface and comprehensive set of features, Naas OS simplifies the process of developing, launching, and scaling data products for both individuals and teams.
 

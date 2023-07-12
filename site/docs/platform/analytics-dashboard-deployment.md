@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Analytics & Dashboarding
+# Analytics and Dashboard Deployment
 
 ![a futurist cover for naas analytical engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107819151042560080/jeymassa_a_futurist_cover_for_naas_analytics_engine_universal_d_5a1feb54-d867-4c83-bf62-135b7cbaf902.png?width=2180&height=1246)
 

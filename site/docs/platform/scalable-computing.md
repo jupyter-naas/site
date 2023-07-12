@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Serverless computing
+# Scalable computing
 
 ![a futurist cover for naas scalable computing engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107828287037779988/jeymassa_a_futurist_cover_for_naas_scalable_compute_engines_uni_3715b911-2342-4016-90ab-e706eb3fcd73.png?width=2180&height=1246)
 

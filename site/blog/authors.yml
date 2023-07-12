@@ -1,24 +1,17 @@
-abi:
-  name: Abi from Naas
-  title: Back Office Bot @ NaasAI
+endi:
+  name: Endilie Yacop Sucipto
+  title: Maintainer of Docusaurus
   url: https://github.com/endiliey
   image_url: https://github.com/endiliey.png
 
-jravenel:
-  name: Jeremy Ravenel
-  title: CEO @ NaasAI
-  url: https://www.linkedin.com/in/jeremyravenel/
-  image_url: https://media.licdn.com/dms/image/C5603AQG_Sw9npO7vIg/profile-displayphoto-shrink_800_800/0/1627385878879?e=1694649600&v=beta&t=MXcWe0D6ZO11feSUQo9RYE2fx8QgNe0uMQQyN8VCsDI
+yangshun:
+  name: Yangshun Tay
+  title: Front End Engineer @ Facebook
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
 
-mjublou:
-  name: Maxime Jublou
-  title: CTO @ NaasAI
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-
-
-fravenel:
-  name: Florent Ravenel
-  title: COO @ NaasAI
+slorber:
+  name: Sébastien Lorber
+  title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png

@@ -62,21 +62,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      fontFamily: {
-        sans: ['San Francisco', 'Arial', 'sans-serif']},
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       colorMode: {
         disableSwitch: true,
       },
-      // announcementBar: {
-      //   id: 'support_us',
-       //  content:
-        //   "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Get early access to Naas 2.0</a>, a redesigned Workspace with built-in Google Search and ChatGPT alternative to create your own data & AI products.",
-        // backgroundColor: '#fafbfc',
-        // textColor: '#091E42',
-        // isCloseable: false,
-      // },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          "🚨 This website is under development! <a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Become an Alpha Naas Member</a> and get early access to the platform.",
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       navbar: {
         style: "dark",
         title: "",
@@ -89,89 +87,22 @@ const config = {
         items: [
           {
             type: "dropdown",
-            label: "Platform",
+            label: "How It Works",
             position: "left",
             items: [
               {
                 type: "doc",
-                label: "Overview",
+                label: "Get Started",
                 docId: "get-started/introduction",
               },
               {
                 type: "doc",
-                label: "Data & AI Templates Search",
-                docId: "platform/search-catalog-template-library",
+                label: "Ecosystem",
+                docId: "ecosystem/jobs/scheduler",
               },
               {
                 type: "doc",
-                label: "Universal Chat Interface",
-                docId: "platform/aI-powered-chat",
-              },
-              {
-                type: "doc",
-                label: "Development Lab",
-                docId: "platform/dev-environment",
-              },
-              {
-                type: "doc",
-                label: "Workflow Automation",
-                docId: "platform/workflow-automation",
-              },
-              {
-                type: "doc",
-                label: "Analytics & Dashboarding",
-                docId: "platform/analytics-dashboard-deployment",
-              },
-              {
-                type: "doc",
-                label: "Collaboration & Versionning",
-                docId: "platform/collaboration-versionning",
-              },
-              {
-                type: "doc",
-                label: "Serverless computing",
-                docId: "platform/scalable-computing",
-              },
-              {
-                type: "doc",
-                label: "Security Suite",
-                docId: "platform/security-suite",
-              },
-              {
-                type: "doc",
-                label: "Admin Dashboard",
-                docId: "platform/admin-dashboard",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Framework",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Overview",
-                docId: "get-started/introduction",
-              },
-              {
-                type: "doc",
-                label: "Jobs",
-                docId: "platform/search-catalog-template-library",
-              },
-              {
-                type: "doc",
-                label: "Drivers",
-                docId: "platform/search-catalog-template-library",
-              },
-              {
-                type: "doc",
-                label: "Templates",
-                docId: "platform/search-catalog-template-library",
-              },
-              {
-                type: "doc",
-                label: "Data & AI Products Delivery",
+                label: "Platform",
                 docId: "platform/search-catalog-template-library",
               },
             ],
@@ -183,7 +114,7 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Overview",
+                label: "Engines & Plugins",
                 docId: "solutions/sales-engine",
               },
               {
@@ -225,7 +156,7 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Community",
+            label: "Resources & Support",
             position: "left",
             items: [
               {
@@ -234,16 +165,28 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Contribute",
+                label: "Naas University",
                 docId: "solutions/operations-engine",
               },
               {
-                label: "Guides & Tutorials",
-                href: "https://www.youtube.com/c/naas-ai",
+                type: "doc",
+                label: "Open Source Community",
+                docId: "solutions/operations-engine",
               },
               {
+                type: "doc",
+                label: "Customer Stories",
+                docId: "solutions/operations-engine",
+              },
+              {
+                type: "doc",
                 label: "Join our Slack",
-                href: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-dXXkigAdEJYc~LPdQIEaLA",
+                docId: "solutions/operations-engine",
+              },
+              {
+                type: "doc",
+                label: "Contact Support",
+                docId: "solutions/operations-engine",
               },
             ],
           },
@@ -253,19 +196,14 @@ const config = {
             position: "left",
           },
           {
-            href: "https://calendly.com/jeremyravenel",
+            href: "https://workspace.naas.ai/",
             position: "right",
-            label: `Request a demo`,
-          },
-          {
-            href: "https://workspace.naas.ai/auth/signin",
-            position: "right",
-            label: `Login`,
+            label: `Search`,
           },
           {
             type: "html",
             position: "right",
-            value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign up</button><a>`,
+            value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
           },
         ],
       },
