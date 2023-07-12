@@ -17,13 +17,18 @@ function HomepageHeader() {
         <p className={styles.tagline}>{siteConfig.tagline}</p>
         <div className={styles.buttonContainer}>
           <Link
-            className={styles.buttons}
-            to="/docs/get-started/introduction">
+            className={styles.cta}
+            href="https://workspace.naas.ai/">
             Get Started
+          </Link>
+          <Link
+            className={styles.businesscta}
+            href="https://form.typeform.com/to/GjbalQ7R">
+            Submit business interest
           </Link>
 
         </div>
-        <div className={styles.siteInfo}>Start with 100 free credits/month</div>
+        <div className={styles.siteInfo}>Naas.ai is currently in open alpha and usage of the platform may be limited for unpaid users. <br></br>Start with 100 free credits/month and become a sponsor to add more.</div>
         {/* </div> */}
       </div>
     </div>
@@ -35,52 +40,65 @@ function HomeCommunity() {
   return <>
     <div className={styles.community}>
       <div className={styles.communityContainer}>
-        <div className={styles.titleWrapper}>
-          <h2>Join the community</h2>
-          <p>that makes data & AI product building easy.</p>
+        <div className={styles.half}>
+          <div className={styles.imageContainer}>
+            <div className={styles.relative}>
+              <svg viewBox="0 0 940 623" xmlns="http://www.w3.org/2000/svg" className="pdxBrowser">
+                <g fill="none" fillRule="evenodd"><rect fill="#FFF" width="200" height="auto" rx="9"></rect>
+                  <path d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z" fill="#DFE1E6"></path>
+                  <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+                  <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+                  <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+                </g></svg>
+              <div className={clsx(styles.absolute, styles.jupyterImage)}>
+                <img src='https://user-images.githubusercontent.com/21052349/247088121-e2fb6b9e-ebb6-4ef1-91d4-893447add590.gif' alt='jupyter' />
+              </div>
+            </div>
+          </div>
         </div>
-
+        <div className={styles.titleWrapper}>
+          <h2>A new way to build data & AI experiences</h2>
+          <p>Explore, communicate, and build efficiently with Naas.</p>
+        </div>
         <div className={styles.grid}>
           <div className={styles.gridItem}>
             <div className={styles.iconContainer} >
-              <svg className={styles.icon} xmlns="http://www.w3.org/2000/svg" fill="#fff" height="32" width="32"
-                viewBox="0 0 448 512">
-                <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
-              </svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.25 10.5C18.25 14.7802 14.7802 18.25 10.5 18.25C6.21979 18.25 2.75 14.7802 2.75 10.5C2.75 6.21979 6.21979 2.75 10.5 2.75C14.7802 2.75 18.25 6.21979 18.25 10.5ZM10.5 19.75C15.6086 19.75 19.75 15.6086 19.75 10.5C19.75 5.39137 15.6086 1.25 10.5 1.25C5.39137 1.25 1.25 5.39137 1.25 10.5C1.25 15.6086 5.39137 19.75 10.5 19.75ZM21.4217 21.4217C20.6506 22.1928 19.4004 22.1928 18.6293 21.4217L16.7563 19.5488C17.8465 18.7936 18.7936 17.8465 19.5488 16.7563L21.4217 18.6292C22.1928 19.4003 22.1928 20.6506 21.4217 21.4217Z" fill="white"/>
+            </svg>
             </div>
             <h3 className="gridItem__title color-1 weight-text-m">
-              <strong>500+ templates</strong>
+              <strong>Naas Search</strong>
             </h3>
             <div className="gridItem__description">
-              <p>to make your life easy</p>
+              <p>Hard to move fast if you keep reinventing the wheel, harnest the power of open source data & AI templates.</p>
             </div>
           </div>
           <div className={styles.gridItem}>
             <div className={styles.iconContainer} >
-              <svg className={styles.icon} xmlns="http://www.w3.org/2000/svg" fill="#fff" height="32" width="32" viewBox="0 0 576 512">
-                <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                </path>
-              </svg>
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.2666 4C18.3287 4 20 5.67135 20 7.73336L20 14.1335C20 16.1955 18.3286 17.8668 16.2666 17.8668H7.63987L4.84724 19.8981C4.68458 20.0161 4.46991 20.0328 4.29124 19.9421C4.11258 19.8508 3.99991 19.6674 3.99991 19.4668V7.73336C3.99991 5.67135 5.67126 4 7.73326 4H16.2666Z" fill="white"/>
+            </svg>
             </div>
             <h3 className="gridItem__title color-1 weight-text-m">
-              <strong>2,000+ stars</strong>
+              <strong>MyChatGPT</strong>
             </h3>
             <div className="gridItem__description">
-              <p>on Github</p>
+              <p>Simple. Powerful. Beautiful. Communicate more efficiently with next generation AI Language models.</p>
             </div>
           </div>
           <div className={styles.gridItem}>
             <div className={styles.iconContainer} >
-              <svg className={styles.icon} xmlns="http://www.w3.org/2000/svg" fill="#fff" height="32" width="32" viewBox="0 0 640 512">
-                <path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
-                </path>
-              </svg>
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.0035 11.0654H10.0252L6.78634 16.379C6.38897 17.0039 6.64426 17.5722 6.75748 17.7998C6.87071 18.0273 7.24033 18.5102 7.97961 18.5102H16.0493C16.7885 18.5102 17.157 17.9984 17.2714 17.7998C17.3846 17.5722 17.641 17.0328 17.2425 16.379L14.0035 11.0654Z" fill="white"/>
+              <path d="M19.4316 15.0437L16.0782 9.55906C15.7086 8.93413 15.5099 8.22372 15.5099 7.51332V3.42081H16.2769C16.6743 3.42081 16.9873 3.10778 16.9873 2.71041C16.9873 2.31303 16.6743 2 16.2769 2H7.78101C7.38364 2 7.07061 2.31303 7.07061 2.71041C7.07061 3.10778 7.38364 3.42081 7.78101 3.42081H8.54802V7.51218C8.54802 8.25146 8.34933 8.96186 7.9797 9.55792L4.5976 15.0437C3.83059 16.2935 3.80172 17.7721 4.51213 19.0509C5.22253 20.3008 6.50126 21.0689 7.95106 21.0689H16.0207C17.4704 21.0689 18.7491 20.3019 19.4596 19.0509C20.1989 17.7711 20.1698 16.2937 19.4316 15.0437ZM18.2661 18.3681C17.811 19.1917 16.9585 19.6757 16.0217 19.6757H7.97958C7.04162 19.6757 6.21801 19.1928 5.73516 18.3681C5.28004 17.5445 5.28004 16.5776 5.79177 15.7818L9.14517 10.2971C9.65689 9.44465 9.94105 8.50669 9.94105 7.51212L9.93994 3.42076H14.0893V7.51212C14.0893 8.50669 14.3734 9.47239 14.8852 10.2971L18.2386 15.7818C18.7214 16.5776 18.7212 17.5444 18.2661 18.3681Z" fill="white"/>
+            </svg>
             </div>
             <h3 className="gridItem__title color-1 weight-text-m">
-              <strong>5,000+ accounts</strong>
+              <strong>Naas Lab</strong>
             </h3>
             <div className="gridItem__description">
-              <p>in 75 countries</p>
+              <p>Build and manage any type of data & AI project more efficiently. No separated, clunky systems needed.</p>
             </div>
           </div>
         </div>
@@ -115,21 +133,10 @@ const supportLogos = [
 
 function HomeTestimonialQuote() {
   return <div className={styles.testimonials}>
-    <div className={styles.testimonial}>
-      <div className={styles.testimonialQuotes}>
-        <img src={"https://www.naas.ai/lib_NtadlqPncrCtPifD/go0yg1eqng1lmk51.jpg?w=100&h=100"} alt='jupyter.jpeg' />
-        <div className={styles.rating}></div>
-        <div className={styles.testimonialQuote}>
-          <p>Naas is using Jupyter, the most popular data science interface, to create a frictionless data product building experience.</p>
-        </div>
-        <Link
-          // className={styles.buttons}
-          to="/docs/get-started/introduction">
-          Read the documentation
-        </Link>
-      </div>
-    </div>
     <div className={styles.hw}>
+    <div className={styles.titleWrapper}>
+          <h2>Supports</h2>
+        </div>
       <div className={styles.support}>
         <p>
           We have already received support from amazing organizations, <br />
@@ -251,8 +258,8 @@ function HomeToolCatalog() {
     <div className={styles.h_w}>
       <div className={styles.catalog}>
         <div className={styles.catalogHead}>
-          <h2>A catalog of templates<br /> on the tools you love to use</h2>
-          <p>made by the Naas contributors, and following the <br />IMO (input, model, output) framework.</p>
+          <h2>Discover Naas magic workflow,<br />start with the Template Catalog</h2>
+          <p>Designed by our contributors, to be customized to your needs, <br ></br>following the battle-tested IMO framework.</p>
         </div>
         <div className={styles.toolLogos}>
           {toolLogos.map((tool, index) => (<div className={styles.toolImageContainer} key={`tools-${index}`}><img src={tool.link} alt={tool.name} /></div>))}
@@ -260,10 +267,7 @@ function HomeToolCatalog() {
       </div>
       <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
         <Link className={styles.btnWhite} to={"https://github.com/jupyter-naas/awesome-notebooks"}>
-          EXPLORE TEMPLATES
-        </Link>
-        <Link className={styles.btnGreen} to={"https://www.naas.ai/free-forever"}>
-          GET STARTED
+          Explore Naas templates →
         </Link>
       </div>
     </div>
@@ -300,7 +304,7 @@ function HomeFeatureImages() {
       <div className={styles.half}>
         <div className={clsx(styles.flex, styles.justifyFlexEnd, styles.itemsCenter, styles.hFull)}>
           <div className={clsx(styles.textContainer, styles.flex, styles.flexCol, styles.itemsCenter)}>
-            <h2>Scale your data products with Naas platform</h2>
+            <h2>Build & scale your data products effortlessly</h2>
             <p>Take your data product from its initial development stage to a fully-fledged, enterprise-level.</p>
           </div>
         </div>
@@ -414,6 +418,20 @@ function HomeFeatureImages() {
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div className={styles.testimonial}>
+      <div className={styles.testimonialQuotes}>
+        <img src={"https://www.naas.ai/lib_NtadlqPncrCtPifD/go0yg1eqng1lmk51.jpg?w=100&h=100"} alt='jupyter.jpeg' />
+        <div className={styles.rating}></div>
+        <div className={styles.testimonialQuote}>
+          <p>Naas is using Jupyter, the most popular data science interface, to create a frictionless data product building experience.</p>
+        </div>
+        <Link
+          // className={styles.buttons}
+          to="/docs/get-started/introduction">
+          Read the documentation
+        </Link>
       </div>
     </div>
     <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>

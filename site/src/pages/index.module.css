@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
 }
 
 
@@ -205,6 +205,7 @@ p {
   font-weight: 500;
   padding: 0.7em 0.8em;
   margin: 5px;
+  border-radius: 10px;
 }
 
 .btnGreen {
@@ -216,6 +217,7 @@ p {
   font-weight: 500;
   padding: 0.7em 0.8em;
   margin: 5px;
+  border-radius: 10px;
 }
 
 .btnGreen:hover {
@@ -232,7 +234,7 @@ p {
   margin: 40px 0px;
 }
 
-.buttons {
+.cta {
   color: rgb(0, 0, 0);
   background: rgb(71, 221, 130);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .171);
@@ -250,13 +252,38 @@ p {
   transition: all 0.2s ease-in-out;
 }
 
-.buttons:hover {
+.cta:hover {
   color: rgb(255, 255, 255);
   background: rgb(71, 221, 130);
   box-shadow: 0px 4px 10px 0px rgba(50, 50, 93, .226), 0px 1px 3px 0px rgba(0, 0, 0, .08);
   text-decoration: none; /* Add this line */
 }
 
+.businesscta {
+  color: rgb(0, 0, 0);
+  background: white;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .171);
+  margin: 5px;
+  font-size: 1.2em;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 10px;
+  line-height: 1;
+  border: none;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.businesscta:hover {
+  color: rgb(255, 255, 255);
+  background: black;
+  font-weight: 500;
+  box-shadow: 0px 4px 10px 0px rgba(50, 50, 93, .226), 0px 1px 3px 0px rgba(0, 0, 0, .08);
+  text-decoration: none; /* Add this line */
+}
 
 .siteInfo {
   display: inline;
@@ -413,7 +440,6 @@ p {
   justify-content: space-between;
   align-items: center;
   margin: 0 -20px;
-  width: 100%;
 }
 
 .bg-light {
