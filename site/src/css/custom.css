@@ -16,6 +16,11 @@
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #181A1C;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
+=======
+  --heading-font: "Segoe UI", Helvetica, Arial, sans-serif;
+  --body-font: "Roboto", sans-serif;
+>>>>>>> 04c772b8deceb1d789eebe58bd1608c7189c3afe
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -47,7 +52,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font) !important;
-  font-weight: 500 !important;
+  font-weight: 700;
 }
 
 .navbar {
@@ -61,6 +66,26 @@ h6 {
 .dropdown__link--active:hover {
   background-color: transparent;
   color: #000;
+}
+
+/* Code configuration */
+code {
+  color: #EB5757;
+  border-width: 0px;
+  padding: 3px 8px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+[data-theme='dark'] code {
+  background-color: #111;
+}
+.theme-code-block {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.9em;
+}
+.theme-code-block .token {
+  font-family: "IBM Plex Mono", monospace;
 }
 
 button {
