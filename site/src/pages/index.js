@@ -567,7 +567,6 @@ function HomeFeatureImages() {
         </div>
       </div>
     </div>
-  </div>
 }
 
 function HomeFooter() {
