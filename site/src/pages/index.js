@@ -20,6 +20,7 @@ export default function Home() {
         <HomeFeatures />
         <HomeTechFeatures />
         <HomeTestimonials />
+        <HomeSolutions />
         <HomeGitHub />
         {/* <HomeFooter /> */}
         {/* <HomepageFeatures /> */}
@@ -37,17 +38,16 @@ function HomepageHeader() {
         <h1 className={styles.title}>{siteConfig.title}</h1>
         <p className={styles.tagline}>{siteConfig.tagline}</p>
         <div className={styles.buttonContainer}>
-          <Link
+          <a
             className={styles.cta}
             href="https://workspace.naas.ai/">
             Get Started
-          </Link>
+          </a>
           <Link
             className={styles.businesscta}
             href="https://form.typeform.com/to/GjbalQ7R">
             Submit business interest
           </Link>
-
         </div>
         <div className={styles.siteInfo}>Naas.ai is currently in open alpha and usage of the platform may be limited for unpaid users. <br></br>Start with 100 free credits/month and become a sponsor to add more.</div>
         {/* </div> */}
@@ -171,128 +171,173 @@ function HomeSupport() {
   </div>
 }
 
-const toolLogos = [
+const toolImages = [
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/k4n2vn7rvd9zb4iq.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/yb7hkkgr0nt76uzf.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/n7nbxh4i6er562d9.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/of5kikai6h6ngxyq.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/noqby55davij93ru.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/glkbx5cooudq8ysi.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/sfxdhw7pl0b8fxf7.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/s8v0zvy7b9fyi4pt.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/v4tt1le5rljom0cf.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/pgeepir3hi6z1a3e.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/abhk3j9xx2pnxca0.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/7g5te5dwu4qoq9wr.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/qqmnlxmczk7wxcck.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/gmm9cghwdvosuwpb.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/8vp4gwoyn8vj8ut4.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/bfhg82o7vpzg560m.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/4gk07asmcwyfunzj.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/qbuop9ih.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/0wmblhco4758ga3z.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/e21e2croxgz2zjs2.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/bmp810teq595g9ju.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/gxan7c8n.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/z48ixele4ifaur3a.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/ed7wnaabbup9pzgo.jpg?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/kwi15ykx1z81m6uu.png?w=100&h=80",
-    name: "logo"
+    name: "LinkedIn",
+    href: "https://workspace.naas.ai/search?q=LinkedIn"
   },
 ]
 
 function HomeToolCatalog() {
-  return <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter, styles.bgLight)}>
-    <div className={styles.h_w}>
-      <div className={styles.catalog}>
-        <div className={styles.catalogHead}> 
-          <h2>Discover Naas Lean Data Framework<br />Start with the Template Catalog</h2>
-          <p>Powerful building blocks built and maitained by our community,<br></br> easy to customize to any needs.</p>
+  return (
+    <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter, styles.bgLight)}>
+      <div className={styles.h_w}>
+        <div className={styles.catalog}>
+          <div className={styles.catalogHead}>
+            <h2>
+              Discover Naas Lean Data Framework<br />
+              Start with the Template Catalog
+            </h2>
+            <p>
+              Powerful building blocks built and maintained by our community,
+              <br />
+              easy to customize to any needs.
+            </p>
+          </div>
+          <div className={styles.toolLogos}>
+            {toolImages.map((tool, index) => (
+              <div className={styles.toolImageContainer} key={`tools-${index}`}>
+                <a href={tool.href} target="_blank" rel="noopener noreferrer">
+                  <img src={tool.link} alt={tool.name} />
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className={styles.toolLogos}>
-          {toolLogos.map((tool, index) => (<div className={styles.toolImageContainer} key={`tools-${index}`}><img src={tool.link} alt={tool.name} /></div>))}
+        <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
+          <div className={styles.buttonContainer}>
+            <a className={styles.cta} href="https://workspace.naas.ai/">
+              Get Started
+            </a>
+            <Link className={styles.businesscta} to="https://form.typeform.com/to/GjbalQ7R">
+              Submit business interest
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
-        <Link className={styles.btnWhite} to={"https://github.com/jupyter-naas/awesome-notebooks"}>
-          Explore Naas templates →
-        </Link>
       </div>
     </div>
-  </div>
+  );
 }
 
 function HomeFeatures() {
@@ -401,7 +446,7 @@ function HomeTechFeatures() {
       <div className={clsx(styles.catalog, styles.h_w)}>
         <div className={styles.catalogHead}>
           <h2>Robust, scalable & <br />secured infrastructure</h2>
-          <p>Naas handles deployment and hosting for you.</p>
+          <p>Naas handles deployment and hosting for you. For on premise installation, better to contact us.</p>
         </div>
         <div className={styles.gallery}>
           <div className={styles.galleryItem}>
@@ -449,37 +494,51 @@ function HomeTechFeatures() {
     <div className={styles.testimonial}>
       <div className={styles.testimonialQuotes}>
         <img src={"https://www.naas.ai/lib_NtadlqPncrCtPifD/go0yg1eqng1lmk51.jpg?w=100&h=100"} alt='jupyter.jpeg' />
-        <div className={styles.rating}></div>
         <div className={styles.testimonialQuote}>
-          <p>Naas is using Jupyter Notebooks, the most popular data science interface, to create a frictionless data product building experience.</p>
+          <p>Naas is leveraging Jupyter Notebooks and Jupyter Lab, the most popular medium and interface in data science.</p>
         </div>
-        <Link
-          // className={styles.buttons}
-          to="/docs/get-started/introduction">
-          Read the documentation
-        </Link>
+        <div className={styles.buttonContainer}>
+          <a
+            className={styles.cta}
+            href="https://workspace.naas.ai/">
+            Get Started
+          </a>
+          <Link
+            className={styles.businesscta}
+            href="https://form.typeform.com/to/GjbalQ7R">
+            Submit business interest
+          </Link>
+        </div>
+      </div>
+    </div>
+
+
+    <div className={clsx(styles.titleWrapper, styles.flex, styles.justifyCenter, styles.bgDark)}>
+      <div className={clsx(styles.content, styles.ptXL)}>
+        <h2>Finally, all data jobs in one place</h2>
+        <p>Data Consumers navigate across search, chat, and dashboards to manage their business. Their feedback, whether they view content or report issues, guides Producers in refining and creating data and AI experiences.</p>
+        <div className={styles.FlowContainer}>
+          <img src='./img/how-it-works.png' alt='how it works' />
+        </div>
       </div>
     </div>
     <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
       <div className={clsx(styles.content, styles.ptXL)}>
-        <h2>Keep your data secure and under your control</h2>
-        <p>Our platform is built on top of the most secure APIs and data platforms, ensuring that your data stays with you at all times.</p>
-      </div>
-    </div>
-    <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
-      <div className={clsx(styles.content, styles.ptXL)}>
-        <h2>"Naas templates are the next generation of documents to create impact with data"</h2>
-        <p>Just change a few parameters <br />in the templates and you have the power.</p>
+      <div className={styles.FlowContainer}>
+          <img src='./img/toolsout.png' alt='tools out' />
+        </div>
+        <h2>Consolidate tools. Scale your data operations,<br></br> not your costs.</h2>
+        <p>Our customers got rid of nearly a dozen different tools <br /> because of what Naas does for them.</p>
       </div>
     </div>
   </div>
 }
 
 function HomeTestimonials() {
-  return   <div><div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
+  return   <div><div className={clsx(styles.titleWrapper, styles.flex, styles.justifyCenter, styles.bgDark)}>
       <div className={clsx(styles.content, styles.ptXL)}>
         <h2>Why they love Naas</h2>
-        <p>Follow us on Twitter: <Link className={styles.link} to={"https://twitter.com/JupyterNaas"}>@JupyterNaas</Link> for updates.</p>
+        <p>Naas adapts to your needs. It is as minimal <br></br>or as powerful as you need it to be.</p>
       </div>
     </div>
     <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
@@ -576,26 +635,123 @@ function HomeTestimonials() {
       </div>
 }
 
-function HomeGitHub() {
-    return <div className={clsx(styles.scalling, styles.flex, styles.justifyCenter, styles.bgLight)}>
-      <div className={styles.h_w_lg}>
-        <div className={clsx(styles.flex, styles.flexWrap, styles.justifyBetween, styles.itemsCenter)}>
-          <div className={styles.mobCenter}>
-            <h2>Join our open source community</h2>
-            <p> Unleash your creativity. become a template & data product creator.</p>
+function HomeSolutions() {
+  return <div>
+    <div className={clsx(styles.flex, styles.justifyCenter)}>
+      <div className={clsx(styles.catalog, styles.h_w)}>
+      <div className={styles.catalogHead}>
+        <h2>Endless Possibilities</h2>
+        <p>Discover the power of Naas data engines and plugins <br></br>to address your critical business needs.</p>
+      </div>
+        <div className={styles.gallery}>
+          <div className={styles.galleryItem}>
+            <div>
+              <div className={styles.media}>
+                <img src="https://media.discordapp.net/attachments/1084579666175729694/1107794337745604670/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_fbf44c7c-1a4a-4cf1-9edf-465dbce0911b.png?width=2180&height=1246" alt="amazon" />
+              </div>
+              <div className={styles.galleryMeta}>
+                <h3>Content Creation</h3>
+                <div className={styles.galleryDescription}>
+                  <p>Increase Reach & Engagement</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className={styles.mobCenter}>
-          <Link to={'https://github.com/jupyter-naas/'} className={styles.btnWhite}>
-            Join GitHub Discussions 
-            <svg width="1em" viewBox="0 0 15 12" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9.6 7H1a1 1 0 1 1 0-2h8.6L7 2.4A1 1 0 0 1 8.4 1l4.3 4.2c.2.3.3.5.3.8 0 .3-.1.5-.3.7L8.4 11A1 1 0 1 1 7 9.5L9.6 7z" fill="currentColor">
-              </path>
-            </svg>
-          </Link>
+          <div className={styles.galleryItem}>
+            <div>
+              <div className={styles.media}>
+                <img src="https://media.discordapp.net/attachments/1084579666175729694/1107795724667728012/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_82fc3ef4-d86a-4d2b-bc5e-7126b97e2e45.png?width=2180&height=1246" alt="growth" />
+              </div>
+              <div className={styles.galleryMeta}>
+                <h3>Growth Marketing</h3>
+                <div className={styles.galleryDescription}>
+                  <p>Generate Qualified Contacts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.galleryItem}>
+            <div>
+              <div className={styles.media}>
+                <img src="https://media.discordapp.net/attachments/1084579666175729694/1107797414041108600/jeymassa_a_futurist_cover_for_naas_sales_engine_universal_data__6e3cf29d-93bf-4211-b768-425f5cb5e7ad.png?width=2180&height=1246" alt="sales" />
+              </div>
+              <div className={styles.galleryMeta}>
+                <h3>Sales Conversion</h3>
+                <div className={styles.galleryDescription}>
+                  <p>Transform Interest in Revenue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.gallery}>
+          <div className={styles.galleryItem}>
+            <div>
+              <div className={styles.media}>
+                <img src="https://media.discordapp.net/attachments/1084579666175729694/1107804138768715857/jeymassa_a_futurist_cover_for_naas_operations_engine_universal__fee85024-5b7b-4ac6-894b-6ac813d985f2.png?width=2180&height=1246" alt="ops" />
+              </div>
+              <div className={styles.galleryMeta}>
+                <h3>Operations Efficiency</h3>
+                <div className={styles.galleryDescription}>
+                  <p>Create a Single Source of Truth</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.galleryItem}>
+            <div>
+              <div className={styles.media}>
+                <img src="https://media.discordapp.net/attachments/1084579666175729694/1107805121603190874/jeymassa_a_futurist_cover_for_naas_finance_engine_universal_dat_1c5b881f-bdda-462a-b923-c80e15531923.png?width=2180&height=1246" alt="finance" />
+              </div>
+              <div className={styles.galleryMeta}>
+                <h3>Finance Management</h3>
+                <div className={styles.galleryDescription}>
+                  <p>Get Financial Insights in Real-Time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.galleryItem}>
+            <div>
+              <div className={styles.media}>
+                <img src="https://media.discordapp.net/attachments/1084579666175729694/1107807756645302373/jeymassa_a_futurist_cover_for_naas_open_data_engine_universal_d_7da347fe-e221-4275-ae35-52df52ecad21.png?width=2180&height=1246" alt="opendata" />
+              </div>
+              <div className={styles.galleryMeta}>
+                <h3>Open Data Intelligence</h3>
+                <div className={styles.galleryDescription}>
+                  <p>Better Understand the World Around</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+}
+
+function HomeGitHub() {
+  return (
+      <div className={clsx(styles.scalling, styles.flex, styles.justifyCenter, styles.bgLight)}>
+          <div className={styles.h_w_lg} style={{ display: 'flex' }}>
+              <div className={clsx(styles.textContainer, styles.itemsCenter, styles.hFull)} style={{ width: '60%' }}>
+                  <div className={styles.mobCenter}>
+                      <h2>🌍 Join our open source makers movement</h2>
+                      <p>Our community excels in producing outstanding content, crafting awesome templates and data products, and providing premium support to our customers around the globe.</p>
+                  </div>
+              </div>
+              <div className={styles.mobCenter} style={{ width: '40%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  <div className={styles.buttonContainer}>
+                  <Link 
+                  className={styles.cta} 
+                  href="https://github.com/orgs/jupyter-naas/discussions">
+                          Join GitHub Discussions
+                  </Link>
+                  </div>
+              </div>
+          </div>
+      </div>
+  )
 }
 
 function HomeFooter() {

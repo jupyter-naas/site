@@ -132,3 +132,12 @@ table th, table td {
   text-align: left;
   color: white;
 }
+
+.avatar__photo {
+  border-radius: 5%;
+  margin-bottom: 20px;
+  display: block;
+  height: var(--ifm-avatar-photo-size);
+  overflow: hidden;
+  width: var(--ifm-avatar-photo-size);
+}
