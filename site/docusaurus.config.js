@@ -157,22 +157,22 @@ const config = {
               {
                 type: "doc",
                 label: "Jobs",
-                docId: "platform/search-catalog-template-library",
+                docId: "framework/jobs/scheduler",
               },
               {
                 type: "doc",
                 label: "Drivers",
-                docId: "platform/search-catalog-template-library",
+                docId: "framework/drivers/airtable",
               },
               {
                 type: "doc",
                 label: "Templates",
-                docId: "platform/search-catalog-template-library",
+                docId: "framework/templates",
               },
               {
                 type: "doc",
-                label: "Data & AI Products Delivery",
-                docId: "platform/search-catalog-template-library",
+                label: "Data Products Delivery",
+                docId: "framework/delivery",
               },
             ],
           },
@@ -255,7 +255,7 @@ const config = {
           {
             href: "https://calendly.com/jeremyravenel",
             position: "right",
-            label: `Request a demo`,
+            label: `Book a meeting`,
           },
           {
             href: "https://workspace.naas.ai/chat",
