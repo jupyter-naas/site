@@ -229,7 +229,7 @@ const config = {
             position: "left",
             items: [
               {
-                to: "/blog",
+                href: "/blog/travis-and-naas",
                 label: "Blog",
               },
               {
@@ -258,9 +258,9 @@ const config = {
             label: `Request a demo`,
           },
           {
-            href: "https://workspace.naas.ai/auth/signin",
+            href: "https://workspace.naas.ai/chat",
             position: "right",
-            label: `Login`,
+            label: `MyChatGPT`,
           },
           {
             type: "html",
@@ -273,7 +273,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Ecosystem',
+            title: 'Universe',
             items: [
               {
                 label: 'Overview',

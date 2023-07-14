@@ -191,8 +191,13 @@ p {
   position: absolute;
 }
 
-.textCenter {
+.h2textCenter {
   text-align: center;
+  font-size: 38.4px;
+}
+.ptextCenter {
+  text-align: center;
+  font-size: 18.4px;
 }
 
 .btnWhite {
@@ -205,7 +210,6 @@ p {
   font-weight: 500;
   padding: 0.7em 0.8em;
   margin: 5px;
-  border-radius: 10px;
 }
 
 .btnGreen {
@@ -247,7 +251,7 @@ p {
   border-radius: 10px;
   line-height: 1;
   border: none;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
@@ -518,10 +522,10 @@ p {
 }
 
 .scalling {
-  padding: 110px 0px 40px 0px;
+  padding: 110px 0px 110px 0px;
 }
 .robust {
-  padding: 40px 0px 110px 0px;
+  padding: 40px 0px 0px 0px;
 }
 
 .imageContainer {
@@ -736,7 +740,6 @@ p {
 
 .numericRating {
   color: inherit;
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.1em;
 }
 
@@ -778,7 +781,6 @@ p {
 .footer li {
   margin-right: 25px;
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
   padding-bottom: 6px;
 }
 
@@ -829,7 +831,7 @@ p {
     height: 0;
     left: 2px;
     position: absolute;
-    top: 1.5px;
+    top: -0.5px;
     transition: all .15s ease-out;
     width: 0;
 }
@@ -856,7 +858,6 @@ p {
   text-align: center; 
   font-weight: 500;
   color: rgba(255,255,255,1);
-  font-family: 'Montserrat', sans-serif;
 }
 
 .pricingContainer .gridItem p {
@@ -864,7 +865,6 @@ p {
   height: 50px;
   margin: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .pricingTier {
@@ -939,10 +939,6 @@ p {
   .pricingContainer p {
     font-size: 1.2em;
   }
-}
-
-table {
-  font-family: 'Montserrat', sans-serif;
 }
 
 table tr {

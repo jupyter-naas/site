@@ -111,6 +111,10 @@ table th, table td {
 }
 
 /* Footer configuration */
+.footer {
+  padding: 110px 0px 110px 0px;
+}
+
 .footer__title {
   color: white;
 }
@@ -125,5 +129,6 @@ table th, table td {
 
 .footer__copyright {
   padding-top: 40px;
+  text-align: left;
   color: white;
 }

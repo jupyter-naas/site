@@ -4,8 +4,29 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import styles from './index.module.css';
+
+export default function Home() {
+  const { siteConfig } = useDocusaurusContext();
+  return (
+    <Layout
+      title={`Naas - ${siteConfig.title}`}
+      description="A new way to build data & AI experiences">
+      <HomepageHeader />
+      <main>
+        <HomeTLDR />
+        <HomeSupport />
+        <HomeToolCatalog />
+        <HomeFeatures />
+        <HomeTechFeatures />
+        <HomeTestimonials />
+        <HomeGitHub />
+        {/* <HomeFooter /> */}
+        {/* <HomepageFeatures /> */}
+      </main>
+    </Layout>
+  );
+}
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -36,7 +57,7 @@ function HomepageHeader() {
 }
 
 
-function HomeCommunity() {
+function HomeTLDR() {
   return <>
     <div className={styles.community}>
       <div className={styles.communityContainer}>
@@ -131,7 +152,7 @@ const supportLogos = [
   },
 ]
 
-function HomeTestimonialQuote() {
+function HomeSupport() {
   return <div className={styles.testimonials}>
     <div className={styles.hw}>
     <div className={styles.titleWrapper}>
@@ -257,9 +278,9 @@ function HomeToolCatalog() {
   return <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter, styles.bgLight)}>
     <div className={styles.h_w}>
       <div className={styles.catalog}>
-        <div className={styles.catalogHead}>
-          <h2>Discover Naas magic workflow,<br />start with the Template Catalog</h2>
-          <p>Designed by our contributors, to be customized to your needs, <br ></br>following the battle-tested IMO framework.</p>
+        <div className={styles.catalogHead}> 
+          <h2>Discover Naas Lean Data Framework<br />Start with the Template Catalog</h2>
+          <p>Powerful building blocks built and maitained by our community,<br></br> easy to customize to any needs.</p>
         </div>
         <div className={styles.toolLogos}>
           {toolLogos.map((tool, index) => (<div className={styles.toolImageContainer} key={`tools-${index}`}><img src={tool.link} alt={tool.name} /></div>))}
@@ -274,7 +295,7 @@ function HomeToolCatalog() {
   </div>
 }
 
-function HomeFeatureImages() {
+function HomeFeatures() {
   return <div>
     <div className={clsx(styles.flex, styles.flexWrap, styles.bgLight, styles.featureImage)}>
       <div className={styles.half}>
@@ -311,7 +332,7 @@ function HomeFeatureImages() {
       </div>
       <div className={styles.half}>
         <div className={styles.imageContainer}>
-          <img src='https://www.naas.ai/lib_sluGpRGQOLtkyEpz/el8e4upmz1cy1hne.png?w=1200&h=900&fit=max' alt='features' />
+          <img src='./img/naas-jobs.png' alt='features' />
         </div>
 
       </div>
@@ -371,11 +392,16 @@ function HomeFeatureImages() {
         </div>
       </div>
     </div>
-    <div className={clsx(styles.bgLightGrey, styles.flex, styles.justifyCenter, styles.robust)}>
-      <div className={styles.h_w}>
-        <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
-          <h2 className={styles.textCenter}>Robust, scalable & <br />secured infrastructure</h2>
-          <p className={styles.textCenter}>Naas handles deployment and hosting for you.</p>
+    </div>
+}
+
+function HomeTechFeatures() {
+  return <div>
+    <div className={clsx(styles.flex, styles.justifyCenter)}>
+      <div className={clsx(styles.catalog, styles.h_w)}>
+        <div className={styles.catalogHead}>
+          <h2>Robust, scalable & <br />secured infrastructure</h2>
+          <p>Naas handles deployment and hosting for you.</p>
         </div>
         <div className={styles.gallery}>
           <div className={styles.galleryItem}>
@@ -425,7 +451,7 @@ function HomeFeatureImages() {
         <img src={"https://www.naas.ai/lib_NtadlqPncrCtPifD/go0yg1eqng1lmk51.jpg?w=100&h=100"} alt='jupyter.jpeg' />
         <div className={styles.rating}></div>
         <div className={styles.testimonialQuote}>
-          <p>Naas is using Jupyter, the most popular data science interface, to create a frictionless data product building experience.</p>
+          <p>Naas is using Jupyter Notebooks, the most popular data science interface, to create a frictionless data product building experience.</p>
         </div>
         <Link
           // className={styles.buttons}
@@ -446,7 +472,11 @@ function HomeFeatureImages() {
         <p>Just change a few parameters <br />in the templates and you have the power.</p>
       </div>
     </div>
-    <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
+  </div>
+}
+
+function HomeTestimonials() {
+  return   <div><div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
       <div className={clsx(styles.content, styles.ptXL)}>
         <h2>Why they love Naas</h2>
         <p>Follow us on Twitter: <Link className={styles.link} to={"https://twitter.com/JupyterNaas"}>@JupyterNaas</Link> for updates.</p>
@@ -455,25 +485,22 @@ function HomeFeatureImages() {
     <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
       <div className={clsx(styles.h_w, styles.flex, styles.flexWrap)}>
         <div className={clsx(styles.testimonialAvatar)}>
-          <img src='https://landen.imgix.net/jtci2pxwjczr/assets/jiloyo81.jpg?w=100&h=100' alt='testimonial' />
+          <img src='./img/travis.png' alt='testimonial' />
           <div className={clsx(styles.rating)} style={{ "--rating": 5, color: '#F6BA10' }}>
             <div className={styles.starRating}>
-
             </div>
-            <div className={styles.numericRating}>5 / 5</div>
           </div>
           <div className={styles.testimonialQuotes}>
             <p>I was using Jupyter Notebooks for exploratory analysis but with Naas I can run them as a safe production environment, pretty awesome!</p>
           </div>
           <span className={styles.testimonialAbout}>
-            Hugo - Data scientist
+            Travis - Data scientist, investor
           </span>
         </div>
         <div className={clsx(styles.testimonialAvatar)}>
           <img src='https://landen.imgix.net/jtci2pxwjczr/assets/nsmdf8zo.jpg?w=100&h=100' alt='testimonial2' />
           <div className={clsx(styles.rating)} style={{ "--rating": 4.5, color: '#F6BA10' }}>
             <div className={styles.starRating}>
-
             </div>
             <div className={styles.numericRating}>4.5 / 5</div>
           </div>
@@ -481,7 +508,7 @@ function HomeFeatureImages() {
             <p>I have the power to run my analysis on schedule and trigger it remotely. Pretty useful compared to Excel. </p>
           </div>
           <span className={styles.testimonialAbout}>
-            Mathilde - Freelance Financial Analyst
+            Bradden - VC fund partner
           </span>
         </div>
         <div className={clsx(styles.testimonialAvatar)}>
@@ -510,7 +537,7 @@ function HomeFeatureImages() {
           <div className={styles.testimonialQuotes}>
             <p>“I start with an idea, build an MVP, send it to customers and understand what’s working or not. Just awesome.</p>
           </div>
-          <span className={styles.testimonialAbout}>
+          <span className={styles.testimonialQuotes}>
             Mark - Data Scientist
           </span>
         </div>
@@ -545,19 +572,21 @@ function HomeFeatureImages() {
           </span>
         </div>
       </div>
-    </div>
-    <div className={clsx(styles.scalling, styles.flex, styles.justifyCenter, styles.bgLight)}>
+      </div>
+      </div>
+}
+
+function HomeGitHub() {
+    return <div className={clsx(styles.scalling, styles.flex, styles.justifyCenter, styles.bgLight)}>
       <div className={styles.h_w_lg}>
         <div className={clsx(styles.flex, styles.flexWrap, styles.justifyBetween, styles.itemsCenter)}>
           <div className={styles.mobCenter}>
-            <div>
-            <h2>Free & Open-source forever.</h2>
-            <p>Discover our community roadmap on GitHub</p>
-            </div>
+            <h2>Join our open source community</h2>
+            <p> Unleash your creativity. become a template & data product creator.</p>
           </div>
           <div className={styles.mobCenter}>
           <Link to={'https://github.com/jupyter-naas/'} className={styles.btnWhite}>
-            GO TO OUR GITHUB
+            Join GitHub Discussions 
             <svg width="1em" viewBox="0 0 15 12" xmlns="http://www.w3.org/2000/svg">
               <path d="M9.6 7H1a1 1 0 1 1 0-2h8.6L7 2.4A1 1 0 0 1 8.4 1l4.3 4.2c.2.3.3.5.3.8 0 .3-.1.5-.3.7L8.4 11A1 1 0 1 1 7 9.5L9.6 7z" fill="currentColor">
               </path>
@@ -644,21 +673,3 @@ function HomeFooter() {
   </div>
 }
 
-export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Naas - ${siteConfig.title}`}
-      description="The Universal Data Platform">
-      <HomepageHeader />
-      <main>
-        <HomeCommunity />
-        <HomeTestimonialQuote />
-        <HomeToolCatalog />
-        <HomeFeatureImages />
-        {/* <HomeFooter /> */}
-        {/* <HomepageFeatures /> */}
-      </main>
-    </Layout>
-  );
-}
