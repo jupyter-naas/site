@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
-# Data Products
+# Data Products Delivery
 
 The concept of data products is essential for organizations to unlock the full potential of their data and derive value from it. This page provides an overview of data products and how they can be effectively implemented using Naas. It draws insights from the Harvard Business Review article titled "A Better Way to Put Your Data to Work" by Veeral Desai, Tim Fountaine, and Kayvaun Rowshankish (July–August 2022).
 

@@ -2,28 +2,26 @@
 sidebar_position: 1
 ---
 
+import {
+  ActiveTeamRow,
+  HonoraryAlumniTeamRow,
+  StudentFellowsTeamRow,
+} from '@site/src/components/TeamProfileCards';
+
 # Content Creation
 
 > Increase Reach & Boost Engagement
+
+:::tip
+
+As we're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+
+:::
 
 The Content Engine is designed to help organizations harness the power of data and AI to create, optimize, and monitor their content across various platforms, resulting in increased reach and audience engagement. By leveraging powerful analytics, AI-driven content generation, and optimization recommendations, businesses can make data-informed decisions to improve their content strategy and drive growth.
 
 ![a futurist cover for naas content engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107794337745604670/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_fbf44c7c-1a4a-4cf1-9edf-465dbce0911b.png?width=2180&height=1246)
 
-
-## Features
-
-### Content Performance Analytics
-
-Track engagement metrics across various platforms to identify high-performing content, understand audience preferences, and optimize your content strategy. Gain insights into key metrics such as views, likes, and shares to continually refine your approach and maximize reach.
-
-### AI-Driven Content Generation
-
-Leverage large language models to generate relevant and engaging content, reducing the time and effort required to create compelling material. By harnessing AI technology, you can ensure that your content is on-trend, appealing, and tailored to your target audience's interests.
-
-### Content Optimization Recommendations
-
-Receive AI-driven recommendations to improve content quality, readability, and SEO, driving increased audience engagement and reach. Use these insights to create a more targeted and effective content strategy that resonates with your audience and boosts your online presence.
 
 ## Benefits
 
@@ -40,9 +38,12 @@ Gain a deeper understanding of your audience's preferences and interests to crea
 Stay ahead of the competition by leveraging cutting-edge AI and analytics tools to optimize your content.
 
 
-## Content Performance Analytics
+## Features
+### Content Performance Analytics
+#### Description
 
-### Dataset
+Track engagement metrics across various platforms to identify high-performing content, understand audience preferences, and optimize your content strategy. Gain insights into key metrics such as views, likes, and shares to continually refine your approach and maximize reach.
+#### Dataset
 
 | SCENARIO | SOURCE | DATE | TIME | TITLE | CONTENT | VIEWS | LIKES | COMMENTS | SHARES | ENGAGEMENT RATE | SOURCE TYPE | CONTENT LENGTH | KEYWORDS | URL | SENTIMENT | MEDIA TYPE |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -52,7 +53,7 @@ Stay ahead of the competition by leveraging cutting-edge AI and analytics tools 
 | FY2023 | Medium | 5/5/2023 | 14:45 | Lessons from FY2023 | In this article, I reflect on... | 1200 | 115 | 30 | 20 | 0.137 | Blog | 55 | #FY2023 | URL | Positive | Text |
 | FY2023 | YouTube | 5/6/2023 | 16:00 | My thoughts on FY2023 | In this video, I share my views... | 3200 | 500 | 150 | 75 | 0.219 | Video | 45 | #FY2023 | URL | Positive | Video |
 
-### Schema
+#### Schema
 
 ```jsx
 {
@@ -138,7 +139,7 @@ Stay ahead of the competition by leveraging cutting-edge AI and analytics tools 
 }
 ```
 
-### Integrations
+#### Integrations
 
 - LinkedIn Profile
 - LinkedIn Company
@@ -153,9 +154,12 @@ Stay ahead of the competition by leveraging cutting-edge AI and analytics tools 
 - Pinterest
 - Custom Blog
 
-## Content Optimization Recommendations
+### Content Optimization Recommendations
 
-### Dataset
+#### Description
+
+Receive AI-driven recommendations to improve content quality, readability, and SEO, driving increased audience engagement and reach. Use these insights to create a more targeted and effective content strategy that resonates with your audience and boosts your online presence.
+#### Dataset
 
 | CONTENT URL | CONTENT TITLE | CONTENT BODY | KEYWORDS | READABILITY SCORE | ENGAGEMENT SCORE | SEO SCORE | RECOMMENDATIONS |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -164,7 +168,7 @@ Stay ahead of the competition by leveraging cutting-edge AI and analytics tools 
 | 3 | Third Title | Yet another piece of content... | #FY2023, #Review | 55 | 0.025 | 80 | "Increase engagement by adding a call to action." |
 | 4 | Fourth Title | More content... | #FY2024, #Forecast | 80 | 0.055 | 70 | "Improve SEO score by adding metadata." |
 
-### Schema
+#### Schema
 
 ```jsx
 {
@@ -207,7 +211,7 @@ Stay ahead of the competition by leveraging cutting-edge AI and analytics tools 
 }
 ```
 
-### Integrations
+#### Integrations
 
 - **Content Management Systems (CMS)** like WordPress or Drupal. The system could pull in content directly from the CMS for analysis.
 - **SEO Tools** like Google Search Console or SEMRush. These could provide additional data for the SEO score and recommendations.
@@ -217,11 +221,13 @@ Stay ahead of the competition by leveraging cutting-edge AI and analytics tools 
 - **Analytics Platforms** like Google Analytics or Mixpanel. These could provide additional data on user engagement with the content.
 - **Keyword Research Tools** like Google Keyword Planner or Moz. These could help in identifying effective keywords for the content.
 
-## AI-Driven Content Generation
+### AI-Driven Content Generation
 
-Leverage large language models to generate relevant and engaging content, reducing the time and effort required to create compelling material
+#### Description
 
-### Dataset
+Leverage large language models to generate relevant and engaging content, reducing the time and effort required to create compelling material. By harnessing AI technology, you can ensure that your content is on-trend, appealing, and tailored to your target audience's interests.
+
+#### Dataset
 
 | REQUEST ID | CONTENT BRIEF | TARGET KEYWORDS | TONE OF VOICE | TARGET AUDIENCE | GENERATED CONTENT OPTION 1 | GENERATED CONTENT OPTION 2 | GENERATED CONTENT OPTION 3 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -230,7 +236,7 @@ Leverage large language models to generate relevant and engaging content, reduci
 | 3 | Draft an email to customers about a service update | #ServiceUpdate | Informative | Customers | "We wanted to let you know about an important update to our service..." | "Important service update: We've made some changes..." | "We're writing to inform you about an update to our service..." |
 | 4 | Write a news article about our sustainability efforts | #Sustainability, #Efforts | Inspiring | General Public | "Our commitment to sustainability is at the heart of our operations..." | "Sustainability isn't just a buzzword for us—it's a core part of our mission..." | "We're excited to share the strides we've made in our sustainability efforts..." |
 
-### Schema
+#### Schema
 
 ```jsx
 {
@@ -273,7 +279,7 @@ Leverage large language models to generate relevant and engaging content, reduci
 }
 ```
 
-### Integrations
+#### Integrations
 
 1. **Content Management Systems (CMS)** like WordPress or Drupal. The system could push generated content directly to the CMS.
 2. **Customer Relationship Management (CRM) systems** like Salesforce or HubSpot. These could provide data on the target audience that might influence content generation.
@@ -286,40 +292,11 @@ Leverage large language models to generate relevant and engaging content, reduci
 
 ## Plugins
 
-### LinkedIn Profile
-
-The Content Engine for LinkedIn Profile is a powerful solution designed to help you analyze and improve your professional presence on LinkedIn. It is part of the Content Performance Analytics category and provides regular updates to a Notion database, a Google Sheet, and sends email notifications with key engagement metrics. With this module, you can monitor your content's performance, identify trends, and optimize your LinkedIn strategy to maximize your reach and impact.
-
-[→  Limited Alpha](https://github.com/jupyter-naas/content-engine-linkedin-profile) 
-
-### LinkedIn Company
-
-The Content Engine for LinkedIn Company is an innovative solution designed to enhance your corporate presence on LinkedIn. It falls under the Content Performance Analytics category, providing regular updates to a Notion database, a Google Sheet, and dispatching email notifications with crucial engagement metrics. This module allows you to monitor your company's content performance, discern trends, and fine-tune your LinkedIn strategy to expand your corporate reach and influence. 
-
-[→ Request Access](https://www.notion.so/Jeremy-s-Notes-e980fc362b29401c967da0aa1e7337a7)
-
-### Twitter Account
-
-The Content Engine for Twitter Account enhances your Twitter strategy by tracking performance and identifying trends. Part of the Content Performance Analytics, it updates a Notion database, a Google Sheet, and sends email notifications with key metrics to optimize your reach and engagement.
-
-[→ Request Access](https://www.notion.so/Jeremy-s-Notes-e980fc362b29401c967da0aa1e7337a7)
-
-### YouTube Channel
-
-Access: [Contact Us](https://www.notion.so/Jeremy-s-Notes-e980fc362b29401c967da0aa1e7337a7)
-
-### Instagram Account
-
-Access: [Contact Us](https://www.notion.so/Jeremy-s-Notes-e980fc362b29401c967da0aa1e7337a7)
-
-### TikTok Account
-
-Access: [Contact Us](https://www.notion.so/Jeremy-s-Notes-e980fc362b29401c967da0aa1e7337a7)
-
+<ActiveTeamRow />
 
 ## How to Contribute
 
-To contribute to the Content Engine, join the community by signing up on the Naas platform, submit your ideas or improvements, and participate in discussions with fellow users. You can also contribute by sharing your success stories and case studies to inspire others.
+To contribute to the Content Engine, join the community by signing up on the Naas platform, submit your ideas or improvements, and participate in GitHub discussions with fellow community members. You can also contribute by sharing your success stories and case studies to inspire others on social platforms.
 
 ## FAQ
 
