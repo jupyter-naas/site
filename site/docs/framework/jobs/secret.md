@@ -1,95 +1,54 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 ---
 
 # Secret
 
-The API Reference provides a comprehensive list of all available Naas API functions, along with their descriptions, usage examples, and parameter details. To access the API Reference, visit the following link: [https://docs.naas.ai/api-reference](https://docs.naas.ai/api-reference)
+Secrets are an important part of Naas, when you need to interact with other services, you need secret, like any other variable the temptation is big to put it straight in your notebook, but this lead to a big security breach since we replicate a lot the notebook, in the versioning system, the output and your ability to share it or send it to git!  
 
-By understanding and utilizing the various components, analytics and reporting tools, and integrations available in Naas v2, you can significantly enhance your data product development process and create sophisticated data products that drive value for your business.
+Use this simple feature instead to have global secure storage share with your sandbox and production.
+Secrets are local to your machine and encoded, providing you security with little effort.
 
-## Scheduler
-The naas.scheduler API allows you to schedule notebooks to run automatically at specified intervals or times.
+## Add or Edit Secret
 
-Example usage:
-```
-import naas
+Add a new secret to your Naas
 
-# Schedule notebook to run every day at 9 AM
-naas.scheduler.add(cron="0 9 * * *")
+```python
+naas.secret.add(name="API_NAME", secret="API_KEY")
 ```
 
-## Assets
-The naas.assets API enables you to manage assets such as images, videos, and documents used in your data products.
+To edit a secret, use the function above with the same name and change the secret parameters.
 
-Example usage:
+## Get your Secret
 
-```
-import naas
+Returns your secret store in Naas
 
-# Add an image asset
-image_path = "path/to/your/image.png"
-naas.assets.add(image_path, "image.png")
+```python
+naas.secret.get(name="MY_API_KEY")
 ```
 
-## Notifications
-The naas.notifications API allows you to send notifications to your team members via email, Slack, or other supported channels.
+## List all Secrets
 
-Example usage:
+You don't remember your secret?
 
-```
-import naas
-
-# Send an email notification
-subject = "Daily Report"
-body = "Here is the daily report..."
-to = "email@example.com"
-naas.notifications.email(to, subject, body)
+```python
+naas.secret.list()
 ```
 
-## Dependencies
-The naas.dependencies API helps you manage the dependencies of your notebooks, ensuring that all required packages and libraries are installed when your notebook runs.
+## Delete
 
-Example usage:
+You can remove any scheduler capability like that, it takes optionally a path.
 
-```
-import naas
-
-# Add a package dependency
-naas.dependencies.add("pandas")
+```python
+naas.secret.delete()
 ```
 
-## Drives
-The naas.drives API allows you to connect to various file storage services, such as Google Drive, Dropbox, and Microsoft OneDrive, to access and manage files and folders.
+## Debug
 
-Example usage:
+Need to understand why something goes bad?
 
+```python
+naas.secret.add("test.csv", debug=True)
+# or
+naas.secret.delete("test.csv", debug=True)
 ```
-import naas
-
-# Connect to Google Drive
-naas.drives.connect("google")
-```
-
-## Data Connectors
-The naas.connectors API enables you to connect to various data sources, such as databases, APIs, and web scraping.
-
-Example usage:
-
-```
-import naas
-from naas.connectors import SQL
-
-# Connect to a PostgreSQL database
-user = "your_username"
-password = "your_password"
-host = "your_host"
-database = "your_database"
-sql_connector = SQL("postgresql", user, password, host, database)
-
-# Run a SQL query
-query = "SELECT * FROM your_table"
-data = sql_connector.get(query)
-```
-
-

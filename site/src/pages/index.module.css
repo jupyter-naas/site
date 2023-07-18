@@ -238,6 +238,12 @@ p {
   margin: 40px 0px;
 }
 
+@media (max-width: 767px) {
+  .buttonContainer{
+    flex-direction: column;
+  }
+}
+
 .cta {
   color: rgb(0, 0, 0);
   background: rgb(71, 221, 130);
@@ -1059,4 +1065,21 @@ table th, table td {
   transform: translate(0%,-30%);
 }
 
+
+@media screen and (max-width: 768px) {
+  .textContainer h2 {
+    text-align: center;
+  }
+
+  .textContainer p {
+    text-align: left;
+  }
+  h2 {
+    text-align: left;
+  }
+
+  p {
+    text-align: left;
+  }
+}
 

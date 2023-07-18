@@ -4,93 +4,99 @@ sidebar_position: 1
 
 # Airtable
 
-Website: https://airtable.com/
+Airtable is a powerful and flexible cloud-based platform that allows you to create, organize, and collaborate on data in the form of tables. With the Naas Drivers library, you can easily interact with the Airtable API and incorporate its functionality into your Data & AI Products.
 
-`apikey` should be generated in your account : https://airtable.com/account
+Airtable's website can be found at https://airtable.com/. 
 
-You should find it there:
+## Pre-requisites
 
-Then go to : https://airtable.com/api
+Before starting with Airtable Naas Driver, you need to generate an API key. This key can be obtained by accessing your account at https://airtable.com/account. Once there, your API key will be displayed. 
 
-and choose the workspace you wanna connect and on the Authentication section, you should see :
+After generating the API key, navigate to https://airtable.com/api and select the workspace you intend to connect with. The Authentication section of your selected workspace will show your `database_key` and `table_name`.
 
-`database_key` is the value between `v0/` and `/`
+The `database_key` is located between `v0/` and `/`, and the `table_name` is the value found after the last `/`.
 
-`table_name` is the value after the last `/`
+## Low-code Functions
 
-## Get
+### Retrieve Data
+Retrieve data from your Airtable base using the `.get()` method, specifying the view and maximum number of records to return:
 
 ```python
 from naas_drivers import airtable
+
 api_key = "******"
 db_key = "appuBFPzX94pEqXUJ"
 table = "Opportunities"
-view = "MyView" # the name of your view in airtable
+view = "MyView" 
+
 data = airtable.connect(api_key, db_key, table).get(view=view, maxRecords=20)
 ```
 
-## Send
+### Send Data
+Send data to your Airtable base with the `.send()` method:
 
 ```python
 from naas_drivers import airtable
+
 api_key = "******"
 db_key = "appuBFPzX94pEqXUJ"
 table = "Opportunities"
-view = "MyView" # the name of your view in airtable
+
 data = airtable.connect(api_key, db_key, table).send({'Name': 'Brian'})
 ```
 
-## Search
+### Search Data
+Search for specific data in your Airtable base using the `.search()` method:
 
 ```python
 from naas_drivers import airtable
+
 api_key = "******"
 db_key = "appuBFPzX94pEqXUJ"
 table = "Opportunities"
-view = "MyView" # the name of your view in airtable
+
 data = airtable.connect(api_key, db_key, table).search('Name', 'Tom')
 ```
 
-## Update
+### Update Data
+Update existing data in your Airtable base with the `.update_by_field()` method:
 
 ```python
 from naas_drivers import airtable
+
 api_key = "******"
 db_key = "appuBFPzX94pEqXUJ"
 table = "Opportunities"
-view = "MyView" # the name of your view in airtable
+
 data = airtable.connect(api_key, db_key, table).update_by_field('Name', 'Tom', {'Phone': '1234-4445'})
 ```
 
-## Delete
+### Delete Data
+Remove specific data from your Airtable base using the `.delete_by_field()` method:
 
 ```python
 from naas_drivers import airtable
+
 api_key = "******"
 db_key = "appuBFPzX94pEqXUJ"
 table = "Opportunities"
-view = "MyView" # the name of your view in airtable
+
 data = airtable.connect(api_key, db_key, table).delete_by_field('Name', 'Tom')
 ```
 
-## Connect
-
-{% hint style="warning" %}
-You can also save your connection and don't repeat it for each method.
-{% endhint %}
+### Maintain Connection
+You have the option to save your connection details to avoid re-establishing the connection for each method. This is highly useful when you are frequently interacting with your Airtable base:
 
 ```python
 from naas_drivers import airtable
+
 api_key = "******"
 db_key = "appuBFPzX94pEqXUJ"
 table = "Opportunities"
-view = "MyView" # the name of your view in airtable
-data = airtable.connect(api_key, db_key, table)
+
+at = airtable.connect(api_key, db_key, table)
 data = at.get(view='MyView', maxRecords=20)
 ```
 
-## Official documentation
-
-{% embed url="https://airtable.com/api" %}
-Documentation
-{% endembed %}
+## Official Documentation
+For a comprehensive understanding of the Airtable API, refer to the official documentation available at https://airtable.com/api. Here you will find detailed information about the full range of functionality offered by the Airtable API.

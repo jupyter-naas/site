@@ -4,23 +4,21 @@ sidebar_position: 1
 
 # Google Sheets
 
-{% embed url="https://www.youtube.com/watch?v=2IYJ3B1ymA8" caption="" %}
+[Google Sheets](https://www.google.com/sheets/about/) is a web-based application that allows users to create, update, and modify spreadsheets and share the data live online. It's part of the Google Workspace suite.
 
-{% embed url="https://www.google.com/sheets/about/" caption="" %}
+The Naas Drivers library provides a simple way to interface with Google Sheets from your Python environment, allowing you to read and write data.
 
-## Pre-requisite: share your Google Sheet with our service account
+## Prerequisites
 
-For the driver to fetch the contents of your google sheet, you need to share it with the service account linked with Naas.
+To use the Google Sheets driver, you need to share your Google Sheet with the Naas service account. 
 
-{% hint style="success" %}
-`naas-share@naas-gsheets.iam.gserviceaccount.com`
-{% endhint %}
+Share with: `naas-share@naas-gsheets.iam.gserviceaccount.com`
 
-Now you can fetch data from the sheet as a pandas data frame.
+You will also need the `spreadsheetId` from your Google Sheets URL.
 
-Get your `spreadsheetId` for your spreadsheet URL like this :
+## Reading Data
 
-## Get
+To fetch data from a Google Sheet and convert it into a pandas DataFrame, use the `get` method:
 
 ```python
 import naas_drivers
@@ -29,16 +27,14 @@ spreadsheet_id = "idd"
 sheet_name = "sheet_name"
 
 # Dataframe is returned
-df = naas_drivers.gsheet.connect(spreadsheet_id).get(
-    sheet_name=sheet_name
-)
+df = naas_drivers.gsheet.connect(spreadsheet_id).get(sheet_name=sheet_name)
 ```
 
-## Send
+## Writing Data
 
-### Append
+You can append data to a Google Sheet or erase and replace the existing data.
 
-Append to the current sheet.
+### Append Data
 
 ```python
 import naas_drivers
@@ -50,15 +46,10 @@ sheet_name = "sheet_name"
 data = [{"name": "Jean", "email": "jean@appleseed.com"},
         {"name": "Bunny", "email": "bunny@appleseed.com"}]
 
-naas_drivers.gsheet.connect(spreadsheet_id).send(
-    sheet_name=sheet_name,
-    data=data
-)
+naas_drivers.gsheet.connect(spreadsheet_id).send(sheet_name=sheet_name, data=data)
 ```
 
-### Erase and replace
-
-When you need to clear the sheet before filling it!
+### Erase and Replace Data
 
 ```python
 import naas_drivers
@@ -70,16 +61,12 @@ sheet_name = "sheet_name"
 data = [{"name": "Jean", "email": "jean@appleseed.com"},
         {"name": "Bunny", "email": "bunny@appleseed.com"}]
 
-naas_drivers.gsheet.connect(spreadsheet_id).send(
-    sheet_name=sheet_name,
-    data=data,
-    append=False
-)
+naas_drivers.gsheet.connect(spreadsheet_id).send(sheet_name=sheet_name, data=data, append=False)
 ```
 
-## Delete
+## Deleting Rows
 
-delete rows to the current sheet.
+To delete rows from a Google Sheet, use the `delete` method:
 
 ```python
 import naas_drivers
@@ -90,17 +77,12 @@ sheet_name = "sheet_name"
 # Data accepts list of dict or dataframe
 rows = [3, 4, 5]
 
-naas_drivers.gsheet.connect(spreadsheet_id).delete(
-    sheet_name=sheet_name,
-    rows=rows
-)
+naas_drivers.gsheet.connect(spreadsheet_id).delete(sheet_name=sheet_name, rows=rows)
 ```
 
-## Connect
+## Persistent Connections
 
-{% hint style="warning" %}
-You can also save your connection and don't repeat it for each method.
-{% endhint %}
+If you're using multiple methods, you can establish a persistent connection:
 
 ```python
 import naas_drivers
@@ -108,7 +90,8 @@ import naas_drivers
 gsheet = naas_drivers.gsheet.connect("spreadsheet_id")
 ```
 
-## Official documentation
+## Official Documentation
 
-{% embed url="https://github.com/melalj/gsheet-api" caption="" %}
+For further details, check the [official documentation](https://github.com/melalj/gsheet-api).
 
+The Naas Drivers Google Sheets integration makes it simple to use this popular tool within your Python environment, whether you're reading data from a sheet into a pandas DataFrame or updating a sheet with new data.

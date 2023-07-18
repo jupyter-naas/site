@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # HTML builder
 
+The HTML Builder driver in Naas enables you to create HTML content in a flexible and easy-to-use manner. Here are the key functionalities:
+
 ## Title
 
 ### Solo

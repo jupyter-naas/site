@@ -4,6 +4,11 @@ sidebar_position: 6
 
 # Open Data Intelligence
 > Understand the World Around
+:::tip
+
+We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+
+:::
 
 ![a futurist cover for naas opendate engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107807756645302373/jeymassa_a_futurist_cover_for_naas_open_data_engine_universal_d_7da347fe-e221-4275-ae35-52df52ecad21.png?width=2180&height=1246)
 

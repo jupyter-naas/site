@@ -4,113 +4,97 @@ sidebar_position: 1
 
 # CityFalcon
 
-{% embed url="https://www.cityfalcon.com/" %}
-Website
-{% endembed %}
+[CityFalcon](https://www.cityfalcon.com/) is a comprehensive news aggregation service that uses natural language processing and AI algorithms to analyze the global financial news landscape. This provides investors with curated and personalized financial news that allows for more informed decision-making.
 
-## Get
+With the Naas Drivers library, you can access CityFalcon's API to fetch financial news based on various parameters such as ticker symbols, fields, country, and more. 
 
-### Action
+## Fetching News Data
 
-{% hint style="info" %}
-You can request only tickers on Cityfalcon free plan
-{% endhint %}
+Here's an example of how to retrieve financial news data using CityFalcon's API:
+
+### Get Data for Specific Ticker
 
 ```python
 import naas_drivers
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA")
+
+api_key = "YOUR_API_KEY"
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA")
 ```
 
-### Fields
-
-Choose fields you want to get in result, list available below:
-
-* title
-* image
-* link
-* description
-* score
-* sentiment
-* source
-* source\_logo
-* image
+### Customize Retrieved Fields
 
 ```python
 fields = ["image", "title"]
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", fields=fields)
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", fields=fields)
 ```
 
-### Country
-
-Country of the stock exchange
+### Specify Country
 
 ```python
 country = "US"
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", country=country)
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", country=country)
 ```
 
-### Limit
-
-Limit the number of results
+### Limit the Number of Results
 
 ```python
 limit = 5
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", limit=limit)
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", limit=limit)
 ```
 
-### Minimum Score
-
-minimum Score of Cityfalcon
+### Specify Minimum Score
 
 ```python
 min_score = 30
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", min_score=min_score)
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", min_score=min_score)
 ```
 
-### Paywall
-
-Show article with a paywall
+### Include Articles Behind Paywalls
 
 ```python
 paywall = True
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", paywall=paywall)
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", paywall=paywall)
 ```
 
-### Identifier\_type
+### Set Identifier Type
 
 ```python
 identifier_type = "full_tickers"
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", identifier_type=identifier_type)
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", identifier_type=identifier_type)
 ```
 
-### Time\_filter
+### Set Time Filter
 
 ```python
 time_filter = "d21"
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", time_filter=time_filter)
+
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", time_filter=time_filter)
 ```
 
-### Language
+### Specify Language
 
 ```python
-naas_drivers.cityfalcon.connect("YOUR_API_KEY").get("TSLA", languages="en")
+data = naas_drivers.cityfalcon.connect(api_key).get("TSLA", languages="en")
 ```
 
-## Connect
+### Maintain Connection
 
-{% hint style="warning" %}
-You can also save your connection and don't repeat it for each method.
-{% endhint %}
+To enhance efficiency, you can maintain a single connection for multiple operations:
 
 ```python
-naas_drivers.cityfalcon.connect("YOUR_API_KEY")
-# You can use our default apikey limited to 200/hours request for all users
+cityfalcon = naas_drivers.cityfalcon.connect(api_key)
 
-cityfalcon = naas_drivers.cityfalcon.connect()
 appl = cityfalcon.get("AAPL")
 tsla = cityfalcon.get("TSLA")
 ```
 
-## Official documentation
+## Official Documentation
 
-{% embed url="https://dev.cityfalcon.com/doc/api/v0.2" %}
+For a more comprehensive understanding of CityFalcon's API, refer to the [official API documentation](https://dev.cityfalcon.com/doc/api/v0.2). This guide will provide you with detailed information about the full range of functionality offered by CityFalcon's API.
