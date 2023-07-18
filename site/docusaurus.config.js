@@ -152,7 +152,7 @@ const config = {
               {
                 type: "doc",
                 label: "Overview",
-                docId: "get-started/introduction",
+                docId: "framework/overview",
               },
               {
                 type: "doc",
@@ -171,7 +171,7 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Data Products Delivery",
+                label: "Data Product Workflow",
                 docId: "framework/delivery",
               },
             ],
@@ -184,7 +184,7 @@ const config = {
               {
                 type: "doc",
                 label: "Overview",
-                docId: "solutions/sales-engine",
+                docId: "solutions/introduction",
               },
               {
                 type: "doc",
@@ -219,7 +219,7 @@ const config = {
               {
                 type: "doc",
                 label: "Expert Acceleration Program",
-                docId: "solutions/operations-engine",
+                docId: "solutions/expert-program",
               },
             ],
           },
@@ -235,7 +235,7 @@ const config = {
               {
                 type: "doc",
                 label: "Contribute",
-                docId: "solutions/operations-engine",
+                docId: "contributing/how-to-contribute",
               },
               {
                 label: "Guides & Tutorials",

@@ -6,6 +6,112 @@ import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
 
+
+export default function Pricing() {
+    const { siteConfig } = useDocusaurusContext();
+    const [isAnnual, setIsAnnual] = useState(false);
+    return (
+        <Layout
+            title={`Naas - ${siteConfig.title}`}
+            description="The Universal Data Platform">
+            <main>
+                <div className={clsx(styles.pricingContainer, styles.flex, styles.flexCol, styles.itemsCenter)}>
+                    <h2 className={styles.h2textCenter}>Free to learn and build.<br />Pay as you grow.</h2>
+                    <p className={styles.ptextCenter}>
+                        Our Free plan enables you to learn and build your first data products.
+                        <br />
+                        Paid plans offer additional credits and dedicated server capacity.
+
+                    </p>
+                    <div className={clsx(styles.flex, styles.pricingCycle, isAnnual ? styles.activeB : styles.activeA, styles.itemsCenter)}>
+                        <div className={styles.cycleA}>
+                            <span>Billed Monthly</span>
+                        </div>
+                        <div className={clsx(styles.switch)} onClick={() => setIsAnnual(!isAnnual)}>
+
+                        </div>
+                        <div className={styles.cycleB}>
+                            <span>Billed Annualy (20% off)</span>
+                        </div>
+                    </div>
+                    <div className={styles.grid}>
+                        <div className={clsx(styles.gridItem, styles.pricingTier)}>
+                            <h3>Free</h3>
+                            <p>$5 credits/month. Become a Sponsor to add more.</p>
+                            <div className={styles.price}><span>$0</span>/month</div>
+                            <ul className={clsx(styles.pricingTier, styles.features)}>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    100 credits
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Limited resources
+                                </li>
+                            </ul>
+                            <Link className={clsx(styles.btnGreen, styles.btn)} to="https://workspace.naas.ai/auth/signin">Start for free
+                            </Link>
+                        </div>
+                        <div className={clsx(styles.gridItem, styles.pricingTier)}>
+                            <h3>Professional</h3>
+                            <p>For individuals in need of a powerful data & AI platform</p>
+                            <div className={styles.price}><span>{isAnnual ? '$39' : '$50'}</span>/month</div>
+                            <ul className={clsx(styles.pricingTier, styles.features)}>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    1 600 credits
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Shared resources
+                                </li>
+
+                            </ul>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Contact us</Link>
+                        </div>
+                        <div className={clsx(styles.gridItem, styles.pricingTier)}>
+                            <h3>Company</h3>
+                            <p>Advanced security and capabilities for organizations</p>
+                            <div className={styles.price}><span>{isAnnual ? '$479' : '$5,000'}</span>/month</div>
+                            <ul className={clsx(styles.features)}>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    30 000 credits
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Dedicated  resources
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Multiple users
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Premium support
+                                </li>
+                            </ul>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Contact us</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className={clsx(styles.pricingContainer, styles.flex, styles.flexCol, styles.itemsCenter)}>
+                    <h2 className={styles.textCenter}>Compare plans</h2>
+                    <p className={styles.textCenter}>
+                        From solo makers to established companies,
+                        <br />
+                        we are here to make you scale.
+                    </p>
+                    <div className={styles.pricingTableWrapper}>
+                    <PricingTable />
+                    </div>
+                </div>
+                
+            </main>
+        </Layout>
+    )
+}
+
 function PricingTable() {
     return <table className={styles.pricingTable} style={{"--pricing-border-color": "rgba(155.248, 150.396, 150.396, 0.2)"}}>
         <tr>
@@ -246,108 +352,4 @@ function PricingTable() {
     </table>
 }
 
-export default function Pricing() {
-    const { siteConfig } = useDocusaurusContext();
-    const [isAnnual, setIsAnnual] = useState(false);
-    return (
-        <Layout
-            title={`Naas - ${siteConfig.title}`}
-            description="The Universal Data Platform">
-            <main>
-                <div className={clsx(styles.pricingContainer, styles.flex, styles.flexCol, styles.itemsCenter)}>
-                    <h2 className={styles.h2textCenter}>Free to learn and build.<br />Pay as you grow.</h2>
-                    <p className={styles.ptextCenter}>
-                        Our Free plan enables you to learn and build your first data products.
-                        <br />
-                        Paid plans offer additional credits and dedicated server capacity.
 
-                    </p>
-                    <div className={clsx(styles.flex, styles.pricingCycle, isAnnual ? styles.activeB : styles.activeA, styles.itemsCenter)}>
-                        <div className={styles.cycleA}>
-                            <span>Billed Monthly</span>
-                        </div>
-                        <div className={clsx(styles.switch)} onClick={() => setIsAnnual(!isAnnual)}>
-
-                        </div>
-                        <div className={styles.cycleB}>
-                            <span>Billed Annualy (20% off)</span>
-                        </div>
-                    </div>
-                    <div className={styles.grid}>
-                        <div className={clsx(styles.gridItem, styles.pricingTier)}>
-                            <h3>Community</h3>
-                            <p>$5 credits</p>
-                            <div className={styles.price}><span>$0</span>/month</div>
-                            <ul className={clsx(styles.pricingTier, styles.features)}>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    100 credits
-                                </li>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Limited resources
-                                </li>
-                            </ul>
-                            <Link className={clsx(styles.btnGreen, styles.btn)} to="https://www.naas.ai/free-forever">CREATE ACCOUNT
-                            <svg width="1em" viewBox="0 0 15 12" xmlns="http://www.w3.org/2000/svg"><path d="M9.6 7H1a1 1 0 1 1 0-2h8.6L7 2.4A1 1 0 0 1 8.4 1l4.3 4.2c.2.3.3.5.3.8 0 .3-.1.5-.3.7L8.4 11A1 1 0 1 1 7 9.5L9.6 7z" fill="currentColor"></path></svg>
-                            </Link>
-                        </div>
-                        <div className={clsx(styles.gridItem, styles.pricingTier)}>
-                            <h3>Professional</h3>
-                            <p>For individuals in need of a powerful data & AI platform</p>
-                            <div className={styles.price}><span>{isAnnual ? '$39' : '$50'}</span>/month</div>
-                            <ul className={clsx(styles.pricingTier, styles.features)}>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    1 600 credits
-                                </li>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Shared resources
-                                </li>
-
-                            </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">CONTACT US</Link>
-                        </div>
-                        <div className={clsx(styles.gridItem, styles.pricingTier)}>
-                            <h3>Company</h3>
-                            <p>Advanced security and capabilities for organizations</p>
-                            <div className={styles.price}><span>{isAnnual ? '$479' : '$5,000'}</span>/month</div>
-                            <ul className={clsx(styles.features)}>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    30 000 credits
-                                </li>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Dedicated  resources
-                                </li>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Multiple users
-                                </li>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Premium support
-                                </li>
-                            </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">CONTACT US</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className={clsx(styles.pricingContainer, styles.flex, styles.flexCol, styles.itemsCenter)}>
-                    <h2 className={styles.textCenter}>Compare plans</h2>
-                    <p className={styles.textCenter}>
-                        From solo makers to established companies,
-                        <br />
-                        we are here to make you scale.
-                    </p>
-                    <div className={styles.pricingTableWrapper}>
-                    <PricingTable />
-                    </div>
-                </div>
-                
-            </main>
-        </Layout>
-    )
-}

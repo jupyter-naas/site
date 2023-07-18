@@ -141,3 +141,7 @@ table th, table td {
   overflow: hidden;
   width: var(--ifm-avatar-photo-size);
 }
+
+.padding-bottom--lg {
+  padding-bottom: 110px !important;
+}

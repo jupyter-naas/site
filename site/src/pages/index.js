@@ -174,123 +174,123 @@ const toolImages = [
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/yb7hkkgr0nt76uzf.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Twitter",
+    href: "https://workspace.naas.ai/search?q=Twitter"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/n7nbxh4i6er562d9.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Youtube",
+    href: "https://workspace.naas.ai/search?q=Youtube"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/of5kikai6h6ngxyq.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Tiktok",
+    href: "https://workspace.naas.ai/search?q=Tiktok"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/noqby55davij93ru.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Instagram",
+    href: "https://workspace.naas.ai/search?q=Instagram"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/glkbx5cooudq8ysi.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "OpenAI",
+    href: "https://workspace.naas.ai/search?q=OpenAI"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/sfxdhw7pl0b8fxf7.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "GitHub",
+    href: "https://workspace.naas.ai/search?q=GitHub"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/s8v0zvy7b9fyi4pt.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Notion",
+    href: "https://workspace.naas.ai/search?q=Notion"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/v4tt1le5rljom0cf.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Google Analytics",
+    href: "https://workspace.naas.ai/search?q=Google%20Analytics"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/pgeepir3hi6z1a3e.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Slack",
+    href: "https://workspace.naas.ai/search?q=Slack"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/abhk3j9xx2pnxca0.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "HubSpot",
+    href: "https://workspace.naas.ai/search?q=HubSpot"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/7g5te5dwu4qoq9wr.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Airtable",
+    href: "https://workspace.naas.ai/search?q=Airtable"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/qqmnlxmczk7wxcck.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Google Sheets",
+    href: "https://workspace.naas.ai/search?q=Google%20Sheets"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/gmm9cghwdvosuwpb.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Excel",
+    href: "https://workspace.naas.ai/search?q=Excel"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/8vp4gwoyn8vj8ut4.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Teams",
+    href: "https://workspace.naas.ai/search?q=Teams"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/bfhg82o7vpzg560m.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "AWS",
+    href: "https://workspace.naas.ai/search?q=AWS"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/4gk07asmcwyfunzj.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "MongoDB",
+    href: "https://workspace.naas.ai/search?q=MongoDB"
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/qbuop9ih.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "MySQL",
+    href: "https://workspace.naas.ai/search?q=MySQL"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/0wmblhco4758ga3z.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Snowflake",
+    href: "https://workspace.naas.ai/search?q=Snowflake"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/e21e2croxgz2zjs2.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Google Drive",
+    href: "https://workspace.naas.ai/search?q=Google%20Drive"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/bmp810teq595g9ju.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "PowerBI",
+    href: "https://workspace.naas.ai/search?q=PowerBI"
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/gxan7c8n.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Plotly",
+    href: "https://workspace.naas.ai/search?q=Plotly"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/z48ixele4ifaur3a.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Gmail",
+    href: "https://workspace.naas.ai/search?q=Gmail"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/ed7wnaabbup9pzgo.jpg?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "Telegram",
+    href: "https://workspace.naas.ai/search?q=Telegram"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/kwi15ykx1z81m6uu.png?w=100&h=80",
-    name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    name: "HuggingFace",
+    href: "https://workspace.naas.ai/search?q=HuggingFace"
   },
 ]
 
