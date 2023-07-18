@@ -145,3 +145,22 @@ table th, table td {
 .padding-bottom--lg {
   padding-bottom: 110px !important;
 }
+
+@media (max-width: 767px) {
+  .textCenter {
+    text-align: center;
+  }
+
+  .mobCenter {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h_w_lg {
+    flex-direction: column;
+  }
+  
+  .textCenterMobile {
+    text-align: center;
+  }
+}
