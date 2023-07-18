@@ -43,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/jupyter-naas/site",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/jupyter-naas/site",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -65,7 +65,7 @@ const config = {
       fontFamily: {
         sans: ['San Francisco', 'Arial', 'sans-serif']},
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/how-it-works.png",
       colorMode: {
         disableSwitch: true,
       },
@@ -83,7 +83,7 @@ const config = {
         // For the scrollbar to be sticky or hide while scrolled down
         // hideOnScroll: true,
         logo: {
-          alt: "Naas Documentation",
+          alt: "Naas",
           src: "https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186",
         },
         items: [
@@ -265,7 +265,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://workspace.naas.ai/" target="_blank"><button>Get Started</button><a>`,
+            value: `<a href="https://workspace.naas.ai/" target="_blank"><button>Start for free</button><a>`,
           },
         ],
       },

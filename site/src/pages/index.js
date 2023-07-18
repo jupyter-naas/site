@@ -10,7 +10,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Naas - ${siteConfig.title}`}
+      title={`Naas`}
       description="A new way to build data & AI experiences">
       <HomepageHeader />
       <main>
@@ -41,13 +41,8 @@ function HomepageHeader() {
           <a
             className={styles.cta}
             href="https://workspace.naas.ai/">
-            Get Started
+            Start for free
           </a>
-          <Link
-            className={styles.businesscta}
-            href="https://form.typeform.com/to/GjbalQ7R">
-            Submit business interest
-          </Link>
         </div>
         <div className={styles.siteInfo}>Naas.ai is currently in open alpha and usage of the platform may be limited for unpaid users. <br></br>Start with 100 free credits/month and become a sponsor to add more.</div>
         {/* </div> */}
@@ -328,11 +323,8 @@ function HomeToolCatalog() {
         <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
           <div className={styles.buttonContainer}>
             <a className={styles.cta} href="https://workspace.naas.ai/">
-              Get Started
+              Start for free
             </a>
-            <Link className={styles.businesscta} to="https://form.typeform.com/to/GjbalQ7R">
-              Submit business interest
-            </Link>
           </div>
         </div>
       </div>
@@ -511,13 +503,8 @@ function HomeTechFeatures() {
           <a
             className={styles.cta}
             href="https://workspace.naas.ai/">
-            Get Started
+            Start for free
           </a>
-          <Link
-            className={styles.businesscta}
-            href="https://form.typeform.com/to/GjbalQ7R">
-            Submit business interest
-          </Link>
         </div>
       </div>
     </div>
@@ -803,7 +790,7 @@ function HomeFooter() {
       <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
         <h2>Try Naas Cloud today</h2>
         <p>Get started for free, add more credits as you grow.</p>
-        <Link to={"https://www.naas.ai/free-forever"} className={styles.btnGreen}>GET STARTED</Link>
+        <Link to={"https://www.naas.ai/free-forever"} className={styles.btnGreen}>Start for free</Link>
       </div>
     </div>
     <div className={clsx(styles.footer, styles.flex, styles.justifyCenter)}>

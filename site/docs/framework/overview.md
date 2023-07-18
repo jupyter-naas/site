@@ -194,7 +194,7 @@ So if you're ready to take your data products to the next level, consider hiring
 
 We value all kinds of contributions - not just code. We are particularly motivated to support new contributors and people who are looking to learn and develop their skills.
 
-Please read our [Contributing guidelines](../../contributing/how-to-contribute) on how to get started.
+Please read our [Contributing guidelines](../contributing/how-to-contribute) on how to get started.
 
 ### Reach out
 
