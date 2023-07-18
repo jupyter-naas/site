@@ -2,17 +2,43 @@
 sidebar_position: 5
 ---
 
-# Data Products Delivery
+# Data Product Workflow
 
-The concept of data products is essential for organizations to unlock the full potential of their data and derive value from it. This page provides an overview of data products and how they can be effectively implemented using Naas. It draws insights from the Harvard Business Review article titled "A Better Way to Put Your Data to Work" by Veeral Desai, Tim Fountaine, and Kayvaun Rowshankish (July–August 2022).
+:::tip
+
+We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+
+:::
+
+The Naas Data Product Framework offers a user-friendly and streamlined workflow that allows organizations to create powerful Data & AI Products using Naas low-code layers and devops best practices leveraging GitHub repositories and workflows. 
+
+With Naas, Data Producers such as business analysts, scientists, and engineers can harness the automation, analytics, and AI capabilities within Jupyter notebooks to unlock the full potential of their data and distribute data to Consummers in a very lean way. This page provides a comprehensive overview of the Naas Data Product Workflow, highlighting its key components and the benefits it brings.
+
+![Data Product Workflow Infographic](../../static/img/how-it-works.png)
 
 ## Introduction to Data Products
+Data products are ready-to-use sets of high-quality data that provide valuable insights for making data-driven decisions. They can include comprehensive views of customers, employees, channels, or virtual replicas of real-world assets or processes. By treating data as a product, organizations can derive impressive returns and reduce implementation time and costs.
 
-Data products are high-quality, ready-to-use sets of data that can be easily accessed and applied to various business challenges. They provide comprehensive insights and enable organizations to make data-driven decisions. Data products can include 360-degree views of customers, employees, or channels, as well as virtual replicas of real-world assets or processes. The article highlights that treating data like a product can yield impressive returns and reduce implementation time and costs.
+## Data Consumers and Producers
 
-## The Data Product Framework
+Data Consumers play a vital role in the data product ecosystem. They are individuals who navigate across search, chat, and dashboards to manage their business operations, gain insights, and make data-driven decisions. These consumers rely on data products to provide them with timely and relevant information that is crucial for their day-to-day activities. They interact with data products through various interfaces, exploring visualizations, querying databases, and accessing reports to extract valuable insights.
 
-Naas provides a framework for designing and implementing data products. It treats data as a product to be developed, enhanced, and tailored to meet different user needs. Similar to how a commercial product addresses the needs of various users, data products aim to deliver value to different data consumers within an organization. The consumption archetypes are AI chat pluging, advanced analytics and workflow automation systems, reporting systems, discovery sandboxes, and external data-sharing systems. 
+The feedback and actions of data consumers are invaluable to the iterative development process of data products. Whether they view content, request additional features, or report issues, their input guides Producers in refining and creating data and AI experiences. Producers, including data engineers, data scientists, and product managers, leverage this feedback to improve the functionality, usability, and value of data products.
+
+This collaborative relationship between data consumers and producers is essential for delivering valuable and impactful data products. By understanding the needs and challenges faced by data consumers, producers can design and develop data products that effectively address their requirements. Regular communication, user testing, and continuous iteration are key to ensuring that data products align with the evolving needs of consumers, empowering them to derive maximum value from the available data.
+
+By fostering this symbiotic relationship between consumers and producers, organizations can create data products that truly meet user expectations, enhance decision-making capabilities, and drive business success.
+
+## The Naas Data Product Workflow
+The Naas Data Product Workflow combines three essential components: Jobs, Drivers, and Templates. These components work together seamlessly to facilitate efficient data product development.
+
+- **Jobs** serve as the core processing units within the Naas Data Product Workflow. They execute specific tasks such as data extraction, transformation, analysis, and visualization. Jobs form the backbone of data product pipelines, orchestrating the flow of data and generating valuable insights.
+
+- **Drivers** act as connectors in the Naas Data Product Workflow, enabling seamless integration with various data sources and services. They simplify data integration tasks, allowing users to access and utilize data from databases, APIs, machine learning algorithms, and more.
+
+- **Templates** are reusable building blocks within the Naas Data Product Workflow. They provide pre-configured frameworks for common data processing tasks, accelerating development. Templates can be customized to meet specific requirements, ensuring flexibility and adaptability when creating data products.
+
+By integrating these components into a unified workflow, the Naas Data Product Framework empowers organizations to rapidly develop data products with reduced complexity.
 
 ## Benefits of Building Data Products in Naas
 

@@ -4,9 +4,10 @@ sidebar_position: 3
 
 # Webhook
 
-Learn how to execute a Jupyter notebook by simply invoking a URL.
+This guide will help you understand how to leverage the Naas webhook job to run notebooks like APIs.
 
-[Watch a video tutorial here](https://www.youtube.com/watch?v=KejRjlSvOL8&t=13s)
+
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/KejRjlSvOL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Deploying Your Notebook 
 

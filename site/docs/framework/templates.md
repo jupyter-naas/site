@@ -4,6 +4,13 @@ sidebar_position: 3
 
 # Templates 
 
+
+:::tip
+
+This page is not refreshed automatically yet. Go to [Naas Search](https://workspace.naas.ai) to explore the full up-to-date list of templates.
+
+:::
+
 In the world of data science, efficiency and speed are key. That's why we're proud to introduce the "Templates" section in our Naas documentation. This resource is designed to accelerate your data projects by providing you with ready-to-use templates that leverage the full power of the Naas platform.
 
 Our templates are more than just pre-configured scripts. They represent the best practices distilled from our community of experts and users, encapsulating their knowledge, experience, and creativity. Whether you're just getting started with Naas or looking to optimize your existing workflows, these templates serve as a valuable guide, a source of inspiration, and a springboard for your own projects.

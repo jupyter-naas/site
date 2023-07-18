@@ -2,17 +2,27 @@
 sidebar_position: 1
 ---
 
-# Hubspot
+# HubSpot
 
-{% embed url="http://hubspot.com" %}
-Website
-{% endembed %}
+HubSpot is a leading Customer Relationship Management (CRM) platform that provides software and support to help businesses grow. HubSpot's CRM platform includes marketing, sales, service, and website management products that start free and scale to meet the customers' needs at any stage of their business growth.
 
-## Connect
+One of the key features of HubSpot is the ability to integrate with other services, which can be done through the HubSpot API. This allows developers to create custom applications or scripts that interact with the HubSpot data programmatically, providing increased flexibility and control.
 
-{% hint style="danger" %}
-You must "Connect" before any other methods
-{% endhint %}
+With the `naas_drivers` Python library, you can connect to and interact with the HubSpot API to perform a variety of operations, including:
+
+1. **Contacts Management**: The library allows for the retrieval, creation, updating, and deletion of contacts stored in your HubSpot account.
+
+2. **Deals Management**: You can interact with deals associated with your account. This includes retrieving all deals, getting information on a specific deal, creating new deals, updating existing ones, or deleting them.
+
+3. **Associations**: HubSpot also allows creating and managing associations between different entities (like a deal and a contact).
+
+4. **Pipelines and Deal Stages**: The library provides interfaces for working with pipelines and deal stages, essential components of a sales process.
+
+With Naas HubSpot driver, you can automate and streamline many of your business operations, leading to increased productivity and growth.
+
+### Connect
+
+It's essential to connect before calling any other methods:
 
 ```python
 from naas_drivers import hubspot
@@ -23,24 +33,21 @@ auth_token = "YOUR_AUTH_TOKEN"
 # Connect to hubspot
 hs = hubspot.connect(auth_token)
 ```
-
-{% hint style="warning" %}
-In the drivers philosophy, we did not raise errors.
-{% endhint %}
+Note: No errors will be raised as per the philosophy of the driver.
 
 ## Contacts
 
-### Get
+You can manage contacts with the following operations:
 
-#### All users
+### Get
+Get all users:
 
 ```python
 # Get all contacts
 df_contact = hs.contacts.get_all()
-df_contact
 ```
 
-#### Single user
+Get a single user:
 
 ```python
 # Get single contact
@@ -50,7 +57,7 @@ hs.contacts.get(contact_id)
 
 ### Create
 
-#### Basic
+Create a contact (Basic):
 
 ```python
 # Contact parameters
@@ -60,7 +67,7 @@ email = "test@cashstory.com"
 contact_id = hs.contacts.create(email)
 ```
 
-#### Advanced
+Create a contact (Advanced):
 
 ```python
 # Contact parameters
@@ -84,7 +91,7 @@ contact_id = hs.contacts.create(email,
                                 hubspot_owner_id)
 ```
 
-#### With json
+Create a contact with JSON:
 
 ```python
 # Contact parameters
@@ -116,7 +123,7 @@ contact_id = hs.contacts.send(create_contact)
 
 ### Update
 
-#### Basic
+Update contact (Basic):
 
 ```python
 # Contact parameters
@@ -127,7 +134,7 @@ email = "test@cashstory.com"
 hs.contacts.update(contact_id, email)
 ```
 
-#### Advanced
+Update contact (Advanced):
 
 ```python
 # Contact parameters
@@ -153,7 +160,7 @@ hs.contacts.update(contact_id,
                    hubspot_owner_id)
 ```
 
-#### With json
+Update contact with JSON:
 
 ```python
 # With patch method
@@ -176,151 +183,18 @@ hs.contacts.patch(contact_id, update_contact)
 ### Delete
 
 ```python
-# Delete deals
+# Delete contact
 contact_id = "1"
 hs.contacts.delete(contact_id)
 ```
 
 ## Deals
 
-### Get
-
-#### All deals
-
-```python
-# Get all deals
-hs.deals.get_all()
-```
-
-#### Single deal
-
-```python
-# Get single deal
-get_deal = '1'
-hs.deals.get(get_deal)
-```
-
-### Create
-
-#### Basic
-
-```python
-# Deal parameters
-dealname = "NEW DEAL"
-dealstage = '1'
-
-# With create method
-deal_id = hs.deals.create(dealname,
-                          dealstage)
-```
-
-#### Advanced
-
-```python
-# Deal parameters
-dealname = "NEW DEAL"
-dealstage = "1"
-closedate = "01/01/2021"
-amount = 1000.00
-hubspot_owner_id = 1
-
-# With create method
-deal_id = hs.deals.create(dealname,
-                          dealstage)
-```
-
-#### With json
-
-```python
-# Deal parameters
-dealname = "NEW DEAL"
-dealstage = "1"
-closedate = "01/01/2021"
-amount = 1000.00
-hubspot_owner_id = 1
-
-# With send method
-send_deal = {"properties": 
-             {
-                 "dealstage": dealstage,
-                 "dealname": dealname,
-                 "amount": amount,
-                 "closedate": closedate,
-                 "hubspot_owner_id": hubspot_owner_id,
-              }
-             }
-
-deal_id = hs.deals.send(send_deal)
-```
-
-### Update
-
-#### Basic
-
-```python
-# Deal parameters
-deal_id = "1"
-dealname = "NEW DEAL"
-
-# With update method
-hs.deals.update(deal_id,
-                dealname)
-```
-
-#### Advanced
-
-```python
-# Deal parameters
-deal_id = "1"
-dealname = "NEW DEAL"
-dealstage = "1"
-closedate = "01/01/2021"
-amount = 1000.00
-hubspot_owner_id = 1
-
-# With update method
-hs.deals.update(deal_id,
-                dealname,
-                dealstage,
-                closedate,
-                amount,
-                hubspot_owner_id)
-```
-
-#### With json
-
-```python
-# Deal parameters
-deal_id = "1"
-dealname = "NEW DEAL"
-dealstage = "1"
-closedate = "01/01/2021"
-amount = 1000.00
-hubspot_owner_id = 1
-
-# With patch method
-update_deal = {"properties":
-               {
-                   "dealstage": dealstage,
-                   "dealname": dealname,
-                   "amount": amount,
-                   "closedate": closedate,
-                   "hubspot_owner_id": hubspot_owner_id,
-               }
-              }
-
-hs.deals.patch(deal_id, update_deal)
-```
-
-### Delete
-
-```python
-# Delete deals
-deal_id = "1"
-hs.deals.delete(deal_id)
-```
+Deals can also be managed via get, create, update, and delete operations, similar to contacts.
 
 ## Associate
+
+Associations can be made and retrieved:
 
 ### Get
 
@@ -352,7 +226,7 @@ hs.associations.create(object,
 
 ## Pipelines
 
-#### Get all pipelines
+Get all pipelines:
 
 ```python
 # Get all pipelines
@@ -361,13 +235,11 @@ hs.pipelines.get_all()
 
 ## Deal stages
 
-#### Get all dealstages
+Get all deal stages:
 
 ```python
 # Get all dealstages
 hs.dealstages.get_all()
 ```
 
-## Official documentation
-
-{% embed url="https://developers.hubspot.com/docs/api/overview" %}
+For further details, you can refer to the [official Hubspot API documentation](https://developers.hubspot.com/docs/api/overview).

@@ -5,6 +5,7 @@ sidebar_position: 7
 # Expert Acceleration Program
 > Get Guidance & Hire Experts
 
+
 ![a futurist cover for naas expert program, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107809132116983818/jeymassa_a_futurist_cover_for_naas_expert_offering_universal_da_03a06f6c-b280-4b00-b0d6-9cdd6c949cb8.png?width=2180&height=1246)
 
 ## Empower Your Organization with Naas Experts

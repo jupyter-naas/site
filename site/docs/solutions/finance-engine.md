@@ -4,6 +4,11 @@ sidebar_position: 5
 
 # Finance Management
 > Get Financial Insights in Real-Time
+:::tip
+
+We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+
+:::
 
 ![a futurist cover for naas finance engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107805121603190874/jeymassa_a_futurist_cover_for_naas_finance_engine_universal_dat_1c5b881f-bdda-462a-b923-c80e15531923.png?width=2180&height=1246)
 

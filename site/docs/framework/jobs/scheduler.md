@@ -4,29 +4,25 @@ sidebar_position: 1
 
 # Scheduler
 
-This guide will help you understand how to use the Naas scheduler to automate your notebook tasks.
+This guide will help you understand how to use the Naas scheduler to automate your data jobs.
 
-<!-- [![Scheduler Overview](https://img.youtube.com/vi/ONiILHFItzs/0.jpg)](https://www.youtube.com/watch?v=ONiILHFItzs&t=48s) -->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ONiILHFItzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/ONiILHFItzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Cron Tasks
 
 We utilize CRON tasks to schedule notebooks. To understand the syntax of CRON tasks, please visit [Crontab Guru](https://crontab.guru/).
 
-[![Crontab Guru](https://crontab.guru/favicon.ico)](https://crontab.guru)
-
-> **Note:** A single job should not exceed one hour. If it does, consider splitting your work into smaller tasks.
+:::tip
+A single job should not exceed one hour. If it does, consider splitting your work into smaller tasks, or contact us for a specific machine setup.
+:::
 
 ## Timezone Information
 
 By default, the scheduler operates in the Central European Time (CET) timezone. If you are in a different timezone, please use the Timezone low-code formula to synchronize your server with your local timezone.
 
-> **TODO:** Add a section explaining how to change the timezone.
-
 ## Scheduling a Notebook
 
-To schedule a notebook, use the `add` function. For example, to run a notebook every day at 9:00:
+To schedule a notebook, use the `add` function. For example, to run a notebook every day at 9:00am :
 
 ```python
 naas.scheduler.add(cron="0 9 * * *")
