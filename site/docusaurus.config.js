@@ -41,9 +41,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/jupyter-naas/site",
+          // Remove this to remove the "sedit this page" links.
         },
         blog: {
           showReadingTime: true,
@@ -234,8 +232,8 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Contribute",
-                docId: "contributing/how-to-contribute",
+                label: "Contributing",
+                docId: "community/how-to-contribute",
               },
               {
                 label: "Guides & Tutorials",
@@ -306,7 +304,7 @@ const config = {
               },
               {
                 label: 'How to contribute?',
-                href: 'docs/category/contributing'
+                href: 'docs/category/community/how-to-contribute'
               },
               {
                 label: 'Roadmap',
