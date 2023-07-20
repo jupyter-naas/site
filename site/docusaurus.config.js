@@ -256,14 +256,14 @@ const config = {
             label: `Book a meeting`,
           },
           {
-            href: "https://workspace.naas.ai/",
+            href: "https://www.naas.ai/",
             position: "right",
             label: `Search`,
           },
           {
             type: "html",
             position: "right",
-            value: `<a href="https://workspace.naas.ai/" target="_blank"><button>Sign in</button><a>`,
+            value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Sign in</button><a>`,
           },
         ],
       },
@@ -366,7 +366,7 @@ const config = {
       //     {
       //       type: 'html',
       //       position: 'right',
-      //       value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
+      //       value: `<a href="https://www.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
       //     },
       //   ],
       // },

@@ -7,7 +7,7 @@ sidebar_position: 3
 
 :::tip
 
-This page is not refreshed automatically yet. Go to [Naas Search](https://workspace.naas.ai) to explore the full up-to-date list of templates.
+This page is not refreshed automatically yet. Go to [Naas Search](https://www.naas.ai) to explore the full up-to-date list of templates.
 
 :::
 

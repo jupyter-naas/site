@@ -47,7 +47,7 @@ Contact Jeremy on [LinkedIn](https://www.linkedin.com/in/jeremyravenel/) or via 
 
 ## Start with Templates
 
-The easiest way to go is simply to find the right templates for you using [Naas Search](https://workspace.naas.ai). Once you have found the templates that suits your needs (if you don't, feel free to [request new templates here](https://github.com/jupyter-naas/awesome-notebooks/issues/new?assignees=\&labels=\&template=template-request.md\&title=Tool+-+Action+of+the+notebook+)), you can start leveraging Naas Lab to build your solutions. But of course, you can also come with your own notebooks and scripts.
+The easiest way to go is simply to find the right templates for you using [Naas Search](https://www.naas.ai). Once you have found the templates that suits your needs (if you don't, feel free to [request new templates here](https://github.com/jupyter-naas/awesome-notebooks/issues/new?assignees=\&labels=\&template=template-request.md\&title=Tool+-+Action+of+the+notebook+)), you can start leveraging Naas Lab to build your solutions. But of course, you can also come with your own notebooks and scripts.
 
 ## Naas Lab
 
