@@ -5,6 +5,11 @@ sidebar_position: 7
 # Expert Acceleration Program
 > Get Guidance & Hire Experts
 
+:::tip
+
+We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+
+:::
 
 ![a futurist cover for naas expert program, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107809132116983818/jeymassa_a_futurist_cover_for_naas_expert_offering_universal_da_03a06f6c-b280-4b00-b0d6-9cdd6c949cb8.png?width=2180&height=1246)
 
@@ -28,16 +33,4 @@ Building a data-centric organization is not a one-time effort. It is a journey o
 
 Adopting Naas and collaborating with our community of domain experts signifies more than just a strategic decision; it's a shift towards a new era of data science. It's a commitment to harnessing the power of data, not just to understand the present, but to shape the future. Together, we can navigate the tide of this data revolution and set sail towards a future where data is not just a byproduct, but a driving force of your organization. Embark on your journey with Naas today.
 
-> Ready to connect with our experts? Reach out to Jeremy Ravenel at jeremy@naas.ai and discover the power of collective wisdom.
-
-# Templates
-
-In the world of data science, efficiency and speed are key. That's why we're proud to introduce the "Templates" section in our Naas documentation. This resource is designed to accelerate your data projects by providing you with ready-to-use templates that leverage the full power of the Naas platform.
-
-Our templates are more than just pre-configured scripts. They represent the best practices distilled from our community of experts and users, encapsulating their knowledge, experience, and creativity. Whether you're just getting started with Naas or looking to optimize your existing workflows, these templates serve as a valuable guide, a source of inspiration, and a springboard for your own projects.
-
-Diverse in their application yet uniform in their excellence, these templates cover a wide range of use-cases, sectors, and functions. From automating data extraction to creating sophisticated data visualizations, you'll find templates that align with your needs.
-
-We encourage you to explore these templates, experiment with them, and customize them to suit your unique requirements. Remember, these templates are not meant to constrain your creativity but to inspire it. They are your starting point, your quick win, your shortcut to success.
-
-Dive in, and discover how our templates can fast-track your journey in the exciting world of data science with Naas. Happy exploring!
+→ Ready to connect with our experts? [Book a meeting](https://calendly.com/jeremyravenel) with us and discover the power of collective wisdom.

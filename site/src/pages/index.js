@@ -41,7 +41,7 @@ function HomepageHeader() {
           <a
             className={styles.cta}
             href="https://workspace.naas.ai/">
-            Start for free
+            Sign in
           </a>
         </div>
         <div className={styles.siteInfo}>Naas.ai is currently in open alpha and usage of the platform may be limited for unpaid users. <br></br>Start with 100 free credits/month and become a sponsor to add more.</div>
@@ -323,7 +323,7 @@ function HomeToolCatalog() {
         <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
           <div className={styles.buttonContainer}>
             <a className={styles.cta} href="https://workspace.naas.ai/">
-              Start for free
+              Sign in
             </a>
           </div>
         </div>
@@ -503,7 +503,7 @@ function HomeTechFeatures() {
           <a
             className={styles.cta}
             href="https://workspace.naas.ai/">
-            Start for free
+            Sign in
           </a>
         </div>
       </div>
@@ -792,7 +792,7 @@ function HomeFooter() {
       <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
         <h2>Try Naas Cloud today</h2>
         <p>Get started for free, add more credits as you grow.</p>
-        <Link to={"https://www.naas.ai/free-forever"} className={styles.btnGreen}>Start for free</Link>
+        <Link to={"https://www.naas.ai/free-forever"} className={styles.btnGreen}>Sign in</Link>
       </div>
     </div>
     <div className={clsx(styles.footer, styles.flex, styles.justifyCenter)}>

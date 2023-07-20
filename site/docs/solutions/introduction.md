@@ -6,14 +6,20 @@ sidebar_position: 0
 
 > Accelerate your Data & AI Product Roadmap.
 
+:::tip
+
+We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+
+:::
+
+**Naas offers a range of data product solutions that cater to different business needs: we call them Foundation Engines and Plugins (or modules)**. These engines are core models that can be customized by companies to generate new opportunities and tailored solutions. From content optimization to finance management, these solutions leverage the power of data to drive growth, optimize operations, and facilitate informed decision-making. In this document, we will explore the various data product solutions provided by Naas and how they can be adapted to suit the unique requirements of your organization.
+
 ![a futurist cover for naas foundation engineS, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107813913699045476/jeymassa_a_futurist_cover_for_naas_foundation_engines_and_plugi_07f94630-ec63-42ea-8b49-676b79e77ddb.png?width=2180&height=1246)
 
 
-**Naas offers a range of data product solutions that cater to different business needs: we call them Foundation Engines and Modules**. These engines are core models that can be customized by companies to generate new opportunities and tailored solutions. From content optimization to finance management, these solutions leverage the power of data to drive growth, optimize operations, and facilitate informed decision-making. In this document, we will explore the various data product solutions provided by Naas and how they can be adapted to suit the unique requirements of your organization.
-
 **Foundation Engines are pre-built data products that serve as a starting point for companies** **to build upon and tailor to their specific needs**. These engines offer powerful data-driven solutions across a range of business functions, including content, growth, sales, operations, finance, and open data. By using these engines as a foundation, organizations can customize and expand upon them to create unique data products that address their specific challenges and drive new opportunities for growth and innovation.
 
-**Each Foundation Engine includes a set of Modules that can be used independently or combined to create even more powerful and comprehensive data products**. These modules are designed to work seamlessly together, enabling organizations to build tailored solutions that leverage the full capabilities of the Naas platform. 
+**Each Foundation Engine includes a set of Plugins that can be used independently or combined to create even more powerful and comprehensive data products**. These modules are designed to work seamlessly together, enabling organizations to build tailored solutions that leverage the full capabilities of the Naas platform. 
 
 ## Solutions
 

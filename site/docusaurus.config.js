@@ -122,8 +122,8 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Collaboration & Versionning",
-                docId: "platform/collaboration-versionning",
+                label: "Collaboration & Versioning",
+                docId: "platform/collaboration-versioning",
               },
               {
                 type: "doc",
@@ -256,14 +256,14 @@ const config = {
             label: `Book a meeting`,
           },
           {
-            href: "https://workspace.naas.ai/chat",
+            href: "https://workspace.naas.ai/",
             position: "right",
-            label: `MyChatGPT`,
+            label: `Search`,
           },
           {
             type: "html",
             position: "right",
-            value: `<a href="https://workspace.naas.ai/" target="_blank"><button>Start for free</button><a>`,
+            value: `<a href="https://workspace.naas.ai/" target="_blank"><button>Sign in</button><a>`,
           },
         ],
       },
