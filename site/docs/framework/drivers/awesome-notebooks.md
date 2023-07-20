@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Awesome-notebooks
 
-Naas has a rich library of ready-to-use Jupyter notebooks called "Awesome-notebooks." These templates cover a wide range of tools and can serve as a valuable starting point for your projects. The Awesome-notebooks library is publicly available on Github, and you can explore the collection [here](https://github.com/jupyter-naas/awesome-notebooks) and on [Naas Search](https://workspace.naas.ai)
+Naas has a rich library of ready-to-use Jupyter notebooks called "Awesome-notebooks." These templates cover a wide range of tools and can serve as a valuable starting point for your projects. The Awesome-notebooks library is publicly available on Github, and you can explore the collection [here](https://github.com/jupyter-naas/awesome-notebooks) and on [Naas Search](https://www.naas.ai)
 
 ## Retrieve Notebook Templates List
 

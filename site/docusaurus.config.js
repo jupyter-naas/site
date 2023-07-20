@@ -41,9 +41,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/jupyter-naas/site",
+          // Remove this to remove the "sedit this page" links.
         },
         blog: {
           showReadingTime: true,
@@ -124,8 +122,8 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Collaboration & Versionning",
-                docId: "platform/collaboration-versionning",
+                label: "Collaboration & Versioning",
+                docId: "platform/collaboration-versioning",
               },
               {
                 type: "doc",
@@ -234,8 +232,8 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Contribute",
-                docId: "contributing/how-to-contribute",
+                label: "Contributing",
+                docId: "community/how-to-contribute",
               },
               {
                 label: "Guides & Tutorials",
@@ -258,14 +256,14 @@ const config = {
             label: `Book a meeting`,
           },
           {
-            href: "https://workspace.naas.ai/chat",
+            href: "https://www.naas.ai/",
             position: "right",
-            label: `MyChatGPT`,
+            label: `Search`,
           },
           {
             type: "html",
             position: "right",
-            value: `<a href="https://workspace.naas.ai/" target="_blank"><button>Start for free</button><a>`,
+            value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Sign in</button><a>`,
           },
         ],
       },
@@ -306,7 +304,7 @@ const config = {
               },
               {
                 label: 'How to contribute?',
-                href: 'docs/category/contributing'
+                href: 'docs/category/community/how-to-contribute'
               },
               {
                 label: 'Roadmap',
@@ -368,7 +366,7 @@ const config = {
       //     {
       //       type: 'html',
       //       position: 'right',
-      //       value: `<a href="https://workspace.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
+      //       value: `<a href="https://www.naas.ai/auth/login" target="_blank"><button>Sign in</button><a>`,
       //     },
       //   ],
       // },

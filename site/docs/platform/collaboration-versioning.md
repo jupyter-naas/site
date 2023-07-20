@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Collaboration & Versionning
+# Collaboration & Versioning
 
 ![a futurist cover for naas collaboration and versionning feature, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107833032636903444/jeymassa_a_futurist_cover_for_naas_collaboration_and_versionnin_24be933c-182f-4d23-aca7-78fed39e7397.png?width=2180&height=1246)
 

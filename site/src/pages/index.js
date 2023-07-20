@@ -40,8 +40,8 @@ function HomepageHeader() {
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="https://workspace.naas.ai/">
-            Start for free
+            href="https://www.naas.ai/">
+            Sign in
           </a>
         </div>
         <div className={styles.siteInfo}>Naas.ai is currently in open alpha and usage of the platform may be limited for unpaid users. <br></br>Start with 100 free credits/month and become a sponsor to add more.</div>
@@ -170,127 +170,127 @@ const toolImages = [
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/k4n2vn7rvd9zb4iq.png?w=100&h=80",
     name: "LinkedIn",
-    href: "https://workspace.naas.ai/search?q=LinkedIn"
+    href: "https://www.naas.ai/search?q=LinkedIn"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/yb7hkkgr0nt76uzf.png?w=100&h=80",
     name: "Twitter",
-    href: "https://workspace.naas.ai/search?q=Twitter"
+    href: "https://www.naas.ai/search?q=Twitter"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/n7nbxh4i6er562d9.png?w=100&h=80",
     name: "Youtube",
-    href: "https://workspace.naas.ai/search?q=Youtube"
+    href: "https://www.naas.ai/search?q=Youtube"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/of5kikai6h6ngxyq.png?w=100&h=80",
     name: "Tiktok",
-    href: "https://workspace.naas.ai/search?q=Tiktok"
+    href: "https://www.naas.ai/search?q=Tiktok"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/noqby55davij93ru.png?w=100&h=80",
     name: "Instagram",
-    href: "https://workspace.naas.ai/search?q=Instagram"
+    href: "https://www.naas.ai/search?q=Instagram"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/glkbx5cooudq8ysi.png?w=100&h=80",
     name: "OpenAI",
-    href: "https://workspace.naas.ai/search?q=OpenAI"
+    href: "https://www.naas.ai/search?q=OpenAI"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/sfxdhw7pl0b8fxf7.png?w=100&h=80",
     name: "GitHub",
-    href: "https://workspace.naas.ai/search?q=GitHub"
+    href: "https://www.naas.ai/search?q=GitHub"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/s8v0zvy7b9fyi4pt.png?w=100&h=80",
     name: "Notion",
-    href: "https://workspace.naas.ai/search?q=Notion"
+    href: "https://www.naas.ai/search?q=Notion"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/v4tt1le5rljom0cf.png?w=100&h=80",
     name: "Google Analytics",
-    href: "https://workspace.naas.ai/search?q=Google%20Analytics"
+    href: "https://www.naas.ai/search?q=Google%20Analytics"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/pgeepir3hi6z1a3e.png?w=100&h=80",
     name: "Slack",
-    href: "https://workspace.naas.ai/search?q=Slack"
+    href: "https://www.naas.ai/search?q=Slack"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/abhk3j9xx2pnxca0.png?w=100&h=80",
     name: "HubSpot",
-    href: "https://workspace.naas.ai/search?q=HubSpot"
+    href: "https://www.naas.ai/search?q=HubSpot"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/7g5te5dwu4qoq9wr.png?w=100&h=80",
     name: "Airtable",
-    href: "https://workspace.naas.ai/search?q=Airtable"
+    href: "https://www.naas.ai/search?q=Airtable"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/qqmnlxmczk7wxcck.png?w=100&h=80",
     name: "Google Sheets",
-    href: "https://workspace.naas.ai/search?q=Google%20Sheets"
+    href: "https://www.naas.ai/search?q=Google%20Sheets"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/gmm9cghwdvosuwpb.png?w=100&h=80",
     name: "Excel",
-    href: "https://workspace.naas.ai/search?q=Excel"
+    href: "https://www.naas.ai/search?q=Excel"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/8vp4gwoyn8vj8ut4.png?w=100&h=80",
     name: "Teams",
-    href: "https://workspace.naas.ai/search?q=Teams"
+    href: "https://www.naas.ai/search?q=Teams"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/bfhg82o7vpzg560m.png?w=100&h=80",
     name: "AWS",
-    href: "https://workspace.naas.ai/search?q=AWS"
+    href: "https://www.naas.ai/search?q=AWS"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/4gk07asmcwyfunzj.png?w=100&h=80",
     name: "MongoDB",
-    href: "https://workspace.naas.ai/search?q=MongoDB"
+    href: "https://www.naas.ai/search?q=MongoDB"
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/qbuop9ih.png?w=100&h=80",
     name: "MySQL",
-    href: "https://workspace.naas.ai/search?q=MySQL"
+    href: "https://www.naas.ai/search?q=MySQL"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/0wmblhco4758ga3z.png?w=100&h=80",
     name: "Snowflake",
-    href: "https://workspace.naas.ai/search?q=Snowflake"
+    href: "https://www.naas.ai/search?q=Snowflake"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/e21e2croxgz2zjs2.png?w=100&h=80",
     name: "Google Drive",
-    href: "https://workspace.naas.ai/search?q=Google%20Drive"
+    href: "https://www.naas.ai/search?q=Google%20Drive"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/bmp810teq595g9ju.png?w=100&h=80",
     name: "PowerBI",
-    href: "https://workspace.naas.ai/search?q=PowerBI"
+    href: "https://www.naas.ai/search?q=PowerBI"
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/gxan7c8n.png?w=100&h=80",
     name: "Plotly",
-    href: "https://workspace.naas.ai/search?q=Plotly"
+    href: "https://www.naas.ai/search?q=Plotly"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/z48ixele4ifaur3a.png?w=100&h=80",
     name: "Gmail",
-    href: "https://workspace.naas.ai/search?q=Gmail"
+    href: "https://www.naas.ai/search?q=Gmail"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/ed7wnaabbup9pzgo.jpg?w=100&h=80",
     name: "Telegram",
-    href: "https://workspace.naas.ai/search?q=Telegram"
+    href: "https://www.naas.ai/search?q=Telegram"
   },
   {
     link: "https://www.naas.ai/lib_NtadlqPncrCtPifD/kwi15ykx1z81m6uu.png?w=100&h=80",
     name: "HuggingFace",
-    href: "https://workspace.naas.ai/search?q=HuggingFace"
+    href: "https://www.naas.ai/search?q=HuggingFace"
   },
 ]
 
@@ -322,8 +322,8 @@ function HomeToolCatalog() {
         </div>
         <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
           <div className={styles.buttonContainer}>
-            <a className={styles.cta} href="https://workspace.naas.ai/">
-              Start for free
+            <a className={styles.cta} href="https://www.naas.ai/">
+              Sign in
             </a>
           </div>
         </div>
@@ -502,8 +502,8 @@ function HomeTechFeatures() {
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="https://workspace.naas.ai/">
-            Start for free
+            href="https://www.naas.ai/">
+            Sign in
           </a>
         </div>
       </div>
@@ -761,28 +761,30 @@ function HomeSolutions() {
 
 function HomeGitHub() {
   return (
-      <div className={clsx(styles.scalling, styles.flex, styles.justifyCenter, styles.bgLight)}>
-          <div className={styles.h_w_lg} style={{ display: 'flex' }}>
-              <div className={clsx(styles.textContainer, styles.itemsCenter, styles.hFull)} style={{ width: '60%' }}>
-                  <div className={styles.mobCenter}>
-                      <h2>🌍 Join our open source makers movement</h2>
-                      <p>Our community excels in producing outstanding content, crafting awesome templates and data products, and providing premium support to our customers around the globe.</p>
-                  </div>
-              </div>
-              <div className={styles.mobCenter} style={{ width: '40%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <div className={styles.buttonContainer}>
-                  <img src="./img/map2.png" alt="map" />
-                  <Link 
-                  className={styles.cta} 
-                  href="https://github.com/orgs/jupyter-naas/discussions">
-                          Join GitHub Discussions
-                  </Link>
-                  </div>
-              </div>
+    <div className={clsx(styles.scalling, styles.flex, styles.justifyCenter, styles.bgLight)}>
+      <div className={styles.h_w_lg} style={{ display: 'flex', flexDirection: 'column' }}>
+        <div className={clsx(styles.textContainer, styles.itemsCenter, styles.hFull)} style={{ width: '100%' }}>
+        <h2>🌍 Join our open source makers movement</h2>
+          <div className={styles.mobCenter}>
+            <div className={styles.textCenterMobile}>
+              <p>Our community excels in producing outstanding content, crafting awesome templates and data products, and providing premium support to our customers around the globe.</p>
+            </div>
           </div>
+        </div>
+        <div className={styles.mobCenter} style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div className={styles.buttonContainer}>
+            <img src="./img/map2.png" alt="map" />
+            <Link className={styles.cta} href="https://github.com/orgs/jupyter-naas/discussions">
+              Join GitHub Discussions
+            </Link>
+          </div>
+        </div>
       </div>
-  )
+    </div>
+  );
 }
+
+
 
 function HomeFooter() {
   return <div className={clsx(styles.bgDark)}>
@@ -790,7 +792,7 @@ function HomeFooter() {
       <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
         <h2>Try Naas Cloud today</h2>
         <p>Get started for free, add more credits as you grow.</p>
-        <Link to={"https://www.naas.ai/free-forever"} className={styles.btnGreen}>Start for free</Link>
+        <Link to={"https://www.naas.ai/free-forever"} className={styles.btnGreen}>Sign in</Link>
       </div>
     </div>
     <div className={clsx(styles.footer, styles.flex, styles.justifyCenter)}>

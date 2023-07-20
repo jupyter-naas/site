@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # Terms of Service
 
-Any questions → Talk to Sales
+:::info
+If you have any questions or require customized terms, feel free to [Book a meeting](https://calendly.com/jeremyravenel). We're here to assist you!
+:::
 
 **Effective date:** July 5, 2023
 

@@ -4,4 +4,8 @@ sidebar_position: 1
 
 # Version History
 
-Visit the [Naas v2 release notes](http://todo:add_a_link_here) page to view the version history, including a summary of new features, improvements, and bug fixes for each release.
+:::info
+This page is currently under construction. Please check back soon for updates.
+:::
+
+We are currently developing a hybrid repository that will consolidate updates from various areas such as jobs, drivers, templates, workspace, and more. This will serve as a comprehensive source for all updates related to our project. Stay tuned!
