@@ -23,7 +23,7 @@ const config = {
   projectName: "site", // Usually your repo name.
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "ignore",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -304,7 +304,7 @@ const config = {
               },
               {
                 label: 'How to contribute?',
-                href: 'docs/category/community/how-to-contribute'
+                href: 'docs/community/how-to-contribute'
               },
               {
                 label: 'Roadmap',
