@@ -16,12 +16,11 @@ export default function Pricing() {
             description="The Universal Data Platform">
             <main>
                 <div className={clsx(styles.pricingContainer, styles.flex, styles.flexCol, styles.itemsCenter)}>
-                    <h2 className={styles.h2textCenter}>Free to learn and build.<br />Pay as you grow.</h2>
+                    <h2 className={styles.h2textCenter}>Free to start.<br />Pay as you grow.</h2>
                     <p className={styles.ptextCenter}>
-                        Our Free plan enables you to learn and build your first data products.
+                        Our Community plan enables you to explore for free.
                         <br />
-                        Paid plans offer additional credits and dedicated server capacity.
-
+                        Paid plans offer additional credits and dedicated features.
                     </p>
                     <div className={clsx(styles.flex, styles.pricingCycle, isAnnual ? styles.activeB : styles.activeA, styles.itemsCenter)}>
                         <div className={styles.cycleA}>
@@ -36,51 +35,102 @@ export default function Pricing() {
                     </div>
                     <div className={styles.grid}>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
-                            <h3>Free</h3>
-                            <p>$5 credits/month. Become a Sponsor to add more.</p>
+                            <h3>Community</h3>
+                            <p>$5 credits/month for free.</p>
                             <div className={styles.price}><span>$0</span>/month</div>
                             <ul className={clsx(styles.pricingTier, styles.features)}>
+                            <li>
+                                Free features:
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Access to Search, Chat, Lab
+                                </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
                                     100 credits
                                 </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Limited resources
+                                    Limited availability
                                 </li>
                             </ul>
-                            <Link className={clsx(styles.btnGreen, styles.btn)} to="https://www.naas.ai/auth/signin">Sign in
+                            <Link className={clsx(styles.btnGreen, styles.btn)} to="https://www.naas.ai/auth/signin">Start free
                             </Link>
                         </div>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
+                            <h3>Sponsor</h3>
+                            <p>Become a Naas V.I.P.</p>
+                            <div className={styles.price}><span>{isAnnual ? '$8' : '$10'}</span>/month</div>
+                            <ul className={clsx(styles.pricingTier, styles.features)}>
+                            <li>
+                                Everything in Community, plus:
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    100 credits
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Guaranteed availability
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Access to gold features
+                                </li>
+                            </ul>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Get more credits</Link>
+                        </div>
+                        <div className={clsx(styles.gridItem, styles.pricingTier)}>
                             <h3>Professional</h3>
-                            <p>For individuals in need of a powerful data & AI platform</p>
+                            <p>Build meaningful data & AI experiences</p>
                             <div className={styles.price}><span>{isAnnual ? '$39' : '$50'}</span>/month</div>
                             <ul className={clsx(styles.pricingTier, styles.features)}>
+                            <li>
+                                Everything in Sponsor, plus:
+                                </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
                                     1 600 credits
                                 </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Shared resources
+                                    Top up options
                                 </li>
-
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Dedicated support
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Earn affiliate commissions
+                                </li>
                             </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Contact us</Link>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Upgrade</Link>
                         </div>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
-                            <h3>Company</h3>
-                            <p>Advanced security and capabilities for organizations</p>
-                            <div className={styles.price}><span>{isAnnual ? '$479' : '$5,000'}</span>/month</div>
+                            <h3>Enterprise</h3>
+                            <p>Completely transform your organization</p>
+                            <div className={styles.price}><span>{isAnnual ? 'Quotation' : 'Quotation'}</span></div>
                             <ul className={clsx(styles.features)}>
-                                <li>
-                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    30 000 credits
+                            <li>
+                                Everything in Pro, plus:
                                 </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Dedicated  resources
+                                    Advanced customization
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Advanced security
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Expert acceleration program
+                                </li>
+                                <li>
+                                    <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
+                                    Dedicated resources
                                 </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
@@ -88,268 +138,17 @@ export default function Pricing() {
                                 </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Premium support
+                                    Custom SLAs
                                 </li>
                             </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Contact us</Link>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Contact Sales</Link>
                         </div>
                     </div>
                 </div>
-                <div className={clsx(styles.pricingContainer, styles.flex, styles.flexCol, styles.itemsCenter)}>
-                    <h2 className={styles.textCenter}>Compare plans</h2>
-                    <p className={styles.textCenter}>
-                        From solo makers to established companies,
-                        <br />
-                        we are here to make you scale.
-                    </p>
-                    <div className={styles.pricingTableWrapper}>
-                    <PricingTable />
-                    </div>
-                </div>
-                
             </main>
         </Layout>
     )
 }
 
-function PricingTable() {
-    return <table className={styles.pricingTable} style={{"--pricing-border-color": "rgba(155.248, 150.396, 150.396, 0.2)"}}>
-        <tr>
-            <th></th>
-            <th className={clsx(styles.color1, styles.weightTextM)}>Free</th>
-            <th className={clsx(styles.color1, styles.weightTextM)}>Professional</th>
-            <th className={clsx(styles.color1, styles.weightTextM)}>Company</th>
-        </tr>
-        <tr className={styles.description}>
-            <th></th>
-            <th className={styles.weightText}></th>
-            <th className={styles.weightText}></th>
-            <th className={styles.weightText}></th>
-        </tr>
-        <tr className={clsx(styles.price, styles.color1)}>
-            <td></td>
-            <td><span className={styles.a}></span></td>
-            <td><span className={styles.a}></span></td>
-            <td><span className={styles.a}></span></td>
-        </tr>
-        <tr className={styles.interval}>
-            <td></td>
-            <td><span className={styles.a}></span></td>
-            <td><span className={styles.a}></span></td>
-            <td><span className={styles.a}></span></td>
-        </tr>
-        <tr>
-            <td>Price per credit
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>A credit is equivalent to 1 min of server time when your product is launched.</span>
-                </span>
-            </td>
-            <td>0.050$</td>
-            <td>0.024$</td>
-            <td>0.02$</td>
-        </tr>
-        <tr>
-            <td>Jupyter Notebooks uptime
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>Time you spend to build.</span>
-                </span>
-            </td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
-            <td>Unlimited</td>
-        </tr>
-        <tr>
-            <td>Accounts</td>
-            <td>1</td>
-            <td>1</td>
-            <td>7</td>
-        </tr>
-        <tr>
-            <td>Credits
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>Consumption depends on the tasks you need to perform. See FAQ below.</span>
-                </span>
-            </td>
-            <td>100</td>
-            <td>1 600</td>
-            <td>30 000</td>
-        </tr>
-        <tr>
-            <td>Storage</td>
-            <td>5 Gb</td>
-            <td>20 Gb</td>
-            <td>20 Gb - 1 Tb</td>
-        </tr>
-        <tr>
-            <td>Processor</td>
-            <td>1 vCPU</td>
-            <td>1 vCPU</td>
-            <td>2vCPU<br /><small>(GPU on demand)</small> </td>
-        </tr>
-        <tr>
-            <td>RAM
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>Guarantee → Free: 300Mo, Starter: 500Mo, Pro: 750Mo, Enterprise: 8Go</span>
-                </span>
-            </td>
-            <td>2 Gb</td>
-            <td>4 Gb</td>
-            <td>8 Gb</td>
-        </tr>
-        <tr>
-            <td>Unlimited Features
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>Scheduler, Asset, Notification, Dependency, Callback, Secret keys</span>
-                </span>
-            </td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-        </tr>
-        <tr>
-            <td>Unlimited Drivers
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>Restricted when Free due to R&D and maintenance costs.</span>
-                </span>
-            </td>
-            <td></td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-        </tr>
-        <tr>
-            <td>Priority Email support</td>
-            <td></td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-        </tr>
-        <tr>
-            <td>Premium support
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>Dedicated account manager, fixed office hours.</span>
-                </span>
-            </td>
-            <td></td>
-            <td></td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-        </tr>
-        <tr>
-            <td>Account consolidation</td>
-            <td></td>
-            <td></td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-        </tr>
-        <tr>
-            <td>Custom Data Retention</td>
-            <td></td>
-            <td></td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-        </tr>
-        <tr>
-            <td>Custom Security
-                <span className={clsx(styles.tooltip, styles.tooltipRight)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                        <line x1="12" y1="8" x2="12" y2="8"></line>
-                    </svg><span>SSO, SSH tunnel, advanced connectivity</span>
-                </span>
-            </td>
-            <td></td>
-            <td></td>
-            <td>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
-                fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-            </td>
-        </tr>
-    </table>
-}
 
 
