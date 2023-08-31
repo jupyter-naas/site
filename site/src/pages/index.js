@@ -15,11 +15,11 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
-        <HomeSupport />
         <HomeToolCatalog />
         <HomeFeatures />
         <HomeTechFeatures />
         <HomeTestimonials />
+        <HomeSupport />
         <HomeSolutions />
         <HomeGitHub />
         {/* <HomeFooter /> */}
@@ -44,7 +44,7 @@ function HomepageHeader() {
             Sign in
           </a>
         </div>
-        <div className={styles.siteInfo}>Naas.ai is currently in open alpha and usage of the platform may be limited for unpaid users. <br></br>Start with 100 free credits/month and become a sponsor to add more.</div>
+        <div className={styles.siteInfo}>Naas.ai is currently in limited alpha.<br></br>Start with 100 free credits/month for free.</div>
         {/* </div> */}
       </div>
     </div>
@@ -73,8 +73,8 @@ function HomeTLDR() {
           </div>
         </div>
         <div className={styles.titleWrapper}>
-          <h2>A new way to build data & AI experiences</h2>
-          <p>Explore, communicate, and build efficiently with Naas.</p>
+          <h2>Create your own AI System with Naas</h2>
+          <p>Master the 3 power features.</p>
         </div>
         <div className={styles.grid}>
           <div className={styles.gridItem}>
@@ -97,7 +97,7 @@ function HomeTLDR() {
             </svg>
             </div>
             <h3 className="gridItem__title color-1 weight-text-m">
-              <strong>MyChatGPT</strong>
+              <strong>Naas Chat</strong>
             </h3>
             <div className="gridItem__description">
               <p>Simple. Powerful. Beautiful. Communicate more efficiently with next generation AI Language models.</p>
@@ -151,11 +151,11 @@ function HomeSupport() {
   return <div className={styles.testimonials}>
     <div className={styles.hw}>
     <div className={styles.titleWrapper}>
-          <h2>Supports</h2>
+          <h2>Thanks to our amazing supports</h2>
         </div>
       <div className={styles.support}>
         <p>
-          We have already received support from amazing organizations, <br />
+          We have already received support from people at amazing organizations, <br />
           and we are just getting started.
         </p>
       </div>

@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "⚡️ The Universal Data & AI Platform",
+  title: "⚡️ Open framework to put data & AI to work for everyone",
   tagline:
-    "Experience the future of AI and data with Naas, your gateway to accessible, intuitive data product building.",
+    "Naas is the universal data & AI platform that enables anyone to build data products and automate workflows using low-code and language models.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
