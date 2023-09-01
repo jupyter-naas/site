@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "⚡️ Open framework to put data & AI to work for everyone",
+  title: "Build your own AI systems & scale your intelligence",
   tagline:
-    "Naas is the universal data & AI platform that enables anyone to build data products and automate workflows using low-code and language models.",
+    "⚡️ Naas is an open ChatGPT alternative. Create data products & chat plugins combining analytics, automation and AI using low-code templates and generative language models.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here

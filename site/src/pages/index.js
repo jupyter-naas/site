@@ -73,8 +73,8 @@ function HomeTLDR() {
           </div>
         </div>
         <div className={styles.titleWrapper}>
-          <h2>Create your own AI System with Naas</h2>
-          <p>Master the 3 power features.</p>
+          <h2>Naas is the universal data & AI platform</h2>
+          <p>Master the 3 power features,transform the way you put your data to work.</p>
         </div>
         <div className={styles.grid}>
           <div className={styles.gridItem}>
@@ -301,8 +301,8 @@ function HomeToolCatalog() {
         <div className={styles.catalog}>
           <div className={styles.catalogHead}>
             <h2>
-              Discover Naas Lean Data Framework<br />
-              Start with the Template Catalog
+              <br />
+              Start exploring the template catalog
             </h2>
             <p>
               Powerful building blocks built and maintained by our community,
