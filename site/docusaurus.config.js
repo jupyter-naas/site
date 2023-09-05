@@ -256,14 +256,9 @@ const config = {
             label: `Book a meeting`,
           },
           {
-            href: "https://www.naas.ai/",
-            position: "right",
-            label: `Search`,
-          },
-          {
             type: "html",
             position: "right",
-            value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Sign in</button><a>`,
+            value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Start for free</button><a>`,
           },
         ],
       },
