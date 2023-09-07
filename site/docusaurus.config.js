@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "⚡️ The Universal Data & AI Platform",
+  title: "Build your own AI systems & scale your intelligence",
   tagline:
-    "Experience the future of AI and data with Naas, your gateway to accessible, intuitive data product building.",
+    "⚡️ Naas is an open ChatGPT alternative. Create data products & chat plugins combining analytics, automation and AI using low-code templates and generative language models.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -256,14 +256,9 @@ const config = {
             label: `Book a meeting`,
           },
           {
-            href: "https://www.naas.ai/",
-            position: "right",
-            label: `Search`,
-          },
-          {
             type: "html",
             position: "right",
-            value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Sign in</button><a>`,
+            value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Start for free</button><a>`,
           },
         ],
       },
