@@ -323,7 +323,7 @@ function HomeToolCatalog() {
         <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
           <div className={styles.buttonContainer}>
             <a className={styles.cta} href="https://naas.ai">
-              Try Naa Search
+              → Go to Naas Search
             </a>
           </div>
         </div>
@@ -503,7 +503,7 @@ function HomeTechFeatures() {
           <a
             className={styles.cta}
             href="https://jtci2pxwjczr.landen.co/">
-            Sign in
+            → Go to Naas Lab
           </a>
         </div>
       </div>
