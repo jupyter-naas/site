@@ -12,4 +12,4 @@ sidebar_position: 1
     
 4.  **Authentication and secret management**: If you experience authentication issues with third-party services, verify that your secrets are stored correctly using the `naas.secret` API and that the correct secret values are being used.
     
-5.  **Large language model integration**: If you encounter issues when using large language models in MyChatGPT, please provide us feedback on support@naas.ai
+5.  **Large language model integration**: If you encounter issues when using large language models in Naas Chat, please provide us feedback on support@naas.ai

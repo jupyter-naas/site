@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Build your own AI systems & scale your intelligence",
+  title: "⚡️ The Universal Data & AI Platform",
   tagline:
-    "⚡️ Naas is an open ChatGPT alternative. Create data products & chat plugins combining analytics, automation and AI using low-code templates and generative language models.",
+    "Naas is an open ChatGPT alternative. Create data products & chat plugins combining analytics, automation and AI using low-code templates and generative language models.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -144,38 +144,6 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Framework",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Overview",
-                docId: "framework/overview",
-              },
-              {
-                type: "doc",
-                label: "Jobs",
-                docId: "framework/jobs/scheduler",
-              },
-              {
-                type: "doc",
-                label: "Drivers",
-                docId: "framework/drivers/airtable",
-              },
-              {
-                type: "doc",
-                label: "Templates",
-                docId: "framework/templates",
-              },
-              {
-                type: "doc",
-                label: "Data Product Workflow",
-                docId: "framework/delivery",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
             label: "Solutions",
             position: "left",
             items: [
@@ -223,11 +191,43 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Community",
+            label: "Developers",
             position: "left",
             items: [
               {
-                href: "/blog/travis-and-naas",
+                type: "doc",
+                label: "Overview",
+                docId: "framework/overview",
+              },
+              {
+                type: "doc",
+                label: "Jobs",
+                docId: "framework/jobs/scheduler",
+              },
+              {
+                type: "doc",
+                label: "Drivers",
+                docId: "framework/drivers/airtable",
+              },
+              {
+                type: "doc",
+                label: "Templates",
+                docId: "framework/templates",
+              },
+              {
+                type: "doc",
+                label: "Data Product Framework",
+                docId: "framework/delivery",
+              },
+            ],
+          },
+          {
+            type: "dropdown",
+            label: "Resources",
+            position: "left",
+            items: [
+              {
+                href: "https://leandata.substack.com/",
                 label: "Blog",
               },
               {
@@ -253,7 +253,7 @@ const config = {
           {
             href: "https://calendly.com/jeremyravenel",
             position: "right",
-            label: `Book a meeting`,
+            label: `Book a call`,
           },
           {
             type: "html",

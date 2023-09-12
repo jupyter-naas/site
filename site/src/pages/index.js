@@ -15,11 +15,12 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
+        <HomeSupport />
         <HomeToolCatalog />
         <HomeFeatures />
         <HomeTechFeatures />
         <HomeTestimonials />
-        <HomeSupport />
+
         <HomeSolutions />
         <HomeGitHub />
         {/* <HomeFooter /> */}
@@ -41,7 +42,7 @@ function HomepageHeader() {
           <a
             className={styles.cta}
             href="https://jtci2pxwjczr.landen.co/">
-            Sign in
+            Start for free
           </a>
         </div>
         <div className={styles.siteInfo}>Naas.ai is currently in limited alpha.<br></br>Start with 100 free credits/month for free.</div>
@@ -67,16 +68,29 @@ function HomeTLDR() {
                   <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
                 </g></svg>
               <div className={clsx(styles.absolute, styles.jupyterImage)}>
-                <img src='https://user-images.githubusercontent.com/21052349/247088121-e2fb6b9e-ebb6-4ef1-91d4-893447add590.gif' alt='jupyter' />
+                <img src='https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85e52efb-c050-4ebf-8f51-496e1cf251d8_1350x858.gif' alt='jupyter' />
               </div>
             </div>
           </div>
         </div>
         <div className={styles.titleWrapper}>
-          <h2>Naas is the universal data & AI platform</h2>
-          <p>Master the 3 power features,transform the way you put your data to work.</p>
+          <h2>Build your own AI systems & scale your intelligence</h2>
+          <p>Master the 3 power features, transform the way you put your data to work.</p>
         </div>
         <div className={styles.grid}>
+        <div className={styles.gridItem}>
+            <div className={styles.iconContainer} >
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.2666 4C18.3287 4 20 5.67135 20 7.73336L20 14.1335C20 16.1955 18.3286 17.8668 16.2666 17.8668H7.63987L4.84724 19.8981C4.68458 20.0161 4.46991 20.0328 4.29124 19.9421C4.11258 19.8508 3.99991 19.6674 3.99991 19.4668V7.73336C3.99991 5.67135 5.67126 4 7.73326 4H16.2666Z" fill="white"/>
+            </svg>
+            </div>
+            <h3 className="gridItem__title color-1 weight-text-m">
+              <strong>Naas Chat</strong>
+            </h3>
+            <div className="gridItem__description">
+              <p>Simple. Powerful. Beautiful. Communicate more efficiently with next generation AI Language models.</p>
+            </div>
+          </div>
           <div className={styles.gridItem}>
             <div className={styles.iconContainer} >
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,19 +102,6 @@ function HomeTLDR() {
             </h3>
             <div className="gridItem__description">
               <p>Hard to move fast if you keep reinventing the wheel, harnest the power of open source data & AI templates.</p>
-            </div>
-          </div>
-          <div className={styles.gridItem}>
-            <div className={styles.iconContainer} >
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16.2666 4C18.3287 4 20 5.67135 20 7.73336L20 14.1335C20 16.1955 18.3286 17.8668 16.2666 17.8668H7.63987L4.84724 19.8981C4.68458 20.0161 4.46991 20.0328 4.29124 19.9421C4.11258 19.8508 3.99991 19.6674 3.99991 19.4668V7.73336C3.99991 5.67135 5.67126 4 7.73326 4H16.2666Z" fill="white"/>
-            </svg>
-            </div>
-            <h3 className="gridItem__title color-1 weight-text-m">
-              <strong>Naas Chat</strong>
-            </h3>
-            <div className="gridItem__description">
-              <p>Simple. Powerful. Beautiful. Communicate more efficiently with next generation AI Language models.</p>
             </div>
           </div>
           <div className={styles.gridItem}>
@@ -301,7 +302,6 @@ function HomeToolCatalog() {
         <div className={styles.catalog}>
           <div className={styles.catalogHead}>
             <h2>
-              <br />
               Start exploring the template catalog
             </h2>
             <p>
@@ -322,8 +322,8 @@ function HomeToolCatalog() {
         </div>
         <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
           <div className={styles.buttonContainer}>
-            <a className={styles.cta} href="https://jtci2pxwjczr.landen.co/">
-              Sign in
+            <a className={styles.cta} href="https://naas.ai">
+              Try Naa Search
             </a>
           </div>
         </div>
@@ -771,16 +771,14 @@ function HomeGitHub() {
             </div>
           </div>
         </div>
-        <div className={styles.mobCenter} style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    
           <div className={styles.buttonContainer}>
-            <img src="./img/map2.png" alt="map" />
             <Link className={styles.cta} href="https://github.com/orgs/jupyter-naas/discussions">
               Join GitHub Discussions
             </Link>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# Foundation Engines & Plugins
+# Custom AI Assistant
 
 > Accelerate your Data & AI Product Roadmap.
 

@@ -2,6 +2,8 @@
 sidebar_position: 6
 ---
 
+# Chrome Extension
+
 Supercharge your productivity with Naas, your AI assistant for seamless analytics and automation.
 
 Experience the power of AI, analytics, and automation with the Naas Chrome Extension.This innovative tool is your ultimate digital co-pilot, designed to supercharge your productivity by tenfold. Always accessible on the side of your browser, it connects you to a universe of low-code templates and generative language models.

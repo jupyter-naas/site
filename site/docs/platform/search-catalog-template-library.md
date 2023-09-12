@@ -1,8 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Data & AI Templates Search
+# Data & AI Catalog Search
+
+
 
 ![a futurist cover for naas search engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107824723330600990/jeymassa_a_futurist_cover_for_naas_search_engine_universal_data_5030724a-7e2d-420d-86b0-23700efbf59b.png?width=2180&height=1246)
 
