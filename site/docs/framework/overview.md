@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Overview
+# Quick Start
 
 Naas Framework upgrades notebooks with 3 low-code layers to get things done faster and deliver amazing data products.
 

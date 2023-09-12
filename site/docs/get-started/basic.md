@@ -12,7 +12,7 @@ The Naas platform allows you to leverage a collection of AI assistant personas, 
 
 Each AI assistant persona is designed as a plugin, with pre-designed dialogues for interaction. To use them, follow the steps below:
 
-1. **Select the AI Assistant Persona Plugin:** From the Naas Search feature where all templates are listed, browse through the available plugins, each labeled according to the personas (CEO, CTO, COO, etc) and click on "Open in MyChatGPT"
+1. **Select the AI Assistant Persona Plugin:** From the Naas Search feature where all templates are listed, browse through the available plugins, each labeled according to the personas (CEO, CTO, COO, etc) and click on "Open in Naas Chat"
 
 2. **Interact with the AI Assistant:** Once you've chosen a plugin, you can start interacting with the AI assistant. The interaction will follow the scenario outlined by the plugin. For example, if you chose the "Act as a CEO" plugin, the AI assistant will help you make strategic decisions for your company.
 

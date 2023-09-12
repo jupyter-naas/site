@@ -45,7 +45,7 @@ Naas resources are not unlimited. To provide free resources for product trials o
 
 Naas provides access to jobs divided into 6 categories:
 
-- **LLM chats**: Number of tokens sent to a language model inside the MyChatGPT
+- **LLM chats**: Number of tokens sent to a language model inside the Naas Chat
 - **Notebook uptime**: Time spent on "open" Notebooks (notebooks connected to a kernel)
 - **Scheduler runtime**: Time a scheduler spends to run your notebook when you are not around
 - **Asset sharing**: When you expose an asset to the public, a credit is debited every time someone accesses it

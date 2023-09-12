@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Data Product Workflow
+# Data Product Framework
 
 :::tip
 

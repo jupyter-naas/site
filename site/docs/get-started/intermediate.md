@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Intermediate usage
 
-Building upon the basic usage of Naas with myChatGPT, the intermediate level lets you harness the power of templates as adjustable logical functions to establish a myChatGPT plugin. This level emphasizes the use of data templates, which you can combine with AI assistant templates to create a dynamic and interactive conversational experience with your data.
+Building upon the basic usage of Naas with Naas Chat, the intermediate level lets you harness the power of templates as adjustable logical functions to establish a Naas Chat plugin. This level emphasizes the use of data templates, which you can combine with AI assistant templates to create a dynamic and interactive conversational experience with your data.
 
 ![DataAITemplates](./img/DataAITemplates.gif)
 ## Utilizing Templates and AI Assistant Personas
@@ -19,7 +19,7 @@ Building upon the basic usage of Naas with myChatGPT, the intermediate level let
 
 ## Combining Data Templates with AI Personas
 
-The real power of Naas with myChatGPT in intermediate usage lies in the combination of data templates with AI personas. For instance, you can merge a data template that fetches data from LinkedIn with an AI assistant persona, like a Marketer or Sales Professional. In a chat conversation, the AI persona can utilize this data to provide context-specific responses, demonstrating the power of large language models narrowed down to a specific persona.
+The real power of Naas with Naas Chat in intermediate usage lies in the combination of data templates with AI personas. For instance, you can merge a data template that fetches data from LinkedIn with an AI assistant persona, like a Marketer or Sales Professional. In a chat conversation, the AI persona can utilize this data to provide context-specific responses, demonstrating the power of large language models narrowed down to a specific persona.
 
 ## FAQs
 
