@@ -256,6 +256,11 @@ const config = {
             label: `Book a call`,
           },
           {
+            href: "https://naas.ai/auth/signin",
+            position: "right",
+            label: `Sign in`,
+          },
+          {
             type: "html",
             position: "right",
             value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Start for free</button><a>`,

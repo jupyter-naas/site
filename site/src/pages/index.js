@@ -152,7 +152,7 @@ function HomeSupport() {
   return <div className={styles.testimonials}>
     <div className={styles.hw}>
     <div className={styles.titleWrapper}>
-          <h2>Thanks to our amazing supports</h2>
+          <h2></h2>
         </div>
       <div className={styles.support}>
         <p>
@@ -302,7 +302,7 @@ function HomeToolCatalog() {
         <div className={styles.catalog}>
           <div className={styles.catalogHead}>
             <h2>
-              Start exploring the template catalog
+              Start with one template from the catalog
             </h2>
             <p>
               Powerful building blocks built and maintained by our community,
@@ -322,9 +322,6 @@ function HomeToolCatalog() {
         </div>
         <div className={clsx(styles.flex, styles.flexWrap, styles.justifyCenter, styles.itemsCenter, styles.explore)}>
           <div className={styles.buttonContainer}>
-            <a className={styles.cta} href="https://naas.ai">
-              → Go to Naas Search
-            </a>
           </div>
         </div>
       </div>
@@ -393,7 +390,7 @@ function HomeFeatures() {
       </div>
       <div className={styles.half}>
         <div className={clsx(styles.textContainer, styles.flex, styles.flexCol, styles.justifyCenter, styles.itemsCenter, styles.hFull)}>
-          <h2>Always know how your data products work, no hidden surprises.</h2>
+          <h2>Transparent billing portal that monitors the costs of each API call to language models and the deployment of specific data & AI jobs.</h2>
           <div>
             <div className={clsx(styles.flex, styles.flexWrap)}>
             <div className={styles.featDescription}>
@@ -499,13 +496,7 @@ function HomeTechFeatures() {
         <div className={styles.testimonialQuote}>
           <p>Naas is leveraging Jupyter Notebooks and Jupyter Lab, the most popular medium and interface in data science.</p>
         </div>
-        <div className={styles.buttonContainer}>
-          <a
-            className={styles.cta}
-            href="https://jtci2pxwjczr.landen.co/">
-            → Go to Naas Lab
-          </a>
-        </div>
+
       </div>
     </div>
 
@@ -771,14 +762,8 @@ function HomeGitHub() {
             </div>
           </div>
         </div>
-    
-          <div className={styles.buttonContainer}>
-            <Link className={styles.cta} href="https://github.com/orgs/jupyter-naas/discussions">
-              Join GitHub Discussions
-            </Link>
           </div>
         </div>
-      </div>
   );
 }
 
