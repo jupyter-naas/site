@@ -197,27 +197,27 @@ const config = {
               {
                 type: "doc",
                 label: "Overview",
-                docId: "framework/overview",
+                docId: "developers/overview",
               },
               {
                 type: "doc",
                 label: "Jobs",
-                docId: "framework/jobs/scheduler",
+                docId: "developers/jobs/scheduler",
               },
               {
                 type: "doc",
                 label: "Drivers",
-                docId: "framework/drivers/airtable",
+                docId: "developers/drivers/airtable",
               },
               {
                 type: "doc",
                 label: "Templates",
-                docId: "framework/templates",
+                docId: "developers/templates",
               },
               {
                 type: "doc",
                 label: "Data Product Framework",
-                docId: "framework/delivery",
+                docId: "developers/delivery",
               },
             ],
           },
@@ -275,19 +275,19 @@ const config = {
             items: [
               {
                 label: 'Overview',
-                href: 'docs/get-started/introduction'
+                href: '/docs/get-started/introduction'
               },
               {
                 label: 'Platform',
-                href: 'docs/category/platform'
+                href: '/docs/category/platform'
               },
               {
-                label: 'Framework',
-                href: 'docs/category/framework'
+                label: 'Developers',
+                href: '/docs/category/developers'
               },
               {
                 label: 'Solutions',
-                href: 'docs/category/solutions'
+                href: '/docs/category/solutions'
               },
             ]
           },
@@ -304,7 +304,7 @@ const config = {
               },
               {
                 label: 'How to contribute?',
-                href: 'docs/community/how-to-contribute'
+                href: '/docs/community/how-to-contribute'
               },
               {
                 label: 'Roadmap',
@@ -321,11 +321,11 @@ const config = {
               },
               {
                 label: 'Terms of Service',
-                href: 'docs/policies/terms'
+                href: '/docs/policies/terms'
               },
               {
                 label: 'Privacy',
-                href: 'docs/policies/privacy'
+                href: '/docs/policies/privacy'
               },
               {
                 label: 'Contact support',
