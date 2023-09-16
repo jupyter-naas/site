@@ -4,142 +4,198 @@ sidebar_position: 5
 
 # Data Product Framework
 
-:::tip
+The Data Product Framework is a comprehensive guide to developing your own data products using Naas.
+In this section, you will discover comprehensive information related to the topic. This includes its importance, guidelines on how to construct it, the resources we provide for your assistance, and how to effectively manage the launch of your product.
 
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+## Why you should build Data Products?
 
-:::
+A single template in Naas empowers you to serve your business and deliver value promptly. With minimal configuration, you can ascertain the effectiveness of these templates and set up automation.
+Once you're comfortable with one, you have the option to either enhance it by adding new features and outputs, or use a new template to carry out a different task.
+Eventually, you might find yourself overwhelmed with maintaining duplicating code, excessively calling external APIs, reaching their limits, and not fully leveraging the data you're acquiring. This is the point where bundling templates together to start your data product becomes beneficial.
 
-The Naas Data Product Framework offers a user-friendly and streamlined workflow that allows organizations to create powerful Data & AI Products using Naas low-code layers and devops best practices leveraging GitHub repositories and workflows. 
+### Maximizing Efficiency and Value with Templates Consolidation
 
-With Naas, Data Producers such as business analysts, scientists, and engineers can harness the automation, analytics, and AI capabilities within Jupyter notebooks to unlock the full potential of their data and distribute data to Consummers in a very lean way. This page provides a comprehensive overview of the Naas Data Product Workflow, highlighting its key components and the benefits it brings.
+By consolidating multiple Jupyter notebooks into a single data product, you can effectively streamline your workflows and fully harness your data's potential. This process aids in establishing a pipeline that connects all the notebooks, enabling them to function as integral components of a more extensive workflow.
+This strategy not only enhances efficiency but also fosters collaboration, paving the way for a diverse array of insights and perspectives.
 
-![Data Product Workflow Infographic](../../static/img/how-it-works.png)
+### Adopting a Data Lake Approach
 
-## Introduction to Data Products
-Data products are ready-to-use sets of high-quality data that provide valuable insights for making data-driven decisions. They can include comprehensive views of customers, employees, channels, or virtual replicas of real-world assets or processes. By treating data as a product, organizations can derive impressive returns and reduce implementation time and costs.
+This comprehensive strategy enables you to create a data lake, a centralized repository designed for storing and reusing your data across a multitude of use cases. A data lake approach not only facilitates efficient data management but also ensures that your data is readily accessible and reusable.
+By adopting a data lake approach, you can ensure that your data is organized, secure, and ready to provide valuable insights when needed. This approach is particularly beneficial when dealing with large volumes of data, as it allows for efficient storage and retrieval, making it easier to derive value from your data.
 
-## Data Consumers and Producers
+### Minimize Computing Costs
 
-Data Consumers play a vital role in the data product ecosystem. They are individuals who navigate across search, chat, and dashboards to manage their business operations, gain insights, and make data-driven decisions. These consumers rely on data products to provide them with timely and relevant information that is crucial for their day-to-day activities. They interact with data products through various interfaces, exploring visualizations, querying databases, and accessing reports to extract valuable insights.
+If you begin by using templates, there's a chance you might find yourself repeating certain code elements, such as external API calls. Over time, this could impact your credit consumption. Therefore, creating a data product and having the ability to divide notebooks into parts to avoid repeated data access calls can greatly reduce computing time.
 
-The feedback and actions of data consumers are invaluable to the iterative development process of data products. Whether they view content, request additional features, or report issues, their input guides Producers in refining and creating data and AI experiences. Producers, including data engineers, data scientists, and product managers, leverage this feedback to improve the functionality, usability, and value of data products.
+### Guarantee Robust Data Governance & Security
 
-This collaborative relationship between data consumers and producers is essential for delivering valuable and impactful data products. By understanding the needs and challenges faced by data consumers, producers can design and develop data products that effectively address their requirements. Regular communication, user testing, and continuous iteration are key to ensuring that data products align with the evolving needs of consumers, empowering them to derive maximum value from the available data.
+Creating a data product implies the utilization of the industry's best practices, which in this context involves using GitHub.
+With GitHub, you can enhance code security, storage, and version control. Moreover, it facilitates improved data governance by granting access to your data team and tracking this data product within a roadmap.
+By leveraging GitHub and adhering to the industry's best practices, you ensure that your team upholds high standards of data governance for your data product.
 
-By fostering this symbiotic relationship between consumers and producers, organizations can create data products that truly meet user expectations, enhance decision-making capabilities, and drive business success.
+### Create Company Intangible Assets
 
-## The Naas Data Product Workflow
-The Naas Data Product Workflow combines three essential components: Jobs, Drivers, and Templates. These components work together seamlessly to facilitate efficient data product development.
+Building data products extends beyond immediate advantages. Each data product you develop transforms into an intangible asset for your company, fostering long-term growth and success. When you convert raw data into actionable insights, you're not merely managing data; you're creating value.
+Furthermore, all costs associated with it can be considered as capital expenditure (Capex), as it generates real value for your company.
 
-- **Jobs** serve as the core processing units within the Naas Data Product Workflow. They execute specific tasks such as data extraction, transformation, analysis, and visualization. Jobs form the backbone of data product pipelines, orchestrating the flow of data and generating valuable insights.
+## Kickstarting Your Own Data Product: A Step-by-Step Guide
 
-- **Drivers** act as connectors in the Naas Data Product Workflow, enabling seamless integration with various data sources and services. They simplify data integration tasks, allowing users to access and utilize data from databases, APIs, machine learning algorithms, and more.
+This comprehensive guide is designed for data producers aiming to elevate their work to the next level. It facilitates a swift initiation into data product development, enhancing not just coding skills but also communication and management aspects related to the data product.
 
-- **Templates** are reusable building blocks within the Naas Data Product Workflow. They provide pre-configured frameworks for common data processing tasks, accelerating development. Templates can be customized to meet specific requirements, ensuring flexibility and adaptability when creating data products.
+### Clone the Data Product Framework
 
-By integrating these components into a unified workflow, the Naas Data Product Framework empowers organizations to rapidly develop data products with reduced complexity.
+Start by utilizing the data product framework provided by Naas on GitHub.
+You can directly clone the `data-product-framework` repository into your Naas Lab instance. This ready-to-use GitHub template serves as a robust foundation for your data product.
+Ensure you have a GitHub account before initiating this procedure.
 
-## Benefits of Building Data Products in Naas
+Below are the steps to follow:
 
-Implementing data products in Naas offers several benefits:
+1. Go to GitHub: https://github.com/jupyter-naas/data-product-framework
+2. Click on 'Use this template' to create a new repository.
 
-1. **Efficient Implementation**: By treating data as a product, organizations can reduce the time it takes to implement data in new use cases by up to 90%. Naas provides a modular framework that allows for the quick deployment of data products across different business applications.
+![](__assets__/delivery/DataProductFramework_Use_this_template.PNG)
 
-2. **Cost Reduction**: Organizations can decrease the total ownership costs, including technology, development, and maintenance, associated with data products by up to 30%. Naas facilitates reuse of existing processes and components, enabling efficient production and minimizing redundant work.
+3. Set it up within your organization.
 
-3. **Risk Reduction and Data Governance**: The data product approach in Naas ensures data quality, standardization, and adherence to data governance principles. By following best practices and utilizing predefined patterns, organizations can reduce risk and maintain data integrity.
+![](__assets__/delivery/DataProductFramework_Create_Repo.PNG)
 
-## Managing and Developing Data Products in Naas
+### Set Up Your README File
 
-To effectively manage and develop data products, Naas recommends the following:
+A well-structured README file is crucial for comprehending the project. Think of it as a user manual that offers a clear overview of your data product, its objectives, and its usage.
 
-1. **Product Management**: Assign dedicated product managers responsible for assembling teams of experts to build, support, and improve data products over time. These product managers, along with the supporting team of data engineers, data architects, and data platform engineers, work within a data utility group. This group should be embedded within a business unit to ensure close collaboration with subject-matter experts and operational teams.
+Here are some key components to update in your README:
 
-2. **Center of Excellence**: Establish a center of excellence that supports data product teams and sets standards and best practices for building data products across the organization. This central hub defines data provenance, data quality measurement, and data access controls. It also facilitates the reuse of data products and ensures compliance with regulatory requirements.
+- **Project Title**: Choose a title that accurately mirrors the purpose and functionality of your data product. For instance, if your data product is designed to analyze social media trends, an apt title might be "Social Media Trend Analyzer".
+- **Description**: This section should offer a thorough overview of your project. It should explain what the data product does, the problem it addresses, and how it achieves this. For example: "The 'Social Media Trend Analyzer' is a data product designed to monitor and analyze trends across various social media platforms. It gathers data on specific keywords and hashtags and employs advanced analytics to detect patterns and trends. This tool can be utilized by businesses to oversee brand mentions, track the performance of marketing campaigns, and gain insights into customer preferences and behavior. Its user-friendly interface and detailed visual reports make it accessible for even non-technical users to comprehend and leverage the insights it provides."
+- **Contact Information**: Provide your contact details so others can reach out if they have queries or require further clarification. For instance: "For any inquiries or additional information, please contact John Doe at [johndoe@example.com](mailto:johndoe@example.com)."
 
-3. **Evaluation and Quality Assurance**: Regularly track the performance and quality of data products using metrics such as active monthly users, user satisfaction, and return on investment for use cases. Ensure data definitions and availability are managed effectively, and work closely with data stewards to maintain data integrity.
+The primary aim of the README is to deliver clear, concise, and useful information about your project. It's often the first thing people see when they encounter your project, so it should be both engaging and informative.
 
-## Getting Started with Data Products in Naas
+As the data product development progresses, you can update sections like installation instructions, usage, and others such as contributing or licensing if your project is open source.
 
-To get started with data products in Naas, organizations should:
+### Design Your Workflow
 
-1. **Opportunity Discovery**: Evaluate the feasibility and potential value of use cases in each business domain, grouping them based on the data products they require and the consumption archetypes involved. Categorizing use cases helps prioritize work and optimize return on investment.
+Visualizing your workflow from start to finish is crucial to the success of your project. Having a clear picture of your end goal will help you prioritize what's essential to build. 
+We recommend starting with a simple, straightforward pipeline for the initial version, using placeholder steps (DummySteps).
+This approach allows you to grasp the complexity of each part and subsequently break it down into different notebooks. These notebooks will then serve as the building blocks of your pipeline.
+By iterating over each version, you can refine and optimize your workflow, ensuring a robust and efficient data product.
 
-2. **Product Development**: Assign product managers and assemble expert teams to develop and support data products. Leverage Naas's modular framework and predefined consumption archetype patterns for efficient development.
+1. Go to __pipeline__.ipynb inside the /models folder
+2. Start building your first pipeline
 
-3. **Talent Acquisition**: Build a strong team of data engineers and experts to support data product development. Consider a phased approach, combining hiring contractors with targeted recruitment efforts, skill development programs, and internal knowledge-sharing initiatives.
+### Use Existing Templates
 
-4. **Measurement and Iteration**: Continuously track the performance of data products and iterate based on user feedback and evolving business needs. Use metrics to assess the impact of data products and ensure they align with organizational objectives.
+Naas provides a comprehensive library of templates that cater to a wide range of requirements. 
+You can use the [Naas Search](https://naas.ai/search?q=) to find templates that may already exist and align well with your project requirements. 
+If you're using Naas Lab, click on 'open in Naas Lab', and the notebook will be directly downloaded to the root folder of your machine. Alternatively, you can use the GitHub link for access and download.
 
-Implementing data products in Naas can provide organizations with a significant market edge by increasing speed, flexibility, and unlocking new opportunities for utilizing data.
+![](__assets__/delivery/DataProductFramework_Search.PNG)
 
+If you're using Naas Lab as your development environment, you can also access these templates in the '__templates__' folder located in the root directory of your machine. (Please remember not to edit within this folder, as it's a read-only folder updated every hour with new templates.)
+After obtaining your templates, you can add them to your `/models` folder to begin constructing your pipeline.
+Choosing these templates means you won't have to start from scratch, and you'll also be able to leverage some Naas drivers that abstract complex code used in notebooks.
+Remember, while these templates are designed to give you a head start, they can always be customized to better align with your specific needs.
 
-## Data Product Template Repository
+### Setting Up and Scheduling Your First Notebook Pipeline
 
-### How Does It Work?
+Now that you have a workflow and some templates, you can begin working on your first notebook.
+Start with the notebook that will create the output directly generating value for the end users. Then, work backward through your pipeline to build the other components in your notebook.
+Once your first notebook is complete, replace the DummySteps with real NotebookStep and execute it to ensure your pipeline is functioning correctly. (You can keep your DummySteps)
+If anything goes wrong, make the necessary adjustments inside your notebook. You will find the notebook executed in the pipeline_executions folder.
+Otherwise, you can proceed to the setup notebook and push your pipeline to production. Don't forget to add the notebook path present in the notebook steps as a dependency.
+Monitor your execution in your Naas manager.
+
+## Understanding the Data-Product-Framework
 
 This repository is a boilerplate for anyone who wishes to develop a data product using Naas. It is structured as follows:
-
 - The `/assets` folder stores any PNG, JPG, GIF, CSV, diagrams, or slides related to the documentation of the product.
-- The `/inputs` folder stores the parameters and any other files needed (data, referential) to run the files in the `/models` folder.
-    - **Referentials**: This subfolder should contain any reference data that is needed to run the models in the `/models` folder. This may include data dictionaries, lookup tables, or other types of reference data.
-    - **Mappings**: This subfolder should contain any mapping files that are needed to run the models in the `/models` folder. These may include files that define how data fields should be transformed or combined.
-    - **Rules**: This subfolder should contain any rule files that are needed to run the models in the `/models` folder. These may include files that define how data should be filtered, aggregated, or otherwise processed.
-- The `/models` folder stores any files that transform inputs into outputs (notebook, Python, SQL files). It should be organized with the following structure:
-    - **Bronze**: This category should contain models that have been trained on a limited dataset and have achieved relatively low accuracy. These models may be useful for initial testing and prototyping but may not be suitable for use in production environments.
-    - **Silver**: This category should contain models that have been trained on a larger dataset and have achieved moderate accuracy. These models may be suitable for use in certain production environments but may not be the most accurate option available.
-    - **Gold**: This category should contain the most accurate models that have been trained on the largest and most diverse dataset available. These models are suitable for use in the most demanding production environments and are the top choice for mission-critical tasks.
-    - **Insights**: This category should contain any additional information or analysis related to the models in the Bronze, Silver, and Gold categories. This may include performance metrics, error analysis, and other useful insights.
-- The `__pipeline__.ipynb` file is a special file that specifies the order in which the models in the Bronze, Silver, and Gold categories should be trained and evaluated. This file is used to automate the model selection process, ensuring that the most accurate model is always used for a given task.
-- The `IMO_template.ipynb` file contains a collection of templates for data preprocessing, model training, and evaluation. These templates can be used as a starting point for creating new models and can be customized as needed to suit the specific requirements of your project.
+- The `/inputs` folder stores the parameters and any other files needed (data, referential) to run the files in your data product.
+- The `/models` folder stores any files that transform inputs into outputs (notebook, Python, SQL files).
 - The `/outputs` folder stores all the files that would be exposed outside of the Naas server.
 - The `/tests` folder stores all tests to be performed before production.
 - The `/utils` folder stores all common functions used across files.
 - The `requirements.txt` file lists all the packages and dependencies.
-- The `settings.ipynb` file runs the product on a Naas server.
-- The `update.ipynb` file pulls this repository again.
+- The `setup.ipynb` file runs the product on a Naas server.
 
-### What Are The Benefits?
+### Using the Inputs Folder (/inputs)
 
-Some benefits of the Naas Data Product Framework are:
+This folder serves as a repository for parameters and other essential files (such as data, reference materials, mappings, and images) required for your data product.
+You can store images to be displayed in your README or static reference materials to be utilized by your models. This organized storage system aids in maintaining a clean and efficient workflow for your data product.
 
-- **Low-code approach**: The low-code nature of the Naas platform makes it easy for anyone, regardless of their technical background, to create powerful data products.
-- **Open source**: The open-source distribution model of Naas ensures visible source code and versioning, and allows you to create custom logic.
-- **Jupyter integration**: Naas integrates seamlessly with Jupyter notebooks, allowing you to create data products from the comfort of your familiar environment.
-- **Versatility**: With its templates,
+### Organizing Models (/models)
 
- drivers, and features, Naas is highly versatile and enables you to build almost anything.
-- **Cloud-based**: Naas Cloud, the stable environment provided by Naas, allows you to access the platform from anywhere with an internet connection.
+The 'models' folder is where the building blocks of your pipeline reside. This is where you'll use templates or create notebooks that form the backbone of your data product.
+To start, we recommend placing all your notebooks within this folder. As your data product grows and becomes more complex, you may find it beneficial to further organize your notebooks by tools or functionalities. 
+This approach can help manage different pipelines more effectively, ensuring a well-structured and scalable data product."
 
-Overall, the Naas Data Product Framework is a powerful tool for anyone looking to create data products that combine automation, analytics, and AI.
+### Managing Data Storage in 'Outputs' (/outputs)
 
-### Why a Data Product Development Framework Like Naas is Necessary?
+The 'outputs' folder is specifically designed to store output files. For users without a dedicated data lake, Naas Lab offers a convenient temporary solution where you can start saving your outputs.
+Files stored in the 'outputs' folder are kept on the user's file system, providing a secure environment that ensures data privacy.
+For optimal organization and future scalability, it's recommended to structure the 'outputs' folder to resemble the architecture of a data lake. This approach facilitates a smoother transition when you decide to move to a dedicated data lake.
+To ensure data security and traceability, it's advisable to store file versions with timestamps. Additionally, always keep a copy of the latest version readily accessible for easy reference and use
 
-Just as web development frameworks like React.js help developers create web applications more efficiently by providing a set of standardized tools and components, data product development frameworks like Naas help data scientists and engineers create data products more efficiently by providing a set of standardized tools and components specifically designed for data processing, analytics, and AI.
+### Leverage the Utils Folder (/utils) and naas_data_product library
 
-Some specific benefits of using a data product development framework like Naas include:
+The 'utils' folder allows for code factorization, improving readability and reusability of common functions across notebooks. 
+Users can import the 'naas_data_product' package into their notebook to access and use the functions and variables loaded from any notebooks stored in 'utils'.
+This capability is extremely useful for quickly building a data product. We recommend packaging the code into a Python library if you anticipate reusing it in another data product.
+For guidance on how to create a library, please visit the following page.
 
-- **Standardized structure**: A data product development framework provides a standardized structure for organizing and developing data products, which can make it easier to develop, maintain, and scale data products.
-- **Pre-built components**: A data product development framework includes a set of pre-built components, such as data connectors and data transformation tools, which can save time and effort compared to building these components from scratch.
-- **Integration with other tools**: A data product development framework typically integrates with other tools and technologies commonly used in the data world, such as Jupyter notebooks and machine learning libraries, which can make it easier to build and deploy data products.
-- **Collaboration and sharing**: A data product development framework can make it easier for multiple people to collaborate and share data products within an organization, as it provides a consistent framework for development and documentation.
+### Utilizing the Tests Folder (/tests)
 
-Overall, a data product development framework like Naas can provide several benefits to data scientists and engineers, including improved efficiency, integration with other tools, and the ability to collaborate and share data products within an organization.
+The 'tests' folder is where you should create and store your own tests to ensure your scripts run as expected. 
+By conducting regular tests, you can identify and fix any issues or bugs early in the development process, ensuring the reliability and accuracy of your data product.
 
-### How Data Products And Associated Contracts Can Create More Trust From End-Users?
+### Using the Requirements File (requirements.txt)
 
-A data product framework can help with defining data contracts and creating trust with end-users in several ways:
+The 'requirements.txt' file is a crucial component of your data product. It lists all the packages and their specific versions that need to be installed for your scripts to run correctly. 
+This file will be used on the serverless instance to ensure the correct environment is set up for your data product. By clearly specifying the required packages, you can prevent potential compatibility issues and ensure the smooth operation of your scripts.
 
-- **Standardized structure**: A data product framework provides a standardized structure for organizing and developing data products, which can make it easier to define clear and consistent data contracts. For example, if a data product is built using a framework that specifies how input and output data should be structured and documented, it can be easier for end-users to understand how the data product works and what they can expect from it.
-- **Transparency**: Many data product frameworks are open source, which means that the source code is visible and can be reviewed by anyone. This transparency can help build trust with end-users, as they can see exactly how the data product works and how it processes their data.
-- **Auditability**: A data product framework can also provide tools and processes for auditing and reviewing data products, which can help ensure that they are reliable and accurate. This can be especially important for data products that are used in mission-critical applications, as end-users need to be confident that the data products are reliable and trustworthy.
+### Setting Up Your Data Product and Pushing to Production (setup.ipynb)
 
-Overall, a data product framework can help create trust with end-users by providing a standardized and transparent structure for developing data products and by providing tools and processes for auditing and reviewing the products to ensure their reliability.
+The 'setup.ipynb' file plays a crucial role in deploying your data product to production. It's designed to install the necessary requirements, set up dependencies, and schedule tasks. Whenever you need to push an update to production, simply run this setup file.
+After execution, the results will be displayed in the Naas Manager, providing you with an overview of the setup status. This ensures that your data product is always running with the latest updates and in the optimal environment."
 
+## Monitoring Your Execution
 
-## Conclusion
+### Track Execution with Your Naas Manager
 
-Data products play a crucial role in maximizing the value of data within organizations. By adopting the data product framework in Naas, organizations can efficiently develop, manage, and leverage data products to drive business growth, improve decision-making, and gain a competitive advantage in the market.
+The Naas Manager, accessible from your Naas development Lab, enables you to monitor all your jobs and events. It also includes a notification system.
+By default, all jobs come with a notification system that alerts you via email (linked to your Naas account) if they fail. However, you can customize these notifications by adding more emails, setting alerts for when tasks are completed, or even setting up alerts for when tasks are initiated. Please refer to the documentation for detailed instructions. Below is an example of how to set it up for the scheduler.
 
-Note: The content above is based on insights from the Harvard Business Review article "A Better Way to Put Your Data to Work" by Veeral Desai, Tim Fountaine, and Kayvaun Rowshankish (July–August 2022).
+### Handling Errors Within Your Pipeline
+
+Within your pipeline, you can establish 'on _error' steps to manage errors. If any error occurs during the execution of the notebook, the 'on error' notebook will be executed subsequently. This function can serve as a logic gate for your pipeline. We recommend sending a notification through the channel most frequently used in your company to ensure prompt bug fixing (Slack, WhatsApp, email, etc.). This will allow you to create custom error messages and pinpoint exactly which notebook failed and why.
+
+### Establishing Your Own Error Management System within Your Notebook
+
+Naturally, you can incorporate logic within your notebook to manage errors. This method offers more precision as you will know the exact cell that failed. However, it requires maintaining additional code and logic, which may slightly slow down your execution but will make your entire code more secure. We recommend implementing this once your data product is already in production and you have used the other method to ensure robust security and monitoring for the business team.
+
+## Implementing a Continuous Feedback Loop
+
+### Leveraging GitHub Capabilities
+
+GitHub provides a robust platform for collaboration and version control. Its features, such as issues, pull requests (PRs), and project boards, promote efficient team collaboration.
+Additionally, you can set up an SSH key in your Naas development environment to optimize your workflow with GitHub.
+
+### Using Issues as Your Ticketing System
+
+As your team will work on GitHub, we recommend using it as your ticketing system. Whenever you encounter a bug or think of an enhancement, create an issue on GitHub. This practice keeps track of everything and ensures nothing is overlooked. You can assign a team member to work on it and add tags to identify different types of issues.
+
+### Resolving Issues with PRs
+
+A PR can be used to resolve one or several issues. PRs allow your team to review, discuss, and make further changes if necessary before merging the code into the main branch. You can assign a reviewer for the PR who is not the same person who developed the code, ensuring quality.
+
+### Working on Branches
+
+Once the issue is created, GitHub offers a simple way to create a branch directly from its interface. By doing this, you avoid conflicts and ensure smooth collaboration within your team by working on separate branches. This way, the main work remains unaffected.
+
+### Establishing Project Management
+
+GitHub projects provide a flexible way to organize and manage work. You can create iterations, set estimates, and track progress effectively. By using GitHub projects, you can streamline your team's workflow and ensure efficient project management. We recommend only adding issues to your project board as we want to focus on the velocity of how many bugs or enhancements we addressed, not the way we did it with PRs, as a PR can close multiple issues.
+
+## How to Deploy Your Data Product on a Serverless Instance? (Coming Soon)
+
+Deploying your data product on a serverless instance can provide numerous benefits, including scalability, cost-effectiveness, and the elimination of server management (work on local).
+In the upcoming guide, we'll break down the steps for you, making it easier to understand and implement.
