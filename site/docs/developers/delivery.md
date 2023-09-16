@@ -4,12 +4,6 @@ sidebar_position: 5
 
 # Data Product Framework
 
-:::tip
-
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
-
-:::
-
 The Data Product Framework is a comprehensive guide to developing your own data products using Naas.
 In this section, you will discover comprehensive information related to the topic. This includes its importance, guidelines on how to construct it, the resources we provide for your assistance, and how to effectively manage the launch of your product.
 
