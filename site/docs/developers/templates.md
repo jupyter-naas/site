@@ -6,6 +6,7 @@ sidebar_position: 3
 
 Our templates constitute the most extensive collection of open-source notebooks currently available. 
 They encompass a wide range of tools, technologies, and libraries, featuring snippets of notebooks, notebooks for automation and analytics, and others that harness the power of AI.
+
 Each of these templates adheres to a consistent framework, designed to expedite your coding process.
 While these templates are designed for ease of use, some may require data science skills for setup, particularly those that interface with third-party tools via API.
 These templates can function independently, but they also serve as integral components of data products. Consider them as the essential parts needed to assemble your 'car engine'. By developing these templates and ensuring their standalone functionality, we streamline the process of data product development, as we already comprehend the operation of some parts within it.
@@ -107,7 +108,8 @@ Thank you!
 
 If you want to contribute more frequently to Naas, you can become a templates maintainer. This status will offer you the right to be sponsored by Naas for your contributions done every month, ranging from $50 to $250.
 To become a templates maintainer, you must have completed at least 5 notebooks (which ensures you've mastered our process) and created 5 social media content promoting your template or Naas.
-Then you will be introduced to our template maintainer program and will have a dedicated team with the core team to assist you in developing integrations, automations, or AI systems.
+
+Then, you will be introduced to our template maintainer program and will have a dedicated team with the core team to assist you in developing integrations, automations, or AI systems.
 
 ## Support us on social media
 

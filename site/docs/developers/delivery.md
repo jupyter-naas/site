@@ -11,16 +11,19 @@ In this section, you will discover comprehensive information related to the topi
 
 A single template in Naas empowers you to serve your business and deliver value promptly. With minimal configuration, you can ascertain the effectiveness of these templates and set up automation.
 Once you're comfortable with one, you have the option to either enhance it by adding new features and outputs, or use a new template to carry out a different task.
+
 Eventually, you might find yourself overwhelmed with maintaining duplicating code, excessively calling external APIs, reaching their limits, and not fully leveraging the data you're acquiring. This is the point where bundling templates together to start your data product becomes beneficial.
 
 ### Maximizing Efficiency and Value with Templates Consolidation
 
 By consolidating multiple Jupyter notebooks into a single data product, you can effectively streamline your workflows and fully harness your data's potential. This process aids in establishing a pipeline that connects all the notebooks, enabling them to function as integral components of a more extensive workflow.
+
 This strategy not only enhances efficiency but also fosters collaboration, paving the way for a diverse array of insights and perspectives.
 
 ### Adopting a Data Lake Approach
 
 This comprehensive strategy enables you to create a data lake, a centralized repository designed for storing and reusing your data across a multitude of use cases. A data lake approach not only facilitates efficient data management but also ensures that your data is readily accessible and reusable.
+
 By adopting a data lake approach, you can ensure that your data is organized, secure, and ready to provide valuable insights when needed. This approach is particularly beneficial when dealing with large volumes of data, as it allows for efficient storage and retrieval, making it easier to derive value from your data.
 
 ### Minimize Computing Costs
@@ -92,18 +95,23 @@ If you're using Naas Lab, click on 'open in Naas Lab', and the notebook will be 
 ![](__assets__/delivery/DataProductFramework_Search.PNG)
 
 If you're using Naas Lab as your development environment, you can also access these templates in the '__templates__' folder located in the root directory of your machine. (Please remember not to edit within this folder, as it's a read-only folder updated every hour with new templates.)
+
+
 After obtaining your templates, you can add them to your `/models` folder to begin constructing your pipeline.
 Choosing these templates means you won't have to start from scratch, and you'll also be able to leverage some Naas drivers that abstract complex code used in notebooks.
+
 Remember, while these templates are designed to give you a head start, they can always be customized to better align with your specific needs.
 
 ### Setting Up and Scheduling Your First Notebook Pipeline
 
 Now that you have a workflow and some templates, you can begin working on your first notebook.
+
 Start with the notebook that will create the output directly generating value for the end users. Then, work backward through your pipeline to build the other components in your notebook.
 Once your first notebook is complete, replace the DummySteps with real NotebookStep and execute it to ensure your pipeline is functioning correctly. (You can keep your DummySteps)
 If anything goes wrong, make the necessary adjustments inside your notebook. You will find the notebook executed in the pipeline_executions folder.
-Otherwise, you can proceed to the setup notebook and push your pipeline to production. Don't forget to add the notebook path present in the notebook steps as a dependency.
-Monitor your execution in your Naas manager.
+Otherwise, you can proceed to the setup notebook and push your pipeline to production.
+
+Don't forget to add the notebook path present in the notebook steps as a dependency.
 
 ## Understanding the Data-Product-Framework
 
@@ -130,7 +138,9 @@ This approach can help manage different pipelines more effectively, ensuring a w
 
 ### Managing Data Storage in 'Outputs' (/outputs)
 
-The 'outputs' folder is specifically designed to store output files. For users without a dedicated data lake, Naas Lab offers a convenient temporary solution where you can start saving your outputs.
+The 'outputs' folder is specifically designed to store output files. 
+For users without a dedicated data lake, Naas Lab offers a convenient temporary solution where you can start saving your outputs.
+
 Files stored in the 'outputs' folder are kept on the user's file system, providing a secure environment that ensures data privacy.
 For optimal organization and future scalability, it's recommended to structure the 'outputs' folder to resemble the architecture of a data lake. This approach facilitates a smoother transition when you decide to move to a dedicated data lake.
 To ensure data security and traceability, it's advisable to store file versions with timestamps. Additionally, always keep a copy of the latest version readily accessible for easy reference and use
@@ -140,6 +150,7 @@ To ensure data security and traceability, it's advisable to store file versions 
 The 'utils' folder allows for code factorization, improving readability and reusability of common functions across notebooks. 
 Users can import the 'naas_data_product' package into their notebook to access and use the functions and variables loaded from any notebooks stored in 'utils'.
 This capability is extremely useful for quickly building a data product. We recommend packaging the code into a Python library if you anticipate reusing it in another data product.
+
 For guidance on how to create a library, please visit the following page.
 
 ### Utilizing the Tests Folder (/tests)
