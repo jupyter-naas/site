@@ -16,13 +16,6 @@ export default function Home() {
       <main>
         <HomeTLDR />
         <HomeSupport />
-        <HomeToolCatalog />
-        <HomeFeatures />
-        <HomeTechFeatures />
-        <HomeTestimonials />
-
-        <HomeSolutions />
-        <HomeGitHub />
         {/* <HomeFooter /> */}
         {/* <HomepageFeatures /> */}
       </main>
@@ -41,8 +34,8 @@ function HomepageHeader() {
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="https://jtci2pxwjczr.landen.co/">
-            Start for free
+            href="">
+            Request an Invite
           </a>
         </div>
         <div className={styles.siteInfo}>Naas.ai is currently in limited alpha.<br></br>Start with 100 free credits/month for free.</div>
@@ -390,7 +383,7 @@ function HomeFeatures() {
       </div>
       <div className={styles.half}>
         <div className={clsx(styles.textContainer, styles.flex, styles.flexCol, styles.justifyCenter, styles.itemsCenter, styles.hFull)}>
-          <h2>Transparent billing portal that monitors the costs of each API call to language models and the deployment of specific data & AI jobs.</h2>
+          <h2>Transparent billing portal</h2>
           <div>
             <div className={clsx(styles.flex, styles.flexWrap)}>
             <div className={styles.featDescription}>
@@ -401,7 +394,7 @@ function HomeFeatures() {
                     </g>
                   </g>
                 </svg>
-                Consolidated AI Language models billing
+                Consolidated billing
               </div>
               <div className={styles.featDescription}>
                 <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg">
