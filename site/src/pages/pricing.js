@@ -22,7 +22,7 @@ export default function Pricing() {
                         <br />
                         Paid plans offer additional credits and dedicated features.
                     </p>
-                    <div className={clsx(styles.flex, styles.pricingCycle, isAnnual ? styles.activeB : styles.activeA, styles.itemsCenter)}>
+                    {/* <div className={clsx(styles.flex, styles.pricingCycle, isAnnual ? styles.activeB : styles.activeA, styles.itemsCenter)}>
                         <div className={styles.cycleA}>
                             <span>Billed Monthly</span>
                         </div>
@@ -32,7 +32,7 @@ export default function Pricing() {
                         <div className={styles.cycleB}>
                             <span>Billed Annualy (20% off)</span>
                         </div>
-                    </div>
+                    </div> */}
                     <div className={styles.grid}>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
                             <h3>Community</h3>

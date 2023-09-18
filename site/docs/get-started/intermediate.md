@@ -2,37 +2,39 @@
 sidebar_position: 3
 ---
 
-# Intermediate usage
+# Intermediate level
+---
 
-Building upon the basic usage of Naas with Naas Chat, the intermediate level lets you harness the power of templates as adjustable logical functions to establish a Naas Chat plugin. This level emphasizes the use of data templates, which you can combine with AI assistant templates to create a dynamic and interactive conversational experience with your data.
+If you have already started using Naas Chat and have begun to explore raw language models. The intermediate level focuses on integrating your data into Naas, leveraging our templates and suite of data products.
 
-![DataAITemplates](./img/DataAITemplates.gif)
-## Utilizing Templates and AI Assistant Personas
+![intermed](./img/intermed.gif)
 
-**1. Choosing an AI Assistant Persona:** Begin by selecting an AI assistant persona that aligns with your needs from the "Naas Search". These personas range from professional roles (CEO, CTO, COO, etc.) to personal roles (Educator, Student, etc.).
+## Using Templates
 
-**2. Employing Templates in Naas Lab:** Once you have chosen a persona, launch the assistant from Naas Search and proceed to the Naas Lab. Here, you can select the appropriate template for your task. These templates provide structured outlines that can be modified to suit your specific requirements.
+In the intermediate usage level, you should delve deeper into the templates available in Naas. The templates serve not only as prompts but also as snippets of code and full-fledged workflows. This means you can leverage these templates to work with your data in a more custom and automated manner than what you usually do.
 
-**3. Customizing the Template:** Within the Naas Lab, you can adjust the selected template, particularly in the model section. This step is crucial in customizing the persona's conversational behavior and responses, allowing the assistant to cater to your specific context.
+## Creating Plugins in Naas Lab
 
-**4. Running the Modified Template:** After making the necessary modifications to the template, run it in the Naas Lab. This will generate a unique link which you can use to initiate a conversation with your customized AI assistant persona.
+Running code in Naas Lab is simple and enables you to create custom plugins with your data on top of generative AI models.  Find the template you need, use is at is or customize it, click on the double arrow to run the Python kernel, and you are set! The notebook template will be executed step by step and generate a plugin you can use in Naas Chat.
+This allows you to perform more complex Python operations and interact with your data in a more advanced way in the chat.
 
-## Combining Data Templates with AI Personas
+![plugins](./img/plugintab.png)
 
-The real power of Naas with Naas Chat in intermediate usage lies in the combination of data templates with AI personas. For instance, you can merge a data template that fetches data from LinkedIn with an AI assistant persona, like a Marketer or Sales Professional. In a chat conversation, the AI persona can utilize this data to provide context-specific responses, demonstrating the power of large language models narrowed down to a specific persona.
+Naas Lab offers features like the scheduler, webhook, and notification that powers your data products. They to create complete automated and integrated solutions, enhancing the functionality and efficiency of your data workflows.
 
-## FAQs
+![scheduler](./img/naascheduler.png)
 
-**Q1: How do I customize an AI assistant persona to fit my needs?**
+## Generating and Using Plugins
 
-Customization of an AI assistant persona can be done in the Naas Lab. Here, you can select a template and modify it, particularly in the model section, to adjust the persona's conversation behavior.
+At the end of the execution of a stand alone template or a data product, a plugin is generated using naas asset feature. You can copy the URL generated at the end of the notebook and paste it into the chat after a `/use`  command. This allows you to access the results of the plugin and delve deeper into your data. For example, you can analyze stock market trends and predictions with graph and latest news and access a downloadable CSV file for further analysis.
 
-**Q2: Can I use different data templates with a single AI assistant persona?**
 
-Yes, you can. Combining different data templates with a single AI assistant persona can help cater to diverse needs and provide more contextually rich responses.
+## Leveraging Data Products
 
-**Q3: How does running the modified template work?**
+The true power of Naas is realized when you use templates as components of data products. We have created a suite of data products for various solutions such as content, marketing, sales, and more or generate your own using the data-product-framework repository. 
 
-After you modify the template, you run it in the Naas Lab. This generates a unique link which you can copy and use in any chat to initiate a conversation with your customized AI assistant persona.
+Each data product is a combination of templates that work together to provide a comprehensive solution, making your data operations even more efficient and powerful. 
 
-This intermediate level usage allows you to engage with your data more directly, combining the power of GPT-4 with flexible data integration via the Naas platform. The use of templates and the ability to combine them with specific AI assistant personas provides a customizable and context-sensitive conversational experience, enhancing your data interaction and insights.
+## Conclusion
+
+The intermediate usage of Naas is designed to provide a more advanced level of interaction with the platform. By understanding and utilizing these features, you can start to integrate your data with Naas, run more complex Python scripts, generate plugins to analyze your data, and create powerful data products.
