@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Basic level
+# Basic Level
 ---
 
 If you're just getting started, this guide will walk you through the basic usage of our platform. Naas is designed to be user-friendly and intuitive, allowing you to leverage powerful AI models and data tools with ease. It’s our “no-code” experience.

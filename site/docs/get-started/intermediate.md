@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Intermediate level
+# Intermediate Level
 ---
 
 If you have already started using Naas Chat and have begun to explore raw language models. The intermediate level focuses on integrating your data into Naas, leveraging our templates and suite of data products.
