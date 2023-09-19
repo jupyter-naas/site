@@ -10,7 +10,7 @@ We're in the early alpha stage, we recommend booking a meeting with us for perso
 
 :::
 
-![a futurist cover for naas content engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107795724667728012/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_82fc3ef4-d86a-4d2b-bc5e-7126b97e2e45.png?width=2180&height=1246)
+![Growth](./img/growth.png)
 
 ## Features
 
