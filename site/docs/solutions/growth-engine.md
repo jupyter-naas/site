@@ -3,7 +3,8 @@ sidebar_position: 2
 ---
 
 # Growth Marketing
-> Generate Qualified Contacts
+---
+Unlock the power of growth marketing to generate a steady stream of qualified contacts.
 :::tip
 
 We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.

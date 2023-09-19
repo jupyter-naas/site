@@ -2,6 +2,7 @@
 sidebar_position: 6
 ---
 # Collaboration & Versioning
+---
 
 Following software engineering best practices to create sustainable data products
 
@@ -9,7 +10,7 @@ Following software engineering best practices to create sustainable data product
 
 ## Context
 
-Data products development needs collaborative efforts to manage the data product development cycles effectively. The deep intergation with what GitHub offers in terms of advanced version control and collaboration features enabeg teams to collaborate seamlessly and maintain a clear, organized work history.
+Data products development needs collaborative efforts to manage the data product development cycles effectively. The deep intergation with what GitHub offers in terms of advanced version control and collaboration features enable teams to collaborate seamlessly and maintain a clear, organized work history.
 
 ## Benefits
 
