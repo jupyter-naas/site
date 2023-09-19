@@ -149,7 +149,7 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Overview",
+                label: "Artificial Business Intelligence",
                 docId: "solutions/introduction",
               },
               {
@@ -196,8 +196,13 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Overview",
+                label: "Quickstart",
                 docId: "developers/overview",
+              },
+              {
+                type: "doc",
+                label: "Dev Environment",
+                docId: "developers/development",
               },
               {
                 type: "doc",

@@ -34,7 +34,7 @@ function HomepageHeader() {
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="">
+            href="https://bit.ly/3CFSumN">
             Request an Invite
           </a>
         </div>
