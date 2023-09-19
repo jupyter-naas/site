@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Advanced level
+# Advanced Level
 ---
 
 If you have already gained experience with Naas Chat and generative AI models, the advanced level is designed to help you harness the full-fledged capabilities of Naas and take your data operations to the next level. The advanced usage of Naas encompasses both the business and technical aspects, enabling you to work as a team and connect data consumers to data producers more efficiently.
