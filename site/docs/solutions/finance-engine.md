@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Finance Management
+# Finance Management (WIP)
 ---
 Gain real-time financial insights to make informed decisions and drive business growth.
 
