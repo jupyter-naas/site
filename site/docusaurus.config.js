@@ -97,13 +97,13 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Data & AI Templates Search",
-                docId: "platform/search-catalog-template-library",
+                label: "Universal Chat Interface",
+                docId: "platform/aI-powered-chat",
               },
               {
                 type: "doc",
-                label: "Universal Chat Interface",
-                docId: "platform/aI-powered-chat",
+                label: "Data & AI Catalog Search",
+                docId: "platform/search-catalog-template-library",
               },
               {
                 type: "doc",
@@ -201,7 +201,7 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Dev Environment",
+                label: "Development Environment",
                 docId: "developers/development",
               },
               {

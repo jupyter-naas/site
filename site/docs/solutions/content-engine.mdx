@@ -2,12 +2,6 @@
 sidebar_position: 1
 ---
 
-import {
-  ActiveTeamRow,
-  HonoraryAlumniTeamRow,
-  StudentFellowsTeamRow,
-} from '@site/src/components/TeamProfileCards';
-
 # Content Creation
 ---
 
@@ -23,36 +17,54 @@ We're in the early alpha stage, book a call with us and let's chat!
 ![content](./img/content.png)
 
 
-## Overview
-The Content Engine is designed to help organizations harness the power of data and AI to create, optimize, and monitor their content across various platforms, resulting in increased reach and audience engagement. By leveraging powerful analytics, AI-driven content generation, and optimization recommendations, businesses can make data-informed decisions to improve their content strategy and drive growth.
+## Context
+The Content Engine is a powerful solution that empowers organizations to harness the potential of data and AI for content creation, optimization, and monitoring.
+With the Content Engine, businesses can enhance their reach and engage their audience more effectively across various platforms. 
+By leveraging advanced analytics, AI-driven content generation, and optimization recommendations, businesses can make data-informed decisions to improve their content strategy and drive growth.
 
 
+## Demo 
+Experience the capabilities of the Content Engine firsthand with our self-service demo. 
+Simply click on the "Content Engine Demo" button in the launchpad to explore its features and get a feel for what it can provide. 
+The engine is still in its early stages but as we are using it for ourselves, we continuously add new features and enhancements to further empower your content creation process.
 
-## Live Demo 
-
-
+![content](./img/content.gif)
 
 
 ## Benefits
 
-### Improved content strategy
-Make data-driven decisions to refine your content strategy, resulting in increased reach and engagement.
+### Content Performance Analytics
+Track engagement metrics across various platforms to identify high-performing content, understand audience preferences, and optimize your content strategy. Gain insights into key metrics such as views, likes, and shares to continually refine your approach and maximize reach.
 
-### Time savings 
-Streamline content creation with AI-generated content, freeing up time for more strategic tasks.
+### Content Optimization Recommendations
+Receive AI-driven recommendations to improve content quality, readability, and SEO, driving increased audience engagement and reach. Use these insights to create a more targeted and effective content strategy that resonates with your audience and boosts your online presence.
 
-### Enhanced audience targeting
-Gain a deeper understanding of your audience's preferences and interests to create content that resonates with them.
-
-### Competitive advantage
-Stay ahead of the competition by leveraging cutting-edge AI and analytics tools to optimize your content.
-
+### AI-Driven Content Generation
+Leverage large language models to generate relevant and engaging content, reducing the time and effort required to create compelling material. By harnessing AI technology, you can ensure that your content is on-trend, appealing, and tailored to your target audience's interests.
 
 ## Features
-### Content Performance Analytics
-#### Description
 
-Track engagement metrics across various platforms to identify high-performing content, understand audience preferences, and optimize your content strategy. Gain insights into key metrics such as views, likes, and shares to continually refine your approach and maximize reach.
+### Daily Email Report 
+Will send you the daily report of your content performance and recommendations.
+
+### Content Agent Chat
+Will enable you to chat with your content agent to get recommendations and insights.
+
+### Engagement Rate and Sentiment Analysis
+Will calculate the engagement rate of your content and the sentiment of your audience on your content
+
+### Improvement Recommendations
+Will determine what you can do to improve your content and increase your engagement rate.
+
+### Generate Content with AI
+Will generate content for you based on your content brief and target audience.
+
+
+## Data Model
+### CONTENT_ANALYTICS
+#### Description
+The data model behind the collection of post insights on various media platforms. 
+
 #### Dataset
 
 | SCENARIO | SOURCE | DATE | TIME | TITLE | CONTENT | VIEWS | LIKES | COMMENTS | SHARES | ENGAGEMENT RATE | SOURCE TYPE | CONTENT LENGTH | KEYWORDS | URL | SENTIMENT | MEDIA TYPE |
@@ -149,26 +161,9 @@ Track engagement metrics across various platforms to identify high-performing co
 }
 ```
 
-#### Integrations
-
-- LinkedIn Profile
-- LinkedIn Company
-- Twitter
-- Facebook
-- Medium
-- YouTube
-- Reddit
-- Instagram
-- Snapchat
-- TikTok
-- Pinterest
-- Custom Blog
-
-### Content Optimization Recommendations
-
+### CONTENT_RECOMMENDATIONS
 #### Description
-
-Receive AI-driven recommendations to improve content quality, readability, and SEO, driving increased audience engagement and reach. Use these insights to create a more targeted and effective content strategy that resonates with your audience and boosts your online presence.
+The data model behind the enrichment of content with optimizations and recommendations.  
 #### Dataset
 
 | CONTENT URL | CONTENT TITLE | CONTENT BODY | KEYWORDS | READABILITY SCORE | ENGAGEMENT SCORE | SEO SCORE | RECOMMENDATIONS |
@@ -231,12 +226,10 @@ Receive AI-driven recommendations to improve content quality, readability, and S
 - **Analytics Platforms** like Google Analytics or Mixpanel. These could provide additional data on user engagement with the content.
 - **Keyword Research Tools** like Google Keyword Planner or Moz. These could help in identifying effective keywords for the content.
 
-### AI-Driven Content Generation
+### CONTENT_GENERATION
 
 #### Description
-
-Leverage large language models to generate relevant and engaging content, reducing the time and effort required to create compelling material. By harnessing AI technology, you can ensure that your content is on-trend, appealing, and tailored to your target audience's interests.
-
+The data model behind the generation of content using AI.  
 #### Dataset
 
 | REQUEST ID | CONTENT BRIEF | TARGET KEYWORDS | TONE OF VOICE | TARGET AUDIENCE | GENERATED CONTENT OPTION 1 | GENERATED CONTENT OPTION 2 | GENERATED CONTENT OPTION 3 |
@@ -299,10 +292,6 @@ Leverage large language models to generate relevant and engaging content, reduci
 6. **Analytics Platforms** like Google Analytics or Mixpanel. These could provide data on the performance of the generated content, which could be used to refine future content generation.
 
 
-
-## Plugins
-
-<ActiveTeamRow />
 
 ## How to Contribute
 
