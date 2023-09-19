@@ -60,12 +60,12 @@ Will determine what you can do to improve your content and increase your engagem
 Will generate content for you based on your content brief and target audience.
 
 
-## Data Model
-### CONTENT_ANALYTICS
-#### Description
+### Unified Data Model
+#### CONTENT_ANALYTICS
+##### Description
 The data model behind the collection of post insights on various media platforms. 
 
-#### Dataset
+##### Dataset
 
 | SCENARIO | SOURCE | DATE | TIME | TITLE | CONTENT | VIEWS | LIKES | COMMENTS | SHARES | ENGAGEMENT RATE | SOURCE TYPE | CONTENT LENGTH | KEYWORDS | URL | SENTIMENT | MEDIA TYPE |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ The data model behind the collection of post insights on various media platforms
 | FY2023 | Medium | 5/5/2023 | 14:45 | Lessons from FY2023 | In this article, I reflect on... | 1200 | 115 | 30 | 20 | 0.137 | Blog | 55 | #FY2023 | URL | Positive | Text |
 | FY2023 | YouTube | 5/6/2023 | 16:00 | My thoughts on FY2023 | In this video, I share my views... | 3200 | 500 | 150 | 75 | 0.219 | Video | 45 | #FY2023 | URL | Positive | Video |
 
-#### Schema
+##### Schema
 
 ```jsx
 {
@@ -161,10 +161,10 @@ The data model behind the collection of post insights on various media platforms
 }
 ```
 
-### CONTENT_RECOMMENDATIONS
-#### Description
+#### CONTENT_RECOMMENDATIONS
+##### Description
 The data model behind the enrichment of content with optimizations and recommendations.  
-#### Dataset
+##### Dataset
 
 | CONTENT URL | CONTENT TITLE | CONTENT BODY | KEYWORDS | READABILITY SCORE | ENGAGEMENT SCORE | SEO SCORE | RECOMMENDATIONS |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -173,7 +173,7 @@ The data model behind the enrichment of content with optimizations and recommend
 | 3 | Third Title | Yet another piece of content... | #FY2023, #Review | 55 | 0.025 | 80 | "Increase engagement by adding a call to action." |
 | 4 | Fourth Title | More content... | #FY2024, #Forecast | 80 | 0.055 | 70 | "Improve SEO score by adding metadata." |
 
-#### Schema
+##### Schema
 
 ```jsx
 {
@@ -216,7 +216,7 @@ The data model behind the enrichment of content with optimizations and recommend
 }
 ```
 
-#### Integrations
+##### Integrations
 
 - **Content Management Systems (CMS)** like WordPress or Drupal. The system could pull in content directly from the CMS for analysis.
 - **SEO Tools** like Google Search Console or SEMRush. These could provide additional data for the SEO score and recommendations.
@@ -226,11 +226,11 @@ The data model behind the enrichment of content with optimizations and recommend
 - **Analytics Platforms** like Google Analytics or Mixpanel. These could provide additional data on user engagement with the content.
 - **Keyword Research Tools** like Google Keyword Planner or Moz. These could help in identifying effective keywords for the content.
 
-### CONTENT_GENERATION
+#### CONTENT_GENERATION
 
-#### Description
+##### Description
 The data model behind the generation of content using AI.  
-#### Dataset
+##### Dataset
 
 | REQUEST ID | CONTENT BRIEF | TARGET KEYWORDS | TONE OF VOICE | TARGET AUDIENCE | GENERATED CONTENT OPTION 1 | GENERATED CONTENT OPTION 2 | GENERATED CONTENT OPTION 3 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -239,7 +239,7 @@ The data model behind the generation of content using AI.
 | 3 | Draft an email to customers about a service update | #ServiceUpdate | Informative | Customers | "We wanted to let you know about an important update to our service..." | "Important service update: We've made some changes..." | "We're writing to inform you about an update to our service..." |
 | 4 | Write a news article about our sustainability efforts | #Sustainability, #Efforts | Inspiring | General Public | "Our commitment to sustainability is at the heart of our operations..." | "Sustainability isn't just a buzzword for us—it's a core part of our mission..." | "We're excited to share the strides we've made in our sustainability efforts..." |
 
-#### Schema
+##### Schema
 
 ```jsx
 {
@@ -282,7 +282,7 @@ The data model behind the generation of content using AI.
 }
 ```
 
-#### Integrations
+##### Integrations
 
 1. **Content Management Systems (CMS)** like WordPress or Drupal. The system could push generated content directly to the CMS.
 2. **Customer Relationship Management (CRM) systems** like Salesforce or HubSpot. These could provide data on the target audience that might influence content generation.

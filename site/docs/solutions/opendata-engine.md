@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Open Data Intelligence
+# Open Data Intelligence (WIP)
 ---
 Embrace the power of open data intelligence to gain a deeper understanding of the world around you.
 
