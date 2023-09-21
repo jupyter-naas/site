@@ -697,13 +697,13 @@ p {
     padding: 40px 0 55px 0;
   }
   .imageContainer {
-    padding: 25px 20px;
+    padding: 50px 20px 25px 20px;
   }
   .gridItem {
     width: 100%;
   }
   .landing {
-    padding: 10px 0px 0px 0px;
+    padding: 25px 0px 25px 0px;
   }
   .explore {
     padding-bottom: 60px;
