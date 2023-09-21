@@ -144,9 +144,9 @@ const supportLogos = [
 function HomeSupport() {
   return <div className={styles.testimonials}>
     <div className={styles.hw}>
-    <div className={styles.titleWrapper}>
+    {/* <div className={styles.titleWrapper}>
           <h2></h2>
-        </div>
+        </div> */}
       <div className={styles.support}>
         <p>
           We have already received support from people at amazing organizations, <br />
