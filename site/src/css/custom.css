@@ -115,6 +115,10 @@ table th, table td {
   padding: 50px 0px;
 }
 
+.container-fluid {
+  padding: 25px;
+}
+
 @media screen and (max-width: 996px) {
   .col {
     width: 50%;
