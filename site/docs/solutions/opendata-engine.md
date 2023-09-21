@@ -8,7 +8,7 @@ Embrace the power of open data intelligence to gain a deeper understanding of th
 
 :::tip
 
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
 
 :::
 

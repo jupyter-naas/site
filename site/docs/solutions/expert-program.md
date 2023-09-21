@@ -8,7 +8,7 @@ Access expert guidance and hire professionals with a unique blend of business an
 
 :::tip
 
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
 
 :::
 
