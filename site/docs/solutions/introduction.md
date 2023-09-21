@@ -8,7 +8,7 @@ Building ABI, the AI System for Everyday Business
 
 :::tip
 
-We're in the early alpha stage, book a call with us and let's chat!
+We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
 
 :::
 
