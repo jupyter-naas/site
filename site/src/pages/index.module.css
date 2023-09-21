@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   padding-top: 150px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 
@@ -38,13 +38,19 @@
   font-size: 3.5em;
   font-weight: 900;
   line-height: 1.2;
-  margin: 0 0 17px;
+  margin: 0 0 20px;
   white-space: pre-line;
 }
 
 @media screen and (max-width: 768px) {
   .title {
     font-size: 2.4em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 2.2em;
   }
 }
 
@@ -55,6 +61,12 @@
   max-width: 600px;
   white-space: pre-line;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 480px) {
+  .tagline {
+    font-size: 1.2em;
+  }
 }
 
 h1 {
@@ -78,7 +90,7 @@ h3{
 
 p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.1em;
   line-height: 1.4em;
 }
 
@@ -238,9 +250,12 @@ p {
   margin: 40px 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .buttonContainer{
     flex-direction: column;
+  }
+  .heroBanner {
+    padding: 1.2rem;
   }
 }
 
@@ -307,7 +322,7 @@ p {
 /* Community Section */
 
 .community {
-  padding: 24px 0px;
+  /* padding: 25px 0px; */
   background-color: #181a1c;
   display: flex;
   justify-content: center;
@@ -317,6 +332,10 @@ p {
   max-width: 1200px;
   width: 100%;
   color: rgba(255, 255, 255, 1);
+}
+
+.titleWrapper {
+  padding: 50px 0px;
 }
 
 .titleWrapper h2 {
@@ -332,20 +351,73 @@ p {
   font-weight: 400;
   margin: 0;
   text-align: center;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  /* margin-bottom: 50px; */
+}
+
+@media (max-width: 768px) {
+  .buttonContainer{
+    flex-direction: column;
+  }
+  .heroBanner {
+    padding: 1.2rem;
+  }
+
+  .titleWrapper h2 {
+    font-size: 2.4em;
+  }
+
+  .titleWrapper p {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 480px) {
+  .titleWrapper h2 {
+    font-size: 2.2em;
+  }
+
+  .titleWrapper p {
+    font-size: 1.2em;
+  }
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: -60px;
+  justify-content: space-around;
+  /* margin-bottom: -60px; */
   text-align: center;
+  padding: 50px 0px;
 }
 
 .gridItem {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   width: 300px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .titleWrapper {
+    padding: 25px 0px;
+  }
+  .grid {
+    padding: 25px 0px;
+  }
+
+  .gridItem {
+    /* margin-bottom: 60px; */
+    margin-bottom: 50px;
+  }
+}
+
+
+.gridItem p {
+  margin: 0px;
+}
+
+.iconContainer {
+  height: 45px;
 }
 
 .testimonials {
@@ -354,7 +426,7 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 60px;
+  padding: 25px 0px;
 }
 
 
@@ -448,16 +520,20 @@ p {
 
 .support {
   font-weight: 400;
-  margin-bottom: 50px;
+  margin: 25px 0px;
   font-size: 1.5em;
   text-align: center;
   line-height: 1.5;
 }
 
+.support p {
+  margin: 0px;
+}
+
 .supportLogos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 0 -20px;
 }
@@ -544,7 +620,8 @@ p {
 }
 
 .imageContainer {
-  padding: 40px 50px 110px 50px;
+  padding: 50px 50px;
+  /* margin-bottom: 25px; */
 }
 
 .FlowContainer {
@@ -620,13 +697,13 @@ p {
     padding: 40px 0 55px 0;
   }
   .imageContainer {
-    padding-bottom: 50px;
+    padding: 25px 20px;
   }
   .gridItem {
     width: 100%;
   }
   .landing {
-    padding: 75px 0px 50px 0px;
+    padding: 10px 0px 0px 0px;
   }
   .explore {
     padding-bottom: 60px;
@@ -785,6 +862,10 @@ p {
 }
 .footer {
   padding: 30px;
+}
+
+.col {
+  text-align: center;
 }
 
 .footer span {
@@ -1077,7 +1158,7 @@ table th, table td {
     text-align: center;
   }
 
-  .textContainer p {
+  /* .textContainer p {
     text-align: left;
   }
   h2 {
@@ -1086,6 +1167,6 @@ table th, table td {
 
   p {
     text-align: left;
-  }
+  } */
 }
 
