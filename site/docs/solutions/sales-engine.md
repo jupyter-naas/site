@@ -11,7 +11,7 @@ Maximize sales conversion by effectively transforming interest into revenue-gene
 We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.s
 :::
 
-![sales](./img/sales.png)
+![sales](./img/sales-lite.png)
 
 ## Context
 

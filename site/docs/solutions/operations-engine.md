@@ -12,7 +12,7 @@ Streamline your operations and create a centralized single source of truth for e
 We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
 :::
 
-![ops](./img/ops.png)
+![ops](./img/ops-lite.png)
 
 ## Context
 

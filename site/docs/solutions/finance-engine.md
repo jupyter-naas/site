@@ -10,7 +10,7 @@ Gain real-time financial insights to make informed decisions and drive business 
 We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
 :::
 
-![finance](./img/finance.png)
+![finance](./img/finance-lite.png)
 
 Visualize Financial Statements in Real-Time.
 
