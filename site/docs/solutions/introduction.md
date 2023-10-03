@@ -12,7 +12,7 @@ We're in the early alpha stage, this page is constantly evolving, book a call wi
 
 :::
 
-![Abi](./img/buildingabi.png)
+![Abinet](./img/abi-net.png)
 
 ## Context
 
@@ -26,7 +26,7 @@ We aim at enabling businesses to create their own AI, an “Artificial Business 
 
 Unlike OpenAI, Naas does not aim at creating a system with human-like general intelligence that can perform any intellectual task. Naas acknowledges that AGI is a complex and challenging goal, requiring advancements in various AI domains. Instead, Naas adopts a more pragmatic approach by focusing on the practical application of AI techniques within specific business processes and domains. It leverages generative AI models and foundation engines to enhance business operations and decision-making without aiming to achieve the comprehensive intelligence of AGI.
 
-ABI refers to applying AI techniques in business settings to enhance decision-making, automate processes, and generate business outcomes. NaaS aims to create data products combined with AI to drive business success, such as increasing revenue and optimizing operations. It utilizes advanced algorithms, machine learning models, and data analysis to provide valuable insights and improve efficiency within specific business domains.
+ABI refers to applying AI techniques in business settings to enhance decision-making, automate processes, and generate business outcomes. Naas aims to create data products combined with AI to drive business success, such as increasing revenue and optimizing operations. It utilizes advanced algorithms, machine learning models, and data analysis and automation to provide valuable insights and improve efficiency within specific business domains.
 
 While AGI aims for human-like general intelligence, Naas focuses on leveraging AI to drive business success through practical applications and domain-specific solutions
 

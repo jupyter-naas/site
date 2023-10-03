@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "⚡️ The Universal Data & AI Platform",
   tagline:
-    "Naas is an open alternative to ChatGPT and its Plugin store, offering an unparalleled opportunity to create data products and chat plugins that redefine what's possible in analytics, automation, and AI.",
+    "Naas is an open ChatGPT alternative to help you integrate AI into your workflows using our low-code notebook templates catalog and generative AI models.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -273,7 +273,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Request Invite</button><a>`,
+            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Apply to Alpha</button><a>`,
           },
         ],
       },

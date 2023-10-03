@@ -8,9 +8,11 @@ Access expert guidance and hire professionals with a unique blend of business an
 
 :::tip
 
-We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
+This page is constantly evolving as we are in alpha stage, book a call with us to learn more.
 
 :::
+
+
 
 ![ai-roadmap](./img/ai-roadmap.png)
 

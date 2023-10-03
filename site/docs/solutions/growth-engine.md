@@ -11,7 +11,7 @@ We're in the early alpha stage, this page is constantly evolving, book a call wi
 
 :::
 
-![Growth](./img/growth.png)
+![Growth](./img/growth-lite.png)
 
 
 ## Context 

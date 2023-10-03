@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Open Data Intelligence (WIP)
+# Open Data Intelligence
 ---
 Embrace the power of open data intelligence to gain a deeper understanding of the world around you.
 
@@ -12,7 +12,7 @@ We're in the early alpha stage, this page is constantly evolving, book a call wi
 
 :::
 
-![opendata](./img/opendata.png)
+![opendata](./img/opendata-lite.png)
 
 
 Better Understand the World Around You.
