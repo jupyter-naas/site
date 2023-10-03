@@ -12,7 +12,9 @@ This page is constantly evolving as we are in alpha stage, book a call with us t
 
 :::
 
-![ai-roadmap]("./img/ai-roadmap.png")
+
+
+![ai-roadmap](./img/ai-roadmap.png)
 
 
 ## Empower Your Organization with Naas Experts

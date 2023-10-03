@@ -35,7 +35,7 @@ function HomepageHeader() {
           <a
             className={styles.cta}
             href="https://bit.ly/3CFSumN">
-            Request an Invite
+            Apply to Alpha
           </a>
         </div>
         <div className={styles.siteInfo}>Naas.ai is currently in limited alpha.<br></br>Start with 100 free credits/month for free.</div>
