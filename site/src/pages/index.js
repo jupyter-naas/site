@@ -16,13 +16,15 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
+        <h2 className={styles.h2textCenter} >How It Works?</h2>
         <Steps />
+        <HomeApproach />
+        <HomeSolutions />
         {/* <HomeFeatures /> */}
         <HomeTechFeatures />
         <HomeTestimonials />
-        {/* <HomeSupport /> */}
-        {/* <HomeSolutions /> */}
         {/* <HomeGitHub /> */}
+        <HomeContributors />
         {/* <HomeFooter /> */}
         {/* <HomepageFeatures /> */}
       </main>
@@ -966,6 +968,104 @@ function HomeFeatures() {
   );
 }
 
+function HomeApproach() {
+  return (
+    <>
+      <div
+        className={clsx(
+          styles.flex,
+          styles.flexCol,
+          styles.itemsCenter,
+          styles.bgLight
+        )}
+      >
+        <div className={styles.h_w}>
+          <div className={styles.catalog}>
+            <div className={styles.catalogHead}>
+              <h2>
+                Naas all-in-one approach covers every data & AI related tasks
+              </h2>
+              <p>
+                The All-in-One Experience is a key philosophical engagement of
+                the Naas platform, <br />
+                designed to provide users with a comprehensive and streamlined
+                approach to data and AI.
+              </p>
+            </div>
+            <img
+              src="https://user-images.githubusercontent.com/81156510/277151454-ff4929c1-3f64-405c-8139-d8a7f6b58510.png"
+              alt="list of available approaches"
+            />
+          </div>
+          <div
+            className={clsx(
+              styles.flex,
+              styles.flexWrap,
+              styles.justifyCenter,
+              styles.itemsCenter,
+              styles.explore
+            )}
+          >
+            <div className={styles.buttonContainer}>
+              <a
+                className={styles.cta}
+                href="https://bit.ly/3CFSumN"
+                target="_blank"
+              >
+                Join Alpha
+              </a>
+              <a
+                className={styles.btnWhite}
+                href="https://calendly.com/jeremyravenel"
+                target="_blank"
+              >
+                Book a Call
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className={clsx(
+          styles.flex,
+          styles.flexCol,
+          styles.itemsCenter,
+          styles.bgLight
+        )}
+      >
+        <div className={styles.h_w}>
+          <div className={styles.catalog}>
+            <div className={styles.catalogHead}>
+              <h2>
+                We aim at enabling businesses to create <br /> their own
+                Artificial Business Intelligence (ABI) <br /> rather than
+                pursuing Artificial General Intelligence (AGI)
+              </h2>
+              <p>
+                With or without an Enterprise-level Data Stack, Naas will do the
+                job
+              </p>
+            </div>
+            <img
+              src="https://user-images.githubusercontent.com/81156510/277151648-7e576545-2d9a-4e1a-b527-354bdb96502e.png"
+              alt="naas enterprise level data stack"
+            />
+          </div>
+          <div
+            className={clsx(
+              styles.flex,
+              styles.flexWrap,
+              styles.justifyCenter,
+              styles.itemsCenter,
+              styles.explore
+            )}
+          ></div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 function HomeTechFeatures() {
   return (
     <div>
@@ -1233,10 +1333,15 @@ function HomeSolutions() {
       <div className={clsx(styles.flex, styles.justifyCenter)}>
         <div className={clsx(styles.catalog, styles.h_w)}>
           <div className={styles.catalogHead}>
-            <h2>Endless Possibilities</h2>
+            <h2>
+              Leverage data & AI through practical applications
+              <br />
+              and domain-specific solutions
+            </h2>
             <p>
-              Discover the power of Naas data engines and plugins <br></br>to
-              address your critical business needs.
+              Discover the power of Naas foundation data engines
+              <br />
+              to address your critical business needs.
             </p>
           </div>
           <div className={styles.gallery}>
@@ -1440,6 +1545,79 @@ function HomeSolutions() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function HomeContributors() {
+  return (
+    <div
+      className={clsx(
+        styles.flex,
+        styles.flexWrap,
+        styles.bgLight,
+        styles.featureImage
+      )}
+    >
+      <div className={styles.half} style={{ marginLeft: "10%" }}>
+        <div
+          className={clsx(
+            styles.textContainer,
+            styles.flex,
+            styles.flexCol,
+            styles.justifyCenter,
+            styles.itemsCenter,
+            styles.hFull
+          )}
+        >
+          <div>
+            <h4 style={{ color: "white" }}>STEP 5</h4>
+          </div>
+          <h2>
+            🌍 Build on-demand elite teams to accelerate your data & AI roadmap
+            execution{" "}
+          </h2>
+          <p>
+            Our community of data entrepreneurs are creating the open source
+            templates that will enable any organizations to power their
+            proprietary data products & AI systems. They excel in a lot of
+            different domains, and provide premium support anywhere around the
+            globe.
+          </p>
+          <div className={styles.buttonContainer}>
+            <a
+              className={styles.cta}
+              href="https://bit.ly/3CFSumN"
+              target="_blank"
+            >
+              Join Alpha
+            </a>
+            <a
+              className={styles.btnWhite}
+              href="https://calendly.com/jeremyravenel"
+              target="_blank"
+            >
+              Book a Call
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className={styles.half}>
+        <div className={styles.relative}>
+          <svg
+            viewBox="0 0 940 623"
+            xmlns="http://www.w3.org/2000/svg"
+            className="pdxBrowser"
+          ></svg>
+          <div className={clsx(styles.absolute, styles.jupyterImage)}>
+            <img
+              style={{ padding: "50px 50px" }}
+              src="https://user-images.githubusercontent.com/81156510/277149720-969ba4b5-c94a-443c-b2d8-2e9659e3229d.png"
+              alt="list of contributors"
+            />
           </div>
         </div>
       </div>

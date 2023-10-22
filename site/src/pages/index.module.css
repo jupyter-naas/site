@@ -196,6 +196,8 @@ p {
 }
 
 .h2textCenter {
+  padding-top: 104px;
+  padding-bottom: 35px;
   text-align: center;
   font-size: 38.4px;
 }
@@ -205,15 +207,21 @@ p {
 }
 
 .btnWhite {
-  color: rgb(71, 221, 130);
+  color: #747677;
   background: transparent;
-  border-radius: 10px;
-  box-shadow: inset 0px 0px 0px 1px, 0px 1px 2px 0px rgba(0, 0, 0, .171);
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: 500;
-  padding: 0.7em 0.8em;
+  /* box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0); */
   margin: 5px;
+  font-size: 1.2em;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 10px;
+  line-height: 1;
+  border: 1px solid var(--grey-3, #747677);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .btnGreen {
