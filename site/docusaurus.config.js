@@ -2,7 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 // const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -47,8 +47,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/jupyter-naas/site",
+          editUrl: "https://github.com/jupyter-naas/site",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -61,7 +60,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       fontFamily: {
-        sans: ['San Francisco', 'Arial', 'sans-serif']},
+        sans: ["San Francisco", "Arial", "sans-serif"],
+      },
       // Replace with your project's social card
       image: "img/how-it-works.png",
       colorMode: {
@@ -69,11 +69,11 @@ const config = {
       },
       // announcementBar: {
       //   id: 'support_us',
-       //  content:
-        //   "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Get early access to Naas 2.0</a>, a redesigned Workspace with built-in Google Search and ChatGPT alternative to create your own data & AI products.",
-        // backgroundColor: '#fafbfc',
-        // textColor: '#091E42',
-        // isCloseable: false,
+      //  content:
+      //   "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Get early access to Naas 2.0</a>, a redesigned Workspace with built-in Google Search and ChatGPT alternative to create your own data & AI products.",
+      // backgroundColor: '#fafbfc',
+      // textColor: '#091E42',
+      // isCloseable: false,
       // },
       navbar: {
         style: "dark",
@@ -144,7 +144,7 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Framework",
+            label: "Solutions",
             position: "left",
             items: [
               {
@@ -176,7 +176,7 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Solutions",
+            label: "Developers",
             position: "left",
             items: [
               {
@@ -223,7 +223,7 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Community",
+            label: "Resources",
             position: "left",
             items: [
               {
@@ -251,108 +251,118 @@ const config = {
             position: "left",
           },
           {
-            href: "https://calendly.com/jeremyravenel",
+            to: "https://naas.ai/search",
             position: "right",
-            label: `Book a meeting`,
+            label: `Search`,
+          },
+          {
+            to: "https://calendly.com/jeremyravenel",
+            label: `Book a Call`,
+            position: "right",
+          },
+          {
+            to: "https://naas.ai/auth/signin",
+            position: "right",
+            label: `Sign in`,
           },
           {
             type: "html",
             position: "right",
-            value: `<a href="https://www.naas.ai/auth/signin" target="_blank"><button>Start for free</button><a>`,
+            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Join Alpha</button><a>`,
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           {
-            title: 'Universe',
+            title: "Universe",
             items: [
               {
-                label: 'Overview',
-                href: 'docs/get-started/introduction'
+                label: "Overview",
+                href: "docs/get-started/introduction",
               },
               {
-                label: 'Platform',
-                href: 'docs/category/platform'
+                label: "Platform",
+                href: "docs/category/platform",
               },
               {
-                label: 'Framework',
-                href: 'docs/category/framework'
+                label: "Framework",
+                href: "docs/category/framework",
               },
               {
-                label: 'Solutions',
-                href: 'docs/category/solutions'
+                label: "Solutions",
+                href: "docs/category/solutions",
               },
-            ]
+            ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Join our Slack',
-                href: 'https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw'
+                label: "Join our Slack",
+                href: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/jupyter-naas'
+                label: "GitHub",
+                href: "https://github.com/jupyter-naas",
               },
               {
-                label: 'How to contribute?',
-                href: 'docs/community/how-to-contribute'
+                label: "How to contribute?",
+                href: "docs/community/how-to-contribute",
               },
               {
-                label: 'Roadmap',
-                href: 'https://github.com/orgs/jupyter-naas/projects/10/views/13'
+                label: "Roadmap",
+                href: "https://github.com/orgs/jupyter-naas/projects/10/views/13",
               },
-            ]
+            ],
           },
           {
-            title: 'Company',
+            title: "Company",
             items: [
               {
-                label: 'Teams',
-                href: 'https://github.com/orgs/jupyter-naas/teams'
+                label: "Teams",
+                href: "https://github.com/orgs/jupyter-naas/teams",
               },
               {
-                label: 'Terms of Service',
-                href: 'docs/policies/terms'
+                label: "Terms of Service",
+                href: "docs/policies/terms",
               },
               {
-                label: 'Privacy',
-                href: 'docs/policies/privacy'
+                label: "Privacy",
+                href: "docs/policies/privacy",
               },
               {
-                label: 'Contact support',
-                href: 'https://form.typeform.com/to/aH1v5ync?typeform-source=www.naas.ai'
+                label: "Contact support",
+                href: "https://form.typeform.com/to/aH1v5ync?typeform-source=www.naas.ai",
               },
               {
-                label: 'Contact sales',
-                href: 'https://form.typeform.com/to/GjbalQ7R'
-              }
-            ]
+                label: "Contact sales",
+                href: "https://form.typeform.com/to/GjbalQ7R",
+              },
+            ],
           },
           {
-            title: 'Follow us',
+            title: "Follow us",
             items: [
               {
-                label: 'Github',
-                href: 'https://github.com/jupyter-naas'
+                label: "Github",
+                href: "https://github.com/jupyter-naas",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/jupyternaas'
+                label: "Twitter",
+                href: "https://twitter.com/jupyternaas",
               },
               {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/naas-ai/'
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/naas-ai/",
               },
               {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UCKKG5hzjXXU_rRdHHWQ8JHQ'
-              }
-            ]
-          }
+                label: "Youtube",
+                href: "https://www.youtube.com/channel/UCKKG5hzjXXU_rRdHHWQ8JHQ",
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
       },
@@ -367,7 +377,7 @@ const config = {
       // },
       prism: {
         darkTheme: darkCodeTheme,
-        defaultLanguage: 'python',
+        defaultLanguage: "python",
       },
     }),
 };
