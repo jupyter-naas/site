@@ -16,7 +16,8 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
-        <h2 className={styles.h2textCenter} >How It Works?</h2>
+        <HomeFeatures />
+        <h2 className={styles.h2textCenter}>How It Works?</h2>
         <Steps />
         <HomeApproach />
         <HomeSolutions />
@@ -697,9 +698,280 @@ function Steps() {
   );
 }
 
+// function HomeFeatures() {
+//   return (
+//     <div>
+//       <div
+//         className={clsx(
+//           styles.flex,
+//           styles.flexWrap,
+//           styles.bgLight,
+//           styles.featureImage
+//         )}
+//       >
+//         <div className={styles.half}>
+//           <div className={styles.imageContainer}>
+//             <div className={styles.relative}>
+//               <svg
+//                 viewBox="0 0 940 623"
+//                 xmlns="http://www.w3.org/2000/svg"
+//                 className="pdxBrowser"
+//               >
+//                 <g fill="none" fillRule="evenodd">
+//                   <rect fill="#FFF" width="940" height="623" rx="9"></rect>
+//                   <path
+//                     d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+//                     fill="#DFE1E6"
+//                   ></path>
+//                   <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+//                   <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+//                   <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+//                 </g>
+//               </svg>
+//               <div className={clsx(styles.absolute, styles.jupyterImage)}>
+//                 <img
+//                   src="https://jtci2pxwjczr.landen.co/lib_KbmqUogQbiRJQoGw/4ikcr39udlxt3tai.gif"
+//                   alt="jupyter"
+//                 />
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//         <div className={styles.half}>
+//           <div
+//             className={clsx(
+//               styles.textContainer,
+//               styles.flex,
+//               styles.flexCol,
+//               styles.justifyCenter,
+//               styles.itemsCenter,
+//               styles.hFull
+//             )}
+//           >
+//             <h2>Assemble templates to create your data products</h2>
+//             <p>
+//               Incorporate your own unique intelligence with the help of Naas'
+//               low-code integration and production capabilities.
+//             </p>
+//           </div>
+//         </div>
+//       </div>
+//       <div
+//         className={clsx(
+//           styles.flex,
+//           styles.bgDark,
+//           styles.scalling,
+//           styles.featureImage
+//         )}
+//       >
+//         <div className={styles.half}>
+//           <div
+//             className={clsx(
+//               styles.flex,
+//               styles.justifyFlexEnd,
+//               styles.itemsCenter,
+//               styles.hFull
+//             )}
+//           >
+//             <div
+//               className={clsx(
+//                 styles.textContainer,
+//                 styles.flex,
+//                 styles.flexCol,
+//                 styles.itemsCenter
+//               )}
+//             >
+//               <h2>Build & scale your data products effortlessly</h2>
+//               <p>
+//                 Take your data product from its initial development stage to a
+//                 fully-fledged, enterprise-level.
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//         <div className={styles.half}>
+//           <div className={styles.imageContainer}>
+//             <img src="./img/naas-jobs.png" alt="features" />
+//           </div>
+//         </div>
+//       </div>
+//       <div
+//         className={clsx(
+//           styles.flex,
+//           styles.bgLightGrey,
+//           styles.scalling,
+//           styles.featureImage
+//         )}
+//       >
+//         <div className={styles.half}>
+//           <div className={styles.imageContainer}>
+//             <div className={styles.relative}>
+//               <svg
+//                 viewBox="0 0 940 623"
+//                 xmlns="http://www.w3.org/2000/svg"
+//                 className="pdxBrowser"
+//               >
+//                 <g fill="none" fillRule="evenodd">
+//                   <rect fill="#FFF" width="940" rx="9"></rect>
+//                   <path
+//                     d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+//                     fill="#DFE1E6"
+//                   ></path>
+//                   <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+//                   <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+//                   <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+//                 </g>
+//               </svg>
+//               <div className={clsx(styles.absolute, styles.jupyterImage)}>
+//                 <img src="./img/dashboard.png" alt="dashboard" />
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//         <div className={styles.half}>
+//           <div
+//             className={clsx(
+//               styles.textContainer,
+//               styles.flex,
+//               styles.flexCol,
+//               styles.justifyCenter,
+//               styles.itemsCenter,
+//               styles.hFull
+//             )}
+//           >
+//             <h2>
+//               Always know how your data products work, no hidden surprises.
+//             </h2>
+//             <div>
+//               <div className={clsx(styles.flex, styles.flexWrap)}>
+//                 <div className={styles.featDescription}>
+//                   <svg
+//                     width="21px"
+//                     height="17px"
+//                     viewBox="0 0 21 17"
+//                     version="1.1"
+//                     xmlns="http://www.w3.org/2000/svg"
+//                   >
+//                     <g
+//                       id="Page-1"
+//                       stroke="none"
+//                       strokeWidth="1"
+//                       fill="none"
+//                       fillRule="evenodd"
+//                     >
+//                       <g
+//                         id="ui-icons"
+//                         transform="translate(-109.000000, -67.000000)"
+//                         fill="#22BC66"
+//                       >
+//                         <polygon
+//                           id="check"
+//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
+//                         ></polygon>
+//                       </g>
+//                     </g>
+//                   </svg>
+//                   Consolidated AI Language models billing
+//                 </div>
+//                 <div className={styles.featDescription}>
+//                   <svg
+//                     width="21px"
+//                     height="17px"
+//                     viewBox="0 0 21 17"
+//                     version="1.1"
+//                     xmlns="http://www.w3.org/2000/svg"
+//                   >
+//                     <g
+//                       id="Page-1"
+//                       stroke="none"
+//                       strokeWidth="1"
+//                       fill="none"
+//                       fillRule="evenodd"
+//                     >
+//                       <g
+//                         id="ui-icons"
+//                         transform="translate(-109.000000, -67.000000)"
+//                         fill="#22BC66"
+//                       >
+//                         <polygon
+//                           id="check"
+//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
+//                         ></polygon>
+//                       </g>
+//                     </g>
+//                   </svg>
+//                   Transparent jobs pricing
+//                 </div>
+//                 <div className={styles.featDescription}>
+//                   <svg
+//                     width="21px"
+//                     height="17px"
+//                     viewBox="0 0 21 17"
+//                     version="1.1"
+//                     xmlns="http://www.w3.org/2000/svg"
+//                   >
+//                     <g
+//                       id="Page-1"
+//                       stroke="none"
+//                       strokeWidth="1"
+//                       fill="none"
+//                       fillRule="evenodd"
+//                     >
+//                       <g
+//                         id="ui-icons"
+//                         transform="translate(-109.000000, -67.000000)"
+//                         fill="#22BC66"
+//                       >
+//                         <polygon
+//                           id="check"
+//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
+//                         ></polygon>
+//                       </g>
+//                     </g>
+//                   </svg>
+//                   Automated versioning
+//                 </div>
+//                 <div className={styles.featDescription}>
+//                   <svg
+//                     width="21px"
+//                     height="17px"
+//                     viewBox="0 0 21 17"
+//                     version="1.1"
+//                     xmlns="http://www.w3.org/2000/svg"
+//                   >
+//                     <g
+//                       id="Page-1"
+//                       stroke="none"
+//                       strokeWidth="1"
+//                       fill="none"
+//                       fillRule="evenodd"
+//                     >
+//                       <g
+//                         id="ui-icons"
+//                         transform="translate(-109.000000, -67.000000)"
+//                         fill="#22BC66"
+//                       >
+//                         <polygon
+//                           id="check"
+//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
+//                         ></polygon>
+//                       </g>
+//                     </g>
+//                   </svg>
+//                   Keep track and maintain ownership
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
 function HomeFeatures() {
   return (
-    <div>
+    <>
       <div
         className={clsx(
           styles.flex,
@@ -708,6 +980,27 @@ function HomeFeatures() {
           styles.featureImage
         )}
       >
+        <div className={styles.half} style={{ marginLeft: "10%" }}>
+          <div
+            className={clsx(
+              styles.textContainer,
+              styles.flex,
+              styles.flexCol,
+              styles.justifyCenter,
+              styles.itemsCenter,
+              styles.hFull
+            )}
+          >
+            <div style={{ marginLeft: "-90%" }}>
+              <h4 style={{ color: "white" }}>STEP 3</h4>
+            </div>
+            <h2>💬 Chat</h2>
+            <p>
+              Simple. Powerful. Empowering. Communicate more efficiently with
+              next generation AI Language models in a single interface.
+            </p>
+          </div>
+        </div>
         <div className={styles.half}>
           <div className={styles.imageContainer}>
             <div className={styles.relative}>
@@ -729,14 +1022,23 @@ function HomeFeatures() {
               </svg>
               <div className={clsx(styles.absolute, styles.jupyterImage)}>
                 <img
-                  src="https://jtci2pxwjczr.landen.co/lib_KbmqUogQbiRJQoGw/4ikcr39udlxt3tai.gif"
+                  src="https://user-images.githubusercontent.com/81156510/277158801-51e5c09d-bd5b-43fd-a845-af693ee8f4ef.png"
                   alt="jupyter"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.half}>
+      </div>
+      <div
+        className={clsx(
+          styles.flex,
+          styles.flexWrap,
+          styles.bgLight,
+          styles.featureImage
+        )}
+      >
+        <div className={styles.half} style={{ marginLeft: "10%" }}>
           <div
             className={clsx(
               styles.textContainer,
@@ -747,61 +1049,16 @@ function HomeFeatures() {
               styles.hFull
             )}
           >
-            <h2>Assemble templates to create your data products</h2>
+            <div style={{ marginLeft: "-90%" }}>
+              <h4 style={{ color: "white" }}>STEP 3</h4>
+            </div>
+            <h2>🔍 Search</h2>
             <p>
-              Incorporate your own unique intelligence with the help of Naas'
-              low-code integration and production capabilities.
+              Search across thousands of notebook templates, made by community,
+              to jumpstart your data projects in no time.
             </p>
           </div>
         </div>
-      </div>
-      <div
-        className={clsx(
-          styles.flex,
-          styles.bgDark,
-          styles.scalling,
-          styles.featureImage
-        )}
-      >
-        <div className={styles.half}>
-          <div
-            className={clsx(
-              styles.flex,
-              styles.justifyFlexEnd,
-              styles.itemsCenter,
-              styles.hFull
-            )}
-          >
-            <div
-              className={clsx(
-                styles.textContainer,
-                styles.flex,
-                styles.flexCol,
-                styles.itemsCenter
-              )}
-            >
-              <h2>Build & scale your data products effortlessly</h2>
-              <p>
-                Take your data product from its initial development stage to a
-                fully-fledged, enterprise-level.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.half}>
-          <div className={styles.imageContainer}>
-            <img src="./img/naas-jobs.png" alt="features" />
-          </div>
-        </div>
-      </div>
-      <div
-        className={clsx(
-          styles.flex,
-          styles.bgLightGrey,
-          styles.scalling,
-          styles.featureImage
-        )}
-      >
         <div className={styles.half}>
           <div className={styles.imageContainer}>
             <div className={styles.relative}>
@@ -811,7 +1068,7 @@ function HomeFeatures() {
                 className="pdxBrowser"
               >
                 <g fill="none" fillRule="evenodd">
-                  <rect fill="#FFF" width="940" rx="9"></rect>
+                  <rect fill="#FFF" width="940" height="623" rx="9"></rect>
                   <path
                     d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
                     fill="#DFE1E6"
@@ -822,12 +1079,24 @@ function HomeFeatures() {
                 </g>
               </svg>
               <div className={clsx(styles.absolute, styles.jupyterImage)}>
-                <img src="./img/dashboard.png" alt="dashboard" />
+                <img
+                  src="https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"
+                  alt="jupyter"
+                />
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.half}>
+      </div>
+      <div
+        className={clsx(
+          styles.flex,
+          styles.flexWrap,
+          styles.bgLight,
+          styles.featureImage
+        )}
+      >
+        <div className={styles.half} style={{ marginLeft: "10%" }}>
           <div
             className={clsx(
               styles.textContainer,
@@ -838,133 +1107,105 @@ function HomeFeatures() {
               styles.hFull
             )}
           >
-            <h2>
-              Always know how your data products work, no hidden surprises.
-            </h2>
-            <div>
-              <div className={clsx(styles.flex, styles.flexWrap)}>
-                <div className={styles.featDescription}>
-                  <svg
-                    width="21px"
-                    height="17px"
-                    viewBox="0 0 21 17"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g
-                      id="Page-1"
-                      stroke="none"
-                      strokeWidth="1"
-                      fill="none"
-                      fillRule="evenodd"
-                    >
-                      <g
-                        id="ui-icons"
-                        transform="translate(-109.000000, -67.000000)"
-                        fill="#22BC66"
-                      >
-                        <polygon
-                          id="check"
-                          points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-                        ></polygon>
-                      </g>
-                    </g>
-                  </svg>
-                  Consolidated AI Language models billing
-                </div>
-                <div className={styles.featDescription}>
-                  <svg
-                    width="21px"
-                    height="17px"
-                    viewBox="0 0 21 17"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g
-                      id="Page-1"
-                      stroke="none"
-                      strokeWidth="1"
-                      fill="none"
-                      fillRule="evenodd"
-                    >
-                      <g
-                        id="ui-icons"
-                        transform="translate(-109.000000, -67.000000)"
-                        fill="#22BC66"
-                      >
-                        <polygon
-                          id="check"
-                          points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-                        ></polygon>
-                      </g>
-                    </g>
-                  </svg>
-                  Transparent jobs pricing
-                </div>
-                <div className={styles.featDescription}>
-                  <svg
-                    width="21px"
-                    height="17px"
-                    viewBox="0 0 21 17"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g
-                      id="Page-1"
-                      stroke="none"
-                      strokeWidth="1"
-                      fill="none"
-                      fillRule="evenodd"
-                    >
-                      <g
-                        id="ui-icons"
-                        transform="translate(-109.000000, -67.000000)"
-                        fill="#22BC66"
-                      >
-                        <polygon
-                          id="check"
-                          points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-                        ></polygon>
-                      </g>
-                    </g>
-                  </svg>
-                  Automated versioning
-                </div>
-                <div className={styles.featDescription}>
-                  <svg
-                    width="21px"
-                    height="17px"
-                    viewBox="0 0 21 17"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g
-                      id="Page-1"
-                      stroke="none"
-                      strokeWidth="1"
-                      fill="none"
-                      fillRule="evenodd"
-                    >
-                      <g
-                        id="ui-icons"
-                        transform="translate(-109.000000, -67.000000)"
-                        fill="#22BC66"
-                      >
-                        <polygon
-                          id="check"
-                          points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-                        ></polygon>
-                      </g>
-                    </g>
-                  </svg>
-                  Keep track and maintain ownership
-                </div>
+            <div style={{ marginLeft: "-90%" }}>
+              <h4 style={{ color: "white" }}>STEP 3</h4>
+            </div>
+            <h2>🔬 Lab</h2>
+            <p>
+              Build and manage any type of data & AI project more efficiently.
+              No separated, clunky systems needed.
+            </p>
+          </div>
+        </div>
+        <div className={styles.half}>
+          <div className={styles.imageContainer}>
+            <div className={styles.relative}>
+              <svg
+                viewBox="0 0 940 623"
+                xmlns="http://www.w3.org/2000/svg"
+                className="pdxBrowser"
+              >
+                <g fill="none" fillRule="evenodd">
+                  <rect fill="#FFF" width="940" height="623" rx="9"></rect>
+                  <path
+                    d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+                    fill="#DFE1E6"
+                  ></path>
+                  <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+                  <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+                  <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+                </g>
+              </svg>
+              <div className={clsx(styles.absolute, styles.jupyterImage)}>
+                <img
+                  src="https://user-images.githubusercontent.com/81156510/277159499-3ad84b9e-5df7-4dd8-a5c7-25d93230cf35.png"
+                  alt="jupyter"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div
+        className={clsx(
+          styles.flex,
+          styles.flexWrap,
+          styles.bgLight,
+          styles.featureImage
+        )}
+      >
+        <div className={styles.half} style={{ marginLeft: "10%" }}>
+          <div
+            className={clsx(
+              styles.textContainer,
+              styles.flex,
+              styles.flexCol,
+              styles.justifyCenter,
+              styles.itemsCenter,
+              styles.hFull
+            )}
+          >
+            <div style={{ marginLeft: "-90%" }}>
+              <h4 style={{ color: "white" }}>STEP 3</h4>
+            </div>
+            <h2>👨🏻‍💼 Admin</h2>
+            <p>
+              Efficient. Secure. Unified. Manage users, system performance, and
+              enjoy consolidated billing with our prepaid credit-based system
+              from one central dashboard
+            </p>
+          </div>
+        </div>
+        <div className={styles.half}>
+          <div className={styles.imageContainer}>
+            <div className={styles.relative}>
+              <svg
+                viewBox="0 0 940 623"
+                xmlns="http://www.w3.org/2000/svg"
+                className="pdxBrowser"
+              >
+                <g fill="none" fillRule="evenodd">
+                  <rect fill="#FFF" width="940" height="623" rx="9"></rect>
+                  <path
+                    d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+                    fill="#DFE1E6"
+                  ></path>
+                  <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+                  <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+                  <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+                </g>
+              </svg>
+              <div className={clsx(styles.absolute, styles.jupyterImage)}>
+                <img
+                  src="https://user-images.githubusercontent.com/81156510/277159611-1868ba9e-b2a8-431b-b384-ddd6a9d3426f.png"
+                  alt="jupyter"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
