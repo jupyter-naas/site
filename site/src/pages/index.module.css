@@ -175,6 +175,10 @@ p {
   flex: 1;
 }
 
+.leftText {
+  margin-left: 50px;
+}
+
 .hFull {
   height: 100%;
 }
@@ -557,9 +561,9 @@ p {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
 }
 
-.imageContainer svg {
+/* .imageContainer svg {
   filter: drop-shadow(0 8px 16px #0005);
-}
+} */
 
 .textContainer {
   padding: 40px 0 110px 0;
@@ -643,7 +647,7 @@ p {
 }
 
 .jupyterImage {
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
   bottom: 0;
   left: 0;
   right: 0;

@@ -16,13 +16,13 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
-        <HomeToolCatalog />
-        <HomeFeatures />
+        <Steps />
+        {/* <HomeFeatures /> */}
         <HomeTechFeatures />
         <HomeTestimonials />
-        <HomeSupport />
-        <HomeSolutions />
-        <HomeGitHub />
+        {/* <HomeSupport /> */}
+        {/* <HomeSolutions /> */}
+        {/* <HomeGitHub /> */}
         {/* <HomeFooter /> */}
         {/* <HomepageFeatures /> */}
       </main>
@@ -265,31 +265,6 @@ const toolImages = [
     href: "https://jtci2pxwjczr.landen.co/search?q=Instagram",
   },
   {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/glkbx5cooudq8ysi.png?w=100&h=80",
-    name: "OpenAI",
-    href: "https://jtci2pxwjczr.landen.co/search?q=OpenAI",
-  },
-  {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/sfxdhw7pl0b8fxf7.png?w=100&h=80",
-    name: "GitHub",
-    href: "https://jtci2pxwjczr.landen.co/search?q=GitHub",
-  },
-  {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/s8v0zvy7b9fyi4pt.png?w=100&h=80",
-    name: "Notion",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Notion",
-  },
-  {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/v4tt1le5rljom0cf.png?w=100&h=80",
-    name: "Google Analytics",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Google%20Analytics",
-  },
-  {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/pgeepir3hi6z1a3e.png?w=100&h=80",
-    name: "Slack",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Slack",
-  },
-  {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/abhk3j9xx2pnxca0.png?w=100&h=80",
     name: "HubSpot",
     href: "https://jtci2pxwjczr.landen.co/search?q=HubSpot",
@@ -311,8 +286,33 @@ const toolImages = [
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/8vp4gwoyn8vj8ut4.png?w=100&h=80",
-    name: "Teams",
+    name: "Microsoft Teams",
     href: "https://jtci2pxwjczr.landen.co/search?q=Teams",
+  },
+  {
+    link: "https://user-images.githubusercontent.com/81156510/277146565-665aac91-d672-4509-a4a8-9781dc1ba7dd.png",
+    name: "Trello",
+    href: "https://jtci2pxwjczr.landen.co/search?q=OpenAI",
+  },
+  {
+    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/sfxdhw7pl0b8fxf7.png?w=100&h=80",
+    name: "GitHub",
+    href: "https://jtci2pxwjczr.landen.co/search?q=GitHub",
+  },
+  {
+    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/s8v0zvy7b9fyi4pt.png?w=100&h=80",
+    name: "Notion",
+    href: "https://jtci2pxwjczr.landen.co/search?q=Notion",
+  },
+  {
+    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/v4tt1le5rljom0cf.png?w=100&h=80",
+    name: "Google Analytics",
+    href: "https://jtci2pxwjczr.landen.co/search?q=Google%20Analytics",
+  },
+  {
+    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/pgeepir3hi6z1a3e.png?w=100&h=80",
+    name: "Slack",
+    href: "https://jtci2pxwjczr.landen.co/search?q=Slack",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/bfhg82o7vpzg560m.png?w=100&h=80",
@@ -360,13 +360,88 @@ const toolImages = [
     href: "https://jtci2pxwjczr.landen.co/search?q=Telegram",
   },
   {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/kwi15ykx1z81m6uu.png?w=100&h=80",
-    name: "HuggingFace",
+    link: "https://user-images.githubusercontent.com/81156510/277146767-d05065a0-1a7b-4a35-bdf8-be87e592c103.png",
+    name: "Whatsapp",
     href: "https://jtci2pxwjczr.landen.co/search?q=HuggingFace",
   },
 ];
 
-function HomeToolCatalog() {
+function Step1() {
+  return (
+    <div
+      className={clsx(
+        styles.flex,
+        styles.flexWrap,
+        styles.bgLight,
+        styles.featureImage
+      )}
+    >
+      <div className={styles.half}>
+        <div className={styles.imageContainer}>
+          <div className={styles.relative}>
+            <svg
+              viewBox="0 0 940 623"
+              xmlns="http://www.w3.org/2000/svg"
+              className="pdxBrowser"
+            >
+              <g fill="none" fillRule="evenodd">
+                <rect fill="#FFF" width="940" height="623" rx="9"></rect>
+                <path
+                  d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+                  fill="#DFE1E6"
+                ></path>
+                <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+                <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+                <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+              </g>
+            </svg>
+            <div className={clsx(styles.absolute, styles.jupyterImage)}>
+              <img
+                src="https://user-images.githubusercontent.com/81156510/277147982-b4fd5f70-aeef-47c9-a23d-da927ac82397.png"
+                alt="jupyter"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.half}>
+        <div
+          className={clsx(
+            styles.textContainer,
+            styles.flex,
+            styles.flexCol,
+            styles.justifyCenter,
+            styles.itemsCenter,
+            styles.hFull
+          )}
+        >
+          <div style={{ marginLeft: "-90%" }}>
+            <h4>STEP 1</h4>
+          </div>
+          <h2>Set your custom AI Chat instructions</h2>
+          <p>
+            Instruct the AI models to understand your unique needs and
+            preferences, paving the way for more personalized responses.
+          </p>
+          <div
+            className={styles.buttonContainer}
+            style={{ marginLeft: "-78%" }}
+          >
+            <a
+              className={styles.cta}
+              href="https://bit.ly/3CFSumN"
+              target="_blank"
+            >
+              Join Alpha
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Step2() {
   return (
     <div
       className={clsx(
@@ -380,11 +455,11 @@ function HomeToolCatalog() {
         <div className={styles.catalog}>
           <div className={styles.catalogHead}>
             <h2>
-              <br />
+              <h4>STEP 2</h4>
               Integrate your tools
             </h2>
             <p>
-            Use templates to connect your existing tools and 
+              Use templates to connect your existing tools and
               <br />
               integrate necessary data to your system
             </p>
@@ -408,14 +483,215 @@ function HomeToolCatalog() {
             styles.explore
           )}
         >
-          <div className={styles.buttonContainer}>
+          {/* <div className={styles.buttonContainer}>
             <a className={styles.cta} href="https://jtci2pxwjczr.landen.co/">
               Sign in
             </a>
+          </div> */}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Step3() {
+  return (
+    <div
+      className={clsx(
+        styles.flex,
+        styles.flexWrap,
+        styles.bgDark,
+        styles.featureImage
+      )}
+    >
+      <div className={styles.half} style={{ marginLeft: "10%" }}>
+        <div
+          className={clsx(
+            styles.textContainer,
+            styles.flex,
+            styles.flexCol,
+            styles.justifyCenter,
+            styles.itemsCenter,
+            styles.hFull
+          )}
+        >
+          <div style={{ marginLeft: "-90%" }}>
+            <h4 style={{ color: "white" }}>STEP 3</h4>
+          </div>
+          <h2>Configure jobs & trigger workflows</h2>
+          <p>
+            Use slash commands to set up and trigger workflows, ensuring you
+            maintain full control over your AI system.
+          </p>
+        </div>
+      </div>
+      <div className={styles.half}>
+        <div className={styles.imageContainer}>
+          <div className={styles.relative}>
+            <svg
+              viewBox="0 0 940 623"
+              xmlns="http://www.w3.org/2000/svg"
+              className="pdxBrowser"
+            >
+              <g fill="none" fillRule="evenodd">
+                <rect fill="#FFF" width="940" height="623" rx="9"></rect>
+                <path
+                  d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+                  fill="#DFE1E6"
+                ></path>
+                <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+                <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+                <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+              </g>
+            </svg>
+            <div className={clsx(styles.absolute, styles.jupyterImage)}>
+              <img
+                src="https://user-images.githubusercontent.com/81156510/277148527-e7957855-2eb8-4a1b-a86a-a36ddfecc5bc.png"
+                alt="jupyter"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
+  );
+}
+
+function Step4() {
+  return (
+    <div
+      className={clsx(
+        styles.flex,
+        styles.flexWrap,
+        styles.bgLight,
+        styles.featureImage
+      )}
+    >
+      <div className={styles.half}>
+        <div className={styles.imageContainer}>
+          <div className={styles.relative}>
+            <svg
+              viewBox="0 0 940 623"
+              xmlns="http://www.w3.org/2000/svg"
+              className="pdxBrowser"
+            >
+              <g fill="none" fillRule="evenodd">
+                <rect fill="#FFF" width="940" height="623" rx="9"></rect>
+                <path
+                  d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+                  fill="#DFE1E6"
+                ></path>
+                <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+                <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+                <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+              </g>
+            </svg>
+            <div className={clsx(styles.absolute, styles.jupyterImage)}>
+              <img
+                src="https://user-images.githubusercontent.com/81156510/277148596-518dc49a-35dd-475b-9361-525efd1ea350.gif"
+                alt="jupyter"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.half}>
+        <div
+          className={clsx(
+            styles.textContainer,
+            styles.flex,
+            styles.flexCol,
+            styles.justifyCenter,
+            styles.itemsCenter,
+            styles.hFull
+          )}
+        >
+          <div style={{ marginLeft: "-90%" }}>
+            <h4>STEP 4</h4>
+          </div>
+          <h2>Customize to fit the specific needs of your business</h2>
+          <p>
+            Access your private server at any time to further personalize your
+            experience and maintain control over your AI System.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Step5() {
+  return (
+    <div
+      className={clsx(
+        styles.flex,
+        styles.flexWrap,
+        styles.bgDark,
+        styles.featureImage
+      )}
+    >
+      <div className={styles.half} style={{ marginLeft: "10%" }}>
+        <div
+          className={clsx(
+            styles.textContainer,
+            styles.flex,
+            styles.flexCol,
+            styles.justifyCenter,
+            styles.itemsCenter,
+            styles.hFull
+          )}
+        >
+          <div style={{ marginLeft: "-90%" }}>
+            <h4 style={{ color: "white" }}>STEP 5</h4>
+          </div>
+          <h2>Monetize your most powerful assets </h2>
+          <p>
+            Build and scale data & AI products effortlessly, to generate new
+            opportunities.
+          </p>
+        </div>
+      </div>
+      <div className={styles.half}>
+        <div className={styles.imageContainer}>
+          <div className={styles.relative}>
+            <svg
+              viewBox="0 0 940 623"
+              xmlns="http://www.w3.org/2000/svg"
+              className="pdxBrowser"
+            >
+              <g fill="none" fillRule="evenodd">
+                <rect fill="#FFF" width="940" height="623" rx="9"></rect>
+                <path
+                  d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
+                  fill="#DFE1E6"
+                ></path>
+                <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
+                <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
+                <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
+              </g>
+            </svg>
+            <div className={clsx(styles.absolute, styles.jupyterImage)}>
+              <img
+                src="https://user-images.githubusercontent.com/81156510/277148739-d83bf56c-c979-431f-b199-60be3d1b2d7d.png"
+                alt="jupyter"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Steps() {
+  return (
+    <>
+      <Step1 />
+      <Step2 />
+      <Step3 />
+      <Step4 />
+      <Step5 />
+    </>
   );
 }
 
@@ -773,11 +1049,6 @@ function HomeTechFeatures() {
               popular medium and interface in data science.
             </p>
           </div>
-          <div className={styles.buttonContainer}>
-            <a className={styles.cta} href="https://jtci2pxwjczr.landen.co/">
-              Sign in
-            </a>
-          </div>
         </div>
       </div>
 
@@ -790,7 +1061,11 @@ function HomeTechFeatures() {
         )}
       >
         <div className={clsx(styles.content, styles.ptXL)}>
-          <h2>Finally, all data jobs in one place</h2>
+          <h2>
+            Make Your Business & Tech Teams
+            <br />
+            Work Together More Efficiently than Ever
+          </h2>
           <p>
             Data Consumers navigate across search, chat, and dashboards to
             manage their business. Their feedback, whether they view content or
@@ -802,7 +1077,7 @@ function HomeTechFeatures() {
           </div>
         </div>
       </div>
-      <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
+      {/* <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
         <div className={clsx(styles.content, styles.ptXL)}>
           <div className={styles.FlowContainer}>
             <img src="./img/toolsout.png" alt="tools out" />
@@ -816,7 +1091,7 @@ function HomeTechFeatures() {
             because of what Naas does for them.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
