@@ -3,29 +3,92 @@ sidebar_position: 2
 ---
 
 # Growth Marketing
-> Generate Qualified Contacts
+---
+Unlock the power of growth marketing to generate a steady stream of qualified contacts.
 :::tip
 
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
 
 :::
 
-![a futurist cover for naas content engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107795724667728012/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_82fc3ef4-d86a-4d2b-bc5e-7126b97e2e45.png?width=2180&height=1246)
+![Growth](./img/growth-lite.png)
 
-## Features
 
-1. Social Media Listening and Analytics
-    - Monitor social media platforms for mentions, trends, and conversations relevant to your industry, helping you identify potential leads and influencers.
-2. AI-Powered Lead Scoring
-    - Utilize AI algorithms to score and prioritize leads, ensuring that your sales team focuses on the most promising opportunities.
-3. Network Expansion Strategies
-    - Receive AI-driven recommendations for expanding your network and increasing your total addressable market through targeted outreach and engagement.
+## Context 
+The Growth Engine aggregates all interactions, from individuals or companies, related to your company's content or any signal pertinent to your business. It aids in identifying your ideal customers by utilizing AI-powered summarization of your interactions for increased accuracy. 
 
-## Social Media Listening and Analytics
+Furthermore, it ensures that your content strategy is not only efficient in terms of quantitative metrics but also effectively targets your audience on a qualitative level.
 
+## Demo
+
+Experience the capabilities of the Growth Engine with our self-service demo. Go to your Naas account, click on the launchpad next to your profile picture, and hit the "Growth Engine" button to explore its features and get a feel for its use. The engine is still in its early stages but as we use it for ourselves, we continuously add new features and enhancements to further empower your growth marketing process.
+
+## Benefits
+
+### Social Media Listening and Analytics
 Monitor social media platforms for mentions, trends, and conversations relevant to your industry, helping you identify potential leads and influencers.
 
-### Dataset
+### AI-Powered Lead Scoring
+Utilize AI algorithms to score and prioritize leads, ensuring that your sales team focuses on the most promising opportunities.
+
+### Network Expansion Strategies
+Receive AI-driven recommendations for expanding your network and increasing your total addressable market through targeted outreach and engagement.
+Use AI to analyze various data points and provide recommendations on how to expand your network and increase your total addressable market. This include recommendations on who to connect with, what type of outreach to do, and what kind of engagement strategies to use.
+
+## Features
+### Chat with Your Growth Agent
+
+You can interact with your growth agent to interact with your network and leads. This agent can assist you in crafting a series of messages and action items, fostering new connections between you and individuals within your network.
+
+### Receive Automated Email Reports
+
+You will receive an email report detailing your daily or weekly network growth. This report, featuring performance graphs and lead analysis will help you understand how well you have performed over the month. You can customize this report and add other insights to meet your specific needs.
+
+### Extract Interactions from LinkedIn Content
+
+This feature enables you to consistently gather interactions, such as comments, likes, and shares, from a list of posts. This allows you to build a comprehensive database of potential leads. Note: You need to feed the list of post URLs into the LinkedIn post extractor.
+
+### Identify Targets from LinkedIn Interactions and Sync to CRM
+
+Designed to identify potential targets from those who have interacted with you based on your Ideal Customer Profile (ICP), this feature then sends these targets to your CRM.
+
+### Transfer LinkedIn Interactions to CRM Notes
+
+This feature is designed to record LinkedIn interactions within your CRM notes.
+
+### Sync LinkedIn Conversations with CRM
+
+This feature retrieves and synchronizes all conversations with potential targets on LinkedIn and transfers them to your CRM.
+
+### Enrich Leads with LinkedIn Data
+
+Utilize this feature to deepen your understanding of your leads by supplementing their profiles with information from LinkedIn. This includes details about the lead's identity, network, contact information, and all direct and indirect interactions you've had with them.
+
+### Perform Data & AI Lead Scoring
+
+This feature conducts lead scoring based on all available information in your CRM.
+
+### Create Action Items to Maximize Opportunities
+
+Based on scoring and lead activity (emails, meetings, interactions, messages on LinkedIn, etc.), this feature allows you to create action items to effectively plan your next steps.
+
+### Add Targets to CRM (Coming Soon)
+
+Use the command from Naas Chat to add your target, specifying the necessary details.
+
+### Sync LinkedIn Profile Connections with CRM (Coming Soon)
+
+This upcoming feature will allow you to extract your profile connections, identify potential leads, and synchronize them with your CRM.
+
+### Sync LinkedIn Company Followers with CRM (Coming Soon)
+
+This forthcoming feature will enable you to extract and synchronize your company's LinkedIn followers with your CRM.
+
+## Data Model
+
+**SOCIAL_MEDIA_LISTENING**
+
+Dataset
 
 | MONITOR ID | KEYWORD | PLATFORM | AUTHOR | DATE | TIME | POST CONTENT | LIKES | COMMENTS | SHARES | AUTHOR FOLLOWERS |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -34,7 +97,7 @@ Monitor social media platforms for mentions, trends, and conversations relevant 
 | 3 | #Launch | Facebook | User3 | 5/24/2023 | 8:00 | "Looking forward to the #Launch of the new product" | 100 | 20 | 10 | 5000 |
 | 4 | #NewProduct | Instagram | User4 | 5/24/2023 | 9:00 | "Can't wait for the #NewProduct launch!" | 200 | 50 | 20 | 10000 |
 
-### Schema
+Schema
 
 ```jsx
 {
@@ -89,21 +152,10 @@ Monitor social media platforms for mentions, trends, and conversations relevant 
 }
 ```
 
-### Integrations
 
-1. **Social Media Platforms** like Twitter, LinkedIn, Facebook, and Instagram. The system would monitor these platforms for relevant posts.
-2. **CRM Systems** like Salesforce or HubSpot. The system could feed potential leads identified through socialmedia listening into these systems.
-3. **Analytics Platforms** like Google Analytics or Mixpanel. These could provide additional data on the impact of social media trends on web traffic or conversions, for example.
-4. **Marketing Automation Platforms** like Marketo or MailChimp. The system could trigger marketing actions (like sending an email or launching a social media ad campaign) based on trends identified through social media listening.
-5. **Customer Support Platforms** like Zendesk or Intercom. If the system identifies negative sentiments or customer complaints on social media, these could be automatically turned into support tickets.
+**LEAD_SCORING**
 
-## Network Expansion Strategies
-
-Receive AI-driven recommendations for expanding your network and increasing your total addressable market through targeted outreach and engagement.
-
-This module uses AI to analyze various data points and provide recommendations on how to expand your network and increase your total addressable market. This include recommendations on who to connect with, what type of outreach to do, and what kind of engagement strategies to use.
-
-### Dataset
+Dataset
 
 | STRATEGY ID | TARGET AUDIENCE | POTENTIAL CONTACTS | RECOMMENDED OUTREACH | EXPECTED IMPACT | SUCCESS METRIC |
 | --- | --- | --- | --- | --- | --- |
@@ -112,7 +164,7 @@ This module uses AI to analyze various data points and provide recommendations o
 | 3 | Customers | Email subscribers who have purchased in the last 6 months | Email campaign about new service update | Increase in service usage | Number of users of the new service |
 | 4 | Sustainability Advocates | Twitter users who frequently post about #Sustainability | Twitter engagement (likes, comments, retweets) on #Sustainability posts | Increase in brand reputation | Increase in positive brand mentions |
 
-### Schema
+Schema
 
 ```jsx
 {
@@ -147,20 +199,9 @@ This module uses AI to analyze various data points and provide recommendations o
 }
 ```
 
-### Integrations
+**NETWORK_EXPANSION**
 
-1. **CRM Systems** like Salesforce or HubSpot. The system could pull contact data and also log outreach efforts.
-2. **Social Media Platforms** like LinkedIn, Facebook, Twitter. The system could use these platforms for outreach and engagement.
-3. **Email Marketing Platforms** like MailChimp or Constant Contact. The system could use these platforms for targeted email outreach.
-4. **Analytics Platforms** like Google Analytics or Mixpanel. These could provide data on the performance of the outreach and engagement efforts, which could be used to refine future strategies.
-
-## AI-Powered Lead Scoring
-
-Utilize AI algorithms to score and prioritize leads, ensuring that your sales team focuses on the most promising opportunities.
-
-This module uses AI to analyze various data points and score leads based on their likelihood to convert. This helps sales teams prioritize their efforts on the most promising opportunities
-
-### Dataset
+Dataset
 
 | LEAD ID | NAME | COMPANY | POSITION | INTERACTION HISTORY | PURCHASE HISTORY | WEB ACTIVITY | LEAD SCORE |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -169,7 +210,7 @@ This module uses AI to analyze various data points and score leads based on thei
 | 3 | Bob Johnson | Company C | CTO | Follows company on LinkedIn, Liked several company posts | Previous purchase of Product Z | Regularly visits company blog | 65 |
 | 4 | Mary Davis | Company D | COO | Downloaded whitepaper, Attended webinar | No previous purchases | Visited FAQ page multiple times | 60 |
 
-### Schema
+Schema
 
 ```jsx
 {
@@ -211,10 +252,16 @@ This module uses AI to analyze various data points and score leads based on thei
   "required": ["LEAD ID", "NAME", "COMPANY", "POSITION", "INTERACTION HISTORY", "PURCHASE HISTORY", "WEB ACTIVITY", "LEAD SCORE"]
 }
 ```
+## How to Contribute?
 
-### Integrations
+**Collaborate with Us on our Public GitHub Repo**
 
-1. **CRM Systems** like Salesforce or HubSpot. The system could pull contact and interaction data, and also update the lead scores in the CRM.
-2. **Marketing Automation Platforms** like Marketo or MailChimp. These could provide data on the leads' interaction with marketing campaigns.
-3. **Analytics Platforms** like Google Analytics or Mixpanel. These could provide data on the leads' web activity, which could be used in the lead scoring algorithm.
-4. **Sales Enablement Platforms** like Outreach or SalesLoft. The lead scores could be used to prioritize and personalize sales outreach.
+Accelerate development by working with us on issues in our public GitHub repository: https://github.com/jupyter-naas/engine-growth
+
+**Submit Your Ideas and Improvements**
+
+[Create GitHub Issues](https://github.com/jupyter-naas/engine-growth/issues/new) or Participate in GitHub discussions with fellow community members. Your ideas and suggestions for improvements are always welcome.
+
+**Talk About Naas On Social Media**
+
+If you like what we are doing, share your story and case studies on social platforms to inspire others in the community. Your experiences can provide valuable insights for others.

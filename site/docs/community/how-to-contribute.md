@@ -42,7 +42,7 @@ There are several ways you can make a valuable contribution to Naas:
 
 * **[Jobs](https://github.com/jupyter-naas/naas)**: Help us build micro-services on top of Jupyter Notebooks to create data & AI products. Your expertise can help us improve and expand our services.
 
-* **[Workspace](https://github.com/jupyter-naas/workspace)**: This is the web app that brings all the components of the platform together (Search, MyChatGPT, Lab, Account admin). Your contributions here can help improve the user experience and functionality of our platform.
+* **[Workspace](https://github.com/jupyter-naas/workspace)**: This is the web app that brings all the components of the platform together (Search, Naas Chat, Lab, Account admin). Your contributions here can help improve the user experience and functionality of our platform.
 
 * **[Product Roadmap](https://github.com/orgs/jupyter-naas/projects/10)**: Assist us in scoping issues, planning features, and managing the project. Your insights can help us make better decisions and improve the project.
 

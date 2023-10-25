@@ -3,7 +3,7 @@ dc = docker-compose run
 dcd = $(dc) --workdir /app/$(project_name) docusaurus
 
 
-start: $(project_name)
+start: $(project_name) setup
 	docker-compose up
 
 down:

@@ -3,31 +3,57 @@ sidebar_position: 4
 ---
 
 # Operations Efficiency
-> Create a Single Source of Truth 
+---
+
+Streamline your operations and create a centralized single source of truth for enhanced efficiency.
+
 :::tip
 
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
-
+We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
 :::
 
-![a futurist cover for naas operations engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107804138768715857/jeymassa_a_futurist_cover_for_naas_operations_engine_universal__fee85024-5b7b-4ac6-894b-6ac813d985f2.png?width=2180&height=1246)
+![ops](./img/ops-lite.png)
+
+## Context
+
+Streamline your operations and improve efficiency with our Operations Efficiency solution. By centralizing data and processes, you can create a single source of truth, enabling better collaboration and reducing manual errors. Automate repetitive tasks and leverage advanced analytics to gain insights and make data-driven decisions for continuous improvement.
+
+## Benefits
+
+### Follow Your Company Metrics
+
+Monitor and visualize key company activities, providing a centralized overview of your organization’s performance.
+
+### Automate Processes
+
+Streamline and automate data workflows to eliminate manual tasks and ensure data consistency across your organization.
+
+### AI-Powered Task Prioritization and Optimization
+
+Receive AI-driven recommendations for optimizing operations, helping your team focus on high-impact tasks and projects.
 
 ## Features
 
-1. Company Activity Dashboard
-    - Monitor and visualize key company activities, providing a centralized overview of your organization's performance.
-2. Data Integration and Automation
-    - Streamline and automate data workflows to eliminate manual tasks and ensure data consistency across your organization.
-3. AI-Powered Task Prioritization and Optimization
-    - Receive AI-driven recommendations for optimizing operations, helping your team focus on high-impact tasks and projects.
+### Connect to any third-party tool 
+With Naas Python capabilities and templates, you have the flexibility to connect to any third-party tool and access the important data of your business. Whether it's CRM systems, marketing platforms, or data analytics tools, integrate and retrieve data from these sources to get a comprehensive view of your business operations and make informed decisions based on real-time, up-to-date information.
 
-## Company Activity Dashboard
+### Apply your own business rules 
+The use of Python and notebook templates in the engine also allows users to easily create and apply their own business rules. With Python's flexibility, users can define custom rules that align with their specific needs. Notebook templates provide a structured environment for documenting, sharing, and deploying these rules, enabling efficient collaboration and streamlined decision-making processes.
 
-Monitor and visualize key company activities, providing a centralized overview of your organization's performance.
+### Chat with Your Operation Agent
+Engage in real-time conversations with your dedicated operational agent to address any queries or concerns based on the data collected from your different systems.
 
-### Dataset
+### Receive Automated Email Reports
+Stay updated on key metrics and insights with automated email reports delivered directly to your inbox.
 
-Here's an example of what the dataset might look like:
+### Send Product Signals on Slack
+Seamlessly push important product signals and updates with your team on Slack for enhanced collaboration and visibility
+
+## Data Model
+
+**PERFORMANCE_TRACKING**
+
+Dataset
 
 | DATE | DEPARTMENT | ACTIVITY | OUTPUT | KEY METRIC | METRIC VALUE |
 | --- | --- | --- | --- | --- | --- |
@@ -36,9 +62,7 @@ Here's an example of what the dataset might look like:
 | 2023-05-24 | HR | Interviews Conducted | 5 interviews | Positions Filled | 2 |
 | 2023-05-24 | Production | Units Produced | 1000 units | Efficiency | 95% |
 
-### Schema
-
-The data contract might look something like this:
+Schema
 
 ```json
 {
@@ -75,25 +99,11 @@ The data contract might look something like this:
 
 ```
 
-### Intergrations
-
-For integrations, a Company Activity Dashboard could potentially connect with:
-
-1. **Project Management Systems** like Asana, Jira, or Trello. These can provide data on tasks, projects, and overall activity within the organization.
-2. **CRM Systems** like Salesforce or HubSpot. These can provide data on sales activities, deals closed, revenue, etc.
-3. **Marketing Platforms** like Google Ads or Mailchimp. These can provide data on marketing campaigns, leads generated, etc.
-4. **HR Systems** like BambooHR or Workday. These can provide data on hiring activities, positions filled, etc.
-5. **Production/Manufacturing Systems**. These can provide data on units produced, efficiency, etc.
-
-Remember, the specifics of how the system integrates with these other tools will depend on the APIs or other interfaces provided by these tools, as well as the specific requirements of the Company Activity Dashboard system.
-
-## Data Integration and Automation
+DATA_INTEGRATION
 
 Streamline and automate data workflows to eliminate manual tasks and ensure data consistency across your organization.
 
-### Dataset
-
-Considering a list of events pulled from different task management systems, the dataset for a Data Integration and Automation system could look something like this:
+Dataset
 
 | EVENT ID | EVENT TIMESTAMP | DATA SOURCE | EVENT TYPE | TASK ID | TASK NAME | TASK STATUS | USER ID |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -104,9 +114,7 @@ Considering a list of events pulled from different task management systems, the 
 | 5 | 2023-05-24 14:00:00 | Harvest | Task Creation | Hr5001 | Invoice client B | Pending | U005 |
 | 6 | 2023-05-24 15:00:00 | Clockify | Task Update | C6001 | Time tracking C | Completed | U006 |
 
-### Schema
-
-The data contract or schema might look something like this:
+Schema
 
 ```
 {
@@ -151,20 +159,9 @@ The data contract or schema might look something like this:
 
 ```
 
-### Integrations
+**AI-Powered Task Prioritization and Optimization**s
 
-For integrations, a Data Integration and Automation system could potentially connect with:
-
-1. **Task Management Systems**: Such as Trello, HubSpot, Notion, GitHub, Harvest, Clockify. These platforms would serve as data sources, providing event data related to tasks.
-2. **Data Storage Systems**: The system could connect to wherever you want the integrated data to be stored. This could include a company database, data warehouse, or a business intelligence platform.
-3. **User Management Systems**: For associating User IDs with actual user profiles, the system could integrate with a system that manages user data.
-4. **Monitoring and Alerting Systems**: If the system supports it, integration with monitoring and alerting systems could be useful to notify users of new events or changes
-
-## AI-Powered Task Prioritization and Optimization
-
-Receive AI-driven recommendations for optimizing operations, helping your team focus on high-impact tasks and projects.
-
-### Dataset
+Dataset
 
 This AI-Powered Task Prioritization and Optimization solution provides AI-driven recommendations for optimizing operations. Here's an example of what the dataset might look like:
 
@@ -175,7 +172,7 @@ This AI-Powered Task Prioritization and Optimization solution provides AI-driven
 | N3001 | Create marketing plan | U003 | P003 | 10 hours | 0.9 | 2 |
 | G4001 | Fix bug A | U004 | P004 | 3 hours | 0.7 | 4 |
 
-### Schema
+Schema
 
 The data contract or schema might look something like this:
 
@@ -216,13 +213,16 @@ The data contract or schema might look something like this:
 }
 
 ```
+## How to Contribute?
 
-### Integrations
+**Collaborate with Us on our Public GitHub Repo**
 
-For integrations, the AI-Powered Task Prioritization and Optimization system could potentially connect with:
+Accelerate development by working with us on issues in our public GitHub repository: https://github.com/jupyter-naas/engine-operations.
 
-1. **Task Management Systems**: Trello, HubSpot, Notion, GitHub, Harvest, Clockify, etc. These platforms would serve as data sources, providing task data that the AI can analyze and optimize.
-2. **AI Platforms**: Platforms like Google AI, IBM Watson, etc. where the AI models for task prioritization and optimization are hosted.
-3. **Data Storage Systems**: The system could connect to wherever you want the integrated data to be stored. This could include a company database, data warehouse, or a business intelligence platform.
-4. **User Management Systems**: For associating User IDs with actual user profiles, the system could integrate with a system that manages user data.
-5. **Project Management Systems**: For associating Project IDs with actual projects, the system could integrate with a system that manages project data.
+**Submit Your Ideas and Improvements**
+
+[Create GitHub Issues](https://github.com/jupyter-naas/engine-operations/issues/new) or Participate in GitHub discussions with fellow community members. Your ideas and suggestions for improvements are always welcome.
+
+**Talk About Naas On Social Media**
+
+If you like what we are doing, share your story and case studies on social platforms to inspire others in the community. Your experiences can provide valuable insights for others.

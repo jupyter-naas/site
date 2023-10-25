@@ -3,15 +3,19 @@ sidebar_position: 7
 ---
 
 # Expert Acceleration Program
-> Get Guidance & Hire Experts
+---
+Access expert guidance and hire professionals with a unique blend of business and technical skills.
 
 :::tip
 
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+This page is constantly evolving as we are in alpha stage, book a call with us to learn more.
 
 :::
 
-![a futurist cover for naas expert program, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107809132116983818/jeymassa_a_futurist_cover_for_naas_expert_offering_universal_da_03a06f6c-b280-4b00-b0d6-9cdd6c949cb8.png?width=2180&height=1246)
+
+
+![ai-roadmap](./img/ai-roadmap.png)
+
 
 ## Empower Your Organization with Naas Experts
 

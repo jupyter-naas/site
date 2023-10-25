@@ -97,13 +97,13 @@ const config = {
               },
               {
                 type: "doc",
-                label: "Data & AI Templates Search",
-                docId: "platform/search-catalog-template-library",
+                label: "Universal Chat Interface",
+                docId: "platform/aI-powered-chat",
               },
               {
                 type: "doc",
-                label: "Universal Chat Interface",
-                docId: "platform/aI-powered-chat",
+                label: "Data & AI Catalog Search",
+                docId: "platform/search-catalog-template-library",
               },
               {
                 type: "doc",
@@ -181,7 +181,7 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Overview",
+                label: "Artificial Business Intelligence",
                 docId: "solutions/introduction",
               },
               {
@@ -227,7 +227,44 @@ const config = {
             position: "left",
             items: [
               {
-                href: "/blog/travis-and-naas",
+                type: "doc",
+                label: "Quickstart",
+                docId: "developers/overview",
+              },
+              {
+                type: "doc",
+                label: "Development Environment",
+                docId: "developers/development",
+              },
+              {
+                type: "doc",
+                label: "Jobs",
+                docId: "developers/jobs/scheduler",
+              },
+              {
+                type: "doc",
+                label: "Drivers",
+                docId: "developers/drivers/airtable",
+              },
+              {
+                type: "doc",
+                label: "Templates",
+                docId: "developers/templates",
+              },
+              {
+                type: "doc",
+                label: "Data Product Framework",
+                docId: "developers/delivery",
+              },
+            ],
+          },
+          {
+            type: "dropdown",
+            label: "Resources",
+            position: "left",
+            items: [
+              {
+                href: "https://leandata.substack.com/",
                 label: "Blog",
               },
               {

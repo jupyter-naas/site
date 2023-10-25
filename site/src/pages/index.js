@@ -1918,8 +1918,6 @@ function HomeGitHub() {
             </Link>
           </div>
         </div>
-      </div>
-    </div>
   );
 }
 

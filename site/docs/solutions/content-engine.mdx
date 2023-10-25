@@ -2,203 +2,300 @@
 sidebar_position: 1
 ---
 
-import {
-  ActiveTeamRow,
-  HonoraryAlumniTeamRow,
-  StudentFellowsTeamRow,
-} from '@site/src/components/TeamProfileCards';
-
 # Content Creation
+---
 
-> Increase Reach & Boost Engagement
+Elevate your brand's reach and boost engagement with compelling content creation strategies.
+
 
 :::tip
 
-We're in the early alpha stage, we recommend booking a meeting with us for personalized guidance and support.
+We're in the early alpha stage, book a call with us and let's chat!
 
 :::
 
-The Content Engine is designed to help organizations harness the power of data and AI to create, optimize, and monitor their content across various platforms, resulting in increased reach and audience engagement. By leveraging powerful analytics, AI-driven content generation, and optimization recommendations, businesses can make data-informed decisions to improve their content strategy and drive growth.
+![content](./img/content-lite2.png)
 
-![a futurist cover for naas content engine, universal data & ai platform in a pyschedelic universe](https://media.discordapp.net/attachments/1084579666175729694/1107794337745604670/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_fbf44c7c-1a4a-4cf1-9edf-465dbce0911b.png?width=2180&height=1246)
+## Context
+
+The Content Engine is a powerful solution that empowers organizations to harness the potential of data and AI for content creation, optimization, and monitoring. With the Content Engine, businesses can enhance their reach and engage their audience more effectively across various platforms. By leveraging advanced analytics, AI-driven content generation, and optimization recommendations, businesses can make data-informed decisions to improve their content strategy, increase reach and boost engagement.
 
 
 ## Benefits
 
-### Improved content strategy
-Make data-driven decisions to refine your content strategy, resulting in increased reach and engagement.
-
-### Time savings 
-Streamline content creation with AI-generated content, freeing up time for more strategic tasks.
-
-### Enhanced audience targeting
-Gain a deeper understanding of your audience's preferences and interests to create content that resonates with them.
-
-### Competitive advantage
-Stay ahead of the competition by leveraging cutting-edge AI and analytics tools to optimize your content.
-
-
-## Features
 ### Content Performance Analytics
-#### Description
 
 Track engagement metrics across various platforms to identify high-performing content, understand audience preferences, and optimize your content strategy. Gain insights into key metrics such as views, likes, and shares to continually refine your approach and maximize reach.
-#### Dataset
 
-| SCENARIO | SOURCE | DATE | TIME | TITLE | CONTENT | VIEWS | LIKES | COMMENTS | SHARES | ENGAGEMENT RATE | SOURCE TYPE | CONTENT LENGTH | KEYWORDS | URL | SENTIMENT | MEDIA TYPE |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FY2023 | LinkedIn | 5/3/2023 | 6:00 | This is a first title | This is the full content | 1020 | 12 | 23 | 1 | 0.035 | Social Media | 22 | #FY2023 | URL | Positive | Text |
-| FY2023 | Twitter | 5/3/2023 | 6:00 | This is a first title | This is the full content | 1020 | 12 | 23 | 1 | 0.035 | Social Media | 22 | #FY2023 | URL | Positive | Text |
-| FY2023 | Facebook | 5/4/2023 | 10:30 | Sharing my latest insights | Here are some of my thoughts... | 800 | 36 | 15 | 12 | 0.079 | Social Media | 38 | #FY2023 | URL | Positive | Text |
-| FY2023 | Medium | 5/5/2023 | 14:45 | Lessons from FY2023 | In this article, I reflect on... | 1200 | 115 | 30 | 20 | 0.137 | Blog | 55 | #FY2023 | URL | Positive | Text |
-| FY2023 | YouTube | 5/6/2023 | 16:00 | My thoughts on FY2023 | In this video, I share my views... | 3200 | 500 | 150 | 75 | 0.219 | Video | 45 | #FY2023 | URL | Positive | Video |
+![content](./img/content.gif)
 
-#### Schema
+### Social Media Listening
 
-```jsx
-{
-  "type": "object",
-  "properties": {
-    "ENTITY": {
-      "type": "string",
-      "description": "The entity that the content is associated with."
-    },
-    "SCENARIO": {
-      "type": "string",
-      "description": "The scenario or context for the content."
-    },
-    "SOURCE": {
-      "type": "string",
-      "description": "The platform where the content was posted."
-    },
-    "DATE": {
-      "type": "string",
-      "format": "date",
-      "description": "The date when the content was posted."
-    },
-    "TIME": {
-      "type": "string",
-      "format": "time",
-      "description": "The time when the content was posted."
-    },
-    "TITLE": {
-      "type": "string",
-      "description": "The title of the content."
-    },
-    "CONTENT": {
-      "type": "string",
-      "description": "The full content text."
-    },
-    "VIEWS": {
-      "type": "integer",
-      "description": "The number of views the content received."
-    },
-    "LIKES": {
-      "type": "integer",
-      "description": "The number of likes the content received."
-    },
-    "COMMENTS": {
-      "type": "integer",
-      "description": "The number of comments the content received."
-    },
-    "SHARES": {
-      "type": "integer",
-      "description": "The number of shares the content received."
-    },
-    "ENGAGEMENT RATE": {
-      "type": "number",
-      "description": "The engagement rate calculated based on likes, comments, shares, and views."
-    },
-    "SOURCE TYPE": {
-      "type": "string",
-      "description": "The type of the source platform (e.g., 'Social Media', 'Blog', 'Video')."
-    },
-    "CONTENT LENGTH": {
-      "type": "integer",
-      "description": "The length of the content in terms of number of words or characters."
-    },
-    "KEYWORDS": {
-      "type": "string",
-      "description": "The keywords or hashtags associated with the content."
-    },
-    "URL": {
-      "type": "string",
-      "format": "uri",
-      "description": "The URL of the content."
-    },
-    "SENTIMENT": {
-      "type": "string",
-      "description": "The sentiment of the content (e.g., 'Positive', 'Negative', 'Neutral')."
-    },
-    "MEDIA TYPE": {
-      "type": "string",
-      "description": "The type of media used in the content (e.g., 'Text', 'Image', 'Video')."
-    },
-  },
-  "required": ["ENTITY", "SCENARIO", "SOURCE", "DATE", "TIME", "TITLE", "CONTENT", "VIEWS", "LIKES", "COMMENTS", "SHARES"]
-}
-```
-
-#### Integrations
-
-- LinkedIn Profile
-- LinkedIn Company
-- Twitter
-- Facebook
-- Medium
-- YouTube
-- Reddit
-- Instagram
-- Snapchat
-- TikTok
-- Pinterest
-- Custom Blog
+Monitor social media platforms for mentions, trends, and conversations relevant to your industry. Keep track of your competitors' activities to gain insights into their successes and learn from their missteps.
 
 ### Content Optimization Recommendations
 
-#### Description
-
 Receive AI-driven recommendations to improve content quality, readability, and SEO, driving increased audience engagement and reach. Use these insights to create a more targeted and effective content strategy that resonates with your audience and boosts your online presence.
-#### Dataset
 
-| CONTENT URL | CONTENT TITLE | CONTENT BODY | KEYWORDS | READABILITY SCORE | ENGAGEMENT SCORE | SEO SCORE | RECOMMENDATIONS |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | First Title | This is the full content... | #FY2023, #Strategy | 60 | 0.035 | 75 | "Increase use of keywords throughout the text." |
-| 2 | Second Title | This is another piece of content... | #FY2024, #Plan | 70 | 0.045 | 65 | "Improve readability by simplifying complex sentences." |
-| 3 | Third Title | Yet another piece of content... | #FY2023, #Review | 55 | 0.025 | 80 | "Increase engagement by adding a call to action." |
-| 4 | Fourth Title | More content... | #FY2024, #Forecast | 80 | 0.055 | 70 | "Improve SEO score by adding metadata." |
+### AI-Driven Content Generation
 
-#### Schema
+Leverage large language models to generate relevant and engaging content, reducing the time and effort required to create compelling material. By harnessing AI technology, you can ensure that your content is on-trend, appealing, and tailored to your target audience's interests.
 
-```jsx
+## How it Works?
+
+- Connect your LinkedIn Account by typing /LinkedIn_Connect in the chat bar
+- Profile your profile information by typing /LinkedIn_Profile in the chat bar
+- Get your content analytics by typing /LinkedIn_Content_Analytics in the chat bar
+- Access the code by typing /Lab_Content_Engine in the chat bar
+
+## Workflows
+
+### Chat with Your Content Agent
+
+You can interact with your content agent to gain insights and recommendations on your content performance data. The agent can also create your next series or posts on any different platforms for a given topic, summarize articles, repurpose content, write video scripts, iterate to find the perfect hooks…a lot can be done just by interacting with the current version of the agent in the Chat. 
+
+### Receive Automated Email Reports
+
+You will receive an email report detailing your daily or weekly content performance and providing recommendations. This report, featuring performance graphs and text analysis will help you understand how well you have performed over the month. You can customize this report and add other insights to meet your specific needs.
+
+### Create Your Own Content Creation Prompt
+
+Craft your own content creation prompts by customizing our template according to your needs. You can then use these prompts within your Naas chat system.
+
+### Consolidate Your LinkedIn Content
+
+Collect all LinkedIn content (including content and metrics) published by your company and individuals, and compile it into a single database. This data can then be distributed across various channels such as Notion, Google Sheets, Excel, and more.
+
+### Understand Your LinkedIn Engagement Rate
+
+Enhance your understanding of the engagement rate on your posts, whether published individually or bundled into custom categories (such as engagement rate by topics). The engagement rate is calculated using the simple formula: (Comments + Likes + Shares) / Views.
+
+### Follow LinkedIn Influencers' Content
+
+LinkedIn is a platform that brings together content published by a diverse range of individuals. To ensure you don't miss any valuable content that could aid your growth, consider following influencers. This will allow you to gain the best insights from their content and find inspiration for your own future posts.
+
+### Understand Sentiment Analysis Based on Comments
+
+Analyze comments from any post to determine its relevance. Sometimes, a post can generate buzz, but the comments can provide deeper insights into expert opinions and offer constructive information.
+
+### Get “Saved” Posts from Your LinkedIn (Pro)
+
+While browsing LinkedIn, you might find interesting posts that you want to revisit later. Our upcoming feature will allow you to save these posts and add them to your content database. This will enhance the accuracy of your AI recommendations.
+
+### Extract Trending Topics from LinkedIn Search (Pro)
+
+LinkedIn Search is a powerful tool for finding posts based on specific keywords. Our upcoming feature will help you perform research and add relevant content to your database. This will help you stay updated on trending topics and further improve the accuracy of your AI recommendations.
+
+### Receive Improvement Recommendationsn (Pro)
+
+Based on your content data, you'll receive personalized suggestions. These recommendations are driven by factors such as your engagement rate, content readability (scored using AI), and SEO score. The latter ensures that your keywords rank high in Google search results.
+
+### Generate Content with AI (Pro)
+
+Using Naas Chat and your own data, we will be able to generate not only written content but also images using models like Stability. This will enhance the quality and appeal of your content.
+
+## Data Model
+
+**CONTENT_ANALYTICS**
+
+The data model behind the collection of your content insights on media platforms.
+
+Dataset
+
+| URL | PLATFORM | DATE | TITLE | CONTENT | MEDIA_TYPE | KEYWORDS | AUTHOR | VIEWS | LIKES | COMMENTS | SHARES | ENGAGEMENT_RATE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| https://www.linkedin.com/posts/activity-6807940803196346368-FHjg | LinkedIn | 5/3/2023 10:00:00 | This is a first title | This is the full content | Text | #keyword | Jeremy Ravenel | 1020 | 12 | 23 | 1 | 0.035 |
+| https://twitter.com/elonmusk/status/1441575030638141443 | Twitter | 5/3/2023 10:00:00 | This is a first title | This is the full content | Text | #keyword | naas | 1020 | 12 | 23 | 1 | 0.035 |
+| https://www.facebook.com/username/posts/10101010101010101 | Facebook | 5/4/2023 10:00:00 | Sharing my latest insights | Here are some of my thoughts... | Text | #keyword | naas | 800 | 36 | 15 | 12 | 0.079 |
+| https://username.medium.com/title-of-the-article-b8f90375c54a | Medium | 5/5/2023 10:00:00 | Lessons from FY2023 | In this article, I reflect on... | Text | #keyword | naas | 1200 | 115 | 30 | 20 | 0.137 |
+| https://www.youtube.com/watch?v=3tmd-ClpJxA | YouTube | 5/6/2023 10:00:00 | My thoughts on FY2023 | In this video, I share my views... | Video | #keyword | naas | 3200 | 500 | 150 | 75 | 0.219 |
+
+Schema
+
+```json
 {
   "type": "object",
   "properties": {
-    "CONTENT URL": {
+    "URL": {
+      "type": "string",
+      "description": "The URL of the social media post."
+    },
+    "PLATFORM": {
+      "type": "string",
+      "description": "The social media platform where the post was published."
+    },
+    "DATE": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date and time when the post was published."
+    },
+    "TITLE": {
+      "type": "string",
+      "description": "The title of the post."
+    },
+    "CONTENT": {
+      "type": "string",
+      "description": "The full content of the post."
+    },
+    "MEDIA_TYPE": {
+      "type": "string",
+      "description": "The type of media used in the post (e.g., Text, Image, Video)."
+    },
+    "KEYWORDS": {
+      "type": "string",
+      "description": "Keywords associated with the post."
+    },
+    "AUTHOR": {
+      "type": "string",
+      "description": "The name of the content author."
+    },
+    "VIEWS": {
+      "type": "integer",
+      "description": "The number of views the post has received."
+    },
+    "LIKES": {
+      "type": "integer",
+      "description": "The number of likes the post has received."
+    },
+    "COMMENTS": {
+      "type": "integer",
+      "description": "The number of comments the post has received."
+    },
+    "SHARES": {
+      "type": "integer",
+      "description": "The number of times the post has been shared."
+    },
+    "ENGAGEMENT_RATE": {
+      "type": "number",
+      "description": "The engagement rate of the post, calculated as (Comments + Likes + Shares) / Views."
+    }
+  }
+}
+```
+
+**MEDIA_LISTENING**
+
+The data model behind the collection of content insights by monitoring competitors, influencers, and trending topics.
+
+Dataset
+
+| URL | PLATFORM | DATE | TITLE | CONTENT | MEDIA_TYPE | KEYWORDS | AUTHOR | AUTHOR_URL | FOLLOWERS | LIKES | COMMENTS | SHARES | ENGAGEMENT_RATE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  | LinkedIn | 5/3/2023 10:00:00 | This is a first title | This is the full content | Text | #opensource #jupyter | Travis Oliphant |  | 10000 | 122 | 18 | 10 | 0.035 |
+|  | LinkedIn | 5/3/2023 10:00:00 | This is a first title | This is the full content | Text | #ai | Vin Vashishta |  | 170000 | 455 | 23 | 1 | 0.035 |
+|  | YouTube | 5/6/2023 10:00:00 | My thoughts on FY2023 | In this video, I share my views... | Video | #bi #finance | Alexandre Stevens |  | 3200 | 500 | 150 | 75 | 0.219 |
+
+Schema
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "URL": {
+      "type": "string",
+      "description": "The URL of the social media post."
+    },
+    "PLATFORM": {
+      "type": "string",
+      "description": "The social media platform where the post was published."
+    },
+    "DATE": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date and time when the post was published."
+    },
+    "TITLE": {
+      "type": "string",
+      "description": "The title of the post."
+    },
+    "CONTENT": {
+      "type": "string",
+      "description": "The full content of the post."
+    },
+    "MEDIA_TYPE": {
+      "type": "string",
+      "description": "The type of media used in the post (e.g., Text, Image, Video)."
+    },
+    "KEYWORDS": {
+      "type": "string",
+      "description": "Keywords associated with the post."
+    },
+    "AUTHOR": {
+      "type": "string",
+      "description": "The name of the content author."
+    },
+    "AUTHOR_URL": {
+      "type": "string",
+      "description": "The URL of the content author."
+    },
+    "FOLLOWERS": {
+      "type": "integer",
+      "description": "The number of author's followers."
+    },
+    "LIKES": {
+      "type": "integer",
+      "description": "The number of likes the post has received."
+    },
+    "COMMENTS": {
+      "type": "integer",
+      "description": "The number of comments the post has received."
+    },
+    "SHARES": {
+      "type": "integer",
+      "description": "The number of times the post has been shared."
+    },
+    "ENGAGEMENT_RATE": {
+      "type": "number",
+      "description": "The engagement rate of the post, calculated as (Comments + Likes + Shares) / Followers."
+    }
+  }
+}
+```
+
+**CONTENT_RECOMMENDATIONS**
+
+The data model behind the enrichment of content with optimizations and recommendations.
+
+Dataset
+
+| URL | TITLE | CONTENT | KEYWORDS | ENGAGEMENT_SCORE | READABILITY_SCORE | SEO_SCORE | RECOMMENDATIONS |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | First Title | This is the full content... | #FY2023, #Strategy | 0.035 | 60 | 75 | "Increase use of keywords throughout the text." |
+|  | Second Title | This is another piece of content... | #FY2024, #Plan | 0.045 | 70 | 65 | "Improve readability by simplifying complex sentences." |
+|  | Third Title | Yet another piece of content... | #FY2023, #Review | 0.025 | 55 | 80 | "Increase engagement by adding a call to action." |
+|  | Fourth Title | More content... | #FY2024, #Forecast | 0.055 | 80 | 70 | "Improve SEO score by adding metadata." |
+
+Schema
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "URL": {
       "type": "integer",
       "description": "The unique identifier for the content."
-    },
-    "CONTENT TITLE": {
+    
+    "TITLE": {
       "type": "string",
-      "description": "The title of the content."
+      "description": "The title of the post."
     },
-    "CONTENT BODY": {
+    "CONTENT": {
       "type": "string",
-      "description": "The full text of the content."
+      "description": "The full content of the post."
     },
     "KEYWORDS": {
       "type": "string",
       "description": "The keywords or hashtags associated with the content."
     },
-    "READABILITY SCORE": {
+    "ENGAGEMENT_SCORE": {
+      "type": "number"
+      "description": "A score indicating the level of user engagement with the content."
+    },
+    "READABILITY_SCORE": {
       "type": "integer",
       "description": "A score indicating the readability of the content."
     },
-    "ENGAGEMENT SCORE": {
-      "type": "number",
-      "description": "A score indicating the level of user engagement with the content."
-    },
-    "SEO SCORE": {
+    "SEO_SCORE": {
       "type": "integer",
       "description": "A score indicating how well the content is optimized for search engines."
     },
@@ -207,104 +304,86 @@ Receive AI-driven recommendations to improve content quality, readability, and S
       "description": "Specific recommendations for improving the content."
     }
   },
-  "required": ["CONTENT ID", "CONTENT TITLE", "CONTENT BODY", "KEYWORDS", "READABILITY SCORE", "ENGAGEMENT SCORE", "SEO SCORE"]
+  }
 }
 ```
 
-#### Integrations
+**CONTENT_GENERATION**
 
-- **Content Management Systems (CMS)** like WordPress or Drupal. The system could pull in content directly from the CMS for analysis.
-- **SEO Tools** like Google Search Console or SEMRush. These could provide additional data for the SEO score and recommendations.
-- **Social Media Platforms** like Facebook, Twitter, LinkedIn. Data on likes, shares, comments, etc. from these platforms could feed into the engagement score.
-- **Readability Analysis Tools** like the Flesch-Kincaid readability tests. These could provide data for the readability score.
-- **A/B Testing Platforms** like Optimizely or Google Optimize. These could be used to test the effectiveness of different versions of the content based on the system's recommendations.
-- **Analytics Platforms** like Google Analytics or Mixpanel. These could provide additional data on user engagement with the content.
-- **Keyword Research Tools** like Google Keyword Planner or Moz. These could help in identifying effective keywords for the content.
+The data model behind the content creation.
 
-### AI-Driven Content Generation
+Dataset
 
-#### Description
+| PLATFORM | TITLE | CONTENT | KEYWORDS | DATE | RELATED_CONTENT |
+| --- | --- | --- | --- | --- | --- |
+| LinkedIn | Title | This is the full content... | #ai #openai | +1 day | url1, url2, … |
+| Twitter | Title | This is another piece of content... | #openai | +2 day | url1, url2, … |
+| LinkedIn | Title | Yet another piece of content... | #jupyter #anaconda | + 3 day | url1, url2, … |
 
-Leverage large language models to generate relevant and engaging content, reducing the time and effort required to create compelling material. By harnessing AI technology, you can ensure that your content is on-trend, appealing, and tailored to your target audience's interests.
+Schema
 
-#### Dataset
-
-| REQUEST ID | CONTENT BRIEF | TARGET KEYWORDS | TONE OF VOICE | TARGET AUDIENCE | GENERATED CONTENT OPTION 1 | GENERATED CONTENT OPTION 2 | GENERATED CONTENT OPTION 3 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Write a blog post about the FY2023 strategy | #FY2023, #Strategy | Professional | Business Leaders | "As we embark on FY2023, our strategy is..." | "The strategy for FY2023 has been carefully crafted..." | "Looking ahead to FY2023, we are excited to share our strategic vision..." |
-| 2 | Create social media post for our new product launch | #NewProduct, #Launch | Exciting | General Public | "Get ready for the launch of our amazing new product..." | "We're thrilled to announce the launch of our new product..." | "It's finally here! Our new product is set to launch..." |
-| 3 | Draft an email to customers about a service update | #ServiceUpdate | Informative | Customers | "We wanted to let you know about an important update to our service..." | "Important service update: We've made some changes..." | "We're writing to inform you about an update to our service..." |
-| 4 | Write a news article about our sustainability efforts | #Sustainability, #Efforts | Inspiring | General Public | "Our commitment to sustainability is at the heart of our operations..." | "Sustainability isn't just a buzzword for us—it's a core part of our mission..." | "We're excited to share the strides we've made in our sustainability efforts..." |
-
-#### Schema
-
-```jsx
+```json
 {
   "type": "object",
   "properties": {
-    "REQUEST ID": {
-      "type": "integer",
-      "description": "A unique identifier for the content generation request."
-    },
-    "CONTENT BRIEF": {
+		"PLATFORM": {
       "type": "string",
-      "description": "A brief description of the content to be generated."
+      "description": "The social media platform where the post should be published."
     },
-    "TARGET KEYWORDS": {
+    "TITLE": {
       "type": "string",
-      "description": "The keywords that should be included in the generated content."
+      "description": "The title of the post."
     },
-    "TONE OF VOICE": {
+    "CONTENT": {
       "type": "string",
-      "description": "The desired tone of voice for the generated content."
+      "description": "The full content of the post."
     },
-    "TARGET AUDIENCE": {
+    "KEYWORDS": {
       "type": "string",
-      "description": "The intended audience for the generated content."
+      "description": "The keywords or hashtags associated with the content."
     },
-    "GENERATED CONTENT OPTION 1": {
+		"DATE": {
       "type": "string",
-      "description": "The first option of generated content."
+      "format": "date-time",
+      "description": "The date and time when the post should be published."
     },
-    "GENERATED CONTENT OPTION 2": {
+		"RELATED_CONTENT": {
       "type": "string",
-      "description": "The second option of generated content."
+      "description": "The list of URLs used to inspire the content created."
     },
-    "GENERATED CONTENT OPTION 3": {
-      "type": "string",
-      "description": "The third option of generated content."
-    }
-  },
-  "required": ["REQUEST ID", "CONTENT BRIEF", "TARGET KEYWORDS", "TONE OF VOICE", "TARGET AUDIENCE"]
+  }
 }
 ```
-
-#### Integrations
-
-1. **Content Management Systems (CMS)** like WordPress or Drupal. The system could push generated content directly to the CMS.
-2. **Customer Relationship Management (CRM) systems** like Salesforce or HubSpot. These could provide data on the target audience that might influence content generation.
-3. **SEO Tools** like SEMRush orMoz. These could provide keyword recommendations that can be used as input for content generation.
-4. **Social Media Platforms** like Facebook, Twitter, LinkedIn. The system could post generated content directly to these platforms.
-5. **Email Marketing Platforms** like MailChimp or Constant Contact. The system could generate content for email campaigns and push it directly to these platforms.
-6. **Analytics Platforms** like Google Analytics or Mixpanel. These could provide data on the performance of the generated content, which could be used to refine future content generation.
-
-
-
-## Plugins
-
-<ActiveTeamRow />
-
-## How to Contribute
-
-To contribute to the Content Engine, join the community by signing up on the Naas platform, submit your ideas or improvements, and participate in GitHub discussions with fellow community members. You can also contribute by sharing your success stories and case studies to inspire others on social platforms.
 
 ## FAQ
 
 - Which platforms does the Content Engine support?
-The Content Engine currently supports LinkedIn (Profile and Company), Twitter, YouTube, Instagram, and TikTok.
+    
+    The Content Engine currently supports LinkedIn (Profile and Company), coming soon for Twitter/X, YouTube, Instagram, and TikTok.
+    
 - Is the AI-generated content customizable?
-Yes, you can customize the AI-generated content to better align with your brand voice and messaging.
+    
+    Yes, you can customize the AI-generated content to better align with your brand voice and messaging.
+    
 - How can I stay updated on new features and improvements to the Content Engine?
-Stay connected with the Naas community, and subscribe to the platform newsletter for regular updates on new features, enhancements, and tips.
+    
+    Stay connected with the Naas community, and subscribe to the platform newsletter for regular updates on new features, enhancements, and tips.
+    
 - Is my data secure when using the Content Engine?
-Naas takes data security seriously and follows industry-standard practices to ensure the protection of your data. For more information, refer to the Security Suite documentation.
+    
+    Naas takes data security seriously and follows industry-standard practices to ensure the protection of your data. For more information, refer to the Security Suite documentation.
+    
+
+## How to Contribute?
+
+**Collaborate with Us on our Public GitHub Repo**
+
+Accelerate development by working with us on issues in our public GitHub repository: https://github.com/jupyter-naas/engine-content.
+
+**Submit Your Ideas and Improvements**
+
+[Create GitHub Issues](https://github.com/jupyter-naas/engine-content/issues/new) or Participate in GitHub discussions with fellow community members. Your ideas and suggestions for improvements are always welcome.
+
+**Talk About Naas On Social Media**
+
+If you like what we are doing, share your story and case studies on social platforms to inspire others in the community. Your experiences can provide valuable insights for others.
