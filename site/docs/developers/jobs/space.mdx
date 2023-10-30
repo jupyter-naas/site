@@ -5,11 +5,11 @@ sidebar_position: 7
 # Space
 
 :::info
-This feature is not yet accessible in Naas Lab for Community tier. Please book a meeting with us if you are interested to try it out. 
+This feature is not yet accessible in Naas Lab for Community tier. Please book a meeting with us if you are interested to try it out.
 :::
 Naas Space is a service that enables Naas users to deploy data products and services in dedicated serverless containers from Naas Lab. This specification outlines the technical details and requirements of the Naas Space service.
 
-### Shiping Data & AI Products in Serverless Containers 
+## Shiping Data & AI Products in Serverless Containers
 
 The purpose of this service is to enable Naas users to deploy their own data products/services outside of their JupyterLab environment. This service plays a crucial role in facilitating deployment for several reasons:
 
@@ -39,37 +39,78 @@ The Naas Space Job supports various data products and services, including:
 - Alerting systems
 - Services (to be discussed)
 
+:::info
+As of now, the Naas Space job supports all data products and services that can be deployed using Docker containers. In the future, we plan on expanding the list of supported shipping mechanisms to include a broader range of data leveraging technologies.
+:::
+
+Get started via the `naas-python` library using this guide.
+
+## Space Framework concepts
+
+Spaces have been designed to be as simple as possible to use. The framework is based on the following concepts:
+
+- **Docker container**: a docker container can be shipping any kind of data product or service. It is a containerized environment that can be deployed on any cloud provider.
+- **Registry**: the registry is the place where the container is stored/uploaded and serves as a repository, such as Docker Hub or Quay.io. If the user opts for the Enterprise mode, the registry will be hosted on the client's cloud provider.
+- **Kubernetes**: Kubernetes is the technology used to deploy the container and manage the resources, responsible for scaling, monitoring, and managing the container.
+- **Knative**: Knative is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads. It provides a set of middleware components that are essential to build modern, source-centric, and container-based applications that can run anywhere: on premises, in the cloud, or even in a third-party data center.
+
+Below is a basic diagram of the Naas Space framework and how the different components interact with each other:
+
+![Space Framework Diagram](/img/space-framework-diagram.png)
+
 ### API
 
-The Naas Space service will provide a generic way to handle the deployment of data products and services using Knative. On top of this API, different low-code formulas can be created based on the nature of the data products. These low-code formulas will provide an easy-to-use interface for users to deploy their data products.
+The Naas Space service offers a versatile solution for managing the deployment of data products and services. It leverages an API that allows for the creation of low-code formulas tailored to the specific characteristics of data products. These low-code formulas simplify the process of deploying data products, providing users with an intuitive interface.
 
-### Low-Code Function
+To interact with Naas's main service for scheduling spaces, you can make use of the naas-python library. This library seamlessly integrates with Naas Lab's authentication mechanism and offers users two primary modes of interaction: a Command Line Interface (CLI) and a Python API.
+
+In the following section, we will explore how to utilize the naas-python library to deploy a dashboard. This will involve a detailed breakdown of each parameter and a clear, step-by-step example to follow.
 
 Naas Space will provide a low-code formula for deploying dashboards for example:
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<div style={{"border-radius": "15px", "border": "2px solid #f1f1f6", "padding": "20px" }}>
+
+<Tabs>
+  <TabItem value="SDK" label="Python API (SDK)" default>
+
 **`naas.space.dashboard.add(path, dependencies, name, requirements, users)`**
+
+</TabItem>
+
+<TabItem value="CLI" label="CLI" >
+
+**`naas space dashboard add --path [path] --dependencies [dependencies] --name [name] --requirements [requirements] --users [users]`**
+
+</TabItem>
+</Tabs>
+
+### Reference
 
 - **`path`** is the path to the notebook file hosting the code of the dashboard
 - **`dependencies`** are the list of files required by the notebook to run the dashboard
 - **`name`** is the target value showed in the deployed URL followed by .live.naas.ai (e.g. **https://dashboard-linkedin.live.naas.ai/**)
 - **`requirements`** are the list of Python packages to be installed
-    
+
     ```json
     requirements=[
             "pandas==1.2.3",
             "plotly==2.3.4",
             "pydash",]`
     ```
-    
+
 - **`users`** are the list of users and passwords that will be allowed to access the dashboard
-    
+
     ```json
     users=[
             "jeremy@naas.ai:12345",
             "florent@naas.ai:12345",
             "maxime@naas.ai:12345",],
     ```
-    
+
+</div>
 
 The low-code formula will also include other data products and services, such as static websites, APIs, and AI/ML engines.
 
