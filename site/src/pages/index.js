@@ -180,10 +180,15 @@ function HomeTLDR() {
             </div>
           </div> */}
 
-          <div className={styles.FlowContainer}>
+          <div style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}>
             <img
               src="https://user-images.githubusercontent.com/81156510/277126407-4b404d46-0a12-4082-b89c-d4ae972e0652.png"
-              alt="how it works"
+              alt="companies"
+              style={{ height: "217px" }}
             />
           </div>
         </div>
@@ -1866,62 +1871,62 @@ function HomeContributors() {
   );
 }
 
-function HomeGitHub() {
-  return (
-    <div
-      className={clsx(
-        styles.scalling,
-        styles.flex,
-        styles.justifyCenter,
-        styles.bgLight
-      )}
-    >
-      <div
-        className={styles.h_w_lg}
-        style={{ display: "flex", flexDirection: "column" }}
-      >
-        <div
-          className={clsx(
-            styles.textContainer,
-            styles.itemsCenter,
-            styles.hFull
-          )}
-          style={{ width: "100%" }}
-        >
-          <h2>🌍 Join our open source makers movement</h2>
-          <div className={styles.mobCenter}>
-            <div className={styles.textCenterMobile}>
-              <p>
-                Our community excels in producing outstanding content, crafting
-                awesome templates and data products, and providing premium
-                support to our customers around the globe.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className={styles.mobCenter}
-          style={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <div className={styles.buttonContainer}>
-            <img src="./img/map2.png" alt="map" />
-            <Link
-              className={styles.cta}
-              href="https://github.com/orgs/jupyter-naas/discussions"
-            >
-              Join GitHub Discussions
-            </Link>
-          </div>
-        </div>
-  );
-}
+// function HomeGitHub() {
+//   return (
+//     <div
+//       className={clsx(
+//         styles.scalling,
+//         styles.flex,
+//         styles.justifyCenter,
+//         styles.bgLight
+//       )}
+//     >
+//       <div
+//         className={styles.h_w_lg}
+//         style={{ display: "flex", flexDirection: "column" }}
+//       >
+//         <div
+//           className={clsx(
+//             styles.textContainer,
+//             styles.itemsCenter,
+//             styles.hFull
+//           )}
+//           style={{ width: "100%" }}
+//         >
+//           <h2>🌍 Join our open source makers movement</h2>
+//           <div className={styles.mobCenter}>
+//             <div className={styles.textCenterMobile}>
+//               <p>
+//                 Our community excels in producing outstanding content, crafting
+//                 awesome templates and data products, and providing premium
+//                 support to our customers around the globe.
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//         <div
+//           className={styles.mobCenter}
+//           style={{
+//             width: "100%",
+//             display: "flex",
+//             justifyContent: "center",
+//             alignItems: "center",
+//           }}
+//         >
+//           <div className={styles.buttonContainer}>
+//             <img src="./img/map2.png" alt="map" />
+//             <Link
+//               className={styles.cta}
+//               href="https://github.com/orgs/jupyter-naas/discussions"
+//             >
+//               Join GitHub Discussions
+//             </Link>
+//           </div>
+//         </div>
+//   );
+// }
 
-function HomeFooter() {
+{/* function HomeFooter() {
   return (
     <div className={clsx(styles.bgDark)}>
       <div
@@ -2087,4 +2092,4 @@ function HomeFooter() {
       </div>
     </div>
   );
-}
+} */}
