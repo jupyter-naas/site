@@ -149,38 +149,6 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Overview",
-                docId: "framework/overview",
-              },
-              {
-                type: "doc",
-                label: "Jobs",
-                docId: "framework/jobs/scheduler",
-              },
-              {
-                type: "doc",
-                label: "Drivers",
-                docId: "framework/drivers/airtable",
-              },
-              {
-                type: "doc",
-                label: "Templates",
-                docId: "framework/templates",
-              },
-              {
-                type: "doc",
-                label: "Data Product Workflow",
-                docId: "framework/delivery",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Developers",
-            position: "left",
-            items: [
-              {
-                type: "doc",
                 label: "Artificial Business Intelligence",
                 docId: "solutions/introduction",
               },
@@ -223,7 +191,7 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Resources",
+            label: "Developers",
             position: "left",
             items: [
               {

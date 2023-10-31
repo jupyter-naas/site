@@ -16,6 +16,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
+        <h2 className={styles.h2textCenter}>Everything you need to integrate AI<br></br> in your daily operations</h2>
         <HomeFeatures />
         <h2 className={styles.h2textCenter}>How It Works?</h2>
         <Steps />
@@ -999,7 +1000,7 @@ function HomeFeatures() {
             <div style={{ marginLeft: "-90%" }}>
               <h4 style={{ color: "white" }}>STEP 3</h4>
             </div>
-            <h2>💬 Chat</h2>
+            <h2 style={{ textAlign: "left" }}>💬 Chat</h2>
             <p>
               Simple. Powerful. Empowering. Communicate more efficiently with
               next generation AI Language models in a single interface.
