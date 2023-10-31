@@ -60,13 +60,13 @@ Below is a basic diagram of the Naas Space framework and how the different compo
 
 ### API
 
-The Naas Space service offers a versatile solution for managing the deployment of data products and services. It leverages an API that allows for the creation of low-code formulas tailored to the specific characteristics of data products. These low-code formulas simplify the process of deploying data products, providing users with an intuitive interface.
+The Naas Space service is a versatile solution for efficiently managing the deployment of data products and services. It's powered by an API that enables the creation of low-code formulas tailored to the unique characteristics of data products. These low-code formulas simplify the process of deploying data products, offering users an intuitive interface for streamlined operations.
 
-To interact with Naas's main service for scheduling spaces, you can make use of the naas-python library. This library seamlessly integrates with Naas Lab's authentication mechanism and offers users two primary modes of interaction: a Command Line Interface (CLI) and a Python API.
+To interact with Naas's primary service for scheduling spaces, you have the option to use the `naas-python`` library. This library seamlessly integrates with Naas Lab's authentication mechanism, providing users with two key modes of interaction: a Command Line Interface (CLI) and a Python API. For installation instructions, please refer to the [documentation](https://docs.naas.ai/developers/naas-python).
 
-In the following section, we will explore how to utilize the naas-python library to deploy a dashboard. This will involve a detailed breakdown of each parameter and a clear, step-by-step example to follow.
+Naas Space offers several methods to interact with its API, including create, list, delete, update, and add. These methods are accessible through both the CLI and the Python API, above all, we present the user with a straightforward `.add` formula that can be used to deploy a containerized application and comprehends all the parameters needed to do so.
 
-Naas Space will provide a low-code formula for deploying dashboards for example:
+Throughput the following section, we will delve into the practical use of the `naas-python` library for deploying a containerized application. This will entail a comprehensive breakdown of each parameter, accompanied by a clear and straightforward step-by-step example for your guidance.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -74,41 +74,82 @@ import TabItem from '@theme/TabItem';
 <div style={{"border-radius": "15px", "border": "2px solid #f1f1f6", "padding": "20px" }}>
 
 <Tabs>
-  <TabItem value="SDK" label="Python API (SDK)" default>
+<TabItem value="SDK" label="Python API (SDK)" default>
 
-**`naas.space.dashboard.add(path, dependencies, name, requirements, users)`**
+### **`naas.space.add()`**
+
+The `naas.space.add()` method is the primary method for deploying a containerized application. It takes in a set of parameters that define the deployment configuration and returns a URL that can be used to access the deployed application.
+
+#### SDK Example
+
+```python
+from naas_python import space
+
+space.add(
+    space_name="my-space",
+    space_type="docker",
+    dockerfile_path="Dockerfile",
+    docker_context=".",
+    container_port=5080,
+    generate_ci=True,
+    skip_registry=False,
+    registry_name="my-registry",
+    ci_type="github-actions",
+    image="my-image",
+    cpu=2,
+    memory="2Gi",
+)
+```
 
 </TabItem>
-
 <TabItem value="CLI" label="CLI" >
 
-**`naas space dashboard add --path [path] --dependencies [dependencies] --name [name] --requirements [requirements] --users [users]`**
+### **`naas space add`**
+
+The `naas space add` command is the primary command for deploying a containerized application. It takes in a set of parameters that define the deployment configuration and returns a URL that can be used to access the deployed application.
+
+#### CLI Example
+
+```bash
+naas-python space add \
+    --space-name "my-space" \
+    --space-type "docker" \
+    --dockerfile-path "Dockerfile" \
+    --docker-context "." \
+    --container-port 5080 \
+    --generate-ci \
+    --skip-registry \
+    --registry-name "my-registry" \
+    --ci-type "github-actions" \
+    --image "my-image" \
+    --cpu 2 \
+    --memory "2Gi"
+```
 
 </TabItem>
 </Tabs>
 
-### Reference
+#### Argument reference
 
-- **`path`** is the path to the notebook file hosting the code of the dashboard
-- **`dependencies`** are the list of files required by the notebook to run the dashboard
-- **`name`** is the target value showed in the deployed URL followed by .live.naas.ai (e.g. **https://dashboard-linkedin.live.naas.ai/**)
-- **`requirements`** are the list of Python packages to be installed
+The following arguments are supported:
 
-    ```json
-    requirements=[
-            "pandas==1.2.3",
-            "plotly==2.3.4",
-            "pydash",]`
-    ```
+- **`space_name`**: The name of the space. This is used to generate the URL for accessing the deployed application. The URL will be in the format: [space_name].space.naas.ai. For example, if the space name is "my-space", the URL will be: my-space.space.naas.ai.
+- **`space_type`**: The type of the space. This is used to determine the type of container that will be deployed. Currently, the only supported type is "docker".
+- **`dockerfile_path`**: The path to the Dockerfile. This is used to build the Docker image that will be deployed.
+- **`docker_context`**: The path to the Docker context. This is used to build the Docker image that will be deployed.
+- **`image_tag`**: The tag for the Docker image. This is used to build the Docker image that will be deployed.
+- **`container_port`**: The port for the Space container. This is used to determine the port that will be exposed by the container.
+- **`generate_ci`**: A boolean value indicating whether or not to generate a CI/CD configuration. This is used to determine whether or not to generate a CI/CD configuration for the container.
+- **`skip_registry`**: A boolean value indicating whether or not to skip creating a Docker registry. This is used to determine whether or not to create a Docker registry for the container. If not passed, the `image` parameter must be passed with a valid registry name.
+- **`registry_name`**: The name of the registry. This is used to determine the name of the Docker registry that will be created.
+- **`ci_type`**: The type of CI/CD configuration to generate. This is used to determine the type of CI/CD configuration that will be generated.
+- **`image`**: The image of the space. This is used to determine the image that will be deployed. The value must be in the format: `[registry_name]/[image_name]:[image_tag]`. For example, *"my-registry/my-image:latest"*.
+- **`cpu`**: The CPU utilization for the Space container. This is used to determine the CPU utilization for the container. The value must be in the format: `[number][unit]`. For example, "2" or "512m".
+- **`memory`**: The memory utilization for the Space container. This is used to determine the memory utilization for the container. The value must be in the format: `[number][unit]`. For example, "2Gi" or "512Mi".
 
-- **`users`** are the list of users and passwords that will be allowed to access the dashboard
+#### Naas Space add diagram flow
 
-    ```json
-    users=[
-            "jeremy@naas.ai:12345",
-            "florent@naas.ai:12345",
-            "maxime@naas.ai:12345",],
-    ```
+![Space Add Diagram](/img/naas-space-add.png)
 
 </div>
 
@@ -120,9 +161,15 @@ The formula is yet to be finalized.
 
 Naas Space supports basic authentication in its first iteration. Advanced authentication using OAuth2 providers will be implemented for Enterprise users to share data products securely.
 
+:::info
+Once authenticated a `~/.naas/credentials` file will be created in the user home directory. This file will contain the user's credentials and will be used to authenticate the user for subsequent requests.
+:::
+
 ### Deployment
 
 Service deployment will be automated using Knative. Users can upload their data products to Naas Space by providing an archive containing their code and dependencies. Naas Space will then handle the deployment and management of the containerized data product.
+
+For a contextualized example, checkout our example repository [here](https://github.com/jupyter-naas/naas-space-add-demo). Here we showcase how to deploy a simple HTML page into a flask API server that will be deployed and managed by a Naas Space container.
 
 ### Conclusion
 
