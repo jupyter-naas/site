@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "️⚡Creating ABI, the AI System for your everyday business",
+  title: "️️⚡Creating ABI, the AI System for your everyday business",
   tagline:
     "Naas is an open alternative to ChatGPT and its plugins store that you can customize to your own needs. It integrates analytics, automation an AI into your workflows thanks to low-code templates and the best generative AI models.",
   favicon: "img/favicon.ico",

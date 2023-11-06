@@ -29,15 +29,16 @@
   position: relative;
   overflow: hidden;
   color: white;
-  max-width: 850px;
+  padding: 0 4rem;
+  /* max-width: 900px; */
   /* background-size: cover; */
   /* background-image: url("https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278"); */
 }
 
 .title {
-  font-size: 3.5em;
-  font-weight: 900;
+  font-size: 4.5rem; /* 72px */
   line-height: 1.2;
+  font-weight: 700 !important;
   margin: 0 0 20px;
   white-space: pre-line;
 }
@@ -55,17 +56,21 @@
 }
 
 .tagline {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  margin: auto;
-  max-width: 600px;
-  white-space: pre-line;
-  line-height: 1.5;
+  margin-top: 2.5rem;
+  /* max-width: 600px; */
+  /* white-space: pre-line; */
+  line-height: 2rem;
+  color: #D1D1D2;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
   .tagline {
     font-size: 1.2em;
+    padding: 0 0.5rem;
   }
 }
 
@@ -208,10 +213,11 @@ p {
 }
 
 .h2textCenter {
-  padding-top: 104px;
-  padding-bottom: 35px;
+  padding: 5rem 0;
   text-align: center;
-  font-size: 38.4px;
+  font-weight: 700 !important;
+  font-size: 3rem;
+  line-height: 1.3em;
 }
 .ptextCenter {
   text-align: center;
@@ -259,7 +265,7 @@ p {
 }
 
 .buttonContainer {
-  margin: 40px 0px;
+  margin: 50px 0px;
 }
 
 @media (max-width: 768px) {
@@ -275,16 +281,13 @@ p {
   color: rgb(0, 0, 0);
   background: rgb(71, 221, 130);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .171);
-  margin: 5px;
-  font-size: 1.2em;
-  padding-bottom: 0.75rem;
-  padding-top: 0.75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  border-radius: 10px;
-  line-height: 1;
+  margin: 1rem 0;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
   border: none;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
@@ -346,25 +349,30 @@ p {
   color: rgba(255, 255, 255, 1);
 }
 
+.communityContainer .imageContainer {
+  width: 100%;
+}
+
 .titleWrapper {
-  padding: 50px 20px;
+  padding: 50px 0;
 }
 
 .titleWrapper h2 {
-  font-weight: 700;
-  font-size: 2.7em;
+  font-weight: 700 !important;
+  font-size: 3rem;
   line-height: 1.3em;
   margin: 0;
   text-align: center;
 }
 
 .titleWrapper p {
-  font-size: 1.5em;
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
   font-weight: 400;
   margin: 0;
   text-align: center;
   margin-top: 20px;
-  /* margin-bottom: 50px; */
+  color: #D1D1D2;
 }
 
 @media (max-width: 768px) {
@@ -392,6 +400,120 @@ p {
   .titleWrapper p {
     font-size: 1.2em;
   }
+}
+
+.featureContainer {
+  padding: 4rem 10rem;
+}
+
+.stepContainer {
+  padding: 6rem 5rem;
+}
+
+.featureGrid {
+  display: grid;
+  gap: 3rem;
+  grid-template-areas:
+    "left right";
+    padding-bottom: 1px;
+}
+
+.rowImageLeft {
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+}
+.rowImageRight {
+  grid-template-columns: 1fr 3fr;
+  display: grid;
+}
+
+.featureGrid h4 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+.featureGrid h2 {
+  font-size: 3rem; /* 48px */
+  line-height: 1.1; 
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.featureGrid p {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.featureGrid .link {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.featureGrid .titleImage {
+  height: 2.25rem;
+}
+
+.featureAILogos {
+  margin: 0.5rem 0 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  /* width: 20rem; */
+}
+
+.featureAILogos img {
+  width: 4rem;
+}
+
+.sectionh4 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.sectionh2 {
+  font-size: 3rem; /* 48px */
+  line-height: 1.1; 
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.sectionp {
+  font-size: 1.875rem !important; /* 30px */
+  line-height: 2.75rem !important; /* 36px */
+  font-weight: 400;
+  margin: 1.5rem 0;
+}
+
+.contributors {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contributors h2 {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+  font-weight: 700;
+}
+
+.contributors p {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textGrey {
+  color: #464849 !important;
 }
 
 .grid {
@@ -496,7 +618,7 @@ p {
   /* font-family: 'Montserrat', sans-serif; */
 }
 
-.testimonialQuotes:before {
+/* .testimonialQuotes:before {
   content: "\201C";
   font-family: Georgia, Times New Roman, Times, serif;
   font-size: 122pt;
@@ -505,7 +627,7 @@ p {
   position: absolute;
   top: 130px;
   z-index: 0;
-}
+} */
 
 .testimonialQuotes img {
   width: 60px;
@@ -593,8 +715,8 @@ p {
 .toolLogos {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 2rem;
-  padding-bottom: 30px;
+  grid-gap: 5rem;
+  padding: 4rem 0px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -619,10 +741,13 @@ p {
   justify-content: center;
 }
 
-.explore {
-  padding-bottom: 120px;
-  padding-top: 72px;
+.toolImageContainer img {
+  width: 5rem;
 }
+
+/* .explore {
+  padding: 60px;
+} */
 
 .scalling {
   padding: 110px 0px 40px 0px;
@@ -631,23 +756,24 @@ p {
   padding: 40px 0px 0px 0px;
 }
 
-.imageContainer {
-  padding: 50px 50px;
-  /* margin-bottom: 25px; */
-}
-
 .FlowContainer {
   padding: 0px 0px 0px 0px;
 }
 
-.imageContainer img {
-  border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+.imageContainer {
+  width: 960px;
 }
 
-/* .imageContainer svg {
-  filter: drop-shadow(0 8px 16px #0005);
-} */
+.imageContainer img {
+  width: 100%;
+  margin-bottom: -11px;
+}
+
+ .jupyterImage {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+}
 
 .textContainer {
   padding: 40px 0 110px 0;
@@ -708,9 +834,10 @@ p {
   .textContainer {
     padding: 40px 0 55px 0;
   }
-  .imageContainer {
+  /* .imageContainer {
     padding: 50px 20px 25px 20px;
-  }
+    width: 960px;
+  } */
   .gridItem {
     width: 100%;
   }
@@ -731,11 +858,11 @@ p {
 }
 
 .jupyterImage {
-  border-radius: 5px;
+  /* border-radius: 5px;
   bottom: 0;
   left: 0;
   right: 0;
-  top: 5.7%;
+  top: 5.7%; */
 }
 
 .featDescription {
