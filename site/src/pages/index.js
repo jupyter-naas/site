@@ -67,9 +67,9 @@ function HomepageHeader() {
 
 function HomeTLDR() {
   return (
-    <>
+    <div className={clsx(styles.featureContainer, styles.bgDark)}>
       <div className={styles.community}>
-        <div className={styles.communityContainer}>
+        <div>
           <div className={styles.half}>
             {/* <div className={styles.imageContainer}> */}
               <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277124949-2926d01f-6152-41a7-a0ca-24a7ce25946e.png"} />
@@ -99,7 +99,7 @@ function HomeTLDR() {
               </div> */}
             {/* </div> */}
           </div>
-          <div className={styles.titleWrapper}>
+          <div className={styles.textCenter}>
             <h2>
               We are building the infrastructure for a truly
               <br />
@@ -109,89 +109,12 @@ function HomeTLDR() {
               People at incredible organizations already supports us, and we are
               just getting started.
             </p>
-            <div style={{ textAlign: "center", margin: "0.875rem 3rem 0 0" }}>
+            <div style={{ textAlign: "center"}}>
               <a href="#">Learn about their stories →</a>
             </div>
           </div>
-          {/* <div className={styles.grid}>
-            <div className={styles.gridItem}>
-              <div className={styles.iconContainer}>
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M18.25 10.5C18.25 14.7802 14.7802 18.25 10.5 18.25C6.21979 18.25 2.75 14.7802 2.75 10.5C2.75 6.21979 6.21979 2.75 10.5 2.75C14.7802 2.75 18.25 6.21979 18.25 10.5ZM10.5 19.75C15.6086 19.75 19.75 15.6086 19.75 10.5C19.75 5.39137 15.6086 1.25 10.5 1.25C5.39137 1.25 1.25 5.39137 1.25 10.5C1.25 15.6086 5.39137 19.75 10.5 19.75ZM21.4217 21.4217C20.6506 22.1928 19.4004 22.1928 18.6293 21.4217L16.7563 19.5488C17.8465 18.7936 18.7936 17.8465 19.5488 16.7563L21.4217 18.6292C22.1928 19.4003 22.1928 20.6506 21.4217 21.4217Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h3 className="gridItem__title color-1 weight-text-m">
-                <strong>Naas Search</strong>
-              </h3>
-              <div className="gridItem__description">
-                <p>
-                  Hard to move fast if you keep reinventing the wheel, harnest
-                  the power of open source data & AI templates.
-                </p>
-              </div>
-            </div>
-            <div className={styles.gridItem}>
-              <div className={styles.iconContainer}>
-                <image
-              </div>
-              <h3 className="gridItem__title color-1 weight-text-m">
-                <strong>Naas Chat</strong>
-              </h3>
-              <div className="gridItem__description">
-                <p>
-                  Simple. Powerful. Beautiful. Communicate more efficiently with
-                  next generation AI Language models.
-                </p>
-              </div>
-            </div>
-            <div className={styles.gridItem}>
-              <div className={styles.iconContainer}>
-                <svg
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.0035 11.0654H10.0252L6.78634 16.379C6.38897 17.0039 6.64426 17.5722 6.75748 17.7998C6.87071 18.0273 7.24033 18.5102 7.97961 18.5102H16.0493C16.7885 18.5102 17.157 17.9984 17.2714 17.7998C17.3846 17.5722 17.641 17.0328 17.2425 16.379L14.0035 11.0654Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M19.4316 15.0437L16.0782 9.55906C15.7086 8.93413 15.5099 8.22372 15.5099 7.51332V3.42081H16.2769C16.6743 3.42081 16.9873 3.10778 16.9873 2.71041C16.9873 2.31303 16.6743 2 16.2769 2H7.78101C7.38364 2 7.07061 2.31303 7.07061 2.71041C7.07061 3.10778 7.38364 3.42081 7.78101 3.42081H8.54802V7.51218C8.54802 8.25146 8.34933 8.96186 7.9797 9.55792L4.5976 15.0437C3.83059 16.2935 3.80172 17.7721 4.51213 19.0509C5.22253 20.3008 6.50126 21.0689 7.95106 21.0689H16.0207C17.4704 21.0689 18.7491 20.3019 19.4596 19.0509C20.1989 17.7711 20.1698 16.2937 19.4316 15.0437ZM18.2661 18.3681C17.811 19.1917 16.9585 19.6757 16.0217 19.6757H7.97958C7.04162 19.6757 6.21801 19.1928 5.73516 18.3681C5.28004 17.5445 5.28004 16.5776 5.79177 15.7818L9.14517 10.2971C9.65689 9.44465 9.94105 8.50669 9.94105 7.51212L9.93994 3.42076H14.0893V7.51212C14.0893 8.50669 14.3734 9.47239 14.8852 10.2971L18.2386 15.7818C18.7214 16.5776 18.7212 17.5444 18.2661 18.3681Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h3 className="gridItem__title color-1 weight-text-m">
-                <strong>Naas Lab</strong>
-              </h3>
-              <div className="gridItem__description">
-                <p>
-                  Build and manage any type of data & AI project more
-                  efficiently. No separated, clunky systems needed.
-                </p>
-              </div>
-            </div>
-          </div> */}
 
-          <div style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: '100px'
-          }}>
+          <div className={styles.organizations}>
             <img
               src="https://user-images.githubusercontent.com/81156510/277126407-4b404d46-0a12-4082-b89c-d4ae972e0652.png"
               alt="companies"
@@ -200,7 +123,7 @@ function HomeTLDR() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
@@ -419,12 +342,13 @@ function Step1() {
         <div className={clsx(styles.featureGrid, styles.rowImageLeft)}>
           <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"} />
             
-            <div>
+            <div className={styles.featureGroup}>
               <h4>STEP 1</h4>
               <h2>Set your custom AI Chat instructions</h2>
                 <p className={styles.sectionp} style={{"marginBottom": "2rem"}}>
-                  Instruct the AI models to understand your unique needs and
-                  preferences, paving the way for more personalized responses.
+                  Instruct the AI models to understand<br />
+                  your unique needs and preferences,<br />
+                  paving the way for more personalized<br /> responses.
                 </p>
                 <a className={styles.cta} href="">Join Aplha</a>
             </div>
@@ -583,12 +507,12 @@ function Step2() {
 function Step3() {
   return <div className={clsx(styles.bgDark, styles.stepContainer)}>
   <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
-      <div>
+      <div className={styles.featureGroup}>
         <h4 className={styles.sectionh4} style={{ color: "white" }}>STEP 3</h4>
-        <h2 className={styles.sectionh2}>Configure jobs & trigger workflows</h2>
+        <h2 className={styles.sectionh2}>Configure jobs &<br /> trigger workflows</h2>
         <p className={styles.sectionp}>
-          Use slash commands to set up and trigger workflows, ensuring you
-          maintain full control over your AI system.
+          Use slash commands to set up and<br /> trigger workflows, ensuring you<br />
+          maintain full control over your AI<br /> system.
         </p>
       </div>
       <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277148527-e7957855-2eb8-4a1b-a86a-a36ddfecc5bc.png"} />
@@ -659,12 +583,12 @@ function Step4() {
   return <div className={styles.stepContainer}>
     <div className={clsx(styles.featureGrid, styles.rowImageLeft)}>
         <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277148596-518dc49a-35dd-475b-9361-525efd1ea350.gif"} />
-        <div>
+        <div className={styles.featureGroup}>
           <h4 className={styles.sectionh4}>STEP 4</h4>
-          <h2 className={styles.sectionh2}>Customize to fit the specific needs of your business</h2>
+          <h2 className={styles.sectionh2}>Customize to fit the<br /> specific needs of your business</h2>
           <p className={styles.sectionp}>
-              Access your private server at any time to further personalize your
-              experience and maintain control over your AI System.
+              Access your private server at any<br /> time to further personalize your<br />
+              experience and maintain control<br /> over your AI System.
           </p>
         </div>
     </div>
@@ -733,11 +657,11 @@ function Step4() {
 function Step5() {
   return <div className={clsx(styles.bgDark, styles.stepContainer)}>
     <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
-        <div>
+        <div className={styles.featureGroup}>
           <h4 className={styles.sectionh4} style={{ color: "white" }}>STEP 5</h4>
-          <h2 className={styles.sectionh2}>Monetize your most powerful assets </h2>
+          <h2 className={styles.sectionh2}>Monetize your most<br />powerful assets </h2>
           <p className={styles.sectionp}>
-            Build and scale data & AI products effortlessly, to generate new
+            Build and scale data & AI products<br /> effortlessly, to generate new<br />
             opportunities.
           </p>
         </div>
@@ -1092,7 +1016,9 @@ function Steps() {
 function Feature({children, imageUrl}) {
   return <div className={styles.featureContainer}>
     <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
+      <div className={styles.featureGroup}>
         {children}
+      </div>
         <ImageFrame imageUrl={imageUrl} />
     </div>
   </div>
@@ -1102,7 +1028,6 @@ function HomeFeatures() {
   return (
     <>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158801-51e5c09d-bd5b-43fd-a845-af693ee8f4ef.png"}>
-        <div>
           <img className={styles.titleImage} src="./img/site_features/chat.svg" alt="chat" />
           <p>
           Simple. Powerful. Empowering.<br />
@@ -1120,10 +1045,8 @@ function HomeFeatures() {
             <img src="./img/midjourneyai.svg" alt="midjourneyai" />
           </div>
             <a className={styles.cta} href="#">Join Alpha</a>
-        </div>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"}>
-        <div>
           <img className={styles.titleImage} src="./img/site_features/search.svg" alt="search" />
           <p>
             Search across thousands of<br />
@@ -1132,10 +1055,8 @@ function HomeFeatures() {
             data projects in no time
           </p>
           <a className={styles.link} href="">Learn more →</a>
-        </div>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159499-3ad84b9e-5df7-4dd8-a5c7-25d93230cf35.png"}>
-        <div>
           <img className={styles.titleImage} src="./img/site_features/lab.svg" alt="lab" />
           <p>
           Build and manage any type of<br />
@@ -1144,10 +1065,8 @@ function HomeFeatures() {
           needed.
           </p>
           <a className={styles.link} href="">Learn more →</a>
-        </div>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159611-1868ba9e-b2a8-431b-b384-ddd6a9d3426f.png"}>
-        <div>
           <img className={styles.titleImage} src="./img/site_features/admin.svg" alt="admin" />
           <p>
           Efficient. Secure. Unified. Manage<br />
@@ -1157,7 +1076,6 @@ function HomeFeatures() {
           from one central dashboard
           </p>
           <a className={styles.link} href="">Learn more →</a>
-        </div>
       </Feature>
       {/* <div
         className={clsx(
@@ -1582,7 +1500,7 @@ function HomeTechFeatures() {
 
       <div
         className={clsx(
-          styles.titleWrapper,
+          styles.featureContainer,
           styles.flex,
           styles.justifyCenter,
           styles.bgDark
@@ -1985,10 +1903,10 @@ function HomeContributors() {
   return <div className={styles.featureContainer}>
       <div className={styles.contributors}>
         <div className={styles.half}>
-          <h2>
+          <h3>
             🌍 Build on-demand elite teams to accelerate your data & AI roadmap
             execution{" "}
-          </h2>
+          </h3>
           <p>
             Our community of data entrepreneurs are creating the open source
             templates that will enable any organizations to power their
