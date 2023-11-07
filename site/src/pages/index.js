@@ -16,7 +16,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
-        <h2 className={styles.h2textCenter}>Everything you need to integrate AI<br /> in your daily operations</h2>
+        <h2 className={styles.h2textCenter} style={{marginTop: '2rem'}}>Everything you need to integrate AI<br /> in your daily operations</h2>
         <HomeFeatures />
         <h2 className={styles.h2textCenter}>How It Works?</h2>
         <Steps />
@@ -71,33 +71,7 @@ function HomeTLDR() {
       <div className={styles.community}>
         <div>
           <div className={styles.half}>
-            {/* <div className={styles.imageContainer}> */}
               <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277124949-2926d01f-6152-41a7-a0ca-24a7ce25946e.png"} />
-              {/* <div className={styles.relative}>
-                <svg
-                  viewBox="0 0 940 623"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="pdxBrowser"
-                >
-                  <g fill="none" fillRule="evenodd">
-                    <rect fill="#FFF" width="200" height="auto" rx="9"></rect>
-                    <path
-                      d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                      fill="#DFE1E6"
-                    ></path>
-                    <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                    <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                    <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-                  </g>
-                </svg>
-                <div className={clsx(styles.absolute, styles.jupyterImage)}>
-                  <img
-                    src="https://user-images.githubusercontent.com/81156510/277124949-2926d01f-6152-41a7-a0ca-24a7ce25946e.png"
-                    alt="jupyter"
-                  />
-                </div>
-              </div> */}
-            {/* </div> */}
           </div>
           <div className={styles.textCenter}>
             <h2>
@@ -307,32 +281,12 @@ const toolImages = [
 
 function ImageFrame({imageUrl}) {
   return <div className={styles.imageContainer}>
-    {/* <div className={styles.relative}> */}
-      {/* <svg
-        viewBox="0 0 940 623"
-        xmlns="http://www.w3.org/2000/svg"
-        className="pdxBrowser"
-      >
-        <g fill="none" fillRule="evenodd">
-          <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-          <path
-            d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-            fill="#DFE1E6"
-          ></path>
-          <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-          <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-          <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-        </g>
-      </svg> */}
-      {/* <div className={clsx(styles.absolute, styles.jupyterImage)}> */}
         <img className="iostoolbar" src="./img/ios_toolbar.png" alt="ios toolbar" />
         <img
           className="jupyterImage"
           src={imageUrl}
           alt="jupyter"
         />
-      {/* </div> */}
-    {/* </div> */}
   </div>
 }
 
@@ -345,7 +299,7 @@ function Step1() {
             <div className={styles.featureGroup}>
               <h4>STEP 1</h4>
               <h2>Set your custom AI Chat instructions</h2>
-                <p className={styles.sectionp} style={{"marginBottom": "2rem"}}>
+                <p className={styles.sectionp}>
                   Instruct the AI models to understand<br />
                   your unique needs and preferences,<br />
                   paving the way for more personalized<br /> responses.
@@ -357,114 +311,13 @@ function Step1() {
           </div>
         </div>
       </div>
-    // <div className={styles.stepsContainer}>
-    //     <div className={clsx(styles.featureGrid, styles.rowImageLeft)}>
-    //         <div className="">
-    //           <img
-    //             src="https://user-images.githubusercontent.com/81156510/277147982-b4fd5f70-aeef-47c9-a23d-da927ac82397.png"
-    //             alt="jupyter"
-    //           />
-    //         </div>
-    //         <div style={{display: 'flex', flexDirection: "column", justifyContent: 'center'}}>
-    //           <div>
-    //             <h4>STEP 1</h4>
-    //             <h2>Set your custom AI Chat instructions</h2>
-    //               <p className={styles.sectionp} style={{"marginBottom": "2rem"}}>
-    //                 Instruct the AI models to understand your unique needs and
-    //                 preferences, paving the way for more personalized responses.
-    //               </p>
-    //               <a className={styles.cta} href="">Join Aplha</a>
-    //           </div>
-    //         </div>
-    //       <div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // <div
-    //   className={clsx(
-    //     styles.flex,
-    //     styles.flexWrap,
-    //     styles.bgLight,
-    //     styles.featureImage
-    //   )}
-    // >
-    //   <div className={styles.half}>
-    //     <div className={styles.imageContainer}>
-    //       <div className={styles.relative}>
-    //         <svg
-    //           viewBox="0 0 940 623"
-    //           xmlns="http://www.w3.org/2000/svg"
-    //           className="pdxBrowser"
-    //         >
-    //           <g fill="none" fillRule="evenodd">
-    //             <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-    //             <path
-    //               d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-    //               fill="#DFE1E6"
-    //             ></path>
-    //             <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-    //             <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-    //             <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-    //           </g>
-    //         </svg>
-    //         <div className={clsx(styles.absolute, styles.jupyterImage)}>
-    //           <img
-    //             src="https://user-images.githubusercontent.com/81156510/277147982-b4fd5f70-aeef-47c9-a23d-da927ac82397.png"
-    //             alt="jupyter"
-    //           />
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   <div className={styles.half}>
-    //     <div
-    //       className={clsx(
-    //         styles.textContainer,
-    //         styles.flex,
-    //         styles.flexCol,
-    //         styles.justifyCenter,
-    //         styles.itemsCenter,
-    //         styles.hFull
-    //       )}
-    //     >
-    //       <div style={{ marginLeft: "-90%" }}>
-    //         <h4>STEP 1</h4>
-    //       </div>
-    //       <h2>Set your custom AI Chat instructions</h2>
-    //       <p>
-    //         Instruct the AI models to understand your unique needs and
-    //         preferences, paving the way for more personalized responses.
-    //       </p>
-    //       <div
-    //         className={styles.buttonContainer}
-    //         style={{ marginLeft: "-78%" }}
-    //       >
-    //         <a
-    //           className={styles.cta}
-    //           href="https://bit.ly/3CFSumN"
-    //           target="_blank"
-    //         >
-    //           Join Alpha
-    //         </a>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 
 function Step2() {
   return (
-    <div
-      className={clsx(
-        styles.flex,
-        styles.flexRow,
-        styles.justifyCenter,
-        styles.bgLight
-      )}
-    >
-      {/* <div className={styles.h_w}> */}
-        <div className={styles.catalog}>
+    <div className={styles.featureContainer}>
+        <div>
             <h4 className={clsx(styles.sectionh4, styles.textCenter)}>STEP 2</h4>
             <h2 className={clsx(styles.sectionh2, styles.textCenter)}>
               Integrate your tools
@@ -484,22 +337,6 @@ function Step2() {
             ))}
           </div>
         </div>
-        <div
-          className={clsx(
-            styles.flex,
-            styles.flexWrap,
-            styles.justifyCenter,
-            styles.itemsCenter,
-            styles.explore
-          )}
-        >
-          {/* <div className={styles.buttonContainer}>
-            <a className={styles.cta} href="https://jtci2pxwjczr.landen.co/">
-              Sign in
-            </a>
-          </div> */}
-        </div>
-      {/* </div> */}
     </div>
   );
 }
@@ -518,65 +355,6 @@ function Step3() {
       <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277148527-e7957855-2eb8-4a1b-a86a-a36ddfecc5bc.png"} />
   </div>
 </div>
-  return (
-    <div
-      className={clsx(
-        styles.flex,
-        styles.flexWrap,
-        styles.bgDark,
-        styles.featureImage,
-        styles.stepContainer
-      )}
-    >
-      <div className={styles.half}>
-        <div
-          className={clsx(
-            // styles.textContainer,
-            styles.flex,
-            styles.flexCol,
-            styles.justifyCenter,
-            // styles.itemsCenter,
-            styles.hFull
-          )}
-        >
-            <h4 className={styles.sectionh4} style={{ color: "white" }}>STEP 3</h4>
-          <h2 className={styles.sectionh2}>Configure jobs & trigger workflows</h2>
-          <p className={styles.sectionp}>
-            Use slash commands to set up and trigger workflows, ensuring you
-            maintain full control over your AI system.
-          </p>
-        </div>
-      </div>
-      <div className={styles.half}>
-        <div className={styles.imageContainer}>
-          <div className={styles.relative}>
-            <svg
-              viewBox="0 0 940 623"
-              xmlns="http://www.w3.org/2000/svg"
-              className="pdxBrowser"
-            >
-              <g fill="none" fillRule="evenodd">
-                <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-                <path
-                  d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                  fill="#DFE1E6"
-                ></path>
-                <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-              </g>
-            </svg>
-            <div className={clsx(styles.absolute, styles.jupyterImage)}>
-              <img
-                src="https://user-images.githubusercontent.com/81156510/277148527-e7957855-2eb8-4a1b-a86a-a36ddfecc5bc.png"
-                alt="jupyter"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
 }
 
 function Step4() {
@@ -593,65 +371,6 @@ function Step4() {
         </div>
     </div>
   </div>
-  return (
-    <div
-      className={clsx(
-        styles.flex,
-        styles.flexWrap,
-        styles.bgLight,
-        styles.featureImage,
-        styles.stepContainer
-      )}
-    >
-      <div className={styles.half}>
-        <div className={styles.imageContainer}>
-          <div className={styles.relative}>
-            <svg
-              viewBox="0 0 940 623"
-              xmlns="http://www.w3.org/2000/svg"
-              className="pdxBrowser"
-            >
-              <g fill="none" fillRule="evenodd">
-                <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-                <path
-                  d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                  fill="#DFE1E6"
-                ></path>
-                <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-              </g>
-            </svg>
-            <div className={clsx(styles.absolute, styles.jupyterImage)}>
-              <img
-                src="https://user-images.githubusercontent.com/81156510/277148596-518dc49a-35dd-475b-9361-525efd1ea350.gif"
-                alt="jupyter"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={styles.half}>
-        <div
-          className={clsx(
-            // styles.textContainer,
-            styles.flex,
-            styles.flexCol,
-            styles.justifyCenter,
-            // styles.itemsCenter,
-            styles.hFull
-          )}
-        >
-          <h4 className={styles.sectionh4}>STEP 4</h4>
-          <h2 className={styles.sectionh2}>Customize to fit the specific needs of your business</h2>
-          <p className={styles.sectionp}>
-            Access your private server at any time to further personalize your
-            experience and maintain control over your AI System.
-          </p>
-        </div>
-      </div>
-    </div>
-  );
 }
 
 function Step5() {
@@ -668,66 +387,6 @@ function Step5() {
         <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277148739-d83bf56c-c979-431f-b199-60be3d1b2d7d.png"} />
     </div>
   </div>
-  return (
-    <div
-      className={clsx(
-        styles.flex,
-        styles.flexWrap,
-        styles.bgDark,
-        styles.featureImage
-      )}
-    >
-      <div className={styles.half} style={{ marginLeft: "10%" }}>
-        <div
-          className={clsx(
-            styles.textContainer,
-            styles.flex,
-            styles.flexCol,
-            styles.justifyCenter,
-            styles.itemsCenter,
-            styles.hFull
-          )}
-        >
-          <div style={{ marginLeft: "-90%" }}>
-            <h4 style={{ color: "white" }}>STEP 5</h4>
-          </div>
-          <h2>Monetize your most powerful assets </h2>
-          <p>
-            Build and scale data & AI products effortlessly, to generate new
-            opportunities.
-          </p>
-        </div>
-      </div>
-      <div className={styles.half}>
-        <div className={styles.imageContainer}>
-          <div className={styles.relative}>
-            <svg
-              viewBox="0 0 940 623"
-              xmlns="http://www.w3.org/2000/svg"
-              className="pdxBrowser"
-            >
-              <g fill="none" fillRule="evenodd">
-                <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-                <path
-                  d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                  fill="#DFE1E6"
-                ></path>
-                <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-              </g>
-            </svg>
-            <div className={clsx(styles.absolute, styles.jupyterImage)}>
-              <img
-                src="https://user-images.githubusercontent.com/81156510/277148739-d83bf56c-c979-431f-b199-60be3d1b2d7d.png"
-                alt="jupyter"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
 }
 
 function Steps() {
@@ -742,284 +401,13 @@ function Steps() {
   );
 }
 
-// function HomeFeatures() {
-//   return (
-//     <div>
-//       <div
-//         className={clsx(
-//           styles.flex,
-//           styles.flexWrap,
-//           styles.bgLight,
-//           styles.featureImage
-//         )}
-//       >
-//         <div className={styles.half}>
-//           <div className={styles.imageContainer}>
-//             <div className={styles.relative}>
-//               <svg
-//                 viewBox="0 0 940 623"
-//                 xmlns="http://www.w3.org/2000/svg"
-//                 className="pdxBrowser"
-//               >
-//                 <g fill="none" fillRule="evenodd">
-//                   <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-//                   <path
-//                     d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-//                     fill="#DFE1E6"
-//                   ></path>
-//                   <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-//                   <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-//                   <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-//                 </g>
-//               </svg>
-//               <div className={clsx(styles.absolute, styles.jupyterImage)}>
-//                 <img
-//                   src="https://jtci2pxwjczr.landen.co/lib_KbmqUogQbiRJQoGw/4ikcr39udlxt3tai.gif"
-//                   alt="jupyter"
-//                 />
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//         <div className={styles.half}>
-//           <div
-//             className={clsx(
-//               styles.textContainer,
-//               styles.flex,
-//               styles.flexCol,
-//               styles.justifyCenter,
-//               styles.itemsCenter,
-//               styles.hFull
-//             )}
-//           >
-//             <h2>Assemble templates to create your data products</h2>
-//             <p>
-//               Incorporate your own unique intelligence with the help of Naas'
-//               low-code integration and production capabilities.
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//       <div
-//         className={clsx(
-//           styles.flex,
-//           styles.bgDark,
-//           styles.scalling,
-//           styles.featureImage
-//         )}
-//       >
-//         <div className={styles.half}>
-//           <div
-//             className={clsx(
-//               styles.flex,
-//               styles.justifyFlexEnd,
-//               styles.itemsCenter,
-//               styles.hFull
-//             )}
-//           >
-//             <div
-//               className={clsx(
-//                 styles.textContainer,
-//                 styles.flex,
-//                 styles.flexCol,
-//                 styles.itemsCenter
-//               )}
-//             >
-//               <h2>Build & scale your data products effortlessly</h2>
-//               <p>
-//                 Take your data product from its initial development stage to a
-//                 fully-fledged, enterprise-level.
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//         <div className={styles.half}>
-//           <div className={styles.imageContainer}>
-//             <img src="./img/naas-jobs.png" alt="features" />
-//           </div>
-//         </div>
-//       </div>
-//       <div
-//         className={clsx(
-//           styles.flex,
-//           styles.bgLightGrey,
-//           styles.scalling,
-//           styles.featureImage
-//         )}
-//       >
-//         <div className={styles.half}>
-//           <div className={styles.imageContainer}>
-//             <div className={styles.relative}>
-//               <svg
-//                 viewBox="0 0 940 623"
-//                 xmlns="http://www.w3.org/2000/svg"
-//                 className="pdxBrowser"
-//               >
-//                 <g fill="none" fillRule="evenodd">
-//                   <rect fill="#FFF" width="940" rx="9"></rect>
-//                   <path
-//                     d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-//                     fill="#DFE1E6"
-//                   ></path>
-//                   <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-//                   <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-//                   <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-//                 </g>
-//               </svg>
-//               <div className={clsx(styles.absolute, styles.jupyterImage)}>
-//                 <img src="./img/dashboard.png" alt="dashboard" />
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//         <div className={styles.half}>
-//           <div
-//             className={clsx(
-//               styles.textContainer,
-//               styles.flex,
-//               styles.flexCol,
-//               styles.justifyCenter,
-//               styles.itemsCenter,
-//               styles.hFull
-//             )}
-//           >
-//             <h2>
-//               Always know how your data products work, no hidden surprises.
-//             </h2>
-//             <div>
-//               <div className={clsx(styles.flex, styles.flexWrap)}>
-//                 <div className={styles.featDescription}>
-//                   <svg
-//                     width="21px"
-//                     height="17px"
-//                     viewBox="0 0 21 17"
-//                     version="1.1"
-//                     xmlns="http://www.w3.org/2000/svg"
-//                   >
-//                     <g
-//                       id="Page-1"
-//                       stroke="none"
-//                       strokeWidth="1"
-//                       fill="none"
-//                       fillRule="evenodd"
-//                     >
-//                       <g
-//                         id="ui-icons"
-//                         transform="translate(-109.000000, -67.000000)"
-//                         fill="#22BC66"
-//                       >
-//                         <polygon
-//                           id="check"
-//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-//                         ></polygon>
-//                       </g>
-//                     </g>
-//                   </svg>
-//                   Consolidated AI Language models billing
-//                 </div>
-//                 <div className={styles.featDescription}>
-//                   <svg
-//                     width="21px"
-//                     height="17px"
-//                     viewBox="0 0 21 17"
-//                     version="1.1"
-//                     xmlns="http://www.w3.org/2000/svg"
-//                   >
-//                     <g
-//                       id="Page-1"
-//                       stroke="none"
-//                       strokeWidth="1"
-//                       fill="none"
-//                       fillRule="evenodd"
-//                     >
-//                       <g
-//                         id="ui-icons"
-//                         transform="translate(-109.000000, -67.000000)"
-//                         fill="#22BC66"
-//                       >
-//                         <polygon
-//                           id="check"
-//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-//                         ></polygon>
-//                       </g>
-//                     </g>
-//                   </svg>
-//                   Transparent jobs pricing
-//                 </div>
-//                 <div className={styles.featDescription}>
-//                   <svg
-//                     width="21px"
-//                     height="17px"
-//                     viewBox="0 0 21 17"
-//                     version="1.1"
-//                     xmlns="http://www.w3.org/2000/svg"
-//                   >
-//                     <g
-//                       id="Page-1"
-//                       stroke="none"
-//                       strokeWidth="1"
-//                       fill="none"
-//                       fillRule="evenodd"
-//                     >
-//                       <g
-//                         id="ui-icons"
-//                         transform="translate(-109.000000, -67.000000)"
-//                         fill="#22BC66"
-//                       >
-//                         <polygon
-//                           id="check"
-//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-//                         ></polygon>
-//                       </g>
-//                     </g>
-//                   </svg>
-//                   Automated versioning
-//                 </div>
-//                 <div className={styles.featDescription}>
-//                   <svg
-//                     width="21px"
-//                     height="17px"
-//                     viewBox="0 0 21 17"
-//                     version="1.1"
-//                     xmlns="http://www.w3.org/2000/svg"
-//                   >
-//                     <g
-//                       id="Page-1"
-//                       stroke="none"
-//                       strokeWidth="1"
-//                       fill="none"
-//                       fillRule="evenodd"
-//                     >
-//                       <g
-//                         id="ui-icons"
-//                         transform="translate(-109.000000, -67.000000)"
-//                         fill="#22BC66"
-//                       >
-//                         <polygon
-//                           id="check"
-//                           points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"
-//                         ></polygon>
-//                       </g>
-//                     </g>
-//                   </svg>
-//                   Keep track and maintain ownership
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 function Feature({children, imageUrl}) {
   return <div className={styles.featureContainer}>
     <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
       <div className={styles.featureGroup}>
         {children}
       </div>
-        <ImageFrame imageUrl={imageUrl} />
+      <ImageFrame imageUrl={imageUrl} />
     </div>
   </div>
 }
@@ -1077,239 +465,6 @@ function HomeFeatures() {
           </p>
           <a className={styles.link} href="">Learn more →</a>
       </Feature>
-      {/* <div
-        className={clsx(
-          styles.flex,
-          styles.flexWrap,
-          styles.bgLight,
-          styles.featureImage
-        )}
-      >
-        <div className={styles.half} style={{ marginLeft: "10%" }}>
-          <div
-            className={clsx(
-              styles.textContainer,
-              styles.flex,
-              styles.flexCol,
-              styles.justifyCenter,
-              styles.itemsCenter,
-              styles.hFull
-            )}
-          >
-            <div style={{ marginLeft: "-90%" }}>
-              <h4 style={{ color: "white" }}>STEP 3</h4>
-            </div>
-            <h2 style={{ textAlign: "left" }}>💬 Chat</h2>
-            <p>
-              Simple. Powerful. Empowering. Communicate more efficiently with
-              next generation AI Language models in a single interface.
-            </p>
-          </div>
-        </div>
-        <div className={styles.half}>
-          <div className={styles.imageContainer}>
-            <div className={styles.relative}>
-              <svg
-                viewBox="0 0 940 623"
-                xmlns="http://www.w3.org/2000/svg"
-                className="pdxBrowser"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-                  <path
-                    d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                    fill="#DFE1E6"
-                  ></path>
-                  <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                  <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                  <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-                </g>
-              </svg>
-              <div className={clsx(styles.absolute, styles.jupyterImage)}>
-                <img
-                  src="https://user-images.githubusercontent.com/81156510/277158801-51e5c09d-bd5b-43fd-a845-af693ee8f4ef.png"
-                  alt="jupyter"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div
-        className={clsx(
-          styles.flex,
-          styles.flexWrap,
-          styles.bgLight,
-          styles.featureImage
-        )}
-      >
-        <div className={styles.half} style={{ marginLeft: "10%" }}>
-          <div
-            className={clsx(
-              styles.textContainer,
-              styles.flex,
-              styles.flexCol,
-              styles.justifyCenter,
-              styles.itemsCenter,
-              styles.hFull
-            )}
-          >
-            <div style={{ marginLeft: "-90%" }}>
-              <h4 style={{ color: "white" }}>STEP 3</h4>
-            </div>
-            <h2>🔍 Search</h2>
-            <p>
-              Search across thousands of notebook templates, made by community,
-              to jumpstart your data projects in no time.
-            </p>
-          </div>
-        </div>
-        <div className={styles.half}>
-          <div className={styles.imageContainer}>
-            <div className={styles.relative}>
-              <svg
-                viewBox="0 0 940 623"
-                xmlns="http://www.w3.org/2000/svg"
-                className="pdxBrowser"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-                  <path
-                    d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                    fill="#DFE1E6"
-                  ></path>
-                  <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                  <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                  <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-                </g>
-              </svg>
-              <div className={clsx(styles.absolute, styles.jupyterImage)}>
-                <img
-                  src="https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"
-                  alt="jupyter"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div
-        className={clsx(
-          styles.flex,
-          styles.flexWrap,
-          styles.bgLight,
-          styles.featureImage
-        )}
-      >
-        <div className={styles.half} style={{ marginLeft: "10%" }}>
-          <div
-            className={clsx(
-              styles.textContainer,
-              styles.flex,
-              styles.flexCol,
-              styles.justifyCenter,
-              styles.itemsCenter,
-              styles.hFull
-            )}
-          >
-            <div style={{ marginLeft: "-90%" }}>
-              <h4 style={{ color: "white" }}>STEP 3</h4>
-            </div>
-            <h2>🔬 Lab</h2>
-            <p>
-              Build and manage any type of data & AI project more efficiently.
-              No separated, clunky systems needed.
-            </p>
-          </div>
-        </div>
-        <div className={styles.half}>
-          <div className={styles.imageContainer}>
-            <div className={styles.relative}>
-              <svg
-                viewBox="0 0 940 623"
-                xmlns="http://www.w3.org/2000/svg"
-                className="pdxBrowser"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-                  <path
-                    d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                    fill="#DFE1E6"
-                  ></path>
-                  <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                  <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                  <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-                </g>
-              </svg>
-              <div className={clsx(styles.absolute, styles.jupyterImage)}>
-                <img
-                  src="https://user-images.githubusercontent.com/81156510/277159499-3ad84b9e-5df7-4dd8-a5c7-25d93230cf35.png"
-                  alt="jupyter"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div
-        className={clsx(
-          styles.flex,
-          styles.flexWrap,
-          styles.bgLight,
-          styles.featureImage
-        )}
-      >
-        <div className={styles.half} style={{ marginLeft: "10%" }}>
-          <div
-            className={clsx(
-              styles.textContainer,
-              styles.flex,
-              styles.flexCol,
-              styles.justifyCenter,
-              styles.itemsCenter,
-              styles.hFull
-            )}
-          >
-            <div style={{ marginLeft: "-90%" }}>
-              <h4 style={{ color: "white" }}>STEP 3</h4>
-            </div>
-            <h2>👨🏻‍💼 Admin</h2>
-            <p>
-              Efficient. Secure. Unified. Manage users, system performance, and
-              enjoy consolidated billing with our prepaid credit-based system
-              from one central dashboard
-            </p>
-          </div>
-        </div>
-        <div className={styles.half}>
-          <div className={styles.imageContainer}>
-            <div className={styles.relative}>
-              <svg
-                viewBox="0 0 940 623"
-                xmlns="http://www.w3.org/2000/svg"
-                className="pdxBrowser"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <rect fill="#FFF" width="940" height="623" rx="9"></rect>
-                  <path
-                    d="M0 36h940V9a9 9 0 0 0-9-9H9a9 9 0 0 0-9 9v27z"
-                    fill="#DFE1E6"
-                  ></path>
-                  <circle fill="#FD6157" cx="18" cy="18" r="6"></circle>
-                  <circle fill="#FDBD04" cx="38" cy="18" r="6"></circle>
-                  <circle fill="#30CA2E" cx="58" cy="18" r="6"></circle>
-                </g>
-              </svg>
-              <div className={clsx(styles.absolute, styles.jupyterImage)}>
-                <img
-                  src="https://user-images.githubusercontent.com/81156510/277159611-1868ba9e-b2a8-431b-b384-ddd6a9d3426f.png"
-                  alt="jupyter"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 }
@@ -1318,14 +473,9 @@ function HomeApproach() {
   return (
     <>
       <div
-        className={clsx(
-          styles.flex,
-          styles.flexCol,
-          styles.itemsCenter,
-          styles.bgLight
-        )}
+        className={styles.featureContainer}
       >
-        <div className={styles.h_w}>
+        <div>
           <div className={styles.catalog}>
             <div className={styles.catalogHead}>
               <h2>
@@ -1349,7 +499,7 @@ function HomeApproach() {
               styles.flexWrap,
               styles.justifyCenter,
               styles.itemsCenter,
-              styles.explore
+              // styles.explore
             )}
           >
             <div className={styles.buttonContainer}>
@@ -1372,15 +522,9 @@ function HomeApproach() {
         </div>
       </div>
       <div
-        className={clsx(
-          styles.flex,
-          styles.flexCol,
-          styles.itemsCenter,
-          styles.bgLight
-        )}
+        className={styles.featureContainer}
       >
-        <div className={styles.h_w}>
-          <div className={styles.catalog}>
+          <div>
             <div className={styles.catalogHead}>
               <h2>
                 We aim at enabling businesses to create <br /> their own
@@ -1397,16 +541,6 @@ function HomeApproach() {
               alt="naas enterprise level data stack"
             />
           </div>
-          <div
-            className={clsx(
-              styles.flex,
-              styles.flexWrap,
-              styles.justifyCenter,
-              styles.itemsCenter,
-              styles.explore
-            )}
-          ></div>
-        </div>
       </div>
     </>
   );
@@ -1415,8 +549,8 @@ function HomeApproach() {
 function HomeTechFeatures() {
   return (
     <div>
-      <div className={clsx(styles.flex, styles.justifyCenter)}>
-        <div className={clsx(styles.catalog, styles.h_w)}>
+      <div className={styles.featureContainer}>
+        <div>
           <div className={styles.catalogHead}>
             <h2>
               Robust, scalable & <br />
@@ -1437,9 +571,9 @@ function HomeTechFeatures() {
                   />
                 </div>
                 <div className={styles.galleryMeta}>
-                  <h3>99.99% uptime.</h3>
+                  <h3 className={styles.textCenter}>99.99% uptime.</h3>
                   <div className={styles.galleryDescription}>
-                    <p>
+                    <p className={styles.textCenter}>
                       We are hosted on the only provider that guarantees it.
                     </p>
                   </div>
@@ -1455,9 +589,9 @@ function HomeTechFeatures() {
                   />
                 </div>
                 <div className={styles.galleryMeta}>
-                  <h3>Never run out of memory.</h3>
+                  <h3 className={styles.textCenter}>Never run out of memory.</h3>
                   <div className={styles.galleryDescription}>
-                    <p>We handle your kernels through Kubernetes.</p>
+                    <p className={styles.textCenter}>We handle your kernels through Kubernetes.</p>
                   </div>
                 </div>
               </div>
@@ -1471,9 +605,9 @@ function HomeTechFeatures() {
                   />
                 </div>
                 <div className={styles.galleryMeta}>
-                  <h3>Keep your data safe.</h3>
+                  <h3 className={styles.textCenter}>Keep your data safe.</h3>
                   <div className={styles.galleryDescription}>
-                    <p>Each user has its own virtual machine with Docker.</p>
+                    <p className={styles.textCenter}>Each user has its own virtual machine with Docker.</p>
                   </div>
                 </div>
               </div>
@@ -1523,21 +657,6 @@ function HomeTechFeatures() {
           </div>
         </div>
       </div>
-      {/* <div className={clsx(styles.flex, styles.justifyCenter, styles.bgDark)}>
-        <div className={clsx(styles.content, styles.ptXL)}>
-          <div className={styles.FlowContainer}>
-            <img src="./img/toolsout.png" alt="tools out" />
-          </div>
-          <h2>
-            Consolidate tools. Scale your data operations,<br></br> not your
-            costs.
-          </h2>
-          <p>
-            Our customers got rid of nearly a dozen different tools <br />{" "}
-            because of what Naas does for them.
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 }
@@ -1676,8 +795,8 @@ function HomeTestimonials() {
 function HomeSolutions() {
   return (
     <div>
-      <div className={clsx(styles.flex, styles.justifyCenter)}>
-        <div className={clsx(styles.catalog, styles.h_w)}>
+      <div className={styles.featureContainer}>
+        <div>
           <div className={styles.catalogHead}>
             <h2>
               Leverage data & AI through practical applications
@@ -1899,22 +1018,25 @@ function HomeSolutions() {
 }
 
 function HomeContributors() {
-
-  return <div className={styles.featureContainer}>
-      <div className={styles.contributors}>
-        <div className={styles.half}>
-          <h3>
+  return <div className={styles.stepContainer}>
+    <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
+      <div className={styles.featureGroup}>
+        <div  style={{alignItems: 'start'}}>
+        <h3>
             🌍 Build on-demand elite teams to accelerate your data & AI roadmap
-            execution{" "}
-          </h3>
-          <p>
-            Our community of data entrepreneurs are creating the open source
-            templates that will enable any organizations to power their
-            proprietary data products & AI systems. They excel in a lot of
-            different domains, and provide premium support anywhere around the
+            execution{" "}</h3>
+        <p style={{textAlign: "start"}}>
+            Our community of data entrepreneurs are<br/>
+            creating the open source templates that will<br />
+            enable any organizations to power their<br />
+            proprietary data products & AI systems. They<br />
+            excel in a lot of different domains, and provide<br />
+            premium support anywhere around the
             globe.
-          </p>
-          <div className={styles.buttonContainer}>
+        </p>
+        </div>
+        
+        <div className={styles.buttonContainer}>
             <a
               className={styles.cta}
               href="https://bit.ly/3CFSumN"
@@ -1929,310 +1051,17 @@ function HomeContributors() {
             >
               Book a Call
             </a>
-            </div>
+          </div>
         </div>
-        <div className={styles.half}>
-        <img
+    {/* </div> */}
+    <div className={styles.imageContainer}>
+    <img
               // style={{ padding: "50px 50px" }}
               src="https://user-images.githubusercontent.com/81156510/277149720-969ba4b5-c94a-443c-b2d8-2e9659e3229d.png"
               alt="list of contributors"
             />
-        </div>
-      </div>
-    
+    </div>
+      
   </div>
-  return (
-    <div
-      className={clsx(
-        styles.flex,
-        styles.flexWrap,
-        styles.bgLight,
-        styles.featureImage
-      )}
-    >
-      <div className={styles.half} >
-        <div
-          className={clsx(
-            styles.textContainer,
-            styles.flex,
-            styles.flexCol,
-            styles.justifyCenter,
-            styles.itemsCenter,
-            styles.hFull
-          )}
-        >
-          <div>
-            <h4 style={{ color: "white" }}>STEP 5</h4>
-          </div>
-          <h2>
-            🌍 Build on-demand elite teams to accelerate your data & AI roadmap
-            execution{" "}
-          </h2>
-          <p>
-            Our community of data entrepreneurs are creating the open source
-            templates that will enable any organizations to power their
-            proprietary data products & AI systems. They excel in a lot of
-            different domains, and provide premium support anywhere around the
-            globe.
-          </p>
-          <div className={styles.buttonContainer}>
-            <a
-              className={styles.cta}
-              href="https://bit.ly/3CFSumN"
-              target="_blank"
-            >
-              Join Alpha
-            </a>
-            <a
-              className={styles.btnWhite}
-              href="https://calendly.com/jeremyravenel"
-              target="_blank"
-            >
-              Book a Call
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className={styles.half}>
-      <img
-              style={{ padding: "50px 50px" }}
-              src="https://user-images.githubusercontent.com/81156510/277149720-969ba4b5-c94a-443c-b2d8-2e9659e3229d.png"
-              alt="list of contributors"
-            />
-        {/* <div className={styles.relative}>
-          <svg
-            viewBox="0 0 940 623"
-            xmlns="http://www.w3.org/2000/svg"
-            className="pdxBrowser"
-          ></svg>
-          <div className={clsx(styles.absolute, styles.jupyterImage)}>
-            
-          </div>
-        </div> */}
-      </div>
-    </div>
-  );
+</div>
 }
-
-// function HomeGitHub() {
-//   return (
-//     <div
-//       className={clsx(
-//         styles.scalling,
-//         styles.flex,
-//         styles.justifyCenter,
-//         styles.bgLight
-//       )}
-//     >
-//       <div
-//         className={styles.h_w_lg}
-//         style={{ display: "flex", flexDirection: "column" }}
-//       >
-//         <div
-//           className={clsx(
-//             styles.textContainer,
-//             styles.itemsCenter,
-//             styles.hFull
-//           )}
-//           style={{ width: "100%" }}
-//         >
-//           <h2>🌍 Join our open source makers movement</h2>
-//           <div className={styles.mobCenter}>
-//             <div className={styles.textCenterMobile}>
-//               <p>
-//                 Our community excels in producing outstanding content, crafting
-//                 awesome templates and data products, and providing premium
-//                 support to our customers around the globe.
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//         <div
-//           className={styles.mobCenter}
-//           style={{
-//             width: "100%",
-//             display: "flex",
-//             justifyContent: "center",
-//             alignItems: "center",
-//           }}
-//         >
-//           <div className={styles.buttonContainer}>
-//             <img src="./img/map2.png" alt="map" />
-//             <Link
-//               className={styles.cta}
-//               href="https://github.com/orgs/jupyter-naas/discussions"
-//             >
-//               Join GitHub Discussions
-//             </Link>
-//           </div>
-//         </div>
-//   );
-// }
-
-{/* function HomeFooter() {
-  return (
-    <div className={clsx(styles.bgDark)}>
-      <div
-        className={clsx(styles.footerTop, styles.flex, styles.justifyCenter)}
-      >
-        <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
-          <h2>Try Naas Cloud today</h2>
-          <p>Get started for free, add more credits as you grow.</p>
-          <Link
-            to={"https://jtci2pxwjczr.landen.co/free-forever"}
-            className={styles.btnGreen}
-          >
-            Sign in
-          </Link>
-        </div>
-      </div>
-      <div className={clsx(styles.footer, styles.flex, styles.justifyCenter)}>
-        <div
-          className={clsx(styles.flex, styles.flexWrap, styles.footerContent)}
-        >
-          <div className={styles.half}>
-            <span>Powered by NaasAI Inc. © 2023</span>
-            <ul className={clsx(styles.flex, styles.flexWrap)}>
-              <li>
-                <Link
-                  to={
-                    "https://www.youtube.com/channel/UCKKG5hzjXXU_rRdHHWQ8JHQ"
-                  }
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                    <path
-                      d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </Link>
-              </li>
-              <li>
-                <Link to={"https://github.com/jupyter-naas/naas"}>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                    <path
-                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to={
-                    "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw"
-                  }
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path
-                      d="M244.2 217.5l19.3 57.7-59.8 20-19.3-57.7 59.8-20zm41.4 243.7C131.6 507.4 65 471.6 18.8 317.6S8.4 97 162.4 50.8C316.4 4.6 383 40.4 429.2 194.4c46.2 154 10.4 220.6-143.6 266.8zM366.2 265c-3.9-12.2-17.2-18.6-29.4-14.7l-29 9.7-19.3-57.7 29-9.7c12.2-3.9 18.6-17.2 14.7-29.4-3.9-12.2-17.2-18.6-29.4-14.7l-29 9.7-10-30.1c-3.9-12.2-17.2-18.6-29.4-14.7-12.2 3.9-18.6 17.2-14.7 29.4l10 30.1-59.8 20.1-10-30.1c-3.9-12.2-17.2-18.6-29.4-14.7-12.2 3.9-18.6 17.2-14.7 29.4l10 30.1-29 9.7c-12.2 3.9-18.6 17.2-14.7 29.4 3.2 9.3 12.2 15.4 21.5 15.8 4.3.6 7.7-1 36.9-10.7l19.3 57.7-29 9.7c-12.2 3.9-18.6 17.2-14.7 29.4 3.2 9.3 12.2 15.4 21.5 15.8 4.3.6 7.7-1 36.9-10.7l10 30.1c3.7 10.8 15.8 18.6 29.4 14.7 12.2-3.9 18.6-17.2 14.7-29.4l-10-30.1 59.8-20.1 10 30.1c3.7 10.8 15.8 18.6 29.4 14.7 12.2-3.9 18.6-17.2 14.7-29.4l-10-30.1 29-9.7c12.2-4.2 18.6-17.5 14.7-29.6z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </Link>
-              </li>
-              <li>
-                <Link to={"https://www.linkedin.com/company/naas-ai/"}>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path
-                      d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </Link>
-              </li>
-              <li>
-                <Link to={"https://www.producthunt.com/posts/naas-3/"}>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path
-                      d="M326.3 218.8c0 20.5-16.7 37.2-37.2 37.2h-70.3v-74.4h70.3c20.5 0 37.2 16.7 37.2 37.2zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-128.1-37.2c0-47.9-38.9-86.8-86.8-86.8H169.2v248h49.6v-74.4h70.3c47.9 0 86.8-38.9 86.8-86.8z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.half}>
-            <div className={clsx(styles.flex, styles.flexWrap)}>
-              <ul>
-                <li>
-                  <strong>Product</strong>
-                </li>
-                <li>
-                  <Link to="https://jtci2pxwjczr.landen.co/free-forever">
-                    Templates
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://docs.naas.ai/">Documentation</Link>
-                </li>
-                <li>
-                  <Link to="/pricing">Pricing</Link>
-                </li>
-                <li>
-                  <Link to="https://github.com/orgs/jupyter-naas/projects/10/views/13">
-                    Roadmap
-                  </Link>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <strong>Community</strong>
-                </li>
-                <li>
-                  <Link to="https://naas-club.slack.com/?redir=%2Fgantry%2Fclient">
-                    Slack community
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://github.com/jupyter-naas">GitHub</Link>
-                </li>
-                <li>
-                  <Link to="https://form.typeform.com/to/jdls9qZf">
-                    Contribute
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://github.com/sponsors/jupyter-naas">
-                    Sponsor us
-                  </Link>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <strong>Company</strong>
-                </li>
-                <li>
-                  <Link to="https://jtci2pxwjczr.landen.co/company">
-                    About us
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://naas-official.notion.site/Press-Kit-0226d57da0c54a2a8e4c14ebf902121e">
-                    Media kit
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://jtci2pxwjczr.landen.co/terms">
-                    Terms & conditions
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://form.typeform.com/to/GjbalQ7R">
-                    Contact Sales
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://form.typeform.com/to/aH1v5ync">
-                    Contact Support
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-} */}
