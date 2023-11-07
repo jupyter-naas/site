@@ -417,7 +417,7 @@ function HomeFeatures() {
     <>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158801-51e5c09d-bd5b-43fd-a845-af693ee8f4ef.png"}>
           <img className={styles.titleImage} src="./img/site_features/chat.svg" alt="chat" />
-          <p>
+          <p style={{marginTop: '1rem'}}>
           Simple. Powerful. Empowering.<br />
           Communicate more efficiently<br />
           with next generation AI Language<br />
@@ -432,11 +432,11 @@ function HomeFeatures() {
             <img src="./img/hugginfaceai.svg" alt="hugginfaceai" />
             <img src="./img/midjourneyai.svg" alt="midjourneyai" />
           </div>
-            <a className={styles.cta} href="#">Join Alpha</a>
+            <a className={styles.cta} href="https://bit.ly/3CFSumN" target="_blank">Join Alpha</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"}>
           <img className={styles.titleImage} src="./img/site_features/search.svg" alt="search" />
-          <p>
+          <p style={{marginTop: '1rem'}}>
             Search across thousands of<br />
             notebook templates, made by<br />
             community, to jumpstart your<br />
@@ -446,7 +446,7 @@ function HomeFeatures() {
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159499-3ad84b9e-5df7-4dd8-a5c7-25d93230cf35.png"}>
           <img className={styles.titleImage} src="./img/site_features/lab.svg" alt="lab" />
-          <p>
+          <p style={{marginTop: '1rem'}}>
           Build and manage any type of<br />
           data & AI project more efficiently.<br />
           No separated, clunky systems<br />
@@ -456,7 +456,7 @@ function HomeFeatures() {
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159611-1868ba9e-b2a8-431b-b384-ddd6a9d3426f.png"}>
           <img className={styles.titleImage} src="./img/site_features/admin.svg" alt="admin" />
-          <p>
+          <p style={{marginTop: '1rem'}}>
           Efficient. Secure. Unified. Manage<br />
           users, system performance, and<br />
           enjoy consolidated billing with<br />
