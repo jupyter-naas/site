@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "️️⚡Creating ABI, the AI System for your everyday business",
+  title: "️️⚡ The AI System  power your everyday business",
   tagline:
     "Naas is an open alternative to ChatGPT and its plugins store that you can customize to your own needs. It integrates analytics, automation an AI into your workflows thanks to low-code templates and the best generative AI models.",
   favicon: "img/favicon.ico",
@@ -85,176 +85,67 @@ const config = {
           src: "https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186",
         },
         items: [
-          {
-            type: "dropdown",
-            label: "Platform",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Overview",
-                docId: "get-started/introduction",
-              },
-              {
-                type: "doc",
-                label: "Universal Chat Interface",
-                docId: "platform/aI-powered-chat",
-              },
-              {
-                type: "doc",
-                label: "Data & AI Catalog Search",
-                docId: "platform/search-catalog-template-library",
-              },
-              {
-                type: "doc",
-                label: "Development Lab",
-                docId: "platform/dev-environment",
-              },
-              {
-                type: "doc",
-                label: "Workflow Automation",
-                docId: "platform/workflow-automation",
-              },
-              {
-                type: "doc",
-                label: "Analytics & Dashboarding",
-                docId: "platform/analytics-dashboard-deployment",
-              },
-              {
-                type: "doc",
-                label: "Collaboration & Versioning",
-                docId: "platform/collaboration-versioning",
-              },
-              {
-                type: "doc",
-                label: "Serverless computing",
-                docId: "platform/scalable-computing",
-              },
-              {
-                type: "doc",
-                label: "Security Suite",
-                docId: "platform/security-suite",
-              },
-              {
-                type: "doc",
-                label: "Admin Dashboard",
-                docId: "platform/admin-dashboard",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Solutions",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Artificial Business Intelligence",
-                docId: "solutions/introduction",
-              },
-              {
-                type: "doc",
-                label: "Content Creation",
-                docId: "solutions/content-engine",
-              },
-              {
-                type: "doc",
-                label: "Growth Marketing",
-                docId: "solutions/growth-engine",
-              },
-              {
-                type: "doc",
-                label: "Sales Conversion",
-                docId: "solutions/sales-engine",
-              },
-              {
-                type: "doc",
-                label: "Operations Efficiency",
-                docId: "solutions/operations-engine",
-              },
-              {
-                type: "doc",
-                label: "Finance Management",
-                docId: "solutions/finance-engine",
-              },
-              {
-                type: "doc",
-                label: "Open Data Intelligence",
-                docId: "solutions/opendata-engine",
-              },
-              {
-                type: "doc",
-                label: "Expert Acceleration Program",
-                docId: "solutions/expert-program",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Developers",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Quickstart",
-                docId: "developers/overview",
-              },
-              {
-                type: "doc",
-                label: "Development Environment",
-                docId: "developers/development",
-              },
-              {
-                type: "doc",
-                label: "Jobs",
-                docId: "developers/jobs/scheduler",
-              },
-              {
-                type: "doc",
-                label: "Drivers",
-                docId: "developers/drivers/airtable",
-              },
-              {
-                type: "doc",
-                label: "Templates",
-                docId: "developers/templates",
-              },
-              {
-                type: "doc",
-                label: "Data Product Framework",
-                docId: "developers/delivery",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Resources",
-            position: "left",
-            items: [
-              {
-                href: "https://leandata.substack.com/",
-                label: "Blog",
-              },
-              {
-                type: "doc",
-                label: "Contributing",
-                docId: "community/how-to-contribute",
-              },
-              {
-                label: "Guides & Tutorials",
-                href: "https://www.youtube.com/c/naas-ai",
-              },
-              {
-                label: "Join our Slack",
-                href: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-dXXkigAdEJYc~LPdQIEaLA",
-              },
-            ],
-          },
-          {
-            href: "/pricing",
-            label: "Pricing",
-            position: "left",
-          },
+// {
+//   type: "dropdown",
+//   label: "Platform",
+//   position: "left",
+//   items: [
+//     {
+//       type: "doc",
+//       label: "Overview",
+//       docId: "get-started/introduction",
+//     },
+//     {
+//       type: "doc",
+//       label: "Universal Chat Interface",
+//       docId: "platform/aI-powered-chat",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   type: "dropdown",
+//   label: "Solutions",
+//   position: "left",
+//   items: [
+//     {
+//       type: "doc",
+//       label: "Artificial Business Intelligence",
+//       docId: "solutions/introduction",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   type: "dropdown",
+//   label: "Developers",
+//   position: "left",
+//   items: [
+//     {
+//       type: "doc",
+//       label: "Quickstart",
+//       docId: "developers/overview",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   type: "dropdown",
+//   label: "Resources",
+//   position: "left",
+//   items: [
+//     {
+//       href: "https://leandata.substack.com/",
+//       label: "Blog",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   href: "/pricing",
+//   label: "Pricing",
+//   position: "left",
+// },
           {
             to: "https://naas.ai/search",
             position: "right",
@@ -262,7 +153,7 @@ const config = {
           },
           {
             to: "https://calendly.com/jeremyravenel",
-            label: `Book a Call`,
+            label: `Contact us`,
             position: "right",
           },
           {
@@ -281,23 +172,158 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Universe",
+            title: "Overview",
+            items: [
+              {
+                label: "Why Naas?",
+                href: "docs/get-started/introduction",
+              },
+              {
+                label: "Basic level",
+                href: "docs/get-started/basic",
+              },
+              {
+                label: "Intermediate level",
+                href: "docs/get-started/intermediate",
+              },
+              {
+                label: "Advanced level",
+                href: "docs/get-started/advanced",
+              },
+              {
+                label: "Pricing",
+                href: "/pricing",
+              },
+            ],
+          },
+          {
+            title: "Platform",
             items: [
               {
                 label: "Overview",
                 href: "docs/get-started/introduction",
               },
               {
-                label: "Platform",
-                href: "docs/category/platform",
+                label: "Universal Chat Interface",
+                href: "docs/platform/aI-powered-chat",
               },
               {
-                label: "Framework",
-                href: "docs/category/framework",
+                label: "Data & AI Catalog Search",
+                href: "docs/platform/search-catalog-template-library",
               },
               {
-                label: "Solutions",
-                href: "docs/category/solutions",
+                label: "Chrome Extension",
+                href: "docs/platform/chrome-extension",
+              },
+              {
+                label: "Development Lab",
+                href: "docs/platform/dev-environment",
+              },
+              {
+                label: "Workflow Automation",
+                href: "docs/platform/workflow-automation",
+              },
+              {
+                label: "Analytics & Dashboarding",               
+                href: "docs/platform/analytics-dashboard-deployment",
+              },
+              {
+                label: "Collaboration & Versioning",               
+                href: "docs/platform/collaboration-versioning",
+              },
+              {
+                label: "Serverless Deployment",               
+                href: "docs/platform/scalable-computing",
+              },
+              {
+                label: "Security Suite",               
+                href: "docs/platform/security-suite",
+              },
+              {
+                label: "Account Administration",               
+                href: "docs/platform/admin-dashboard",
+              },
+            ],
+          },
+          {
+            title: "Solutions",
+            items: [
+              {
+                label: "AI Character Building",
+                href: "docs/solutions/introduction",
+              },
+              {
+                label: "Artificial Business Intelligence",
+                href: "docs/solutions/introduction",
+              },
+              {
+                label: "Content Creation",
+                href: "docs/solutions/content-engine",
+              },
+              {
+                label: "Growth Marketing",
+                href: "docs/solutions/growth-engine",
+              },
+              {
+                label: "Sales Conversion",
+                href: "docs/solutions/sales-engine",
+              },
+              {
+                label: "Operations Efficiency",
+                href: "docs/solutions/operations-engine",
+              },
+              {
+                label: "Finance Management",
+                href: "docs/solutions/finance-engine",
+              },
+              {
+                label: "Open Data Intelligence",
+                href: "docs/solutions/opendata-engine",
+              },
+              {
+                label: "Expert Acceleration Program",
+                href: "docs/solutions/opendata-engine",
+              },
+            ],
+          },
+          {
+            title: "Developers",
+            items: [
+              {
+                label: "Quickstart",
+                href: "docs/developers/overview",
+              },
+              {
+                label: "Development Server",
+                href: "docs/developers/development",
+              },
+              {
+                label: "Schedule Workflows",
+                href: "docs/developers/jobs/scheduler",
+              },
+              {
+                label: "Generate Assets",
+                href: "docs/developers/jobs/asset",
+              },
+              {
+                label: "Trigger Webhooks",
+                href: "docs/developers/jobs/webhook",
+              },
+              {
+                label: "Send Notifications",
+                href: "docs/developers/jobs/notification",
+              },
+              {
+                label: "Build Pipeliness",
+                href: "docs/developers/jobs/pipeline",
+              },
+              {
+                label: "Manage Secrets",
+                href: "docs/developers/jobs/secret",
+              },
+              {
+                label: "Publish Spaces",
+                href: "docs/developers/jobs/space",
               },
             ],
           },
@@ -338,12 +364,8 @@ const config = {
                 href: "docs/policies/privacy",
               },
               {
-                label: "Contact support",
-                href: "https://form.typeform.com/to/aH1v5ync?typeform-source=www.naas.ai",
-              },
-              {
-                label: "Contact sales",
-                href: "https://form.typeform.com/to/GjbalQ7R",
+                label: "Contact us",
+                href: "https://calendly.com/jeremyravenel",
               },
             ],
           },
@@ -369,7 +391,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
+        copyright: `<br><br>Copyright © ${new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
       },
       //   navbar: {
       //   items: [
