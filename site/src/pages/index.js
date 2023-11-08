@@ -306,9 +306,6 @@ function Step1() {
                 </p>
                 <a className={styles.cta} href="">Join Alpha</a>
             </div>
-          <div>
-
-          </div>
         </div>
       </div>
   );
