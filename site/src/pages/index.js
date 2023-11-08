@@ -73,8 +73,8 @@ function HomeTLDR() {
           <div className={styles.half}>
               <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277124949-2926d01f-6152-41a7-a0ca-24a7ce25946e.png"} />
           </div>
-          <div className={styles.textCenter}>
-            <h2>
+          <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
+            <h2 className={styles.textCenter}>
               We are building the infrastructure for a truly
               
               Universal Data & AI Platform
@@ -304,7 +304,7 @@ function Step1() {
                   your unique needs and preferences,
                   paving the way for more personalized responses.
                 </p>
-                <a className={styles.cta} href="">Join Aplha</a>
+                <a className={styles.cta} href="">Join Alpha</a>
             </div>
           <div>
 
@@ -1018,8 +1018,9 @@ function HomeSolutions() {
 }
 
 function HomeContributors() {
-  return <div className={styles.stepContainer}>
-    <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
+  return <div className={styles.gitHubGrid}>
+    {/* <div className={clsx(styles.featureGrid, styles.rowImageRight)}> */}
+    <div className={styles.half}>
       <div className={styles.featureGroup}>
         <div  style={{alignItems: 'start'}}>
         <h2>
@@ -1054,14 +1055,16 @@ function HomeContributors() {
           </div>
         </div>
     {/* </div> */}
-    <div className={styles.imageContainer}>
-    <img
-              // style={{ padding: "50px 50px" }}
-              src="https://user-images.githubusercontent.com/81156510/277149720-969ba4b5-c94a-443c-b2d8-2e9659e3229d.png"
-              alt="list of contributors"
-            />
-    </div>
+    
       
   </div>
+  <div className={styles.half}>
+      <img
+                // style={{ padding: "50px 50px" }}
+                // src="https://user-images.githubusercontent.com/81156510/277149720-969ba4b5-c94a-443c-b2d8-2e9659e3229d.png"
+                src="https://media.discordapp.net/attachments/1084579666175729694/1171732327131516979/jeymassa_a_data_mercenary_team_6862f06b-7fe0-462d-a116-f2734111cb0c.png?ex=655dbfc4&is=654b4ac4&hm=d13577dc2c647840231e9537ae27e0a37c3a5570159103a9120ce3e3916ab065&=&width=668&height=668"
+                alt="list of contributors"
+              />
+    </div>
 </div>
 }
