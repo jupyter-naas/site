@@ -152,8 +152,13 @@ const config = {
             label: `Search`,
           },
           {
+            to: "https://site.naas.ai/docs/get-started/introduction",
+            position: "right",
+            label: `Docs`,
+          },
+          {
             to: "https://calendly.com/jeremyravenel",
-            label: `Contact us`,
+            label: `Book a call`,
             position: "right",
           },
           {
@@ -164,7 +169,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Join Alpha</button><a>`,
+            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Start for free</button><a>`,
           },
         ],
       },

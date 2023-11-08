@@ -41,7 +41,7 @@ function HomepageHeader() {
       <div className={styles.heroBanner}>
         {/* <div className="container"> */}
         <h1 className={styles.title}>️ ⚡Build the AI System to power <br></br>your everyday business</h1>
-        <p className={clsx(styles.tagline, styles.textCenter)}>Naas is an open alternative ChatGPT you can trully customize to your own needs. 
+        <p className={clsx(styles.tagline, styles.textCenter)}>Naas is an open alternative to ChatGPT you can truly customize to your own needs. 
           We help you integrate analytics, automation an AI into your workflows thanks to a universal chat interface, low-code templates and the best generative AI models.</p>
         <div className={styles.buttonContainer}>
           <a
@@ -73,7 +73,7 @@ function HomeTLDR() {
           </div>
           <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
             <h2 className={styles.textCenter}>
-              We are building a universal data & AI platform: a simple chat interface with a powerful orchestration layer.
+              We are building a universal data & AI platform: <br></br>a simple chat interface with a powerful orchestration layer.
             </h2>
             <p>
               People at incredible organizations supports us, and we are just getting started.
@@ -152,12 +152,12 @@ const toolImages = [
     href: "https://naas.ai/search?q=LinkedIn",
   },
   {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/yb7hkkgr0nt76uzf.png?w=100&h=80",
+    link: "./img/x.png",
     name: "Twitter",
     href: "https://naas.ai/search?q=Twitter",
   },
   {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/n7nbxh4i6er562d9.png?w=100&h=80",
+    link: "./img/youtube.png",
     name: "Youtube",
     href: "https://naas.ai/search?q=Youtube",
   },
@@ -182,7 +182,7 @@ const toolImages = [
     href: "https://naas.ai/search?q=Airtable",
   },
   {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/qqmnlxmczk7wxcck.png?w=100&h=80",
+    link: "./img/sheet.png",
     name: "Google Sheets",
     href: "https://naas.ai/search?q=Google%20Sheets",
   },
@@ -295,7 +295,7 @@ function Step1() {
               <h4>STEP 1</h4>
               <h2>Setup your custom AI avatar and instructions</h2>
                 <p className={styles.sectionp}>
-                Train your assistant to understand your unique needs and preferences and experience unmatched responses quality.
+                Train your assistant to understand your unique needs and preferences to experience tailored responses quality.
                 </p>
                 <br></br>
                 <a className={styles.cta} href="">Start for free</a>
@@ -414,7 +414,7 @@ function HomeFeatures() {
           with next generation AI language
           models in a single interface.
           </p>
-          <a className={styles.link} href="">Learn more →</a>
+          <a className={styles.link} href="docs/platform/aI-powered-chat">Learn more →</a>
           <div className={styles.featureAILogos}>
             <img src="./img/openai.svg" alt="openai" />
             <img src="./img/metaai.svg" alt="metaai" />
@@ -505,7 +505,7 @@ function HomeApproach() {
                 href="https://calendly.com/jeremyravenel"
                 target="_blank"
               >
-                Book a Call
+                Book a call
               </a>
             </div>
           </div>
@@ -634,7 +634,7 @@ function HomeTechFeatures() {
           <h2>
             Make Your Business & Tech Teams
             
-            Work Together More Efficiently than Ever
+            Work Together Seamlessly
           </h2>
           <p>
             Data Consumers navigate across search, chat, and dashboards to
@@ -1040,7 +1040,7 @@ function HomeContributors() {
               href="https://calendly.com/jeremyravenel"
               target="_blank"
             >
-              Book a Call
+              Book a call
             </a>
           </div>
         </div>
