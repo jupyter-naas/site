@@ -294,7 +294,7 @@ function Step1() {
   return (
     <div className={styles.stepContainer}>
         <div className={clsx(styles.featureGrid, styles.rowImageLeft)}>
-          <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"} />
+          <ImageFrame imageUrl={"./img/step_1.png"} />
             
             <div className={styles.featureGroup}>
               <h4>STEP 1</h4>
