@@ -40,19 +40,16 @@ function HomepageHeader() {
     <div className={styles.landing}>
       <div className={styles.heroBanner}>
         {/* <div className="container"> */}
-        <h1 className={styles.title}>️ ⚡Creating ABI, the AI System for your everyday business</h1>
-        <p className={clsx(styles.tagline, styles.textCenter)}>
-          Naas is an open alternative to ChatGPT and its plugins store that you can
-           customize to your own needs. It integrates analytics, automation an AI into your
-            workflows thanks to low-code templates
-             and the best generative AI models.</p>
+        <h1 className={styles.title}>️ ⚡Build the AI System to power <br></br>your everyday business</h1>
+        <p className={clsx(styles.tagline, styles.textCenter)}>Naas is an open alternative ChatGPT you can trully customize to your own needs. 
+          We help you integrate analytics, automation an AI into your workflows thanks to a universal chat interface, low-code templates and the best generative AI models.</p>
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
             href="https://bit.ly/3CFSumN"
             target="_blank"
           >
-            Join Alpha
+            Start for free
           </a>
         </div>
         <div className={styles.siteInfo}>
@@ -71,20 +68,18 @@ function HomeTLDR() {
       <div className={styles.community}>
         <div>
           <div className={styles.half}>
-              <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277124949-2926d01f-6152-41a7-a0ca-24a7ce25946e.png"} />
+              <ImageFrame imageUrl={"https://user-images.githubusercontent.com/21052349/281368784-a3b5f583-922d-4cd7-9c85-578799b83088.png"}
+              style={{ height: "217px" }} />
           </div>
           <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
             <h2 className={styles.textCenter}>
-              We are building the infrastructure for a truly
-              
-              Universal Data & AI Platform
+              We are building a universal data & AI platform: a simple chat interface with a powerful orchestration layer.
             </h2>
             <p>
-              People at incredible organizations already supports us, and we are
-              just getting started.
+              People at incredible organizations supports us, and we are just getting started.
             </p>
             <div style={{ textAlign: "center"}}>
-              <a href="#">Learn about their stories →</a>
+              <a href="https://leandata.substack.com/" target="_blank">Follow our journey on our blog: The Lean Data Journal →</a>
             </div>
           </div>
 
@@ -152,129 +147,129 @@ function HomeSupport() {
 
 const toolImages = [
   {
-    link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/k4n2vn7rvd9zb4iq.png?w=100&h=80",
+    link: "https://github.com/jupyter-naas/awesome-notebooks/blob/master/.github/assets/logos/LinkedIn.png?raw=true",
     name: "LinkedIn",
-    href: "https://jtci2pxwjczr.landen.co/search?q=LinkedIn",
+    href: "https://naas.ai/search?q=LinkedIn",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/yb7hkkgr0nt76uzf.png?w=100&h=80",
     name: "Twitter",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Twitter",
+    href: "https://naas.ai/search?q=Twitter",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/n7nbxh4i6er562d9.png?w=100&h=80",
     name: "Youtube",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Youtube",
+    href: "https://naas.ai/search?q=Youtube",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/of5kikai6h6ngxyq.png?w=100&h=80",
     name: "Tiktok",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Tiktok",
+    href: "https://naas.ai/search?q=Tiktok",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/noqby55davij93ru.png?w=100&h=80",
     name: "Instagram",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Instagram",
+    href: "https://naas.ai/search?q=Instagram",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/abhk3j9xx2pnxca0.png?w=100&h=80",
     name: "HubSpot",
-    href: "https://jtci2pxwjczr.landen.co/search?q=HubSpot",
+    href: "https://naas.ai/search?q=HubSpot",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/7g5te5dwu4qoq9wr.png?w=100&h=80",
     name: "Airtable",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Airtable",
+    href: "https://naas.ai/search?q=Airtable",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/qqmnlxmczk7wxcck.png?w=100&h=80",
     name: "Google Sheets",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Google%20Sheets",
+    href: "https://naas.ai/search?q=Google%20Sheets",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/gmm9cghwdvosuwpb.png?w=100&h=80",
     name: "Excel",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Excel",
+    href: "https://naas.ai/search?q=Excel",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/8vp4gwoyn8vj8ut4.png?w=100&h=80",
     name: "Microsoft Teams",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Teams",
+    href: "https://naas.ai/search?q=Teams",
   },
   {
     link: "https://user-images.githubusercontent.com/81156510/277146565-665aac91-d672-4509-a4a8-9781dc1ba7dd.png",
     name: "Trello",
-    href: "https://jtci2pxwjczr.landen.co/search?q=OpenAI",
+    href: "https://naas.ai/search?q=OpenAI",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/sfxdhw7pl0b8fxf7.png?w=100&h=80",
     name: "GitHub",
-    href: "https://jtci2pxwjczr.landen.co/search?q=GitHub",
+    href: "https://naas.ai/search?q=GitHub",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/s8v0zvy7b9fyi4pt.png?w=100&h=80",
     name: "Notion",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Notion",
+    href: "https://naas.ai/search?q=Notion",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/v4tt1le5rljom0cf.png?w=100&h=80",
     name: "Google Analytics",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Google%20Analytics",
+    href: "https://naas.ai/search?q=Google%20Analytics",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/pgeepir3hi6z1a3e.png?w=100&h=80",
     name: "Slack",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Slack",
+    href: "https://naas.ai/search?q=Slack",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/bfhg82o7vpzg560m.png?w=100&h=80",
     name: "AWS",
-    href: "https://jtci2pxwjczr.landen.co/search?q=AWS",
+    href: "https://naas.ai/search?q=AWS",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/4gk07asmcwyfunzj.png?w=100&h=80",
     name: "MongoDB",
-    href: "https://jtci2pxwjczr.landen.co/search?q=MongoDB",
+    href: "https://naas.ai/search?q=MongoDB",
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/qbuop9ih.png?w=100&h=80",
     name: "MySQL",
-    href: "https://jtci2pxwjczr.landen.co/search?q=MySQL",
+    href: "https://naas.ai/search?q=MySQL",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/0wmblhco4758ga3z.png?w=100&h=80",
     name: "Snowflake",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Snowflake",
+    href: "https://naas.ai/search?q=Snowflake",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/e21e2croxgz2zjs2.png?w=100&h=80",
     name: "Google Drive",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Google%20Drive",
+    href: "https://naas.ai/search?q=Google%20Drive",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/bmp810teq595g9ju.png?w=100&h=80",
     name: "PowerBI",
-    href: "https://jtci2pxwjczr.landen.co/search?q=PowerBI",
+    href: "https://naas.ai/search?q=PowerBI",
   },
   {
     link: "https://landen.imgix.net/jtci2pxwjczr/assets/gxan7c8n.png?w=100&h=80",
     name: "Plotly",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Plotly",
+    href: "https://naas.ai/search?q=Plotly",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/z48ixele4ifaur3a.png?w=100&h=80",
     name: "Gmail",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Gmail",
+    href: "https://naas.ai/search?q=Gmail",
   },
   {
     link: "https://jtci2pxwjczr.landen.co/lib_NtadlqPncrCtPifD/ed7wnaabbup9pzgo.jpg?w=100&h=80",
     name: "Telegram",
-    href: "https://jtci2pxwjczr.landen.co/search?q=Telegram",
+    href: "https://naas.ai/search?q=Telegram",
   },
   {
     link: "https://user-images.githubusercontent.com/81156510/277146767-d05065a0-1a7b-4a35-bdf8-be87e592c103.png",
     name: "Whatsapp",
-    href: "https://jtci2pxwjczr.landen.co/search?q=HuggingFace",
+    href: "https://naas.ai/search?q=HuggingFace",
   },
 ];
 
@@ -298,13 +293,12 @@ function Step1() {
             
             <div className={styles.featureGroup}>
               <h4>STEP 1</h4>
-              <h2>Set your custom AI Chat instructions</h2>
+              <h2>Setup your custom AI avatar and instructions</h2>
                 <p className={styles.sectionp}>
-                  Instruct the AI models to understand
-                  your unique needs and preferences,
-                  paving the way for more personalized responses.
+                Train your assistant to understand your unique needs and preferences and experience unmatched responses quality.
                 </p>
-                <a className={styles.cta} href="">Join Alpha</a>
+                <br></br>
+                <a className={styles.cta} href="">Start for free</a>
             </div>
         </div>
       </div>
@@ -416,8 +410,8 @@ function HomeFeatures() {
           <img className={styles.titleImage} src="./img/site_features/chat.svg" alt="chat" />
           <p style={{marginTop: '1rem'}}>
           Simple. Powerful. Empowering.
-          Communicate more efficiently
-          with next generation AI Language
+          Experience the ease of interacting
+          with next generation AI language
           models in a single interface.
           </p>
           <a className={styles.link} href="">Learn more →</a>
@@ -429,15 +423,14 @@ function HomeFeatures() {
             <img src="./img/hugginfaceai.svg" alt="hugginfaceai" />
             <img src="./img/midjourneyai.svg" alt="midjourneyai" />
           </div>
-            <a className={styles.cta} href="https://bit.ly/3CFSumN" target="_blank">Join Alpha</a>
+            <a className={styles.cta} href="https://bit.ly/3CFSumN" target="_blank">Start for free</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"}>
           <img className={styles.titleImage} src="./img/site_features/search.svg" alt="search" />
           <p style={{marginTop: '1rem'}}>
-            Search across thousands of
-            notebook templates, made by
-            community, to jumpstart your
-            data projects in no time
+            Discover thousands of
+            low-code templates, made by
+            community, to kickstart journey and easily adapt it to your needs.
           </p>
           <a className={styles.link} href="">Learn more →</a>
       </Feature>
@@ -445,9 +438,9 @@ function HomeFeatures() {
           <img className={styles.titleImage} src="./img/site_features/lab.svg" alt="lab" />
           <p style={{marginTop: '1rem'}}>
           Build and manage any type of
-          data & AI project more efficiently.
+          data & AI experiences more efficiently.
           No separated, clunky systems
-          needed.
+          needed. You can glue everything together.
           </p>
           <a className={styles.link} href="">Learn more →</a>
       </Feature>
@@ -505,7 +498,7 @@ function HomeApproach() {
                 href="https://bit.ly/3CFSumN"
                 target="_blank"
               >
-                Join Alpha
+                Start for free
               </a>
               <a
                 className={styles.btnWhite}
@@ -1024,7 +1017,7 @@ function HomeContributors() {
             🌍 Build on-demand elite teams to accelerate your data & AI roadmap
             execution{" "}</h2>
         <p style={{textAlign: "start"}}>
-            Our community of data entrepreneurs are
+            Our community of data & AI mercenaries are
             creating the open source templates that will
             enable any organizations to power their
             proprietary data products & AI systems. They
@@ -1040,7 +1033,7 @@ function HomeContributors() {
               href="https://bit.ly/3CFSumN"
               target="_blank"
             >
-              Join Alpha
+              Start for free
             </a>
             <a
               className={styles.btnWhite}
