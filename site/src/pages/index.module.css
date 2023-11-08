@@ -16,8 +16,8 @@
 
 .landing {
   background-color: #181a1c;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   padding-top: 150px;
   /* padding-bottom: 50px; */
 }
@@ -30,6 +30,9 @@
   overflow: hidden;
   color: white;
   padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /* max-width: 900px; */
   /* background-size: cover; */
   /* background-image: url("https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278"); */
@@ -43,35 +46,16 @@
   white-space: pre-line;
 }
 
-@media screen and (max-width: 768px) {
-  .title {
-    font-size: 2.4em;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .title {
-    font-size: 2.2em;
-  }
-}
-
 .tagline {
   font-size: 1.5rem;
   font-weight: 400;
   margin-top: 2.5rem;
-  /* max-width: 600px; */
+  width: 750px;
   /* white-space: pre-line; */
   line-height: 2rem;
   color: #D1D1D2;
   display: flex;
   justify-content: center;
-}
-
-@media screen and (max-width: 480px) {
-  .tagline {
-    font-size: 1.2em;
-    padding: 0 0.5rem;
-  }
 }
 
 h1 {
@@ -159,12 +143,13 @@ p {
 }
 
 .h2textCenter {
-  padding: 4rem 0;
+  padding: 6rem 0 1rem 0;
   text-align: center;
   font-weight: 700 !important;
   font-size: 3rem;
   line-height: 1.3em;
-  margin: 0;
+  max-width: 850px;
+  margin: 0 auto;
 }
 .ptextCenter {
   text-align: center;
@@ -176,13 +161,13 @@ p {
   background: transparent;
   /* box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0); */
   margin: 5px;
-  font-size: 1.2em;
+  text-decoration: none;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
   padding: 1rem 1.5rem;
   border-radius: 10px;
-  line-height: 1;
   border: 1px solid var(--grey-3, #747677);
-  font-weight: 600;
-  text-decoration: none;
+  font-weight: 500;
   transition: all 0.2s ease-in-out;
 }
 
@@ -190,41 +175,28 @@ p {
   color: rgb(0, 0, 0);
   background: rgb(71, 221, 130);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .171);
+  margin: 5px;
   text-decoration: none;
   cursor: pointer;
-  font-weight: 500;
-  padding: 0.7em 0.8em;
-  margin: 5px;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  padding: 1rem 1.5rem;
   border-radius: 10px;
+  font-weight: 600;
 }
 
 .btnGreen:hover {
   color: #000;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttonContainer {
   margin: 50px 0px;
-}
-
-@media (max-width: 768px) {
-  .buttonContainer{
-    flex-direction: column;
-  }
-  .heroBanner {
-    padding: 1.2rem;
-  }
 }
 
 .cta {
   color: rgb(0, 0, 0);
   background: rgb(71, 221, 130);
-  border: 1px solid rgb(71, 221, 130);
+  border: 1px solid rgb(71, 221, 130) !important;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .171);
   margin: 1rem 0;
   font-size: 1.125rem; /* 18px */
@@ -267,14 +239,6 @@ p {
   margin-bottom: 5rem;
 }
 
-@media (max-width: 768px) {
-  .buttonContainer{
-    flex-direction: column;
-  }
-  .heroBanner {
-    padding: 1.2rem;
-  }
-}
 
 .featureContainer {
   padding: 4rem 10rem;
@@ -370,7 +334,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
-  /* width: 20rem; */
+  max-width: 14rem;
 }
 
 .featureAILogos img {
@@ -391,6 +355,7 @@ p {
 .featureContainer p {
   font-size: 1.4rem;
   line-height: 2.5rem;
+  max-width: 900px;
 }
 
 .stepContainer h2 {
@@ -410,7 +375,9 @@ p {
 }
 
 .catalogHead {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .catalogHead p {
@@ -530,6 +497,17 @@ p {
 }
 
 @media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 3.5em;
+  }
+
+  .tagline {
+    width: 680px;
+  }
 
   .featureGroup {
     width: 100%;
@@ -590,12 +568,45 @@ p {
   
 }
 @media screen and (max-width: 768px) {
+  .title {
+    font-size: 2.4em;
+  }
+
+  .heroBanner {
+    padding: 1.2rem;
+  }
+
+  .tagline {
+    width: 440px;
+  }
+
+  .buttonContainer{
+    flex-direction: column;
+  }
 
   .galleryItem {
     width: 70%;
   }
+
 }
 @media screen and (max-width: 460px) {
+  
+  .title {
+    font-size: 2.2em;
+  }
+
+  
+  .heroBanner {
+    padding: 0 1.2rem;
+  }
+
+  .tagline {
+    font-size: 1.2em;
+    padding: 0 0.5rem;
+    width: 320px;
+    margin-top: 1.5rem;
+  }
+
   .galleryItem {
     width: 100%;
   }

@@ -16,7 +16,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomeTLDR />
-        <h2 className={styles.h2textCenter} style={{marginTop: '2rem'}}>Everything you need to integrate AI<br /> in your daily operations</h2>
+        <h2 className={styles.h2textCenter} style={{marginTop: '2rem'}}>Everything you need to integrate AI in your daily operations</h2>
         <HomeFeatures />
         <h2 className={styles.h2textCenter}>How It Works?</h2>
         <Steps />
@@ -40,11 +40,11 @@ function HomepageHeader() {
     <div className={styles.landing}>
       <div className={styles.heroBanner}>
         {/* <div className="container"> */}
-        <h1 className={styles.title}>️ ⚡Creating ABI, the AI System <br />for your everyday business</h1>
-        <p className={styles.tagline}>
-          Naas is an open alternative to ChatGPT and its plugins store that you can<br />
-           customize to your own needs. It integrates analytics, automation an AI into your<br />
-            workflows thanks to low-code templates<br />
+        <h1 className={styles.title}>️ ⚡Creating ABI, the AI System for your everyday business</h1>
+        <p className={clsx(styles.tagline, styles.textCenter)}>
+          Naas is an open alternative to ChatGPT and its plugins store that you can
+           customize to your own needs. It integrates analytics, automation an AI into your
+            workflows thanks to low-code templates
              and the best generative AI models.</p>
         <div className={styles.buttonContainer}>
           <a
@@ -76,7 +76,7 @@ function HomeTLDR() {
           <div className={styles.textCenter}>
             <h2>
               We are building the infrastructure for a truly
-              <br />
+              
               Universal Data & AI Platform
             </h2>
             <p>
@@ -134,7 +134,7 @@ function HomeSupport() {
         <div className={styles.support}>
           <p>
             We have already received support from people at amazing
-            organizations, <br />
+            organizations, 
             and we are just getting started.
           </p>
         </div>
@@ -300,9 +300,9 @@ function Step1() {
               <h4>STEP 1</h4>
               <h2>Set your custom AI Chat instructions</h2>
                 <p className={styles.sectionp}>
-                  Instruct the AI models to understand<br />
-                  your unique needs and preferences,<br />
-                  paving the way for more personalized<br /> responses.
+                  Instruct the AI models to understand
+                  your unique needs and preferences,
+                  paving the way for more personalized responses.
                 </p>
                 <a className={styles.cta} href="">Join Aplha</a>
             </div>
@@ -324,7 +324,7 @@ function Step2() {
             </h2>
             <p className={clsx(styles.sectionp, styles.textCenter, styles.textGrey)}>
               Use templates to connect your existing tools and
-              <br />
+              
               integrate necessary data to your system
             </p>
           <div className={styles.toolLogos}>
@@ -346,10 +346,10 @@ function Step3() {
   <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
       <div className={styles.featureGroup}>
         <h4 className={styles.sectionh4} style={{ color: "white" }}>STEP 3</h4>
-        <h2 className={styles.sectionh2}>Configure jobs &<br /> trigger workflows</h2>
+        <h2 className={styles.sectionh2}>Configure jobs & trigger workflows</h2>
         <p className={styles.sectionp}>
-          Use slash commands to set up and<br /> trigger workflows, ensuring you<br />
-          maintain full control over your AI<br /> system.
+          Use slash commands to set up and trigger workflows, ensuring you
+          maintain full control over your AI system.
         </p>
       </div>
       <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277148527-e7957855-2eb8-4a1b-a86a-a36ddfecc5bc.png"} />
@@ -363,10 +363,10 @@ function Step4() {
         <ImageFrame imageUrl={"https://user-images.githubusercontent.com/81156510/277148596-518dc49a-35dd-475b-9361-525efd1ea350.gif"} />
         <div className={styles.featureGroup}>
           <h4 className={styles.sectionh4}>STEP 4</h4>
-          <h2 className={styles.sectionh2}>Customize to fit the<br /> specific needs of your business</h2>
+          <h2 className={styles.sectionh2}>Customize to fit the specific needs of your business</h2>
           <p className={styles.sectionp}>
-              Access your private server at any<br /> time to further personalize your<br />
-              experience and maintain control<br /> over your AI System.
+              Access your private server at any time to further personalize your
+              experience and maintain control over your AI System.
           </p>
         </div>
     </div>
@@ -378,9 +378,9 @@ function Step5() {
     <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
         <div className={styles.featureGroup}>
           <h4 className={styles.sectionh4} style={{ color: "white" }}>STEP 5</h4>
-          <h2 className={styles.sectionh2}>Monetize your most<br />powerful assets </h2>
+          <h2 className={styles.sectionh2}>Monetize your mostpowerful assets </h2>
           <p className={styles.sectionp}>
-            Build and scale data & AI products<br /> effortlessly, to generate new<br />
+            Build and scale data & AI products effortlessly, to generate new
             opportunities.
           </p>
         </div>
@@ -418,9 +418,9 @@ function HomeFeatures() {
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158801-51e5c09d-bd5b-43fd-a845-af693ee8f4ef.png"}>
           <img className={styles.titleImage} src="./img/site_features/chat.svg" alt="chat" />
           <p style={{marginTop: '1rem'}}>
-          Simple. Powerful. Empowering.<br />
-          Communicate more efficiently<br />
-          with next generation AI Language<br />
+          Simple. Powerful. Empowering.
+          Communicate more efficiently
+          with next generation AI Language
           models in a single interface.
           </p>
           <a className={styles.link} href="">Learn more →</a>
@@ -437,9 +437,9 @@ function HomeFeatures() {
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"}>
           <img className={styles.titleImage} src="./img/site_features/search.svg" alt="search" />
           <p style={{marginTop: '1rem'}}>
-            Search across thousands of<br />
-            notebook templates, made by<br />
-            community, to jumpstart your<br />
+            Search across thousands of
+            notebook templates, made by
+            community, to jumpstart your
             data projects in no time
           </p>
           <a className={styles.link} href="">Learn more →</a>
@@ -447,9 +447,9 @@ function HomeFeatures() {
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159499-3ad84b9e-5df7-4dd8-a5c7-25d93230cf35.png"}>
           <img className={styles.titleImage} src="./img/site_features/lab.svg" alt="lab" />
           <p style={{marginTop: '1rem'}}>
-          Build and manage any type of<br />
-          data & AI project more efficiently.<br />
-          No separated, clunky systems<br />
+          Build and manage any type of
+          data & AI project more efficiently.
+          No separated, clunky systems
           needed.
           </p>
           <a className={styles.link} href="">Learn more →</a>
@@ -457,10 +457,10 @@ function HomeFeatures() {
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159611-1868ba9e-b2a8-431b-b384-ddd6a9d3426f.png"}>
           <img className={styles.titleImage} src="./img/site_features/admin.svg" alt="admin" />
           <p style={{marginTop: '1rem'}}>
-          Efficient. Secure. Unified. Manage<br />
-          users, system performance, and<br />
-          enjoy consolidated billing with<br />
-          our prepaid credit-based system<br />
+          Efficient. Secure. Unified. Manage
+          users, system performance, and
+          enjoy consolidated billing with
+          our prepaid credit-based system
           from one central dashboard
           </p>
           <a className={styles.link} href="">Learn more →</a>
@@ -478,12 +478,12 @@ function HomeApproach() {
         <div>
           <div className={styles.catalog}>
             <div className={styles.catalogHead}>
-              <h2>
+              <h2 className={styles.textCenter}>
                 Naas all-in-one approach covers every data & AI related tasks
               </h2>
               <p>
                 The All-in-One Experience is a key philosophical engagement of
-                the Naas platform, <br />
+                the Naas platform, 
                 designed to provide users with a comprehensive and streamlined
                 approach to data and AI.
               </p>
@@ -526,9 +526,9 @@ function HomeApproach() {
       >
           <div>
             <div className={styles.catalogHead}>
-              <h2>
-                We aim at enabling businesses to create <br /> their own
-                Artificial Business Intelligence (ABI) <br /> rather than
+              <h2 className={styles.textCenter}>
+                We aim at enabling businesses to create  their own
+                Artificial Business Intelligence (ABI)  rather than
                 pursuing Artificial General Intelligence (AGI)
               </h2>
               <p>
@@ -553,7 +553,7 @@ function HomeTechFeatures() {
         <div>
           <div className={styles.catalogHead}>
             <h2>
-              Robust, scalable & <br />
+              Robust, scalable & 
               secured infrastructure
             </h2>
             <p>
@@ -643,7 +643,7 @@ function HomeTechFeatures() {
         <div className={clsx(styles.content)}>
           <h2>
             Make Your Business & Tech Teams
-            <br />
+            
             Work Together More Efficiently than Ever
           </h2>
           <p>
@@ -798,14 +798,14 @@ function HomeSolutions() {
       <div className={styles.featureContainer}>
         <div>
           <div className={styles.catalogHead}>
-            <h2>
+            <h2 className={styles.textCenter}>
               Leverage data & AI through practical applications
-              <br />
+              
               and domain-specific solutions
             </h2>
             <p>
               Discover the power of Naas foundation data engines
-              <br />
+              
               to address your critical business needs.
             </p>
           </div>
@@ -1022,15 +1022,15 @@ function HomeContributors() {
     <div className={clsx(styles.featureGrid, styles.rowImageRight)}>
       <div className={styles.featureGroup}>
         <div  style={{alignItems: 'start'}}>
-        <h3>
+        <h2>
             🌍 Build on-demand elite teams to accelerate your data & AI roadmap
-            execution{" "}</h3>
+            execution{" "}</h2>
         <p style={{textAlign: "start"}}>
-            Our community of data entrepreneurs are<br/>
-            creating the open source templates that will<br />
-            enable any organizations to power their<br />
-            proprietary data products & AI systems. They<br />
-            excel in a lot of different domains, and provide<br />
+            Our community of data entrepreneurs are
+            creating the open source templates that will
+            enable any organizations to power their
+            proprietary data products & AI systems. They
+            excel in a lot of different domains, and provide
             premium support anywhere around the
             globe.
         </p>
