@@ -2,13 +2,13 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 // const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "⚡️ The Universal Data & AI Platform",
+  title: "️️⚡ The AI System  power your everyday business",
   tagline:
-    "Naas is an open ChatGPT alternative to help you integrate AI into your workflows using our low-code notebook templates catalog and generative AI models.",
+    "Naas is an open alternative to ChatGPT and its plugins store that you can customize to your own needs. It integrates analytics, automation an AI into your workflows thanks to low-code templates and the best generative AI models.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -47,8 +47,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/jupyter-naas/site",
+          editUrl: "https://github.com/jupyter-naas/site",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -61,7 +60,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       fontFamily: {
-        sans: ['San Francisco', 'Arial', 'sans-serif']},
+        sans: ["San Francisco", "Arial", "sans-serif"],
+      },
       // Replace with your project's social card
       image: "img/how-it-works.png",
       colorMode: {
@@ -69,11 +69,11 @@ const config = {
       },
       // announcementBar: {
       //   id: 'support_us',
-       //  content:
-        //   "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Get early access to Naas 2.0</a>, a redesigned Workspace with built-in Google Search and ChatGPT alternative to create your own data & AI products.",
-        // backgroundColor: '#fafbfc',
-        // textColor: '#091E42',
-        // isCloseable: false,
+      //  content:
+      //   "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Get early access to Naas 2.0</a>, a redesigned Workspace with built-in Google Search and ChatGPT alternative to create your own data & AI products.",
+      // backgroundColor: '#fafbfc',
+      // textColor: '#091E42',
+      // isCloseable: false,
       // },
       navbar: {
         style: "dark",
@@ -85,291 +85,321 @@ const config = {
           src: "https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186",
         },
         items: [
+// {
+//   type: "dropdown",
+//   label: "Platform",
+//   position: "left",
+//   items: [
+//     {
+//       type: "doc",
+//       label: "Overview",
+//       docId: "get-started/introduction",
+//     },
+//     {
+//       type: "doc",
+//       label: "Universal Chat Interface",
+//       docId: "platform/aI-powered-chat",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   type: "dropdown",
+//   label: "Solutions",
+//   position: "left",
+//   items: [
+//     {
+//       type: "doc",
+//       label: "Artificial Business Intelligence",
+//       docId: "solutions/introduction",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   type: "dropdown",
+//   label: "Developers",
+//   position: "left",
+//   items: [
+//     {
+//       type: "doc",
+//       label: "Quickstart",
+//       docId: "developers/overview",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   type: "dropdown",
+//   label: "Resources",
+//   position: "left",
+//   items: [
+//     {
+//       href: "https://leandata.substack.com/",
+//       label: "Blog",
+//     },
+//     ...
+//   ],
+// },
+// {
+//   href: "/pricing",
+//   label: "Pricing",
+//   position: "left",
+// },
           {
-            type: "dropdown",
-            label: "Platform",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Overview",
-                docId: "get-started/introduction",
-              },
-              {
-                type: "doc",
-                label: "Universal Chat Interface",
-                docId: "platform/aI-powered-chat",
-              },
-              {
-                type: "doc",
-                label: "Data & AI Catalog Search",
-                docId: "platform/search-catalog-template-library",
-              },
-              {
-                type: "doc",
-                label: "Development Lab",
-                docId: "platform/dev-environment",
-              },
-              {
-                type: "doc",
-                label: "Workflow Automation",
-                docId: "platform/workflow-automation",
-              },
-              {
-                type: "doc",
-                label: "Analytics & Dashboarding",
-                docId: "platform/analytics-dashboard-deployment",
-              },
-              {
-                type: "doc",
-                label: "Collaboration & Versioning",
-                docId: "platform/collaboration-versioning",
-              },
-              {
-                type: "doc",
-                label: "Serverless computing",
-                docId: "platform/scalable-computing",
-              },
-              {
-                type: "doc",
-                label: "Security Suite",
-                docId: "platform/security-suite",
-              },
-              {
-                type: "doc",
-                label: "Admin Dashboard",
-                docId: "platform/admin-dashboard",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Solutions",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Artificial Business Intelligence",
-                docId: "solutions/introduction",
-              },
-              {
-                type: "doc",
-                label: "Content Creation",
-                docId: "solutions/content-engine",
-              },
-              {
-                type: "doc",
-                label: "Growth Marketing",
-                docId: "solutions/growth-engine",
-              },
-              {
-                type: "doc",
-                label: "Sales Conversion",
-                docId: "solutions/sales-engine",
-              },
-              {
-                type: "doc",
-                label: "Operations Efficiency",
-                docId: "solutions/operations-engine",
-              },
-              {
-                type: "doc",
-                label: "Finance Management",
-                docId: "solutions/finance-engine",
-              },
-              {
-                type: "doc",
-                label: "Open Data Intelligence",
-                docId: "solutions/opendata-engine",
-              },
-              {
-                type: "doc",
-                label: "Expert Acceleration Program",
-                docId: "solutions/expert-program",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Developers",
-            position: "left",
-            items: [
-              {
-                type: "doc",
-                label: "Quickstart",
-                docId: "developers/overview",
-              },
-              {
-                type: "doc",
-                label: "Development Environment",
-                docId: "developers/development",
-              },
-              {
-                type: "doc",
-                label: "Jobs",
-                docId: "developers/jobs/scheduler",
-              },
-              {
-                type: "doc",
-                label: "Drivers",
-                docId: "developers/drivers/airtable",
-              },
-              {
-                type: "doc",
-                label: "Templates",
-                docId: "developers/templates",
-              },
-              {
-                type: "doc",
-                label: "Data Product Framework",
-                docId: "developers/delivery",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Resources",
-            position: "left",
-            items: [
-              {
-                href: "https://leandata.substack.com/",
-                label: "Blog",
-              },
-              {
-                type: "doc",
-                label: "Contributing",
-                docId: "community/how-to-contribute",
-              },
-              {
-                label: "Guides & Tutorials",
-                href: "https://www.youtube.com/c/naas-ai",
-              },
-              {
-                label: "Join our Slack",
-                href: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-dXXkigAdEJYc~LPdQIEaLA",
-              },
-            ],
-          },
-          {
-            href: "/pricing",
-            label: "Pricing",
-            position: "left",
-          },
-          {
-            href: "https://calendly.com/jeremyravenel",
-            position: "right",
-            label: `Book a call`,
-          },
-          {
-            href: "https://naas.ai/",
+            to: "https://naas.ai/search",
             position: "right",
             label: `Search`,
           },
           {
-            href: "https://naas.ai/auth/signin",
+            to: "https://site.naas.ai/docs/get-started/introduction",
+            position: "right",
+            label: `Docs`,
+          },
+          {
+            to: "https://calendly.com/jeremyravenel",
+            label: `Book a call`,
+            position: "right",
+          },
+          {
+            to: "https://naas.ai/auth/signin",
             position: "right",
             label: `Sign in`,
           },
           {
             type: "html",
             position: "right",
-            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Apply to Alpha</button><a>`,
+            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Start for free</button><a>`,
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           {
-            title: 'Universe',
+            title: "Overview",
             items: [
               {
-                label: 'Overview',
-                href: '/docs/get-started/introduction'
+                label: "Why Naas?",
+                href: "docs/get-started/introduction",
               },
               {
-                label: 'Platform',
-                href: '/docs/category/platform'
+                label: "Basic level",
+                href: "docs/get-started/basic",
               },
               {
-                label: 'Developers',
-                href: '/docs/category/developers'
+                label: "Intermediate level",
+                href: "docs/get-started/intermediate",
               },
               {
-                label: 'Solutions',
-                href: '/docs/category/solutions'
+                label: "Advanced level",
+                href: "docs/get-started/advanced",
               },
-            ]
+              {
+                label: "Pricing",
+                href: "/pricing",
+              },
+            ],
           },
           {
-            title: 'Community',
+            title: "Platform",
             items: [
               {
-                label: 'Join our Slack',
-                href: 'https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw'
+                label: "Overview",
+                href: "docs/get-started/introduction",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/jupyter-naas'
+                label: "Universal Chat Interface",
+                href: "docs/platform/aI-powered-chat",
               },
               {
-                label: 'How to contribute?',
-                href: '/docs/community/how-to-contribute'
+                label: "Data & AI Catalog Search",
+                href: "docs/platform/search-catalog-template-library",
               },
               {
-                label: 'Roadmap',
-                href: 'https://github.com/orgs/jupyter-naas/projects/10/views/13'
+                label: "Chrome Extension",
+                href: "docs/platform/chrome-extension",
               },
-            ]
+              {
+                label: "Development Lab",
+                href: "docs/platform/dev-environment",
+              },
+              {
+                label: "Workflow Automation",
+                href: "docs/platform/workflow-automation",
+              },
+              {
+                label: "Analytics & Dashboarding",               
+                href: "docs/platform/analytics-dashboard-deployment",
+              },
+              {
+                label: "Collaboration & Versioning",               
+                href: "docs/platform/collaboration-versioning",
+              },
+              {
+                label: "Serverless Deployment",               
+                href: "docs/platform/scalable-computing",
+              },
+              {
+                label: "Security Suite",               
+                href: "docs/platform/security-suite",
+              },
+              {
+                label: "Account Administration",               
+                href: "docs/platform/admin-dashboard",
+              },
+            ],
           },
           {
-            title: 'Company',
+            title: "Solutions",
             items: [
               {
-                label: 'Teams',
-                href: 'https://github.com/orgs/jupyter-naas/teams'
+                label: "AI Character Building",
+                href: "docs/solutions/introduction",
               },
               {
-                label: 'Terms of Service',
-                href: '/docs/policies/terms'
+                label: "AI System for Business",
+                href: "docs/solutions/introduction",
               },
               {
-                label: 'Privacy',
-                href: '/docs/policies/privacy'
+                label: "Content Creation",
+                href: "docs/solutions/content-engine",
               },
               {
-                label: 'Contact support',
-                href: 'https://form.typeform.com/to/aH1v5ync?typeform-source=www.naas.ai'
+                label: "Growth Marketing",
+                href: "docs/solutions/growth-engine",
               },
               {
-                label: 'Contact sales',
-                href: 'https://form.typeform.com/to/GjbalQ7R'
-              }
-            ]
+                label: "Sales Conversion",
+                href: "docs/solutions/sales-engine",
+              },
+              {
+                label: "Operations Efficiency",
+                href: "docs/solutions/operations-engine",
+              },
+              {
+                label: "Finance Management",
+                href: "docs/solutions/finance-engine",
+              },
+              {
+                label: "Open Data Intelligence",
+                href: "docs/solutions/opendata-engine",
+              },
+              {
+                label: "Expert Acceleration Program",
+                href: "docs/solutions/opendata-engine",
+              },
+            ],
           },
           {
-            title: 'Follow us',
+            title: "Developers",
             items: [
               {
-                label: 'Github',
-                href: 'https://github.com/jupyter-naas'
+                label: "Quickstart",
+                href: "docs/developers/overview",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/jupyternaas'
+                label: "Development Server",
+                href: "docs/developers/development",
               },
               {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/naas-ai/'
+                label: "Schedule Workflows",
+                href: "docs/developers/jobs/scheduler",
               },
               {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UCKKG5hzjXXU_rRdHHWQ8JHQ'
-              }
-            ]
-          }
+                label: "Generate Assets",
+                href: "docs/developers/jobs/asset",
+              },
+              {
+                label: "Trigger Webhooks",
+                href: "docs/developers/jobs/webhook",
+              },
+              {
+                label: "Send Notifications",
+                href: "docs/developers/jobs/notification",
+              },
+              {
+                label: "Build Pipelines",
+                href: "docs/developers/jobs/pipeline",
+              },
+              {
+                label: "Manage Secrets",
+                href: "docs/developers/jobs/secret",
+              },
+              {
+                label: "Publish Products",
+                href: "docs/developers/jobs/space",
+              },
+              {
+                label: "Integration Drivers",
+                href: "docs/category/drivers",
+              },
+              {
+                label: "Notebook Templates",
+                href: "docs/category/drivers",
+              },
+            ],
+          },
+          {
+            title: "Community",
+            items: [
+              {
+                label: "Join our Slack",
+                href: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/jupyter-naas",
+              },
+              {
+                label: "How to contribute?",
+                href: "docs/community/how-to-contribute",
+              },
+              {
+                label: "Roadmap",
+                href: "https://github.com/orgs/jupyter-naas/projects/10/views/13",
+              },
+            ],
+          },
+          {
+            title: "Company",
+            items: [
+              {
+                label: "Terms of Service",
+                href: "docs/policies/terms",
+              },
+              {
+                label: "Privacy",
+                href: "docs/policies/privacy",
+              },
+              {
+                label: "Contact us",
+                href: "https://calendly.com/jeremyravenel",
+              },
+              {
+                label: "Team",
+                href: "https://github.com/orgs/jupyter-naas/teams",
+              },
+              {
+                label: "Github",
+                href: "https://github.com/jupyter-naas",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/jupyternaas",
+              },
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/naas-ai/",
+              },
+              {
+                label: "Youtube",
+                href: "https://www.youtube.com/channel/UCKKG5hzjXXU_rRdHHWQ8JHQ",
+              },
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
+        copyright: `<br><br>Copyright © ${new Date().getFullYear()} <a href="#" target="_blank" rel="noopener noreferrer">NaasAI</a>, Inc.`,
       },
       //   navbar: {
       //   items: [
@@ -382,7 +412,7 @@ const config = {
       // },
       prism: {
         darkTheme: darkCodeTheme,
-        defaultLanguage: 'python',
+        defaultLanguage: "python",
       },
     }),
 };

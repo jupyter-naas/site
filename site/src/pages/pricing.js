@@ -56,7 +56,7 @@ export default function Pricing() {
                                     Community support
                                 </li>
                             </ul>
-                            <Link className={clsx(styles.btnGreen, styles.btn)} to="https://www.naas.ai/auth/signin"><b>Start for free</b>
+                            <Link className={clsx(styles.btnGreen, styles.btn)} to="https://www.naas.ai/auth/signin">Start for free
                             </Link>
                         </div>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
