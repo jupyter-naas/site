@@ -13,12 +13,20 @@ export default function Home() {
       title={`Naas`}
       description="A new way to build data & AI experiences"
     >
+      
+      <Link to={"#footer"}>
+        <div style={{position: "fixed", bottom: "3rem", right:"3rem", zIndex: 999}}>
+          <div style={{display: "flex", justifyContent: "center", alignItems: "center", "padding": "0.7rem 0.5rem", backgroundColor: "#48DD82", borderRadius: "50%"}}>
+            <img style={{width: '1rem'}} src='./img/arrow_down.svg' alt='arrow down' />
+          </div>
+        </div>
+      </Link>
       <HomepageHeader />
       <main>
         <HomeTLDR />
-        <h2 className={styles.h2textCenter} style={{marginTop: '2rem'}}>Everything you need to integrate AI in your daily operations</h2>
+        <h2 id="features" className={styles.h2textCenter} style={{marginTop: '2rem'}}>Everything you need to integrate AI in your daily operations</h2>
         <HomeFeatures />
-        <h2 className={styles.h2textCenter}>How It Works?</h2>
+        <h2 id="how-it-works" className={styles.h2textCenter}>How It Works?</h2>
         <Steps />
         <HomeApproach />
         <HomeSolutions />
@@ -29,6 +37,7 @@ export default function Home() {
         <HomeContributors />
         {/* <HomeFooter /> */}
         {/* <HomepageFeatures /> */}
+        <div id="footer"></div>
       </main>
     </Layout>
   );
@@ -53,7 +62,7 @@ function HomepageHeader() {
           </a>
         </div>
         <div className={styles.siteInfo}>
-          Naas.ai is currently in limited alpha.<br></br>Start with 100 free
+          Naas.ai is currently in limited alpha. <br />Start with 100 free
           credits/month for free.
         </div>
         {/* </div> */}
@@ -64,7 +73,7 @@ function HomepageHeader() {
 
 function HomeTLDR() {
   return (
-    <div className={clsx(styles.featureContainer, styles.bgDark)}>
+    <div id="platform" className={clsx(styles.featureContainer, styles.bgDark)}>
       <div className={styles.community}>
         <div>
           <div className={styles.half}>
@@ -464,6 +473,7 @@ function HomeApproach() {
     <>
       <div
         className={styles.featureContainer}
+        id="enterprise"
       >
         <div>
           <div className={styles.catalog}>
@@ -512,6 +522,7 @@ function HomeApproach() {
         </div>
       </div>
       <div
+      id="abi"
         className={styles.featureContainer}
       >
           <div>
@@ -538,7 +549,7 @@ function HomeApproach() {
 
 function HomeTechFeatures() {
   return (
-    <div>
+    <div id="infrastructure">
       <div className={styles.featureContainer}>
         <div>
           <div className={styles.catalogHead}>
@@ -653,7 +664,7 @@ function HomeTechFeatures() {
 
 function HomeTestimonials() {
   return (
-    <div>
+    <div id="testimonials">
       <div
         className={clsx(
           styles.titleWrapper,
@@ -784,7 +795,7 @@ function HomeTestimonials() {
 
 function HomeSolutions() {
   return (
-    <div>
+    <div id="solutions">
       <div className={styles.featureContainer}>
         <div>
           <div className={styles.catalogHead}>
@@ -1008,7 +1019,7 @@ function HomeSolutions() {
 }
 
 function HomeContributors() {
-  return <div className={styles.gitHubGrid}>
+  return <div id="lets-build" className={styles.gitHubGrid}>
     {/* <div className={clsx(styles.featureGrid, styles.rowImageRight)}> */}
     <div className={styles.half}>
       <div className={styles.featureGroup}>

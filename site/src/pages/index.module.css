@@ -224,8 +224,9 @@ p {
   display: inline;
   font-size: .9em;
   margin-top: 10px;
-  max-width: 230px;
+  /* max-width: 230px; */
   opacity: .7;
+  width: 270px;
 }
 
 
@@ -233,6 +234,8 @@ p {
 
 .community {
   /* padding: 25px 0px; */
+  max-width: 1200px;
+  padding: 0 3rem;
   background-color: #181a1c;
   display: flex;
   justify-content: center;
@@ -626,6 +629,10 @@ p {
     font-size: 2.4em;
   }
 
+  .community {
+    padding: 0 1rem;
+  }
+
   .heroBanner {
     padding: 1.2rem;
   }
@@ -673,6 +680,10 @@ p {
   
   .title {
     font-size: 2.2em;
+  }
+
+  .community {
+    padding: 0;
   }
 
   
