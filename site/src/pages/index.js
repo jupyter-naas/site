@@ -49,13 +49,13 @@ function HomepageHeader() {
     <div className={styles.landing}>
       <div className={styles.heroBanner}>
         {/* <div className="container"> */}
-        <h1 className={styles.title}>️ ⚡Build the AI System to power <br></br>your everyday business</h1>
+        <h1 className={styles.title}>️ ⚡Build the AI system to power <br></br>your everyday business</h1>
         <p className={clsx(styles.tagline, styles.textCenter)}>Naas is an open alternative to ChatGPT you can truly customize to your own needs. 
           We help you integrate analytics, automation an AI into your workflows thanks to a universal chat interface, low-code templates and the best generative AI models.</p>
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="https://bit.ly/3CFSumN"
+            href="https://naas.ai/auth/signin"
             target="_blank"
           >
             Start for free
@@ -88,7 +88,7 @@ function HomeTLDR() {
               People at incredible organizations supports us, and we are just getting started.
             </p>
             <div style={{ textAlign: "center"}}>
-              <a href="https://leandata.substack.com/" target="_blank">Follow our journey on our blog: The Lean Data Journal →</a>
+              <a href="https://leandata.substack.com/" target="_blank">Follow our journey on: The Lean Data Journal →</a>
             </div>
           </div>
 
@@ -307,7 +307,7 @@ function Step1() {
                 Train your assistant to understand your unique needs and preferences to experience tailored responses quality.
                 </p>
                 <br></br>
-                <a className={styles.cta} href="">Start for free</a>
+                <a className={styles.cta} href="https://naas.ai/auth/signin">Start for free</a>
             </div>
         </div>
       </div>
@@ -432,7 +432,7 @@ function HomeFeatures() {
             <img src="./img/hugginfaceai.svg" alt="hugginfaceai" />
             <img src="./img/midjourneyai.svg" alt="midjourneyai" />
           </div>
-            <a className={styles.cta} href="https://bit.ly/3CFSumN" target="_blank">Start for free</a>
+            <a className={styles.cta} href="https://naas.ai/auth/signin" target="_blank">Start for free</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"}>
           <img className={styles.titleImage} src="./img/site_features/search.svg" alt="search" />
@@ -441,7 +441,7 @@ function HomeFeatures() {
             low-code templates, made by
             community, to kickstart journey and easily adapt it to your needs.
           </p>
-          <a className={styles.link} href="">Learn more →</a>
+          <a className={styles.link} href="docs/platform/search-catalog-template-library">Learn more →</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159499-3ad84b9e-5df7-4dd8-a5c7-25d93230cf35.png"}>
           <img className={styles.titleImage} src="./img/site_features/lab.svg" alt="lab" />
@@ -451,7 +451,7 @@ function HomeFeatures() {
           No separated, clunky systems
           needed. You can glue everything together.
           </p>
-          <a className={styles.link} href="">Learn more →</a>
+          <a className={styles.link} href="docs/platform/dev-environment">Learn more →</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159611-1868ba9e-b2a8-431b-b384-ddd6a9d3426f.png"}>
           <img className={styles.titleImage} src="./img/site_features/admin.svg" alt="admin" />
@@ -505,7 +505,7 @@ function HomeApproach() {
             <div className={styles.buttonContainer}>
               <a
                 className={styles.cta}
-                href="https://bit.ly/3CFSumN"
+                href="https://naas.ai/auth/signin"
                 target="_blank"
               >
                 Start for free
@@ -643,9 +643,7 @@ function HomeTechFeatures() {
       >
         <div className={clsx(styles.content)}>
           <h2>
-            Make Your Business & Tech Teams
-            
-            Work Together Seamlessly
+            Make your Business & Tech teams finally work together seamlessly
           </h2>
           <p>
             Data Consumers navigate across search, chat, and dashboards to
@@ -1025,7 +1023,7 @@ function HomeContributors() {
       <div className={styles.featureGroup}>
         <div  style={{alignItems: 'start'}}>
         <h2>
-            🌍 Build on-demand elite teams to accelerate your data & AI roadmap
+            Build on-demand elite teams to accelerate your data & AI roadmap
             execution{" "}</h2>
         <p style={{textAlign: "start"}}>
             Our community of data & AI mercenaries are
@@ -1041,7 +1039,7 @@ function HomeContributors() {
         <div className={styles.buttonContainer}>
             <a
               className={styles.cta}
-              href="https://bit.ly/3CFSumN"
+              href="https://naas.ai/auth/signin"
               target="_blank"
             >
               Start for free
