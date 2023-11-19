@@ -258,7 +258,7 @@ const config = {
                 href: "docs/solutions/introduction",
               },
               {
-                label: "Artificial Business Intelligence",
+                label: "AI System for Business",
                 href: "docs/solutions/introduction",
               },
               {
@@ -319,7 +319,7 @@ const config = {
                 href: "docs/developers/jobs/notification",
               },
               {
-                label: "Build Pipeliness",
+                label: "Build Pipelines",
                 href: "docs/developers/jobs/pipeline",
               },
               {
@@ -327,8 +327,16 @@ const config = {
                 href: "docs/developers/jobs/secret",
               },
               {
-                label: "Publish Spaces",
+                label: "Publish Products",
                 href: "docs/developers/jobs/space",
+              },
+              {
+                label: "Integration Drivers",
+                href: "docs/category/drivers",
+              },
+              {
+                label: "Notebook Templates",
+                href: "docs/category/drivers",
               },
             ],
           },
@@ -357,10 +365,6 @@ const config = {
             title: "Company",
             items: [
               {
-                label: "Teams",
-                href: "https://github.com/orgs/jupyter-naas/teams",
-              },
-              {
                 label: "Terms of Service",
                 href: "docs/policies/terms",
               },
@@ -372,11 +376,10 @@ const config = {
                 label: "Contact us",
                 href: "https://calendly.com/jeremyravenel",
               },
-            ],
-          },
-          {
-            title: "Follow us",
-            items: [
+              {
+                label: "Team",
+                href: "https://github.com/orgs/jupyter-naas/teams",
+              },
               {
                 label: "Github",
                 href: "https://github.com/jupyter-naas",

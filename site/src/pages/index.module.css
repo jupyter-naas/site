@@ -168,7 +168,7 @@ p {
   text-decoration: none !important;
   font-size: 1.125rem; /* 18px */
   line-height: 1.75rem; /* 28px */
-  padding: 1rem 1.5rem;
+  padding: 10px 20px;
   border-radius: 10px;
   border: 1px solid var(--grey-3, #747677);
   font-weight: 500;
@@ -205,7 +205,7 @@ p {
   margin: 1rem 0;
   font-size: 1.125rem; /* 18px */
   line-height: 1.75rem; /* 28px */
-  padding: 1rem 1.5rem;
+  padding: 10px 20px;
   border-radius: 0.75rem;
   border: none;
   font-weight: 700;
@@ -223,8 +223,8 @@ p {
 .siteInfo {
   display: inline;
   font-size: .9em;
-  margin-top: 10px;
-  /* max-width: 230px; */
+  margin-top: 2px;
+  max-width: 270px;
   opacity: .7;
   width: 270px;
 }
