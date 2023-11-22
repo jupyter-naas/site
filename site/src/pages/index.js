@@ -102,7 +102,7 @@ function HomeTLDR() {
       <div className={styles.community}>
         <div>
           <div className={styles.half}>
-              <ImageFrame imageUrl={"https://user-images.githubusercontent.com/21052349/281368784-a3b5f583-922d-4cd7-9c85-578799b83088.png"}
+              <ImageFrame imageUrl={"https://user-images.githubusercontent.com/21052349/285047213-19db57b1-f4cf-46ed-9711-ca73377bf39b.png"}
               style={{ height: "217px" }} />
           </div>
           <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
