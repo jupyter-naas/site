@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "️️⚡ The AI System  power your everyday business",
+  title: "️️⚡ The Universal Data & AI Platform",
   tagline:
-    "Naas is an open alternative to ChatGPT and its plugins store that you can customize to your own needs. It integrates analytics, automation an AI into your workflows thanks to low-code templates and the best generative AI models.",
+    "Naas is an open alternative to ChatGPT that you can customize to your own needs. It integrates analytics, automation an AI into your workflows thanks to low-code templates and the best generative AI models.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -152,13 +152,23 @@ const config = {
             label: `Search`,
           },
           {
+            to: "https://naas.ai/chat",
+            position: "right",
+            label: `Chat`,
+          },
+          {
+            to: "https://app.naas.ai/",
+            position: "right",
+            label: `Lab`,
+          },
+          {
             to: "https://site.naas.ai/docs/get-started/introduction",
             position: "right",
             label: `Docs`,
           },
           {
-            to: "https://calendly.com/jeremyravenel",
-            label: `Book a call`,
+            to: "https://share.hsforms.com/11Ie8odLzQdO6ggAtrXFcTg1h10o",
+            label: `Enterprise`,
             position: "right",
           },
           {
@@ -169,7 +179,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://bit.ly/3CFSumN" target="_blank"><button>Start for free</button><a>`,
+            value: `<a href="https://naas.ai/" target="_blank"><button>Start for free</button><a>`,
           },
         ],
       },
@@ -184,15 +194,15 @@ const config = {
                 href: "docs/get-started/introduction",
               },
               {
-                label: "Basic level",
+                label: "Basic Usage",
                 href: "docs/get-started/basic",
               },
               {
-                label: "Intermediate level",
+                label: "Intermediate Usage",
                 href: "docs/get-started/intermediate",
               },
               {
-                label: "Advanced level",
+                label: "Advanced Usage",
                 href: "docs/get-started/advanced",
               },
               {
@@ -365,16 +375,24 @@ const config = {
             title: "Company",
             items: [
               {
+                label: "Book a call",
+                href: "https://calendly.com/jeremyravenel",
+              },
+              {
+                label: "Enterprise Plan",
+                href: "https://share.hsforms.com/11Ie8odLzQdO6ggAtrXFcTg1h10o",
+              },
+              {
+                label: "Teams",
+                href: "https://github.com/orgs/jupyter-naas/teams",
+              },
+              {
                 label: "Terms of Service",
                 href: "docs/policies/terms",
               },
               {
                 label: "Privacy",
                 href: "docs/policies/privacy",
-              },
-              {
-                label: "Contact us",
-                href: "https://calendly.com/jeremyravenel",
               },
               {
                 label: "Team",
