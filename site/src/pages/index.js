@@ -77,7 +77,7 @@ function HomeTLDR() {
       <div className={styles.community}>
         <div>
           <div className={styles.half}>
-              <ImageFrame imageUrl={""}
+              <ImageFrame imageUrl={"https://user-images.githubusercontent.com/21052349/285159046-ec559f3e-1ffd-4cbf-b94f-f7d44f6235d2.png"}
               style={{ height: "217px" }} />
           </div>
           <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
@@ -88,7 +88,7 @@ function HomeTLDR() {
               People at incredible organizations supports us, and we are just getting started.
             </p>
             <div style={{ textAlign: "center"}}>
-              <a href="https://leandata.substack.com/" target="_blank">Follow our journey on: The Lean Data Journal →</a>
+              <a href="https://leandata.substack.com/" target="_blank">Read our latest stories on our blog →</a>
             </div>
           </div>
 
