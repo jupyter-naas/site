@@ -9,7 +9,7 @@ import styles from './index.module.css';
 
 export default function Pricing() {
     const { siteConfig } = useDocusaurusContext();
-    const [isAnnual, setIsAnnual] = useState(true);
+    const [isAnnual, setIsAnnual] = useState(false);
     return (
         <Layout
             title={`Naas - ${siteConfig.title}`}
