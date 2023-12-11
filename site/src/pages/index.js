@@ -107,7 +107,7 @@ function HomeTLDR() {
           </div>
           <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
             <h2 className={styles.textCenter}>
-              We are building a universal data & AI platform: <br></br>a simple chat interface with a powerful orchestration layer.
+              We are creating a universal data & AI platform: <br></br>a simple chat interface with a powerful orchestration layer.
             </h2>
             <p>
               People at incredible organizations supports us, and we are just getting started.
