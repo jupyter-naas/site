@@ -432,6 +432,13 @@ const config = {
         darkTheme: darkCodeTheme,
         defaultLanguage: "python",
       },
+      algolia: {
+        appId: 'NGBDVK8FYQ',
+        apiKey: '2bb067cabd950639bab44d1d7c4d9269',
+        indexName: 'workspace-search',
+        contextualSearch: true,
+        algoliaOptions: {}
+      }
     }),
 };
 
