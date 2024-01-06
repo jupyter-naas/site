@@ -433,9 +433,9 @@ const config = {
         defaultLanguage: "python",
       },
       algolia: {
-        appId: 'NGBDVK8FYQ',
-        apiKey: '2bb067cabd950639bab44d1d7c4d9269',
-        indexName: 'workspace-search',
+        appId: process.env.ALGOLIA_APPLICATION_ID,
+        apiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY,
+        indexName: process.env.ALGOLIA_SEARCH_INDEX,
         contextualSearch: true,
         algoliaOptions: {}
       }
