@@ -81,7 +81,8 @@ export default function Pricing() {
                                     Priority email support
                                 </li>
                             </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to={isAnnual ? 'https://buy.stripe.com/7sI4iGehkdVae884gn' : 'https://buy.stripe.com/cN2g1o2yC4kAe88fYZ'}>Upgrade</Link>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://share.hsforms.com/1sIzt9TLiQ2eSM3seBtOmcA1h10o">Contact Sales</Link>
+                            {/* <Link className={clsx(styles.btnWhite, styles.btn)} to={isAnnual ? 'https://buy.stripe.com/7sI4iGehkdVae884gn' : 'https://buy.stripe.com/cN2g1o2yC4kAe88fYZ'}>Contact Sales</Link> */}
                         </div>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
                             <h3>Professional</h3>
@@ -109,7 +110,7 @@ export default function Pricing() {
                                     Earn affiliate commissions
                                 </li>
                             </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to={isAnnual ? 'https://buy.stripe.com/4gw4iG2yC8AQgggbIO' : 'https://buy.stripe.com/3cs02q0qubN22pq7ss'}>Upgrade</Link>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://share.hsforms.com/1sIzt9TLiQ2eSM3seBtOmcA1h10o">Contact Sales</Link>
                         </div>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
                             <h3>Enterprise</h3>
@@ -145,7 +146,7 @@ export default function Pricing() {
                                     Custom SLAs
                                 </li>
                             </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://form.typeform.com/to/GjbalQ7R?typeform-source=www.naas.ai">Contact Sales</Link>
+                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://share.hsforms.com/11Ie8odLzQdO6ggAtrXFcTg1h10o">Contact Sales</Link>
                         </div>
                     </div>
                 </div>

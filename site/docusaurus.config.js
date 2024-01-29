@@ -367,7 +367,7 @@ const config = {
               },
               {
                 label: "Roadmap",
-                href: "https://github.com/orgs/jupyter-naas/projects/10/views/13",
+                href: "https://github.com/orgs/jupyter-naas/projects/12/views/2",
               },
             ],
           },
