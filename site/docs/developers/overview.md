@@ -20,12 +20,11 @@ In this guide, you will acquire knowledge on:
 
 ## Creating an account and starting your server
 
-First, go to [https://app.naas.ai](https://app.naas.ai/) and proceed with social login.
+If you have previously used Naas v1 (before 29th January 2024), you can access the platform by visiting the [app.naas.ai](https://app.naas.ai) link.
 
-![](__assets__/overview/2023-09-15-17-34-05.png)
+If you haven't used Naas v1 before, we kindly ask you to request access by sending an email to support@naas.ai with the subject line "Request Access to Naas Lab" and a brief description of why you need access. This process is in place to prevent the creation of malicious accounts and to ensure the highest level of service and security.
 
-Once logged in you should land onto this page:
-
+Once logged in you should land on this page:
 ![](__assets__/overview/2023-09-15-17-37-29.png)
 
 If it’s your first time connecting you should only see “Naas Free 1vCPU / 2GB RAM”, click on “Start” to create your server and reach your JupyterLab. You will be able to get more information in the “Development environment” section of the documentation.

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Privacy Policy
 
-**Effective date:** July 5, 2023
+**Effective date:** January 29, 2024
 
 At Naas, we take your privacy seriously. Please read this Privacy Policy to learn how we treat your personal data. By using or accessing our Services in any manner, including as an Individual Customer, you acknowledge that you accept the practices and policies outlined below, and you hereby consent that we will collect, use, and share your information as described in this Privacy Policy.
 
@@ -179,6 +179,5 @@ You can see when this Privacy Policy was last updated by referring to the "Last 
 ## Contact Information
 If you have any questions or comments about this Privacy Policy, the ways in which we collect and use your Personal Data or your choices and rights regarding such collection and use, you can contact us at:
 
-Email: help@naas.ai
-
+Email: jeremy@naas.ai
 Mail: NaasAI, Inc. 8 The Green, STE 4000, Dover, DE 19901, United States
