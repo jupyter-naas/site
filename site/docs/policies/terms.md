@@ -4,10 +4,6 @@ sidebar_position: 1
 
 # Terms of Service
 
-:::info
-If you have any questions or require customized terms, feel free to [Book a meeting](https://calendly.com/jeremyravenel). We're here to assist you!
-:::
-
 **Effective date:** July 5, 2023
 
 Please carefully read these Terms of Service ("Terms") before using the Naas Products (as defined below) offered by Naas Inc. ("Naas"). By using the Naas Products, you ("Customer") agree to be bound by these Terms. If you are using the Naas Products on behalf of a business customer, you represent and warrant that you are authorized to agree to these Terms on behalf of such business customer.
