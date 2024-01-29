@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "️️⚡ The Universal Data & AI Platform",
+  title: "️️Universal Data & AI Platform",
   tagline:
     "Naas is an open alternative to ChatGPT that you can customize to your own needs. It integrates analytics, automation an AI into your workflows thanks to low-code templates and the best generative AI models.",
   favicon: "img/favicon.ico",
@@ -263,12 +263,12 @@ const config = {
           {
             title: "Solutions",
             items: [
+              // {
+              //   label: "AI Character Building",
+              //   href: "docs/solutions/introduction",
+              // },
               {
-                label: "AI Character Building",
-                href: "docs/solutions/introduction",
-              },
-              {
-                label: "AI System for Business",
+                label: "Artifical Business Intelligence (ABI)",
                 href: "docs/solutions/introduction",
               },
               {

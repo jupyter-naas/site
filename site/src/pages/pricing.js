@@ -70,7 +70,7 @@ export default function Pricing() {
                                 </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
-                                    Early access to new AI models
+                                    Early access to new features
                                 </li>
                                 <li>
                                     <svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="ui-icons" transform="translate(-109.000000, -67.000000)" fill="#22BC66"><polygon id="check" points="108.994099 76.4000626 115.987848 83.419577 129.407253 69.9978283 126.587674 67.1592372 115.987848 77.7490936 111.827057 73.5894775"></polygon></g></g></svg>
@@ -81,8 +81,7 @@ export default function Pricing() {
                                     Priority email support
                                 </li>
                             </ul>
-                            <Link className={clsx(styles.btnWhite, styles.btn)} to="https://share.hsforms.com/1sIzt9TLiQ2eSM3seBtOmcA1h10o">Contact Sales</Link>
-                            {/* <Link className={clsx(styles.btnWhite, styles.btn)} to={isAnnual ? 'https://buy.stripe.com/7sI4iGehkdVae884gn' : 'https://buy.stripe.com/cN2g1o2yC4kAe88fYZ'}>Contact Sales</Link> */}
+                            <Link className={clsx(styles.btnGreen, styles.btn)} to={isAnnual ? 'https://buy.stripe.com/7sI4iGehkdVae884gn' : 'https://buy.stripe.com/cN2g1o2yC4kAe88fYZ'}>Subscribe</Link>
                         </div>
                         <div className={clsx(styles.gridItem, styles.pricingTier)}>
                             <h3>Professional</h3>
