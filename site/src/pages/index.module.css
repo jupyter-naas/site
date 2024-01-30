@@ -9,7 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
 
-
 .navbar {
   background-color: #181a1c !important;
 }
@@ -22,24 +21,42 @@ nav button:hover {
   background-color: #181a1c;
   /* display: flex; */
   /* justify-content: center; */
-  padding-top: 150px;
+  /* padding-top: 150px;
+  padding-bottom: 220px;  */
   /* padding-bottom: 50px; */
 }
 
-
 .heroBanner {
-  /* padding: 20rem 0; */
+  padding-top: 150px;  
+  padding-bottom: 200px;
   text-align: center;
-  position: relative;
+  position: relative; 
   overflow: hidden;
   color: white;
-  padding: 0 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* max-width: 900px; */
-  /* background-size: cover; */
-  /* background-image: url("https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278"); */
+  background-size: cover; /* Ensures the GIF covers the entire div */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-image: url("https://private-user-images.githubusercontent.com/21052349/300647550-36b101ae-cdc0-4f8e-a2e2-fd5f16ab7743.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY1NzczMDMsIm5iZiI6MTcwNjU3NzAwMywicGF0aCI6Ii8yMTA1MjM0OS8zMDA2NDc1NTAtMzZiMTAxYWUtY2RjMC00ZjhlLWEyZTItZmQ1ZjE2YWI3NzQzLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMwVDAxMTAwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYxOTU2NzRmNDY5Y2UyN2EwYjkwOGY5MmU1MmZmMWQ4ZGU4ZGQ0MjExNDA0YTY2ZWQ4MmM2ZWRhMjcxZDJiY2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.JWLTDVVinfXACtrdhtk24WN2BPapQWXLbVwuGZlRbU8");
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(24, 26, 28, 0.6); /* Adjust color and opacity */
+  z-index: 1; /* Overlay is behind the content */
+}
+
+/* Ensure content is above the overlay */
+.heroBanner > * {
+  position: relative;
+  z-index: 1;
 }
 
 .title {
