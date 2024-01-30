@@ -149,28 +149,28 @@ const config = {
           {
             to: "docs/get-started/introduction",
             position: "right",
-            label: `Why Naas?`,
+            label: `About Naas`,
           },
-          {
-            to: "docs/category/platform/introduction",
-            position: "right",
-            label: `Features`,
-          },
-          {
-            to: "docs/solutions/introduction",
-            position: "right",
-            label: `Solutions`,
-          },
-          {
-            to: "docs/developers/overview",
-            position: "right",
-            label: `Developers`,
-          },
-          {
-            to: "docs/category/community",
-            position: "right",
-            label: `Community`,
-          },
+          // {
+          //   to: "docs/category/platform/introduction",
+          //   position: "right",
+          //   label: `Features`,
+          // },
+          // {
+          //   to: "docs/solutions/introduction",
+          //   position: "right",
+          //   label: `Solutions`,
+          // },
+          // {
+          //   to: "docs/developers/overview",
+          //   position: "right",
+          //   label: `Developers`,
+          // },
+          // {
+          //   to: "docs/category/community",
+          //   position: "right",
+          //   label: `Community`,
+          // },
           {
             to: "https://share.hsforms.com/11Ie8odLzQdO6ggAtrXFcTg1h10o",
             label: `Blog`,
