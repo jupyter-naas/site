@@ -82,7 +82,7 @@ const config = {
         // hideOnScroll: true,
         logo: {
           alt: "Naas",
-          src: "https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186",
+          src: "/img/naas.png",
         },
         items: [
 // {
@@ -149,7 +149,7 @@ const config = {
           {
             to: "docs/get-started/introduction",
             position: "right",
-            label: `About Naas`,
+            label: `Read the Docs`,
           },
           // {
           //   to: "docs/category/platform/introduction",
@@ -184,7 +184,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://site.naas.ai/pricing" target="_blank"><button>Create an account</button><a>`,
+            value: `<a href="/pricing"><button>Create an account</button><a>`,
           },
         ],
       },

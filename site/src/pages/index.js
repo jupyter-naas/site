@@ -74,9 +74,9 @@ function HomepageHeader() {
     <div>
       <div className={styles.heroBanner}>
         {/* <div className="container"> */}
-        <h1 className={styles.title}>️ ⚡ Universal Data & AI Platform<br></br>for modern organizations</h1>
+        <h1 className={styles.title}>️ ⚡ Universal Data & AI Platform<br></br>for your everyday business</h1>
         <p className={clsx(styles.tagline, styles.textCenter)}>Naas is an open alternative to ChatGPT you can truly customize to your needs. 
-        Create your own Data Products & AI System. Take back control. Naas is made to 10X yourself and your organization.</p>
+        Combine the power of AI models with your business  workflows to 10X yourself and your organization.</p>
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}

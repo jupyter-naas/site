@@ -9,10 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
 
-.navbar {
-  background-color: #181a1c !important;
-}
-
 nav button:hover {
   color: #fff;
 }
@@ -39,7 +35,18 @@ nav button:hover {
   background-size: cover; /* Ensures the GIF covers the entire div */
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-image: url("./static/img/landing-screensaver.gif");
+  background-image: url("/static/img/landing-screensaver.gif");
+  /* Adding the overlay */
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(24, 26, 28, 0.3); /* Adjust the color and opacity as needed */
+    z-index: 0;
+  }
 }
 
 .title {
@@ -48,6 +55,7 @@ nav button:hover {
   font-weight: 700 !important;
   margin: 0 0 20px;
   white-space: pre-line;
+  z-index: 1;
 }
 
 .tagline {
@@ -60,6 +68,7 @@ nav button:hover {
   color: #D1D1D2;
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
 h1 {
@@ -195,6 +204,7 @@ p {
 
 .buttonContainer {
   margin: 50px 0px;
+  z-index: 1;
 }
 
 .cta {
@@ -227,6 +237,7 @@ p {
   max-width: 270px;
   opacity: .7;
   width: 270px;
+  z-index: 1;
 }
 
 
