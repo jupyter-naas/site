@@ -5,6 +5,12 @@ sidebar_position: 9
 # Security Suite
 ---
 
+:::tip
+
+We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
+
+:::
+
 ![security](./img/security.png)
 
 ## Context
@@ -60,6 +66,8 @@ Naas implements HTTPS routing, utilizing the HTTPS protocol for secure data tran
 The Auth API feature combines multi-factor authentication (MFA), single sign-on (SSO), and role-based access control (RBAC) to enhance user authentication and access control. This feature ensures secure login processes, adds an extra layer of security with MFA, and allows organizations to manage user roles and permissions effectively. 
 
 ### Secrets Management
+
+![connections](./img/connections.png)
 
 The secret feature enables secure storage of passwords and connection credentials. It ensures that sensitive information is protected and provides a convenient and secure way to manage such data. 
 

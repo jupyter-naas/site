@@ -9,37 +9,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
 
-
-.navbar {
-  background-color: #181a1c !important;
-}
-
 nav button:hover {
   color: #fff;
 }
 
 .landing {
-  background-color: #181a1c;
+  background-color: #030304;
   /* display: flex; */
   /* justify-content: center; */
-  padding-top: 150px;
+  /* padding-top: 150px;
+  padding-bottom: 220px;  */
   /* padding-bottom: 50px; */
 }
 
-
 .heroBanner {
-  /* padding: 20rem 0; */
+  padding-top: 150px;  
+  padding-bottom: 200px;
   text-align: center;
-  position: relative;
+  position: relative; 
   overflow: hidden;
   color: white;
-  padding: 0 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* max-width: 900px; */
-  /* background-size: cover; */
-  /* background-image: url("https://media.discordapp.net/attachments/1084579666175729694/1091109154036404234/jeymassa_the_most_beautiful_boreal_lights_with_stars_from_space_4dfdfea9-e2ca-41ba-a7cb-e1bd8e13a1c2.png?width=1278&height=1278"); */
+  background-size: cover; /* Ensures the GIF covers the entire div */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-image: url("/static/img/landing-screensaver.gif");
+  /* Adding the overlay */
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(24, 26, 28, 0.3); /* Adjust the color and opacity as needed */
+    z-index: 0;
+  }
 }
 
 .title {
@@ -48,6 +55,7 @@ nav button:hover {
   font-weight: 700 !important;
   margin: 0 0 20px;
   white-space: pre-line;
+  z-index: 1;
 }
 
 .tagline {
@@ -60,6 +68,7 @@ nav button:hover {
   color: #D1D1D2;
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
 h1 {
@@ -88,7 +97,7 @@ p {
 }
 
 .bgDark {
-  background-color: #181a1c;
+  background-color: #030304;
 }
 
 .bgDark h2 {
@@ -195,6 +204,7 @@ p {
 
 .buttonContainer {
   margin: 50px 0px;
+  z-index: 1;
 }
 
 .cta {
@@ -227,6 +237,7 @@ p {
   max-width: 270px;
   opacity: .7;
   width: 270px;
+  z-index: 1;
 }
 
 
@@ -236,7 +247,7 @@ p {
   /* padding: 25px 0px; */
   max-width: 1200px;
   padding: 0 3rem;
-  background-color: #181a1c;
+  background-color: #030304;
   display: flex;
   justify-content: center;
 }
@@ -781,7 +792,7 @@ p {
 
 .testimonials {
   color: rgba(255, 255, 255, 1);
-  background-color: #181a1c;
+  background-color: #030304;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -791,7 +802,7 @@ p {
 
 .testimonialAbout {
   color: rgba(255, 255, 255, 1);
-  background-color: #181a1c;
+  background-color: #030304;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1141,7 +1152,7 @@ p {
 
 .pricingContainer {
   padding: 120px 30px 0px 30px;
-  background-color: #181a1c;
+  background-color: #030304;
   color: #fff;
 }
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Development Lab
+# Lab
 ---
 
 The place to create and run your Data Products

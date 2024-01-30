@@ -14,7 +14,7 @@
   --ifm-color-primary-lighter: #47dd82;
   --ifm-color-primary-lightest: #47dd82;
   --ifm-code-font-size: 95%;
-  --ifm-footer-background-color: #181A1C;
+  --ifm-footer-background-color: #030304;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --heading-font: "Segoe UI", Helvetica, Arial, sans-serif;
   --body-font: "Roboto", sans-serif;
@@ -30,7 +30,7 @@
   --ifm-color-primary-lighter: #47dd82;
   --ifm-color-primary-lightest: #47dd82;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-footer-background-color: #181A1C;
+  --ifm-footer-background-color: #030304;
 }
 
 /* Font families declaration */
@@ -54,7 +54,7 @@ h6 {
 
 .navbar {
   /* Set the background color of the navbar */
-  background-color: #181a1c;
+  background-color: #030304;
 }
 
 .navbar__item--active,
@@ -88,7 +88,7 @@ code {
 button {
   /* For the Sign in button in the Navbar */
   background-color: #48dd82;
-  color: #181A1C;
+  color: #030304;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;

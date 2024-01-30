@@ -48,9 +48,9 @@ export default function Home() {
       </Link>
       <HomepageHeader />
       <main>
-        <HomeTLDR />
         <h2 id="features" className={styles.h2textCenter} style={{marginTop: '2rem'}}>Everything you need to integrate AI in your daily operations</h2>
         <HomeFeatures />
+        <HomeTLDR />
         <h2 id="how-it-works" className={styles.h2textCenter}>How It Works?</h2>
         <Steps />
         <HomeApproach />
@@ -71,19 +71,18 @@ export default function Home() {
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <div className={styles.landing}>
+    <div>
       <div className={styles.heroBanner}>
         {/* <div className="container"> */}
-        <h1 className={styles.title}>️ ⚡Build the AI system to power <br></br>your everyday business</h1>
-        <p className={clsx(styles.tagline, styles.textCenter)}>Naas is an open alternative to ChatGPT you can truly customize to your own needs. 
-          We help you integrate analytics, automation an AI into your workflows thanks to a universal chat interface, low-code templates and the best generative AI models.</p>
+        <h1 className={styles.title}>️ ⚡ Universal Data & AI Platform<br></br>for your everyday business</h1>
+        <p className={clsx(styles.tagline, styles.textCenter)}>Naas is an open alternative to ChatGPT you can truly customize to your needs. 
+        Combine the power of AI models with your business  workflows to 10X yourself and your organization.</p>
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="https://naas.ai/auth/signin"
-            target="_blank"
+            href="/pricing"
           >
-            Start for free
+            Create an account
           </a>
         </div>
         <div className={styles.siteInfo}>
@@ -102,13 +101,14 @@ function HomeTLDR() {
       <div className={styles.community}>
         <div>
           <div className={styles.half}>
+          <h2 className={styles.textCenter}>
+              A simple interface combining chat & search on top of a powerful orchestration layer.
+            </h2>
               <ImageFrame imageUrl={"https://user-images.githubusercontent.com/21052349/285159046-ec559f3e-1ffd-4cbf-b94f-f7d44f6235d2.png"}
               style={{ height: "217px" }} />
           </div>
           <div className={clsx(styles.flex, styles.flexCol, styles.itemsCenter)}>
-            <h2 className={styles.textCenter}>
-              We are creating a universal data & AI platform: <br></br>a simple chat interface with a powerful orchestration layer.
-            </h2>
+
             <p>
               People at incredible organizations supports us, and we are just getting started.
             </p>
@@ -332,7 +332,7 @@ function Step1() {
                 Train your assistant to understand your unique needs and preferences to experience tailored responses quality.
                 </p>
                 <br></br>
-                <a className={styles.cta} href="https://naas.ai/auth/signin">Start for free</a>
+                <a className={styles.cta} href="https://naas.ai/auth/signin">Create an account</a>
             </div>
         </div>
       </div>
@@ -457,7 +457,7 @@ function HomeFeatures() {
             <img src="./img/hugginfaceai.svg" alt="hugginfaceai" />
             <img src="./img/midjourneyai.svg" alt="midjourneyai" />
           </div>
-            <a className={styles.cta} href="https://naas.ai/auth/signin" target="_blank">Start for free</a>
+            <a className={styles.cta} href="https://naas.ai/auth/signin" target="_blank">Create an account</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"}>
           <img className={styles.titleImage} src="./img/site_features/search.svg" alt="search" />
@@ -533,7 +533,7 @@ function HomeApproach() {
                 href="https://naas.ai/auth/signin"
                 target="_blank"
               >
-                Start for free
+                Create an account
               </a>
               <a
                 className={styles.btnWhite}
@@ -1067,7 +1067,7 @@ function HomeContributors() {
               href="https://naas.ai/auth/signin"
               target="_blank"
             >
-              Start for free
+              Create an account
             </a>
             <a
               className={styles.btnWhite}

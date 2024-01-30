@@ -67,14 +67,14 @@ const config = {
       colorMode: {
         disableSwitch: true,
       },
-      // announcementBar: {
-      //   id: 'support_us',
-      //  content:
-      //   "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'>Get early access to Naas 2.0</a>, a redesigned Workspace with built-in Google Search and ChatGPT alternative to create your own data & AI products.",
-      // backgroundColor: '#fafbfc',
-      // textColor: '#091E42',
-      // isCloseable: false,
-      // },
+      announcementBar: {
+        id: 'support_us',
+       content:
+        " 🚀 We are building an alternative to AGI: ABI, your Artificial Business Intelligence,<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'> get early access</a>,",
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: false,
+      },
       navbar: {
         style: "dark",
         title: "",
@@ -82,7 +82,7 @@ const config = {
         // hideOnScroll: true,
         logo: {
           alt: "Naas",
-          src: "https://landen.imgix.net/jtci2pxwjczr/assets/5ice39g4.png?w=186",
+          src: "/img/naas.png",
         },
         items: [
 // {
@@ -147,28 +147,33 @@ const config = {
 //   position: "left",
 // },
           {
-            to: "https://naas.ai/search",
+            to: "docs/get-started/introduction",
             position: "right",
-            label: `Search`,
+            label: `Read the Docs`,
           },
-          {
-            to: "https://naas.ai/chat",
-            position: "right",
-            label: `Chat`,
-          },
-          {
-            to: "https://app.naas.ai/",
-            position: "right",
-            label: `Lab`,
-          },
-          {
-            to: "https://site.naas.ai/docs/get-started/introduction",
-            position: "right",
-            label: `Docs`,
-          },
+          // {
+          //   to: "docs/category/platform/introduction",
+          //   position: "right",
+          //   label: `Features`,
+          // },
+          // {
+          //   to: "docs/solutions/introduction",
+          //   position: "right",
+          //   label: `Solutions`,
+          // },
+          // {
+          //   to: "docs/developers/overview",
+          //   position: "right",
+          //   label: `Developers`,
+          // },
+          // {
+          //   to: "docs/category/community",
+          //   position: "right",
+          //   label: `Community`,
+          // },
           {
             to: "https://share.hsforms.com/11Ie8odLzQdO6ggAtrXFcTg1h10o",
-            label: `Enterprise`,
+            label: `Blog`,
             position: "right",
           },
           {
@@ -179,7 +184,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="https://naas.ai/" target="_blank"><button>Start for free</button><a>`,
+            value: `<a href="/pricing"><button>Create an account</button><a>`,
           },
         ],
       },

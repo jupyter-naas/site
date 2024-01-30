@@ -2,12 +2,12 @@
 sidebar_position: 2
 ---
 
-# Data & AI Catalog Search
+# Search
 ---
 
-The Gateway to the World's Largest Catalog of Data and AI Templates.
+A searchable knowledge base built from public or private list of assets. 
 
-![NaasSearch](../get-started/img/NaasSearch.gif)
+![NaasSearch](./img/search-sales-templates.png)
 ## Context
 
 In the world of data and AI, the ability to find, understand, and utilize the right resources, at the right time, extremely fast is paramount. We understand that, which is why we've created Naas Search.
