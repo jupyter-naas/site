@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
 ---
-# Universal Chat Interface
+# Chat
 ---
 
-In the spirit of innovation that drives us, we've set out to redefine the landscape of AI-based communication. We're not just tweaking the existing models. We're creating something entirely new, something that pushes the boundaries of what's possible. 
+A single chat interface to work with all the generative AI models.
 
-![UniversalChatInterface](./img/UniversalChatInterface.png)
+![UniversalChatInterface](./img/chat-static.png)
 ## Context
 
 The main motivation for the creation of this AI Chat Interface is to offer an alternative to ChatGPT. While ChatGPT has revolutionized the interface, making it simple and user-friendly, it falls short in terms of flexibility. It doesn't allow users to experiment with different open-source models available or integrate to their data and workflows easily. That's where our AI Chat Interface comes in. It aggregates various models into a single interface, and allow the creation and easy distribution of custom data and automation plugins for a more extensive and customizable Data & AI experience.

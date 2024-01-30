@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
 ---
-# Analytics & Dashboarding
+# Analytics
 ---
 
 Activating fast decision-making
 
-![DataAITemplates](./img/DataAITemplates.gif)
+![DataAITemplates](./img/search-sales-templates.png)
 ## Context
 
 Naas has powerful analytics and dashboard capabilities designed to empower businesses and development teams to create, manage, and share data-driven insights through interactive and visually engaging charts and dashboards. This page provides an overview of how to generate and share insights with stakeholders in a secure and controlled manner.

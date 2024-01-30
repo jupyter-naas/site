@@ -14,7 +14,7 @@ nav button:hover {
 }
 
 .landing {
-  background-color: #181a1c;
+  background-color: #030304;
   /* display: flex; */
   /* justify-content: center; */
   /* padding-top: 150px;
@@ -97,7 +97,7 @@ p {
 }
 
 .bgDark {
-  background-color: #181a1c;
+  background-color: #030304;
 }
 
 .bgDark h2 {
@@ -247,7 +247,7 @@ p {
   /* padding: 25px 0px; */
   max-width: 1200px;
   padding: 0 3rem;
-  background-color: #181a1c;
+  background-color: #030304;
   display: flex;
   justify-content: center;
 }
@@ -792,7 +792,7 @@ p {
 
 .testimonials {
   color: rgba(255, 255, 255, 1);
-  background-color: #181a1c;
+  background-color: #030304;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -802,7 +802,7 @@ p {
 
 .testimonialAbout {
   color: rgba(255, 255, 255, 1);
-  background-color: #181a1c;
+  background-color: #030304;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1152,7 +1152,7 @@ p {
 
 .pricingContainer {
   padding: 120px 30px 0px 30px;
-  background-color: #181a1c;
+  background-color: #030304;
   color: #fff;
 }
 

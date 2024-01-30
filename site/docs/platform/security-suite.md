@@ -5,6 +5,12 @@ sidebar_position: 9
 # Security Suite
 ---
 
+:::tip
+
+We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
+
+:::
+
 ![security](./img/security.png)
 
 ## Context
