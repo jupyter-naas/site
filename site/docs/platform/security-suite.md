@@ -67,6 +67,8 @@ The Auth API feature combines multi-factor authentication (MFA), single sign-on 
 
 ### Secrets Management
 
+![connections](./img/connections.png)
+
 The secret feature enables secure storage of passwords and connection credentials. It ensures that sensitive information is protected and provides a convenient and secure way to manage such data. 
 
 ### Jobs Execution Logs
