@@ -7,11 +7,9 @@ sidebar_position: 9
 
 :::tip
 
-We're in the early alpha stage, this page is constantly evolving, book a call with us to learn more.
+Contact us at support@naas.ai if you have any questions or specific requirements you would like us to comply to.
 
 :::
-
-![security](./img/security.png)
 
 ## Context
 

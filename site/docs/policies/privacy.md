@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Privacy Policy
 
 **Effective date:** January 29, 2024

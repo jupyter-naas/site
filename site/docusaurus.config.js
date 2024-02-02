@@ -196,23 +196,23 @@ const config = {
             items: [
               {
                 label: "Why Naas?",
-                href: "docs/get-started/introduction",
+                to: "docs/get-started/introduction",
               },
               {
                 label: "Basic Usage",
-                href: "docs/get-started/basic",
+                to: "docs/get-started/basic",
               },
               {
                 label: "Intermediate Usage",
-                href: "docs/get-started/intermediate",
+                to: "docs/get-started/intermediate",
               },
               {
                 label: "Advanced Usage",
-                href: "docs/get-started/advanced",
+                to: "docs/get-started/advanced",
               },
               {
                 label: "Pricing",
-                href: "/pricing",
+                to: "/pricing",
               },
             ],
           },
@@ -221,47 +221,47 @@ const config = {
             items: [
               {
                 label: "Overview",
-                href: "docs/get-started/introduction",
+                to: "docs/get-started/introduction",
               },
               {
-                label: "Universal Chat Interface",
-                href: "docs/platform/aI-powered-chat",
+                label: "Chat",
+                to: "docs/platform/aI-powered-chat",
               },
               {
-                label: "Data & AI Catalog Search",
-                href: "docs/platform/search-catalog-template-library",
+                label: "Search",
+                to: "docs/platform/search-catalog-template-library",
               },
               {
-                label: "Chrome Extension",
-                href: "docs/platform/chrome-extension",
+                label: "Lab",
+                to: "docs/platform/dev-environment",
               },
               {
-                label: "Development Lab",
-                href: "docs/platform/dev-environment",
+                label: "Analytics",               
+                to: "docs/platform/analytics-dashboard-deployment",
               },
               {
                 label: "Workflow Automation",
-                href: "docs/platform/workflow-automation",
-              },
-              {
-                label: "Analytics & Dashboarding",               
-                href: "docs/platform/analytics-dashboard-deployment",
+                to: "docs/platform/workflow-automation",
               },
               {
                 label: "Collaboration & Versioning",               
-                href: "docs/platform/collaboration-versioning",
+                to: "docs/platform/collaboration-versioning",
               },
               {
                 label: "Serverless Deployment",               
-                href: "docs/platform/scalable-computing",
+                to: "docs/platform/scalable-computing",
               },
               {
                 label: "Security Suite",               
-                href: "docs/platform/security-suite",
+                to: "docs/platform/security-suite",
               },
               {
                 label: "Account Administration",               
-                href: "docs/platform/admin-dashboard",
+                to: "docs/platform/admin-dashboard",
+              },
+              {
+                label: "Chrome Extension",
+                to: "docs/platform/chrome-extension",
               },
             ],
           },
