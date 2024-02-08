@@ -119,13 +119,14 @@ pipeline.run()
 
 ```
 
-![multiple-pipeline](./img/multiple-pipeline.png)
 
 In this example, we have three steps that we want to execute in parallel: `step1`, `step2`, and `step3`. We create each step using the `NotebookStep` class and provide the name of the step and the notebook path.
 
 We then create a `ParallelStep` and pass in a list of the three steps we want to execute in parallel. We add the `ParallelStep` to the pipeline using the `>>` operator.
 
 Finally, we add the `End` step to the pipeline and call `pipeline.run()` to execute the pipeline.
+
+![multiple-pipeline](./img/multiple-pipeline.png)
 
 When the pipeline is run, the three steps (`step1`, `step2`, and `step3`) will be executed in parallel, which can greatly speed up the overall execution time of the pipeline.
 
