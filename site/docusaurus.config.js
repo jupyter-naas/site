@@ -40,7 +40,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
+          routeBasePath: '/', // Add this line to serve docs from the base URL
           // Remove this to remove the "sedit this page" links.
         },
         blog: {
@@ -70,7 +70,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
        content:
-        " 🚀 We are building an alternative to AGI: ABI, your Artificial Business Intelligence,<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/forms/d/e/1FAIpQLSdJuyRdcQ7MlJGzDohRYx7IzvbmcvgIuilDLsLUi7voYiE3CA/viewform'> get early access</a>,",
+        " 🚀 We are building an alternative to AGI: ABI, your Artificial Business Intelligence,<a target='_blank' rel='noopener noreferrer' href=''> get early access</a>,",
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: false,
@@ -147,9 +147,9 @@ const config = {
 //   position: "left",
 // },
           {
-            to: "docs/get-started/introduction",
+            to: "platform/introduction",
             position: "right",
-            label: `Read the Docs`,
+            label: `Docs`,
           },
           // {
           //   to: "docs/category/platform/introduction",
@@ -172,19 +172,14 @@ const config = {
           //   label: `Community`,
           // },
           {
-            to: "https://share.hsforms.com/11Ie8odLzQdO6ggAtrXFcTg1h10o",
+            to: "https://leandata.substack.com/",
             label: `Blog`,
             position: "right",
           },
           {
-            to: "https://naas.ai/auth/signin",
-            position: "right",
-            label: `Sign in`,
-          },
-          {
             type: "html",
             position: "right",
-            value: `<a href="/pricing"><button>Create an account</button><a>`,
+            value: `<a href="https://naas.ai/auth/signin"><button>Sign in</button><a>`,
           },
         ],
       },
@@ -192,117 +187,65 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Overview",
+            title: "Safety",
             items: [
               {
-                label: "Why Naas?",
-                to: "docs/get-started/introduction",
+                label: "General Instructions",
+                to: "safety/general-instructions",
               },
               {
-                label: "Basic Usage",
-                to: "docs/get-started/basic",
+                label: "Product Warnings",
+                to: "safety/product-warnings",
               },
               {
-                label: "Intermediate Usage",
-                to: "docs/get-started/intermediate",
-              },
-              {
-                label: "Advanced Usage",
-                to: "docs/get-started/advanced",
-              },
-              {
-                label: "Pricing",
-                to: "/pricing",
+                label: "Working Environment",
+                to: "safety/working-environment",
               },
             ],
           },
           {
-            title: "Platform",
+            title: "Platform Overview",
             items: [
               {
-                label: "Overview",
-                to: "docs/get-started/introduction",
+                label: "Introduction",
+                to: "platform/introduction",
               },
               {
-                label: "Chat",
-                to: "docs/platform/aI-powered-chat",
+                label: "Frameworks",
+                to: "platform/frameworks",
               },
               {
-                label: "Search",
-                to: "docs/platform/search-catalog-template-library",
+                label: "Key Features",
+                to: "platform/key-features",
               },
               {
-                label: "Lab",
-                to: "docs/platform/dev-environment",
-              },
-              {
-                label: "Analytics",               
-                to: "docs/platform/analytics-dashboard-deployment",
-              },
-              {
-                label: "Workflow Automation",
-                to: "docs/platform/workflow-automation",
-              },
-              {
-                label: "Collaboration & Versioning",               
-                to: "docs/platform/collaboration-versioning",
-              },
-              {
-                label: "Serverless Deployment",               
-                to: "docs/platform/scalable-computing",
-              },
-              {
-                label: "Security Suite",               
-                to: "docs/platform/security-suite",
-              },
-              {
-                label: "Account Administration",               
-                to: "docs/platform/admin-dashboard",
-              },
-              {
-                label: "Chrome Extension",
-                to: "docs/platform/chrome-extension",
+                label: "Components",
+                to: "platform/platform-components",
               },
             ],
           },
           {
-            title: "Solutions",
+            title: "Usage",
             items: [
-              // {
-              //   label: "AI Character Building",
-              //   href: "docs/solutions/introduction",
-              // },
               {
-                label: "Artifical Business Intelligence (ABI)",
-                href: "docs/solutions/introduction",
+                label: "General Principles",
+                href: "usage/general-principles",
               },
               {
-                label: "Content Creation",
-                href: "docs/solutions/content-engine",
+                label: "Foundation AI Models",
+                href: "usage/foundation-ai-models",
               },
               {
-                label: "Growth Marketing",
-                href: "docs/solutions/growth-engine",
+                label: "AIA: Personal AI Assistant",
+                href: "usage/aia-personal-ai-assistant",
               },
               {
-                label: "Sales Conversion",
-                href: "docs/solutions/sales-engine",
+                label: "ABI: Mixture of Assistants",
+                href: "abi-mixture-of-asssitants",
               },
               {
-                label: "Operations Efficiency",
-                href: "docs/solutions/operations-engine",
-              },
-              {
-                label: "Finance Management",
-                href: "docs/solutions/finance-engine",
-              },
-              {
-                label: "Open Data Intelligence",
-                href: "docs/solutions/opendata-engine",
-              },
-              {
-                label: "Expert Acceleration Program",
-                href: "docs/solutions/opendata-engine",
+                label: "Custom Assistants",
+                href: "usage/custom-ai-assistants",
               },
             ],
           },
@@ -312,6 +255,14 @@ const config = {
               {
                 label: "Quickstart",
                 href: "docs/developers/overview",
+              },
+              {
+                label: "Notebook Templates",
+                href: "docs/category/drivers",
+              },
+              {
+                label: "Build Data & AI Products",
+                href: "docs/developers/jobs/space",
               },
               {
                 label: "Development Server",
@@ -340,18 +291,6 @@ const config = {
               {
                 label: "Manage Secrets",
                 href: "docs/developers/jobs/secret",
-              },
-              {
-                label: "Publish Products",
-                href: "docs/developers/jobs/space",
-              },
-              {
-                label: "Integration Drivers",
-                href: "docs/category/drivers",
-              },
-              {
-                label: "Notebook Templates",
-                href: "docs/category/drivers",
               },
             ],
           },

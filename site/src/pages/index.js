@@ -80,9 +80,9 @@ function HomepageHeader() {
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="/pricing"
+            href="https://naas.ai/home"
           >
-            Create an account
+            Sign in
           </a>
         </div>
         <div className={styles.siteInfo}>
@@ -332,7 +332,7 @@ function Step1() {
                 Train your assistant to understand your unique needs and preferences to experience tailored responses quality.
                 </p>
                 <br></br>
-                <a className={styles.cta} href="https://naas.ai/auth/signin">Create an account</a>
+                <a className={styles.cta} href="https://naas.ai/auth/signin">Sign in</a>
             </div>
         </div>
       </div>
@@ -457,7 +457,7 @@ function HomeFeatures() {
             <img src="./img/hugginfaceai.svg" alt="hugginfaceai" />
             <img src="./img/midjourneyai.svg" alt="midjourneyai" />
           </div>
-            <a className={styles.cta} href="https://naas.ai/auth/signin" target="_blank">Create an account</a>
+            <a className={styles.cta} href="https://naas.ai/auth/signin" target="_blank">Sign in</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277158958-90ab4e1d-ea6d-48db-b60c-47804cfe6a86.png"}>
           <img className={styles.titleImage} src="./img/site_features/search.svg" alt="search" />
@@ -533,7 +533,7 @@ function HomeApproach() {
                 href="https://naas.ai/auth/signin"
                 target="_blank"
               >
-                Create an account
+                Sign in
               </a>
               <a
                 className={styles.btnWhite}
@@ -837,10 +837,6 @@ function HomeSolutions() {
             <div className={styles.galleryItem}>
               <div>
                 <div className={styles.media}>
-                  <img
-                    src="https://media.discordapp.net/attachments/1084579666175729694/1107794337745604670/jeymassa_a_futurist_cover_for_naas_content_engine_universal_dat_fbf44c7c-1a4a-4cf1-9edf-465dbce0911b.png?width=2180&height=1246"
-                    alt="amazon"
-                  />
                 </div>
                 <div className={styles.galleryMeta}>
                   <svg
@@ -1067,7 +1063,7 @@ function HomeContributors() {
               href="https://naas.ai/auth/signin"
               target="_blank"
             >
-              Create an account
+              Sign in
             </a>
             <a
               className={styles.btnWhite}
