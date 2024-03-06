@@ -86,8 +86,8 @@ function HomepageHeader() {
           </a>
         </div>
         <div className={styles.siteInfo}>
-          Naas.ai is currently in limited alpha. <br />Start with 100 free
-          credits/month for free.
+          Naas.ai is currently in ealy beta. <br />Request access to get 100
+          credits free.
         </div>
         {/* </div> */}
       </div>
@@ -448,7 +448,6 @@ function HomeFeatures() {
           with next generation AI language
           models in a single interface.
           </p>
-          <a className={styles.link} href="docs/platform/aI-powered-chat">Learn more →</a>
           <div className={styles.featureAILogos}>
             <img src="./img/openai.svg" alt="openai" />
             <img src="./img/metaai.svg" alt="metaai" />
@@ -466,7 +465,6 @@ function HomeFeatures() {
             low-code templates, made by
             community, to kickstart journey and easily adapt it to your needs.
           </p>
-          <a className={styles.link} href="docs/platform/search-catalog-template-library">Learn more →</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159499-3ad84b9e-5df7-4dd8-a5c7-25d93230cf35.png"}>
           <img className={styles.titleImage} src="./img/site_features/lab.svg" alt="lab" />
@@ -476,7 +474,6 @@ function HomeFeatures() {
           No separated, clunky systems
           needed. You can glue everything together.
           </p>
-          <a className={styles.link} href="docs/platform/dev-environment">Learn more →</a>
       </Feature>
       <Feature imageUrl={"https://user-images.githubusercontent.com/81156510/277159611-1868ba9e-b2a8-431b-b384-ddd6a9d3426f.png"}>
           <img className={styles.titleImage} src="./img/site_features/admin.svg" alt="admin" />
@@ -487,7 +484,6 @@ function HomeFeatures() {
           our prepaid credit-based system
           from one central dashboard
           </p>
-          <a className={styles.link} href="">Learn more →</a>
       </Feature>
     </>
   );
