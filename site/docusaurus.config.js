@@ -156,19 +156,19 @@ const config = {
             items: [
               {
                 label: "Generative AI Models",
-                href: "usage/foundation-ai-models",
+                to: "/usage/foundation-ai-models",
               },
               {
                 label: "AIA: Personal AI Assistant",
-                href: "usage/aia-personal-ai-assistant",
+                to: "/usage/aia-personal-ai-assistant",
               },
               {
                 label: "ABI: Mixture of Assistants",
-                href: "usage/abi/introduction",
+                to: "/usage/abi/introduction",
               },
               {
                 label: "Custom Assistants",
-                href: "usage/custom-ai-assistants",
+                to: "/usage/custom-ai-assistants",
               },
             ],
           },
@@ -177,43 +177,43 @@ const config = {
             items: [
               {
                 label: "Quickstart",
-                href: "resources/developers/overview",
+                to: "resources/developers/overview",
               },
               {
                 label: "Notebook Templates",
-                href: "resources/developers/templates",
+                to: "resources/developers/templates",
               },
               {
                 label: "Build Data & AI Products",
-                href: "resources/developers/jobs/space",
+                to: "resources/developers/jobs/space",
               },
               {
                 label: "Development Environment",
-                href: "resources/developers/development",
+                to: "resources/developers/development",
               },
               {
                 label: "Schedule Workflows",
-                href: "resources/developers/jobs/scheduler",
+                to: "resources/developers/jobs/scheduler",
               },
               {
                 label: "Generate Assets",
-                href: "resources/developers/jobs/asset",
+                to: "resources/developers/jobs/asset",
               },
               {
                 label: "Trigger Webhooks",
-                href: "resources/developers/jobs/webhook",
+                to: "resources/developers/jobs/webhook",
               },
               {
                 label: "Send Notifications",
-                href: "resources/developers/jobs/notification",
+                to: "resources/developers/jobs/notification",
               },
               {
                 label: "Build Pipelines",
-                href: "resources/developers/jobs/pipeline",
+                to: "resources/developers/jobs/pipeline",
               },
               {
                 label: "Manage Secrets",
-                href: "resources/developers/jobs/secret",
+                to: "resources/developers/jobs/secret",
               },
             ],
           },
@@ -230,7 +230,7 @@ const config = {
               },
               {
                 label: "How to contribute?",
-                href: "resources/community/how-to-contribute",
+                to: "resources/community/how-to-contribute",
               },
               {
                 label: "Roadmap",
@@ -255,11 +255,11 @@ const config = {
               },
               {
                 label: "Terms of Service",
-                href: "policies/terms",
+                to: "policies/terms",
               },
               {
                 label: "Privacy",
-                href: "policies/privacy",
+                to: "policies/privacy",
               },
               {
                 label: "Github",
