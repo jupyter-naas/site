@@ -156,11 +156,7 @@ const config = {
             items: [
               {
                 label: "Generative AI Models",
-<<<<<<< HEAD
                 to: "usage/foundation-ai-models",
-=======
-                href: "usage/foundation-ai-models",
->>>>>>> 8e4aeea46251e4a04b9bb973ea0e40f3660a841d
               },
               {
                 label: "AIA: Personal AI Assistant",
@@ -168,11 +164,7 @@ const config = {
               },
               {
                 label: "ABI: Mixture of Assistants",
-<<<<<<< HEAD
-                to: "usage/abi-mixture-of-assistants",
-=======
                 href: "usage/abi/introduction",
->>>>>>> 8e4aeea46251e4a04b9bb973ea0e40f3660a841d
               },
               {
                 label: "Custom Assistants",
