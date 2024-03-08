@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Common issues
 
-1.  **Function call errors**: Ensure that you're using the correct low-code functions methods and parameters. Refer to the [Jobs](docs/developers/jobs/scheduler) or [Drivers](docs/developers/drivers/airtable) documentation pages for guidance.
+1.  **Function call errors**: Ensure that you're using the correct low-code functions methods and parameters. Refer to the [Jobs](resources/developers/jobs/scheduler) or [Drivers](resources/developers/drivers/airtable) documentation pages for guidance.
     
 2.  **Scheduling issues**: If your scheduled notebooks aren't running as expected, verify that the schedule is set up correctly using the `naas.scheduler` function and that the specified time zone is accurate.
     
