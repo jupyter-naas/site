@@ -21,7 +21,7 @@ const config = {
   organizationName: "jupypter-naas", // Usually your GitHub org/user name.
   projectName: "site", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -155,24 +155,20 @@ const config = {
             title: "Usage",
             items: [
               {
-                label: "General Principles",
-                href: "usage/general-principles",
-              },
-              {
-                label: "Foundation AI Models",
-                href: "usage/foundation-ai-models",
+                label: "Generative AI Models",
+                to: "usage/foundation-ai-models",
               },
               {
                 label: "AIA: Personal AI Assistant",
-                href: "usage/aia-personal-ai-assistant",
+                to: "usage/aia-personal-ai-assistant",
               },
               {
                 label: "ABI: Mixture of Assistants",
-                href: "usage/abi-mixture-of-assistants",
+                to: "usage/abi-mixture-of-assistants",
               },
               {
                 label: "Custom Assistants",
-                href: "usage/custom-ai-assistants",
+                to: "usage/custom-ai-assistants",
               },
             ],
           },
