@@ -155,11 +155,7 @@ const config = {
             title: "Usage",
             items: [
               {
-                label: "General Principles",
-                href: "usage/general-principles",
-              },
-              {
-                label: "Foundation AI Models",
+                label: "Generative AI Models",
                 href: "usage/foundation-ai-models",
               },
               {
@@ -168,7 +164,7 @@ const config = {
               },
               {
                 label: "ABI: Mixture of Assistants",
-                href: "usage/abi-mixture-of-assistants",
+                href: "usage/abi/introduction",
               },
               {
                 label: "Custom Assistants",
@@ -259,11 +255,11 @@ const config = {
               },
               {
                 label: "Terms of Service",
-                href: "docs/policies/terms",
+                href: "policies/terms",
               },
               {
                 label: "Privacy",
-                href: "docs/policies/privacy",
+                href: "policies/privacy",
               },
               {
                 label: "Github",
