@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Unlock Monetization Opportunities
+# Unlock Monetization
 ---
 
 ![engines](../mission/img/monetization.png)

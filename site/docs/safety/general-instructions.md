@@ -11,7 +11,7 @@ Promote responsible use of the NAAS platform by ensuring authorized access, secu
 
 **Account Security:** Maintain the confidentiality of your login credentials. Utilize strong, unique passwords and enable two-factor authentication (if available, see Roadmap) to secure your account against unauthorized access.
 
-**Data Privacy:**Exercise caution when handling sensitive business and personal information. Comply with applicable data protection laws and regulations to safeguard the privacy of your and your customers' data.
+**Data Privacy:** Exercise caution when handling sensitive business and personal information. Comply with applicable data protection laws and regulations to safeguard the privacy of your and your customers' data.
 
 **Software Updates:**
 - **NAAS Platform:** As a cloud-based platform, NAAS is maintained by the provider to ensure you always have access to the latest security enhancements and features. Regular platform updates are performed automatically, reducing the need for user intervention while ensuring optimal security and performance.

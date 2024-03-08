@@ -74,7 +74,7 @@ const config = {
         // hideOnScroll: true,
         logo: {
           alt: "Naas",
-          href: "https://naas.ai",
+          href: "/",
           src: "/img/naas.png",
         },
         items: [
@@ -114,19 +114,19 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Mission",
+            title: "Goals",
             items: [
               {
-                label: "Building Trust in AI",
-                to: "safety/general-instructions",
+                label: "Build Trust in AI",
+                to: "mission/building-trust-in-ai",
               },
               {
-                label: "Mapping Business Knowledge",
-                to: "safety/product-warnings",
+                label: "Map Business Knowledge",
+                to: "mission/mapping-business-knowledge",
               },
               {
-                label: "Unlocking Monetization",
-                to: "safety/working-environment",
+                label: "Unlock Monetization",
+                to: "mission/unlocking-monetization-opportunities",
               },
             ],
           },
@@ -164,7 +164,7 @@ const config = {
               },
               {
                 label: "ABI: Mixture of Assistants",
-                to: "/usage/abi/introduction",
+                href: "usage/abi/introduction",
               },
               {
                 label: "Custom Assistants",
@@ -177,43 +177,43 @@ const config = {
             items: [
               {
                 label: "Quickstart",
-                to: "resources/developers/overview",
+                href: "resources/developers/overview",
               },
               {
                 label: "Notebook Templates",
-                to: "resources/developers/templates",
+                href: "resources/developers/templates",
               },
               {
                 label: "Build Data & AI Products",
-                to: "resources/developers/jobs/space",
+                href: "resources/developers/jobs/space",
               },
               {
                 label: "Development Environment",
-                to: "resources/developers/development",
+                href: "resources/developers/development",
               },
               {
                 label: "Schedule Workflows",
-                to: "resources/developers/jobs/scheduler",
+                href: "resources/developers/jobs/scheduler",
               },
               {
                 label: "Generate Assets",
-                to: "resources/developers/jobs/asset",
+                href: "resources/developers/jobs/asset",
               },
               {
                 label: "Trigger Webhooks",
-                to: "resources/developers/jobs/webhook",
+                href: "resources/developers/jobs/webhook",
               },
               {
                 label: "Send Notifications",
-                to: "resources/developers/jobs/notification",
+                href: "resources/developers/jobs/notification",
               },
               {
                 label: "Build Pipelines",
-                to: "resources/developers/jobs/pipeline",
+                href: "resources/developers/jobs/pipeline",
               },
               {
                 label: "Manage Secrets",
-                to: "resources/developers/jobs/secret",
+                href: "resources/developers/jobs/secret",
               },
             ],
           },
@@ -230,7 +230,7 @@ const config = {
               },
               {
                 label: "How to contribute?",
-                to: "resources/community/how-to-contribute",
+                href: "resources/community/how-to-contribute",
               },
               {
                 label: "Roadmap",
@@ -255,11 +255,11 @@ const config = {
               },
               {
                 label: "Terms of Service",
-                to: "policies/terms",
+                href: "policies/terms",
               },
               {
                 label: "Privacy",
-                to: "policies/privacy",
+                href: "policies/privacy",
               },
               {
                 label: "Github",

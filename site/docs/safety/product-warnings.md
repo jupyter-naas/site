@@ -15,4 +15,4 @@ Below are critical product-specific warnings designed to ensure your interaction
 
 **External Links and Data:** Exercise caution when accessing external links or importing data. Verify the authenticity and security of sources to prevent exposure to malicious content or data breaches.
 
-**Emergency Procedures: **In case of a security breach or loss of data, follow your organization's emergency response plan. Promptly contact NAAS platform support for assistance and to mitigate potential impacts.
+**Emergency Procedures:** In case of a security breach or loss of data, follow your organization's emergency response plan. Promptly contact NAAS platform support for assistance and to mitigate potential impacts.
