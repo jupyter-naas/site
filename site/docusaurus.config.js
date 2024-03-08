@@ -2,7 +2,6 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 // const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -63,17 +62,10 @@ const config = {
         sans: ["San Francisco", "Arial", "sans-serif"],
       },
       // Replace with your project's social card
-      image: "img/how-it-works.png",
+      image: "img/landing-screensaver.gif",
       colorMode: {
-        disableSwitch: true,
-      },
-      announcementBar: {
-        id: 'support_us',
-       content:
-        " 🚀 We are building an alternative to AGI: ABI, your Artificial Business Intelligence,<a target='_blank' rel='noopener noreferrer' href=''> get early access</a>,",
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
-      isCloseable: false,
+        defaultMode: 'dark',
+        disableSwitch: false,
       },
       navbar: {
         style: "dark",
@@ -82,104 +74,39 @@ const config = {
         // hideOnScroll: true,
         logo: {
           alt: "Naas",
+          href: "https://naas.ai",
           src: "/img/naas.png",
         },
         items: [
-// {
-//   type: "dropdown",
-//   label: "Platform",
-//   position: "left",
-//   items: [
-//     {
-//       type: "doc",
-//       label: "Overview",
-//       docId: "get-started/introduction",
-//     },
-//     {
-//       type: "doc",
-//       label: "Universal Chat Interface",
-//       docId: "platform/aI-powered-chat",
-//     },
-//     ...
-//   ],
-// },
-// {
-//   type: "dropdown",
-//   label: "Solutions",
-//   position: "left",
-//   items: [
-//     {
-//       type: "doc",
-//       label: "Artificial Business Intelligence",
-//       docId: "solutions/introduction",
-//     },
-//     ...
-//   ],
-// },
-// {
-//   type: "dropdown",
-//   label: "Developers",
-//   position: "left",
-//   items: [
-//     {
-//       type: "doc",
-//       label: "Quickstart",
-//       docId: "developers/overview",
-//     },
-//     ...
-//   ],
-// },
-// {
-//   type: "dropdown",
-//   label: "Resources",
-//   position: "left",
-//   items: [
-//     {
-//       href: "https://leandata.substack.com/",
-//       label: "Blog",
-//     },
-//     ...
-//   ],
-// },
-// {
-//   href: "/pricing",
-//   label: "Pricing",
-//   position: "left",
-// },
+          {
+            to: "https://naas.ai/chat",
+            position: "left",
+            label: `Platform`,
+          },
           {
             to: "platform/introduction",
-            position: "right",
+            position: "left",
             label: `Docs`,
           },
-          // {
-          //   to: "docs/category/platform/introduction",
-          //   position: "right",
-          //   label: `Features`,
-          // },
-          // {
-          //   to: "docs/solutions/introduction",
-          //   position: "right",
-          //   label: `Solutions`,
-          // },
-          // {
-          //   to: "docs/developers/overview",
-          //   position: "right",
-          //   label: `Developers`,
-          // },
-          // {
-          //   to: "docs/category/community",
-          //   position: "right",
-          //   label: `Community`,
-          // },
+          {
+            to: "https://api.naas.ai/redoc#tag/AI-Model-API",
+            position: "left",
+            label: `API`,
+          },
+          {
+            to: "https://calendly.com/jeremyravenel/15-min-call",
+            position: "right",
+            label: `Request a demo`,
+          },
           {
             to: "https://leandata.substack.com/",
             label: `Blog`,
             position: "right",
           },
           {
-            type: "html",
+            to: "https://naas.ai/auth/signin",
+            label: "Sign In",
             position: "right",
-            value: `<a href="https://naas.ai/auth/signin"><button>Sign in</button><a>`,
           },
         ],
       },
@@ -187,27 +114,27 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Safety",
+            title: "Mission",
             items: [
               {
-                label: "General Instructions",
+                label: "Building Trust in AI",
                 to: "safety/general-instructions",
               },
               {
-                label: "Product Warnings",
+                label: "Mapping Business Knowledge",
                 to: "safety/product-warnings",
               },
               {
-                label: "Working Environment",
+                label: "Unlocking Monetization",
                 to: "safety/working-environment",
               },
             ],
           },
           {
-            title: "Platform Overview",
+            title: "Platform",
             items: [
               {
-                label: "Introduction",
+                label: "Architecture",
                 to: "platform/introduction",
               },
               {
@@ -215,7 +142,7 @@ const config = {
                 to: "platform/frameworks",
               },
               {
-                label: "Key Features",
+                label: "Features",
                 to: "platform/key-features",
               },
               {
@@ -241,7 +168,7 @@ const config = {
               },
               {
                 label: "ABI: Mixture of Assistants",
-                href: "abi-mixture-of-asssitants",
+                href: "usage/abi-mixture-of-assistants",
               },
               {
                 label: "Custom Assistants",
@@ -254,43 +181,43 @@ const config = {
             items: [
               {
                 label: "Quickstart",
-                href: "docs/developers/overview",
+                href: "resources/developers/overview",
               },
               {
                 label: "Notebook Templates",
-                href: "docs/category/drivers",
+                href: "resources/developers/templates",
               },
               {
                 label: "Build Data & AI Products",
-                href: "docs/developers/jobs/space",
+                href: "resources/developers/jobs/space",
               },
               {
-                label: "Development Server",
-                href: "docs/developers/development",
+                label: "Development Environment",
+                href: "resources/developers/development",
               },
               {
                 label: "Schedule Workflows",
-                href: "docs/developers/jobs/scheduler",
+                href: "resources/developers/jobs/scheduler",
               },
               {
                 label: "Generate Assets",
-                href: "docs/developers/jobs/asset",
+                href: "resources/developers/jobs/asset",
               },
               {
                 label: "Trigger Webhooks",
-                href: "docs/developers/jobs/webhook",
+                href: "resources/developers/jobs/webhook",
               },
               {
                 label: "Send Notifications",
-                href: "docs/developers/jobs/notification",
+                href: "resources/developers/jobs/notification",
               },
               {
                 label: "Build Pipelines",
-                href: "docs/developers/jobs/pipeline",
+                href: "resources/developers/jobs/pipeline",
               },
               {
                 label: "Manage Secrets",
-                href: "docs/developers/jobs/secret",
+                href: "resources/developers/jobs/secret",
               },
             ],
           },
@@ -307,7 +234,7 @@ const config = {
               },
               {
                 label: "How to contribute?",
-                href: "docs/community/how-to-contribute",
+                href: "resources/community/how-to-contribute",
               },
               {
                 label: "Roadmap",
@@ -319,7 +246,7 @@ const config = {
             title: "Company",
             items: [
               {
-                label: "Book a call",
+                label: "Request a demo",
                 href: "https://calendly.com/jeremyravenel",
               },
               {
@@ -337,10 +264,6 @@ const config = {
               {
                 label: "Privacy",
                 href: "docs/policies/privacy",
-              },
-              {
-                label: "Team",
-                href: "https://github.com/orgs/jupyter-naas/teams",
               },
               {
                 label: "Github",
@@ -372,10 +295,6 @@ const config = {
       //     },
       //   ],
       // },
-      prism: {
-        darkTheme: darkCodeTheme,
-        defaultLanguage: "python",
-      },
     }),
 };
 

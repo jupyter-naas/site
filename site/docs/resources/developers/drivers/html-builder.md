@@ -258,13 +258,9 @@ email_content = naas_drivers.emailbuilder.table(data)
 
 ### Dataframe
 
-{% hint style="info" %}
-The drivers will try to transform all your column with they column title
-{% endhint %}
 
-{% hint style="success" %}
+The drivers will try to transform all your column with they column title
 you can pass parameters with`_ exemple: text_14px link_Read`
-{% endhint %}
 
 \`\`
 
@@ -482,9 +478,8 @@ naas_drivers.emailbuilder.export(email_content, filenames, css)
 
 ## Convert
 
-{% hint style="info" %}
+
 only support markdown to html for now
-{% endhint %}
 
 ```python
 data = """

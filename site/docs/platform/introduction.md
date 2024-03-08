@@ -2,8 +2,10 @@
 sidebar_position: 0
 ---
 
-# Introduction
+# Overview
 ---
+![KG](../platform/img/cube.png)
+
 
 The NAAS platform is a dynamic, cloud-based ecosystem designed to combine the full potential of artificial intelligence (AI) and internal workflows to drive business growth and efficiency by building, operating and distributing Data & AI Products. 
 
