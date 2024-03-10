@@ -79,7 +79,7 @@ const config = {
         },
         items: [
           {
-            to: "https://naas.ai/chat",
+            to: "https://naas.ai/auth/signin",
             position: "left",
             label: `Platform`,
           },

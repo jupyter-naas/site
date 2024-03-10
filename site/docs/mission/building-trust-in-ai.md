@@ -5,7 +5,7 @@ sidebar_position: 1
 # Build Trust in AI
 ---
 
-## Embracing the DIKW Pyramid
+## Navigating from Data to Wisdom
 
 ![Pyramid of Data Needs](../mission/img/pyramid.png)
 
