@@ -5,6 +5,8 @@ sidebar_position: 2
 # Key Features
 ---
 
+![components](../platform/img/tshape.png)
+
 The NAAS platform is built around the concept of workspaces, which are central to the user experience, providing a personalized or collaborative environment for accessing and utilizing the platform's extensive features. Each user has a personal workspace for individual projects and can also participate in team workspaces for collaborative efforts. These workspaces are fully customizable, allowing users to tailor their environment to their specific brand identity, strategic and operational needs, with billing aggregated at the workspace level for convenience and transparency.
 
 ## Horizontal Capabilities

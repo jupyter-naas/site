@@ -18,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttonContainer}>
           <a
             className={styles.cta}
-            href="/platform/introduction"
+            href="/mission/building-trust-in-ai"
           >
             Learn more
           </a>
