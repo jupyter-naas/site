@@ -21,7 +21,7 @@ const config = {
   organizationName: "jupypter-naas", // Usually your GitHub org/user name.
   projectName: "site", // Usually your repo name.
 
-  onBrokenLinks: "ignore",
+  onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "ignore",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -79,12 +79,12 @@ const config = {
         },
         items: [
           {
-            to: "naas.ai/auth/signin",
+            to: "https://naas.ai/auth/signin",
             position: "left",
             label: `Platform`,
           },
           {
-            to: "platform/introduction",
+            to: "https://platform/introduction",
             position: "left",
             label: `Docs`,
           },
@@ -222,19 +222,19 @@ const config = {
             items: [
               {
                 label: "Join our Slack",
-                href: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw",
+                to: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/jupyter-naas",
+                to: "https://github.com/jupyter-naas",
               },
               {
                 label: "How to contribute?",
-                href: "resources/community/how-to-contribute",
+                to: "resources/community/how-to-contribute",
               },
               {
                 label: "Roadmap",
-                href: "https://github.com/orgs/jupyter-naas/projects/12/views/2",
+                to: "https://github.com/orgs/jupyter-naas/projects/12/views/2",
               },
             ],
           },
@@ -255,11 +255,11 @@ const config = {
               },
               {
                 label: "Terms of Service",
-                href: "policies/terms",
+                to: "policies/terms",
               },
               {
                 label: "Privacy",
-                href: "policies/privacy",
+                to: "policies/privacy",
               },
               {
                 label: "Github",
