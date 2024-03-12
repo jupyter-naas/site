@@ -5,7 +5,8 @@ sidebar_position: 0
 # Registry API
 ---
 
-**Description**: The Registry API provides a comprehensive set of endpoints for managing Docker container registries within the platform. This API allows for the creation, listing, retrieval, and deletion of registries, as well as access to registry credentials for secure interactions. Here's a succinct overview of the available endpoints:
+## Description
+The Registry API provides a comprehensive set of endpoints for managing Docker container registries within the platform. This API allows for the creation, listing, retrieval, and deletion of registries, as well as access to registry credentials for secure interactions. Here's a succinct overview of the available endpoints:
 
 The Container Registry API is a powerful tool that provides you with a secure and convenient place to store Docker containers. This API allows you to create, list, delete, and retrieve storage locations for these containers, giving you full control over what you want to run within our infrastructure.
 
@@ -17,13 +18,16 @@ Once your containers are stored in the registry, you can reference them in our v
 
 In summary, the Container Registry API provides a secure, flexible, and efficient way to manage Docker containers within our infrastructure. It's an essential tool for ensuring optimal performance and security in your application development process.
 
-**License**: Close source
+## License
+Close source
 
-**Price**: TBD
+## Price
+Contact us
 
-**API Docs:** [https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
+##API Docs
+[https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
 
-**Features**:
+## Features
 * List registries
 * Create registry
 * Get registry

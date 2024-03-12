@@ -5,7 +5,8 @@ sidebar_position: 0
 # Object Storage API
 ---
 
-**Description**: Our Object Storage service, built on top of Amazon Web Services (AWS) S3, provides a flexible and secure storage service for users. This solution is designed to be easily accessible via our Application Programming Interface (API), allowing users to effortlessly perform Create, Read, Update, and Delete (CRUD) operations.
+## Description
+Our Object Storage service, built on top of Amazon Web Services (AWS) S3, provides a flexible and secure storage service for users. This solution is designed to be easily accessible via our Application Programming Interface (API), allowing users to effortlessly perform Create, Read, Update, and Delete (CRUD) operations.
 
 In addition to these operations, users can also request credentials to utilize this storage location with any tool that is S3 compliant. This feature enhances the versatility of our storage solution, making it compatible with a wide range of tools and applications that support S3.
 
@@ -17,15 +18,16 @@ Furthermore, AWS S3 guarantees high availability and durability, ensuring that y
 
 Our Object Storage solution provides a secure, reliable, and user-friendly storage service for your data. Whether you are storing data for application development, analytics, or backup and restore, our solution offers the flexibility, security, and reliability you need.
 
-**License**: Close source
+## License 
+Close source
 
-**Price**: XX
+## Price 
+Contact us
 
-**API Docs:** [https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
+## API Docs
+[https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
 
 Here's an example of the bucket structure in bullet points:
-
-
 
 * naas-user-bucket
     * chats 

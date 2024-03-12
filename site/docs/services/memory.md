@@ -5,7 +5,8 @@ sidebar_position: 0
 # Memory API
 ---
 
-**Description**: An "auto-RAG" system is a feature will automatically embed every discussion in a Vector Database, essentially turning the database into a memory system.
+## Description
+An "auto-RAG" system is a feature will automatically embed every discussion in a Vector Database, essentially turning the database into a memory system.
 
 With this feature, all exchanges between the AI and a user are stored as embeddings in the Vector Database. This allows the AI to recall previous interactions and documents uploaded or generated like images , improving its understanding of the user's context and needs.
 
@@ -13,13 +14,16 @@ This "memory" can significantly enhance the AI's performance by informing its re
 
 By acting as a memory system, the Vector Database not only stores data but also contributes to the AI's learning process, making it an integral part of the AI's operations. This is a testament to our commitment to continually enhance our services and provide users with a more efficient and personalized AI experience.
 
-**License**: Close source
+## License
+Close source
 
-**Price**: TBD
+## Cost
+Contact us
 
-**API Docs:** [https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
+## API Docs
+[https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
 
-**Features**:
+## Features
 * List memories
 * Create new memory database
 * Describe a memory database

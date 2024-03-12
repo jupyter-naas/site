@@ -5,7 +5,9 @@ sidebar_position: 0
 # Pipeline API
 ---
 
-**Description**: The Pipeline API Endpoint provides a powerful tool for users to design and implement Directed Acyclic Graphs (DAGs). These graphs are crucial for organizing complex, multi-step processes as data products evolve.
+## Description
+
+The Pipeline API Endpoint provides a powerful tool for users to design and implement Directed Acyclic Graphs (DAGs). These graphs are crucial for organizing complex, multi-step processes as data products evolve.
 
 **Why use DAGs?**
 
@@ -21,15 +23,16 @@ This API endpoint allows you to perform all CRUD (Create, Read, Update, Delete) 
 
 By leveraging the Pipeline API Endpoint, you can streamline your processes, optimize resource usage, and gain a clear insight into your pipeline executions. This enhances your operational efficiency and facilitates more effective decision-making.
 
-**License**: Close source
+## License
+Close source
 
-**Price**: TBD
+## Cost 
+Contact us
 
-**API Docs:** [https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
+## API Docs
+[https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
 
-**Features: **
-
-
+## Features
 
 * List pipelines
 * Create new pipeline

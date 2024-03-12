@@ -6,7 +6,7 @@ sidebar_position: 0
 ---
 
 
-**Description**:
+## Description
 
 The NAAS platform introduces an innovative feature - the Chat API. This powerful tool harnesses the capabilities of our existing AI Models and elevates them to a new level of functionality. The Chat API enables users to create chats, send messages, and interact with multiple AI models simultaneously within a single chat interface.
 
@@ -16,13 +16,16 @@ At present, the Chat API supports interaction with a variety of AI models, inclu
 
 With the Chat API, users can leverage the power of AI to streamline communication, enhance collaboration, and drive innovation. Whether you are looking to simplify internal communication or augment customer engagement, the Chat API is a versatile tool that can be tailored to meet your specific needs.
 
-**License**: Close source
+## License
+Close source
 
-**Cost**: See Price Sheet
+## Cost
+See Price Sheet
 
-**Docs**: [https://api.naas.ai/redoc](https://api.naas.ai/docs#/space)
+## API Docs
+[https://api.naas.ai/redoc#tag/Chat-API](https://api.naas.ai/redoc#tag/Chat-API)
 
-**Features:**
+## Features
 
 * List chat
 * Create new chat

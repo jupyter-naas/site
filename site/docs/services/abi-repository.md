@@ -17,7 +17,7 @@ ABI is committed to fostering innovation and accessibility in the AI community, 
 ## Cost
 The ABI repository itself is free to use, democratizing access to advanced AI tools. However, deploying and leveraging the agents created with ABI may require the use of paid services within the Naas infrastructure to access the full spectrum of capabilities and ensure optimal performance.
 
-## Repository Access
+## Access
 Explore the ABI repository and start building your AI agents today by visiting: [https://github.com/jupyter-naas/abi/](https://github.com/jupyter-naas/abi/). Here, you'll find all the resources needed to get started, including documentation, code samples, and guidelines for contributing to the project.
 
 ## Features

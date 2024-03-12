@@ -5,7 +5,8 @@ sidebar_position: 0
 # Event API
 ---
 
-**Description**: The Event API is a crucial component of the NAAS platform that provides a comprehensive log of all activities within your NAAS account or workspace. It serves as a transparent record, ensuring you are always informed about the sequence of events and the reasons behind them.
+## Description
+The Event API is a crucial component of the NAAS platform that provides a comprehensive log of all activities within your NAAS account or workspace. It serves as a transparent record, ensuring you are always informed about the sequence of events and the reasons behind them.
 
 The Event API is a versatile tool with multiple applications:
 * **Credit Usage Computation**: It accurately calculates the credits utilized for each task, ensuring transparent and accountable usage.
@@ -15,12 +16,15 @@ The Event API is a versatile tool with multiple applications:
 
 The Event API provides a clear, detailed, and accurate record of all activities within your NAAS workspace, enabling you to monitor, analyze, and respond to events efficiently. This feature enhances transparency, accountability, and control, making it an invaluable tool for managing your NAAS platform.
 
-**License**: Close source
+## License
+Close source
 
-**Cost**: See Pricesheet
+## Cost
+See Pricesheet
 
-**API Docs:** [https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
+## API Docs
+[https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
 
-**Features**:
+## Features
 * Subscribe to a topic
 * List events

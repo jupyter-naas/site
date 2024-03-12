@@ -5,7 +5,9 @@ sidebar_position: 0
 # Graph Database API
 ---
 
-**Description**:  This service allows users to request a Graph Database, an efficient and flexible system ideal for storing graph data. The combination of the Graph Database with our Language Model (LLM) creates a complementary synergy, balancing the strengths and weaknesses of each, and providing a robust solution for managing and interpreting complex data.
+## Description
+
+This service allows users to request a Graph Database, an efficient and flexible system ideal for storing graph data. The combination of the Graph Database with our Language Model (LLM) creates a complementary synergy, balancing the strengths and weaknesses of each, and providing a robust solution for managing and interpreting complex data.
 
 **The Role of ABI**
 
@@ -17,13 +19,16 @@ A well-written Ontology is a valuable asset in data management. It simplifies th
 
 The integration of the Graph Database Service into our platform enhances the Knowledge Graph's capabilities, offering users a powerful tool for storing and managing their data. This new service not only enriches the functionality of the NAAS platform but also empowers users to leverage the Knowledge Graph in innovative ways, driving business growth and operational efficiency.
 
-**License**: Close source
+## License 
+Close source
 
-**Cost**: XX
+## Cost
+$100/month per database
 
-**API Docs:** [https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
+## API Docs
+[https://api.naas.ai/redoc](https://api.naas.ai/redoc) 
 
-**Features**: 
+## Features
 
 * List graph databases
 * Create a graph database
