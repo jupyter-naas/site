@@ -4,6 +4,7 @@ sidebar_position: 3
 
 # 📲 Content Creation
 ---
+![content-assistant](../../usage/img/content-assistant.png)
 
 ## Purpose
 Streamline the generation and distribution of content that aligns with the user's or business's brand voice and audience engagement goals.

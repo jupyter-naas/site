@@ -4,6 +4,7 @@ sidebar_position: 5
 
 # ⚡️ Sales Conversion
 ---
+![sales-assistant](../../usage/img/sales-assistant.png)
 
 ## Purpose
 Manage and facilitate the sales process from lead generation to deal closure.

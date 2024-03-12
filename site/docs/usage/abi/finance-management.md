@@ -4,6 +4,7 @@ sidebar_position: 7
 
 # 💰 Finance Management 
 ---
+![finance-assistant](../../usage/img/finance-assistant.png)
 
 ## Purpose
 Manage financial transactions accurately and maintain comprehensive records for informed financial planning and analysis.

@@ -4,6 +4,7 @@ sidebar_position: 4
 
 # 🚀 Growth Marketing
 ---
+![growth-assistant](../../usage/img/growth-assistant.png)
 
 ## Purpose
 Analyze content engagement, identifying potential leads through social media engagement, scoring interactions, and enriching profiles for targeted sales outreach.

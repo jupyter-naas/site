@@ -2,9 +2,9 @@
 sidebar_position: 8
 ---
 
-# 🌍 Open Data Intelligence
+# 🌍 Market Intelligence
 ---
-
+![finance-assistant](../../usage/img/opendata-assistant.png)
 ## Purpose
 Harness external data for enriching business intelligence and supporting strategic adaptation.
 

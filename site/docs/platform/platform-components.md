@@ -9,7 +9,7 @@ To enhance the architecture overview with a focus on the marketplace, let's deve
 
 The NAAS platform is architected to be a comprehensive suite for the development and deployment of Data & AI Products. It serves as the backbone for transforming operational workflows and conversation management into intelligent business solutions.
 
-![components](../platform/img/platform-components.png)
+![components](../platform/img/archi.png)
 
 ## Applications Layer
 At the user interface level, the **Workspace** acts as a centralized hub for all user activities, from engaging with AI Assistants to accessing development tools and the marketplace. The **Chrome Extension** further extends this functionality, keeping the NAAS platform's features readily accessible alongside browser activity. Connections to **Third-Party APIs** ensure that NAAS users can effortlessly integrate and orchestrate external services, enhancing their operational scope within a single ecosystem.

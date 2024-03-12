@@ -5,6 +5,8 @@ sidebar_position: 1
 # Design Principles
 ---
 
+![aia-engineering](../../usage/img/abi-jarvis.png)
+
 ## Mixture of Assistants
 ABI is a sophisticated mixture of AI-driven business intelligence assistants, each designed to elevate and refine the efficiency of business operations. It is the primary product of the Naas Marketplace. This suite of assistants has been designed by our core team to cover business essentials with 6 assistants focused on content creation, growth marketing, sales conversion, operational efficiency, finance management and open data & market intelligence. Together, they form a cohesive system that enhanxzces content performance, improves lead generation and qualification, streamlines operations and financial transactions, and utilizes external data for richer business insights. ABI's capabilities are further expanded through its integration with a variety of tools, APIs, both official and unofficial, enabling comprehensive data collection and enrichment.
 

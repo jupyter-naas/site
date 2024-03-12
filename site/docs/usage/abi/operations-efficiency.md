@@ -4,6 +4,7 @@ sidebar_position: 6
 
 # ⚙️ Operations Efficiency
 ---
+![ops-assistant](../../usage/img/ops-assistant.png)
 
 ## Purpose
 Automate and optimize operational tasks and conversations management, ensuring enhanced efficiency and streamlined workflows.
