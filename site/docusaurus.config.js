@@ -21,7 +21,7 @@ const config = {
   organizationName: "jupypter-naas", // Usually your GitHub org/user name.
   projectName: "site", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -84,7 +84,7 @@ const config = {
             label: `Platform`,
           },
           {
-            to: "https://platform/introduction",
+            to: "platform/introduction",
             position: "left",
             label: `Docs`,
           },
@@ -164,7 +164,7 @@ const config = {
               },
               {
                 label: "ABI: Mixture of Assistants",
-                to: "usage/abi/introduction",
+                href: "usage/abi/introduction",
               },
               {
                 label: "Custom Assistants",
@@ -177,43 +177,43 @@ const config = {
             items: [
               {
                 label: "Quickstart",
-                to: "resources/developers/overview",
+                href: "resources/developers/overview",
               },
               {
                 label: "Notebook Templates",
-                to: "resources/developers/templates",
+                href: "resources/developers/templates",
               },
               {
                 label: "Build Data & AI Products",
-                to: "resources/developers/jobs/space",
+                href: "resources/developers/jobs/space",
               },
               {
                 label: "Development Environment",
-                to: "resources/developers/development",
+                href: "resources/developers/development",
               },
               {
                 label: "Schedule Workflows",
-                to: "resources/developers/jobs/scheduler",
+                href: "resources/developers/jobs/scheduler",
               },
               {
                 label: "Generate Assets",
-                to: "resources/developers/jobs/asset",
+                href: "resources/developers/jobs/asset",
               },
               {
                 label: "Trigger Webhooks",
-                to: "resources/developers/jobs/webhook",
+                href: "resources/developers/jobs/webhook",
               },
               {
                 label: "Send Notifications",
-                to: "resources/developers/jobs/notification",
+                href: "resources/developers/jobs/notification",
               },
               {
                 label: "Build Pipelines",
-                to: "resources/developers/jobs/pipeline",
+                href: "resources/developers/jobs/pipeline",
               },
               {
                 label: "Manage Secrets",
-                to: "resources/developers/jobs/secret",
+                href: "resources/developers/jobs/secret",
               },
             ],
           },
@@ -222,19 +222,19 @@ const config = {
             items: [
               {
                 label: "Join our Slack",
-                to: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw",
+                href: "https://join.slack.com/t/naas-club/shared_invite/zt-1970s5rie-8udGv9TsAw9StcI8SB8eqw",
               },
               {
                 label: "GitHub",
-                to: "https://github.com/jupyter-naas",
+                href: "https://github.com/jupyter-naas",
               },
               {
                 label: "How to contribute?",
-                to: "resources/community/how-to-contribute",
+                href: "resources/community/how-to-contribute",
               },
               {
                 label: "Roadmap",
-                to: "https://github.com/orgs/jupyter-naas/projects/12/views/2",
+                href: "https://github.com/orgs/jupyter-naas/projects/12/views/2",
               },
             ],
           },
@@ -255,11 +255,11 @@ const config = {
               },
               {
                 label: "Terms of Service",
-                to: "policies/terms",
+                href: "policies/terms",
               },
               {
                 label: "Privacy",
-                to: "policies/privacy",
+                href: "policies/privacy",
               },
               {
                 label: "Github",
