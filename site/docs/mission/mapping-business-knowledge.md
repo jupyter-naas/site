@@ -24,4 +24,4 @@ Cash flow is the lifeblood of any business, and at NAAS, we believe in owning an
 
 By interlinking these six essential components of ABI, businesses can effectively increase revenue and optimize costs. The goal is to generate and protect cash flow, reducing friction and promoting synergies. In doing so, ABI empower businesses to not just generate cash but to do so with stability and foresight, prepared for both the expected and the unexpected.
 
-Learn about the different Assistants in details on the following section, [ABI: Mixture of Assistants](usage/abi/introduction)
+Learn about the different Assistants in details on the following section, [ABI: Mixture of Assistants](../usage/abi/introduction)
