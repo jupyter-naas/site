@@ -39,7 +39,7 @@ Yes, Naas offers a Free Plan that provides all users with 100 credits per month.
 
 #### How does the credit system work?
 
-Naas resources are not unlimited. To provide free resources for product trials or hobbyist use, Naas offers [credit plans](https://www.naas.ai/pricing) for computing power requirements that exceed 100 credits per month.
+Naas resources are not unlimited. To provide free resources for product trials or hobbyist use, Naas offers [credit plans](../../platform/pricing) for computing power requirements that exceed 100 credits per month.
 
 #### How can I use my credits?
 
