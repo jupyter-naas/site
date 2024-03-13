@@ -36,4 +36,4 @@ Your feedback is instrumental in shaping the future of Naas.ai. As we improve an
 
 Contact us at support@naas.ai if you are interested, and let us know why in the email.
 
-You can now into the Naas Docs Beta and discover how to harness the full potential of our platform. We're eager to support you every step of the way. Let's shape the future of data and AI together.
+You can now dive into the Naas Docs Beta and discover how to harness the full potential of our platform. We're eager to support you every step of the way. Let's shape the future of data and AI together.
