@@ -7,7 +7,7 @@ sidebar_position: 2
 
 Upon integrating ABI software into their operations, users must acknowledge and agree to the following terms:
 
-- API Usage: ABI leverages a broad spectrum of APIs, including those from platforms like LinkedIn and Substack, without any official partnership or endorsement. Utilization of these APIs is at the user's discretion and risk.
+**- API Usage:** ABI leverages a broad spectrum of APIs, including those from platforms like LinkedIn and Substack, without any official partnership or endorsement. Utilization of these APIs is at the user's discretion and risk.
 - Compliance Risks: The use of ABI for data collection and engagement on platforms such as LinkedIn may contravene certain User Agreements, such as LinkedIn's Section 8.2, potentially leading to account restrictions. Naas assumes no liability for these consequences.
 - Data Accuracy: Naas employs OpenAI for data enrichment and lead analysis. However, the accuracy and relevance of the information provided cannot be guaranteed at all times.
 - Data Privacy: Naas is committed to not selling or indiscriminately sharing collected data, prioritizing user privacy and consent.
