@@ -1,32 +1,12 @@
 
 # Naas Docs
 
-![alt text](site/docs/mission/img/abi-net.png)
+![alt text](site/docs/mission/img/build-trust.png)
 
-I'm happy to share that iteration 1 of our new documentation is live. Even if all the features are not yet live, it should help anyone understand what we are after.
+Welcome to the beta launch of Naas Docs – your all-encompassing manual for unlocking the full potential of the Naas platform. This beta release represents a pivotal point in our endeavor to furnish you with extensive documentation, step-by-step guides, and insightful tutorials, all aimed at enhancing your efficiency and creativity with Naas.
 
-We've been spending many hours creating crisp and simple reference documentation as if it were a proper manual for any physical product. 
+While we're still in the process of rolling out all features, this beta version is designed to provide a clear snapshot of our vision and the vast capabilities Naas has to offer. Our team has dedicated countless hours to developing precise and user-friendly reference materials, modeled after the meticulous documentation typically reserved for tangible products.
 
-1) Goals: 
+Our goal is simple: to make Naas Docs as intuitive and accessible as possible, ensuring you have the knowledge and tools at your fingertips to achieve your objectives. We're excited to share this journey with you and look forward to your feedback to make Naas Docs even better.
 
-- Build trust in AI with our suite of AI Assistants (AIA is your personal AI Assistant, ABI is your Mixture of Assistants, and you can also add Custom Assistants, Chat & Search)
-
-- Map Business Knowledge with an ABI knowledge graph based on content as a strategic priority to build a sales pipeline and conversations to build operational excellence.
-
-- Unlock Monetization with the marketplace so anyone can have their own version of chatGPT and its GPT store. 
-
-2) Safety considerations 
-
-3) Platform deep dive, where we explain the frameworks we embedded in the platform, the key horizontal and vertical features, technology components, and pricing. 
-
-4) Installation: how to get on board, setup your profile, workspace setup 
-
-5) Usage: playing with different LLMs, building your AIA, deep diving into ABI Assistants SOPs, creating custom Assistants 
-
-6) Services: all the open source code and APIs we have to maintain to make this happen
-
-7) Resources: everything around community, help center, developers tooling
-
-8) Terms & Policies
-
-If you want to contribute, ask question, give feedback, please contact jeremy@naas.ai or create an issue in this repository!
+Stay tuned as we continue to update and expand our documentation. Your exploration and innovation with Naas start here. Welcome aboard!
