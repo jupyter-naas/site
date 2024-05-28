@@ -43,9 +43,7 @@ This chart details the categories of Personal Data that we collect and have coll
 Profile or Contact Data | First and last name, Email | Service Providers, Business Partners, Parties You Authorize, Access or Authenticate
 Identifiers | Account username, including for integrations | Service Providers, Business Partners (Account username only), Parties You Authorize, Access or Authenticate
 Payment Data | First and last name, Email | Service Providers (specifically our payment processing partner, currently Stripe, Inc.)
-Device
-
-/IP Data | IP address, Device ID, Domain server, Type of device/operating system/browser used to access the Services | Service Providers, Advertising Partners (cookies), Analytics Partners
+Device | IP Data | IP address, Device ID, Domain server, Type of device/operating system/browser used to access the Services | Service Providers, Advertising Partners (cookies), Analytics Partners
 Web Analytics | Web page interactions, Referring webpage/source through which you accessed the Services, Non-identifiable request IDs, Statistics associated with the interaction between device or browser and the Services | Service Providers, Advertising Partners, Analytics Partners
 Geolocation Data | IP-address-based location information | Service Providers, Advertising Partners, Analytics Partners, Business Partners
 Other Identifying Information that You Voluntarily Choose to Provide | Identifying information in emails or letters you send us, Information voluntarily provided about your use of Naas, User-provided code, User-provided data and data sets, Data derived from inputs using user code and configurations | Service Providers, Parties You Authorize, Access or Authenticate
